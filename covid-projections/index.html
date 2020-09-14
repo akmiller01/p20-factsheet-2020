@@ -89,6 +89,7 @@ legend
 
 //Read the data
 d3.csv("covid_proj.csv", function(data) {
+  data.filter(function(d){return d.ppp == 2017 && d.povtype == "Extreme poverty"})
 
     // List of groups (here I have one group per column)
     var allGroup = d3.map(data, function(d){return(d.name)}).keys()

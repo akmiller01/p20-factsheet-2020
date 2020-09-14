@@ -12,7 +12,7 @@ pre_global = subset(pre,Level=="Global" & PovertyLine==1.9 & variable=="HeadCoun
 post_global = subset(post,Level=="Global" & PovertyLine==1.9 & variable=="HeadCount")
 
 pre_global$covid = "Global estimates before COVID-19"
-post_global$covid = "Global etimates after COVID-19"
+post_global$covid = "Global estimates after COVID-19"
 
 global = rbind(pre_global,post_global)
 global = subset(global,ProjYear>=2010)
