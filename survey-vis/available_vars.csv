@@ -1,0 +1,22 @@
+var.name,var.description,n,missing,distinct
+iso3,Survey country ISO Alpha 3,5755753,0,69
+povcal_year,Year of nearest PovCalNet Data,5755753,0,22
+sample,Survey sample,5755753,0,1689
+var,Survey sample weights,5684608,71145,2144619
+survey_year,Survey year,5755753,0,67
+ReqYearPopulation,PovCalNet year country population,5684608,71145,1212
+sex,Sex of respondent,5754261,1492,3
+p20,P20 status of respondent,5684892,70861,3
+ext,Extreme poverty status of respondent,5683600,72153,3
+u20,U20 status of respondent,5683600,72153,3
+urban,Urban/rural status of respondent,5754413,1340,3
+education,Education status of respondent,5679618,76135,5
+education_mother,Respondent’s mother’s education,4437416,1318337,5
+education_father,Respondent’s father’s education,4946135,809618,5
+education_max,Respondent’s highest level of education,5295177,460576,5
+handwashing,Respondent’s handwashing with/without soap/water,2705602,3050151,3
+sleeping,Average number of people per sleeping room in respondent’s home,5695655,60098,507
+birth.reg,Birth registration status of respondent,5754413,1340,3
+region,Survey country region,5684935,70818,4
+africa,African country flag,5684935,70818,2
+crisis,Protracted crisis country flag,5565776,189977,3
