@@ -6,7 +6,9 @@
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <!-- Initialize a select button -->
-<select id="selectButton" style="font-size:20px;"></select>
+<select id="countrySelect" style="font-size:20px;"></select>
+<select id="indicatorSelect" style="font-size:20px;"></select>
+<select id="pppSelect" style="font-size:20px;"></select>
 
 <!-- Create a div where the graph will take place -->
 <div id="covid-chart"></div>
@@ -18,6 +20,8 @@
 <script>
 
 var currentSelection = [];
+var currentIndicator = "Extreme poverty";
+var currentPPP = "2011";
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 250, bottom: 30, left: 60},
@@ -46,9 +50,9 @@ legend
   .text("Legend")
 
 var static_legend_items = [
-  {"name": "Measured extreme poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
-  {"name": "Extreme poverty % estimate before COVID-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
-  {"name": "Extreme poverty % estimate after COVID-19", "color": d3.rgb("#e84439").darker(), "dasharray": "3, 3"},
+  {"name": "Measured poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
+  {"name": "Poverty % estimate before COVID-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
+  {"name": "Poverty % estimate after COVID-19", "color": d3.rgb("#e84439").darker(), "dasharray": "3, 3"},
 ]
 
 legend
@@ -88,33 +92,50 @@ legend
   .text("Selected regions/countries (up to 7, click to remove)")
 
 //Read the data
-d3.csv("covid_proj.csv", function(data) {
-  data.filter(function(d){return d.ppp == 2017 && d.povtype == "Extreme poverty"})
+d3.csv("covid_proj.csv", function(original_data) {
 
-    // List of groups (here I have one group per column)
-    var allGroup = d3.map(data, function(d){return(d.name)}).keys()
+    var allCountries = d3.map(original_data, function(d){return(d.name)}).keys();
+    var allIndicator = d3.map(original_data, function(d){return(d.povtype)}).keys();
+    var allPPP = d3.map(original_data, function(d){return(d.ppp)}).keys();
+
+    data = original_data.filter(function(d){return d.povtype == currentIndicator && d.ppp == currentPPP});
 
     // add the options to the button
-    d3.select("#selectButton")
+    d3.select("#countrySelect")
       .selectAll('myOptions')
-     	.data(allGroup)
+     	.data(allCountries)
       .enter()
     	.append('option')
       .text(function (d) { return d; }) // text showed in the menu
       .attr("value", function (d) { return d; }) // corresponding value returned by the buttons
 
+    d3.select("#indicatorSelect")
+      .selectAll('myOptions')
+     	.data(allIndicator)
+      .enter()
+    	.append('option')
+      .text(function (d) { return "Indicator: "+d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }) // corresponding value returned by the buttons
+    d3.select("#pppSelect")
+      .selectAll('myOptions')
+     	.data(allPPP)
+      .enter()
+    	.append('option')
+      .text(function (d) { return "PPP year: "+d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }) // corresponding value returned by the buttons
+
     // A color scale: one color for each group
     var myColor = d3.scaleOrdinal()
-      .domain(allGroup)
       .range(["#e84439", "#eb642b", "#f49b21", "#c2135b", "#893f90", "#0089cc", "#109e68"]);
 
-    // Add X axis --> it is a date format
+    // Add X axis
     var x = d3.scaleLinear()
       .domain(d3.extent(data, function(d) { return d.year; }))
       .range([ 0, width ]);
-    svg.append("g")
+    var xAxis = d3.axisBottom(x).ticks(7).tickFormat(d3.format("d"));
+    svg.append("g").attr("class","myXaxis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).ticks(7).tickFormat(d3.format("d")));
+      .call(xAxis);
 
     var formatPercent = d3.format(".0%");
 
@@ -134,15 +155,30 @@ d3.csv("covid_proj.csv", function(data) {
       .attr("class", "post-line");
 
     // A function that update the chart
-    function update(currentSelection, selectedGroup) {
+    function update(selectedCountry, selectedIndicator, selectedPPP) {
 
-      if(!currentSelection.includes(selectedGroup) && selectedGroup !== null){
-        currentSelection.push(selectedGroup);
+      if(selectedIndicator !== null){
+        currentIndicator = selectedIndicator;
+      };
+      if(selectedPPP !== null){
+        currentPPP = selectedPPP;
+      }
+      data = original_data.filter(function(d){return d.povtype == currentIndicator && d.ppp == currentPPP});
+
+      if(!currentSelection.includes(selectedCountry) && selectedCountry !== null){
+        currentSelection.push(selectedCountry);
       };
 
       if(currentSelection.length > 7){
         currentSelection.shift()
       }
+
+      // Adjust X axis
+      x.domain(d3.extent(data, function(d) { return d.year; }));
+      svg.selectAll(".myXaxis")
+      .transition()
+      .duration(1000)
+      .call(xAxis);
 
       // Update color axis
       myColor.domain(currentSelection)
@@ -167,7 +203,7 @@ d3.csv("covid_proj.csv", function(data) {
             if(selectedIndex > -1){
               currentSelection.splice(selectedIndex, 1);
             };
-            update(currentSelection, null);
+            update(null, null, null);
           };
 
         })
@@ -190,7 +226,7 @@ d3.csv("covid_proj.csv", function(data) {
             if(selectedIndex > -1){
               currentSelection.splice(selectedIndex, 1);
             };
-            update(currentSelection, null);
+            update(null, null, null);
           };
 
         })
@@ -256,8 +292,8 @@ d3.csv("covid_proj.csv", function(data) {
             .style("fill", "none");
       };
 
-      // Adjust Y axis
-      y.domain([0, d3.max(data.filter(function(d){return currentSelection.includes(d.name)}), function(d) { return +d.value; })])
+      // Adjust y axis
+      y.domain([0, d3.max(data.filter(function(d){return currentSelection.includes(d.name)}), function(d) { return +d.value; })]);
       svg.selectAll(".myYaxis")
       .transition()
       .duration(1000)
@@ -273,14 +309,27 @@ d3.csv("covid_proj.csv", function(data) {
     }
 
     // When the button is changed, run the updateChart function
-    d3.select("#selectButton").on("change", function(d) {
+    d3.select("#countrySelect").on("change", function(d) {
         // recover the option that has been chosen
         var selectedOption = d3.select(this).property("value");
         // run the updateChart function with this selected option
-        update(currentSelection, selectedOption);
-    })
+        update(selectedOption, null, null);
+    });
+    d3.select("#indicatorSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(null, selectedOption, null);
+    });
+    d3.select("#pppSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(null, null, selectedOption);
+    });
 
-    update(currentSelection, "World");
+
+    update("World", "Extreme poverty", "2011");
 
 })
 
