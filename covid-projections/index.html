@@ -37,59 +37,6 @@ var svg = d3.select("#covid-chart")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-var legend = svg
-  .append("g");
-
-legend
-  .append("text")
-  .attr("x", width)
-  .attr("y", 0)
-  .style("fill", "black")
-  .style("font-weight", "bold")
-  .style("font-size", "12px")
-  .text("Legend")
-
-var static_legend_items = [
-  {"name": "Measured poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
-  {"name": "Poverty % estimate before COVID-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
-  {"name": "Poverty % estimate after COVID-19", "color": d3.rgb("#e84439").darker(), "dasharray": "3, 3"},
-]
-
-legend
-  .selectAll('g.static_legend_lines')
-  .data(static_legend_items)
-  .enter()
-  .append("g")
-  .attr("class", "static_legend_lines")
-  .append("path")
-  .attr("d", function(d, i){return "m " + width + " " + (20 + i*15) + " H " + (width + 20) })
-  .attr("stroke", function(d){ return d.color })
-  .style("stroke-width", 2)
-  .style("fill", "none")
-  .style("stroke-dasharray", function(d){ return d.dasharray });
-
-legend
-  .selectAll('g.static_legend_text')
-  .data(static_legend_items)
-  .enter()
-  .append("g")
-  .attr("class", "static_legend_text")
-  .append("text")
-  .attr("x", width + 22)
-  .attr("y", function(d,i){ return 20 + i*15})
-  .style("fill", function(d){ return d.color})
-  .text(function(d){ return d.name })
-  .attr("text-anchor", "left")
-  .style("alignment-baseline", "middle")
-  .style("font-size", "10px");
-
-legend
-  .append("text")
-  .attr("x", width)
-  .attr("y", 75)
-  .style("fill", "black")
-  .style("font-size", "10px")
-  .text("Selected regions/countries (up to 7, click to remove)")
 
 //Read the data
 d3.csv("covid_proj.csv", function(original_data) {
@@ -172,13 +119,6 @@ d3.csv("covid_proj.csv", function(original_data) {
       if(currentSelection.length > 7){
         currentSelection.shift()
       }
-
-      // Adjust X axis
-      x.domain(d3.extent(data, function(d) { return d.year; }));
-      svg.selectAll(".myXaxis")
-      .transition()
-      .duration(1000)
-      .call(xAxis);
 
       // Update color axis
       myColor.domain(currentSelection)
@@ -292,7 +232,22 @@ d3.csv("covid_proj.csv", function(original_data) {
             .style("fill", "none");
       };
 
+      // Adjust X axis
+      x.domain(d3.extent(data, function(d) { return d.year; }));
+      svg.selectAll(".myXaxis")
+      .transition()
+      .duration(1000)
+      .call(xAxis);
       // Adjust y axis
+      var ymax = d3.max(data.filter(function(d){return currentSelection.includes(d.name)}), function(d) { return +d.value; });
+      if(ymax < 0.01){
+        formatPercent = d3.format(".2%");
+      }else if(ymax < 0.1){
+        formatPercent = d3.format(".1%");
+      }else{
+        formatPercent = d3.format(".0%");
+      };
+      yAxis.tickFormat(formatPercent);
       y.domain([0, d3.max(data.filter(function(d){return currentSelection.includes(d.name)}), function(d) { return +d.value; })]);
       svg.selectAll(".myYaxis")
       .transition()
@@ -328,6 +283,69 @@ d3.csv("covid_proj.csv", function(original_data) {
         update(null, null, selectedOption);
     });
 
+
+
+    var legend = svg
+      .append("g");
+
+    legend
+      .append("rect")
+      .attr("x", width)
+      .attr("y", 0)
+      .attr("width", margin.right)
+      .attr("height", height + margin.bottom - 100)
+      .attr("fill", "white")
+
+    legend
+      .append("text")
+      .attr("x", width)
+      .attr("y", 0)
+      .style("fill", "black")
+      .style("font-weight", "bold")
+      .style("font-size", "12px")
+      .text("Legend")
+
+    var static_legend_items = [
+      {"name": "Measured poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
+      {"name": "Poverty % estimate before COVID-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
+      {"name": "Poverty % estimate after COVID-19", "color": d3.rgb("#e84439").darker(), "dasharray": "3, 3"},
+    ]
+
+    legend
+      .selectAll('g.static_legend_lines')
+      .data(static_legend_items)
+      .enter()
+      .append("g")
+      .attr("class", "static_legend_lines")
+      .append("path")
+      .attr("d", function(d, i){return "m " + width + " " + (20 + i*15) + " H " + (width + 20) })
+      .attr("stroke", function(d){ return d.color })
+      .style("stroke-width", 2)
+      .style("fill", "none")
+      .style("stroke-dasharray", function(d){ return d.dasharray });
+
+    legend
+      .selectAll('g.static_legend_text')
+      .data(static_legend_items)
+      .enter()
+      .append("g")
+      .attr("class", "static_legend_text")
+      .append("text")
+      .attr("x", width + 22)
+      .attr("y", function(d,i){ return 20 + i*15})
+      .style("fill", function(d){ return d.color})
+      .text(function(d){ return d.name })
+      .attr("text-anchor", "left")
+      .style("alignment-baseline", "middle")
+      .style("font-size", "10px");
+
+    legend
+      .append("text")
+      .attr("x", width)
+      .attr("y", 75)
+      .style("fill", "black")
+      .style("font-size", "10px")
+      .text("Selected regions/countries (up to 7, click to remove)")
 
     update("World", "Extreme poverty", "2011");
 
