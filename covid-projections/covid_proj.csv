@@ -5136,19 +5136,19 @@ World,Global,Aggregates,2015,Extreme poverty,0.100034973350903,FALSE,FALSE,2017
 World,Global,Aggregates,2015,Extreme poverty,0.10003490330067,FALSE,FALSE,2017
 World,Global,Aggregates,2015,P20,0.195105237595038,FALSE,FALSE,2017
 World,Global,Aggregates,2018,Extreme poverty,0.0823356697150055,FALSE,FALSE,2017
-World,Global,Aggregates,2018,P20,0.19471758747372,FALSE,FALSE,2017
+World,Global,Aggregates,2018,P20,0.194769445703957,FALSE,FALSE,2017
 World,Global,Aggregates,2018,Extreme poverty,0.0823356799371532,TRUE,FALSE,2017
 World,Global,Aggregates,2018,P20,0.194769588659143,TRUE,FALSE,2017
 World,Global,Aggregates,2019,Extreme poverty,0.0795750208204963,FALSE,TRUE,2017
-World,Global,Aggregates,2019,P20,0.19465198714015,FALSE,TRUE,2017
+World,Global,Aggregates,2019,P20,0.19313179344163,FALSE,TRUE,2017
 World,Global,Aggregates,2019,Extreme poverty,0.080279839278111,TRUE,TRUE,2017
 World,Global,Aggregates,2019,P20,0.194746755484445,TRUE,TRUE,2017
 World,Global,Aggregates,2020,Extreme poverty,0.0767607181833606,FALSE,TRUE,2017
-World,Global,Aggregates,2020,P20,0.194594296151094,FALSE,TRUE,2017
+World,Global,Aggregates,2020,P20,0.181573288234589,FALSE,TRUE,2017
 World,Global,Aggregates,2020,Extreme poverty,0.0836341504390829,TRUE,TRUE,2017
 World,Global,Aggregates,2020,P20,0.19480149211313,TRUE,TRUE,2017
 World,Global,Aggregates,2021,Extreme poverty,0.0738203505444749,FALSE,TRUE,2017
-World,Global,Aggregates,2021,P20,0.194389897120154,FALSE,TRUE,2017
+World,Global,Aggregates,2021,P20,0.182775141487279,FALSE,TRUE,2017
 World,Global,Aggregates,2021,Extreme poverty,0.0803929796148689,TRUE,TRUE,2017
 World,Global,Aggregates,2021,P20,0.194600309143361,TRUE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2010,Extreme poverty,0.143295986197241,FALSE,FALSE,2017
@@ -5167,19 +5167,19 @@ East Asia & Pacific,Regional,Aggregates,2015,Extreme poverty,0.0302764333237353,
 East Asia & Pacific,Regional,Aggregates,2015,Extreme poverty,0.0302764333237353,FALSE,FALSE,2017
 East Asia & Pacific,Regional,Aggregates,2015,P20,0.0930714485266209,FALSE,FALSE,2017
 East Asia & Pacific,Regional,Aggregates,2018,Extreme poverty,0.0165421784561914,FALSE,FALSE,2017
-East Asia & Pacific,Regional,Aggregates,2018,P20,0.0734282779571162,FALSE,FALSE,2017
+East Asia & Pacific,Regional,Aggregates,2018,P20,0.0734434162244009,FALSE,FALSE,2017
 East Asia & Pacific,Regional,Aggregates,2018,Extreme poverty,0.0165421784561914,TRUE,FALSE,2017
 East Asia & Pacific,Regional,Aggregates,2018,P20,0.0734434162244009,TRUE,FALSE,2017
 East Asia & Pacific,Regional,Aggregates,2019,Extreme poverty,0.0144895904317463,FALSE,TRUE,2017
-East Asia & Pacific,Regional,Aggregates,2019,P20,0.0696131564511908,FALSE,TRUE,2017
+East Asia & Pacific,Regional,Aggregates,2019,P20,0.0687119010542951,FALSE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2019,Extreme poverty,0.0144711041638328,TRUE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2019,P20,0.0686753331011801,TRUE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2020,Extreme poverty,0.0125836878217913,FALSE,TRUE,2017
-East Asia & Pacific,Regional,Aggregates,2020,P20,0.0664486667467579,FALSE,TRUE,2017
+East Asia & Pacific,Regional,Aggregates,2020,P20,0.058824940910218,FALSE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2020,Extreme poverty,0.014638400370538,TRUE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2020,P20,0.0660578467332424,TRUE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2021,Extreme poverty,0.0108377867998323,FALSE,TRUE,2017
-East Asia & Pacific,Regional,Aggregates,2021,P20,0.063536329384043,FALSE,TRUE,2017
+East Asia & Pacific,Regional,Aggregates,2021,P20,0.056873744253532,FALSE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2021,Extreme poverty,0.0117406838539031,TRUE,TRUE,2017
 East Asia & Pacific,Regional,Aggregates,2021,P20,0.0599294834624189,TRUE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2010,Extreme poverty,0.0434075525084436,FALSE,FALSE,2017
@@ -5198,19 +5198,19 @@ Europe & Central Asia,Regional,Aggregates,2015,Extreme poverty,0.032473446453348
 Europe & Central Asia,Regional,Aggregates,2015,Extreme poverty,0.0324734464533482,FALSE,FALSE,2017
 Europe & Central Asia,Regional,Aggregates,2015,P20,0.0563861169637975,FALSE,FALSE,2017
 Europe & Central Asia,Regional,Aggregates,2018,Extreme poverty,0.0265626379975588,FALSE,FALSE,2017
-Europe & Central Asia,Regional,Aggregates,2018,P20,0.0568852492157551,FALSE,FALSE,2017
+Europe & Central Asia,Regional,Aggregates,2018,P20,0.056892306606607,FALSE,FALSE,2017
 Europe & Central Asia,Regional,Aggregates,2018,Extreme poverty,0.0265626379975588,TRUE,FALSE,2017
 Europe & Central Asia,Regional,Aggregates,2018,P20,0.056892306606607,TRUE,FALSE,2017
 Europe & Central Asia,Regional,Aggregates,2019,Extreme poverty,0.0246162840919282,FALSE,TRUE,2017
-Europe & Central Asia,Regional,Aggregates,2019,P20,0.0567184703246341,FALSE,TRUE,2017
+Europe & Central Asia,Regional,Aggregates,2019,P20,0.0563747881887766,FALSE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2019,Extreme poverty,0.0246464141560647,TRUE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2019,P20,0.0562024968306843,TRUE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2020,Extreme poverty,0.0226888081172437,FALSE,TRUE,2017
-Europe & Central Asia,Regional,Aggregates,2020,P20,0.0564356349985713,FALSE,TRUE,2017
+Europe & Central Asia,Regional,Aggregates,2020,P20,0.0529211644051783,FALSE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2020,Extreme poverty,0.0255801132589834,TRUE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2020,P20,0.0569940317002978,TRUE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2021,Extreme poverty,0.0210031731408091,FALSE,TRUE,2017
-Europe & Central Asia,Regional,Aggregates,2021,P20,0.0561145295767799,FALSE,TRUE,2017
+Europe & Central Asia,Regional,Aggregates,2021,P20,0.0529081910604209,FALSE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2021,Extreme poverty,0.0231802433041781,TRUE,TRUE,2017
 Europe & Central Asia,Regional,Aggregates,2021,P20,0.0561743574929677,TRUE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2010,Extreme poverty,0.0751848949632656,FALSE,FALSE,2017
@@ -5229,19 +5229,19 @@ Latin America & Caribbean,Regional,Aggregates,2015,Extreme poverty,0.04943768268
 Latin America & Caribbean,Regional,Aggregates,2015,Extreme poverty,0.0494376826835901,FALSE,FALSE,2017
 Latin America & Caribbean,Regional,Aggregates,2015,P20,0.0912648634605091,FALSE,FALSE,2017
 Latin America & Caribbean,Regional,Aggregates,2018,Extreme poverty,0.0493826847061239,FALSE,FALSE,2017
-Latin America & Caribbean,Regional,Aggregates,2018,P20,0.102427124055863,FALSE,FALSE,2017
+Latin America & Caribbean,Regional,Aggregates,2018,P20,0.102439869102132,FALSE,FALSE,2017
 Latin America & Caribbean,Regional,Aggregates,2018,Extreme poverty,0.0493826847061239,TRUE,FALSE,2017
 Latin America & Caribbean,Regional,Aggregates,2018,P20,0.102439869102132,TRUE,FALSE,2017
 Latin America & Caribbean,Regional,Aggregates,2019,Extreme poverty,0.049750052797448,FALSE,TRUE,2017
-Latin America & Caribbean,Regional,Aggregates,2019,P20,0.106528975745912,FALSE,TRUE,2017
+Latin America & Caribbean,Regional,Aggregates,2019,P20,0.105782848563935,FALSE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2019,Extreme poverty,0.0497379494605176,TRUE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2019,P20,0.106112542777449,TRUE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2020,Extreme poverty,0.0493103181505444,FALSE,TRUE,2017
-Latin America & Caribbean,Regional,Aggregates,2020,P20,0.109466227209785,FALSE,TRUE,2017
+Latin America & Caribbean,Regional,Aggregates,2020,P20,0.102647507051558,FALSE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2020,Extreme poverty,0.0545871092975104,TRUE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2020,P20,0.113282286179883,TRUE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2021,Extreme poverty,0.0482550625511673,FALSE,TRUE,2017
-Latin America & Caribbean,Regional,Aggregates,2021,P20,0.111512407458669,FALSE,TRUE,2017
+Latin America & Caribbean,Regional,Aggregates,2021,P20,0.104897242733937,FALSE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2021,Extreme poverty,0.0525831746892164,TRUE,TRUE,2017
 Latin America & Caribbean,Regional,Aggregates,2021,P20,0.114108498752528,TRUE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2010,Extreme poverty,0.00855253312449668,FALSE,FALSE,2017
@@ -5260,19 +5260,19 @@ Middle East & North Africa,Regional,Aggregates,2015,Extreme poverty,0.0049106817
 Middle East & North Africa,Regional,Aggregates,2015,Extreme poverty,0.00491068174785206,FALSE,FALSE,2017
 Middle East & North Africa,Regional,Aggregates,2015,P20,0.0176686857378999,FALSE,FALSE,2017
 Middle East & North Africa,Regional,Aggregates,2018,Extreme poverty,0.00572896666989624,FALSE,FALSE,2017
-Middle East & North Africa,Regional,Aggregates,2018,P20,0.0328276084965164,FALSE,FALSE,2017
+Middle East & North Africa,Regional,Aggregates,2018,P20,0.0328446723937309,FALSE,FALSE,2017
 Middle East & North Africa,Regional,Aggregates,2018,Extreme poverty,0.00572896666989624,TRUE,FALSE,2017
 Middle East & North Africa,Regional,Aggregates,2018,P20,0.0328446723937309,TRUE,FALSE,2017
 Middle East & North Africa,Regional,Aggregates,2019,Extreme poverty,0.00654279396203525,FALSE,TRUE,2017
-Middle East & North Africa,Regional,Aggregates,2019,P20,0.0368617167407835,FALSE,TRUE,2017
+Middle East & North Africa,Regional,Aggregates,2019,P20,0.036303132413765,FALSE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2019,Extreme poverty,0.00652855042427274,TRUE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2019,P20,0.0365150246665929,TRUE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2020,Extreme poverty,0.00627091790989588,FALSE,TRUE,2017
-Middle East & North Africa,Regional,Aggregates,2020,P20,0.037812929402776,FALSE,TRUE,2017
+Middle East & North Africa,Regional,Aggregates,2020,P20,0.0328856878600576,FALSE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2020,Extreme poverty,0.00786901733846373,TRUE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2020,P20,0.03976919914158,TRUE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2021,Extreme poverty,0.00596223082088564,FALSE,TRUE,2017
-Middle East & North Africa,Regional,Aggregates,2021,P20,0.038491489768899,FALSE,TRUE,2017
+Middle East & North Africa,Regional,Aggregates,2021,P20,0.0339903246424701,FALSE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2021,Extreme poverty,0.00713214895126704,TRUE,TRUE,2017
 Middle East & North Africa,Regional,Aggregates,2021,P20,0.0406465590386066,TRUE,TRUE,2017
 Other High Income,Regional,Aggregates,2010,Extreme poverty,0.00520032437893729,FALSE,FALSE,2017
@@ -5295,15 +5295,15 @@ Other High Income,Regional,Aggregates,2018,P20,0.0081330259914337,FALSE,FALSE,20
 Other High Income,Regional,Aggregates,2018,Extreme poverty,0.0061086450936184,TRUE,FALSE,2017
 Other High Income,Regional,Aggregates,2018,P20,0.0081330259914337,TRUE,FALSE,2017
 Other High Income,Regional,Aggregates,2019,Extreme poverty,0.00610279129264833,FALSE,TRUE,2017
-Other High Income,Regional,Aggregates,2019,P20,0.00818341429985878,FALSE,TRUE,2017
+Other High Income,Regional,Aggregates,2019,P20,0.00816454321151625,FALSE,TRUE,2017
 Other High Income,Regional,Aggregates,2019,Extreme poverty,0.00610279129264833,TRUE,TRUE,2017
 Other High Income,Regional,Aggregates,2019,P20,0.00816454321151625,TRUE,TRUE,2017
 Other High Income,Regional,Aggregates,2020,Extreme poverty,0.00609084123380039,FALSE,TRUE,2017
-Other High Income,Regional,Aggregates,2020,P20,0.00827620532218237,FALSE,TRUE,2017
+Other High Income,Regional,Aggregates,2020,P20,0.00810652212139795,FALSE,TRUE,2017
 Other High Income,Regional,Aggregates,2020,Extreme poverty,0.00614227883464046,TRUE,TRUE,2017
 Other High Income,Regional,Aggregates,2020,P20,0.00836531886182631,TRUE,TRUE,2017
 Other High Income,Regional,Aggregates,2021,Extreme poverty,0.00607894038873514,FALSE,TRUE,2017
-Other High Income,Regional,Aggregates,2021,P20,0.00829948737745875,FALSE,TRUE,2017
+Other High Income,Regional,Aggregates,2021,P20,0.0081507225302604,FALSE,TRUE,2017
 Other High Income,Regional,Aggregates,2021,Extreme poverty,0.00611617044337888,TRUE,TRUE,2017
 Other High Income,Regional,Aggregates,2021,P20,0.00833824066980417,TRUE,TRUE,2017
 South Asia,Regional,Aggregates,2010,Extreme poverty,0.261983406649319,FALSE,FALSE,2017
@@ -5322,19 +5322,19 @@ South Asia,Regional,Aggregates,2015,Extreme poverty,0.133416295137674,FALSE,FALS
 South Asia,Regional,Aggregates,2015,Extreme poverty,0.133416295137674,FALSE,FALSE,2017
 South Asia,Regional,Aggregates,2015,P20,0.343211152238732,FALSE,FALSE,2017
 South Asia,Regional,Aggregates,2018,Extreme poverty,0.0766453194345976,FALSE,FALSE,2017
-South Asia,Regional,Aggregates,2018,P20,0.319470160866368,FALSE,FALSE,2017
+South Asia,Regional,Aggregates,2018,P20,0.319633651832291,FALSE,FALSE,2017
 South Asia,Regional,Aggregates,2018,Extreme poverty,0.0766453194345976,TRUE,FALSE,2017
 South Asia,Regional,Aggregates,2018,P20,0.319633651832291,TRUE,FALSE,2017
 South Asia,Regional,Aggregates,2019,Extreme poverty,0.0674825234842442,FALSE,TRUE,2017
-South Asia,Regional,Aggregates,2019,P20,0.313339212451521,FALSE,TRUE,2017
+South Asia,Regional,Aggregates,2019,P20,0.309769872368628,FALSE,TRUE,2017
 South Asia,Regional,Aggregates,2019,Extreme poverty,0.0701819092809262,TRUE,TRUE,2017
 South Asia,Regional,Aggregates,2019,P20,0.31617204426385,TRUE,TRUE,2017
 South Asia,Regional,Aggregates,2020,Extreme poverty,0.0592584764889302,FALSE,TRUE,2017
-South Asia,Regional,Aggregates,2020,P20,0.307661072619038,FALSE,TRUE,2017
+South Asia,Regional,Aggregates,2020,P20,0.277955444685907,FALSE,TRUE,2017
 South Asia,Regional,Aggregates,2020,Extreme poverty,0.069800894122193,TRUE,TRUE,2017
 South Asia,Regional,Aggregates,2020,P20,0.305525220761846,TRUE,TRUE,2017
 South Asia,Regional,Aggregates,2021,Extreme poverty,0.0505255692075564,FALSE,TRUE,2017
-South Asia,Regional,Aggregates,2021,P20,0.301335868209079,FALSE,TRUE,2017
+South Asia,Regional,Aggregates,2021,P20,0.275019944413226,FALSE,TRUE,2017
 South Asia,Regional,Aggregates,2021,Extreme poverty,0.0607098064865517,TRUE,TRUE,2017
 South Asia,Regional,Aggregates,2021,P20,0.301202819175979,TRUE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2010,Extreme poverty,0.445767992525392,FALSE,FALSE,2017
@@ -5353,19 +5353,19 @@ Sub-Saharan Africa,Regional,Aggregates,2015,Extreme poverty,0.385077760198396,FA
 Sub-Saharan Africa,Regional,Aggregates,2015,Extreme poverty,0.385077246146065,FALSE,FALSE,2017
 Sub-Saharan Africa,Regional,Aggregates,2015,P20,0.546154301542487,FALSE,FALSE,2017
 Sub-Saharan Africa,Regional,Aggregates,2018,Extreme poverty,0.367960905452839,FALSE,FALSE,2017
-Sub-Saharan Africa,Regional,Aggregates,2018,P20,0.585118435118986,FALSE,FALSE,2017
+Sub-Saharan Africa,Regional,Aggregates,2018,P20,0.585164087126001,FALSE,FALSE,2017
 Sub-Saharan Africa,Regional,Aggregates,2018,Extreme poverty,0.367960977048196,TRUE,FALSE,2017
 Sub-Saharan Africa,Regional,Aggregates,2018,P20,0.585165088376214,TRUE,FALSE,2017
 Sub-Saharan Africa,Regional,Aggregates,2019,Extreme poverty,0.362640605024448,FALSE,TRUE,2017
-Sub-Saharan Africa,Regional,Aggregates,2019,P20,0.589423417291738,FALSE,TRUE,2017
+Sub-Saharan Africa,Regional,Aggregates,2019,P20,0.58729094479981,FALSE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2019,Extreme poverty,0.363117037110554,TRUE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2019,P20,0.587827628216833,TRUE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2020,Extreme poverty,0.356075115484462,FALSE,TRUE,2017
-Sub-Saharan Africa,Regional,Aggregates,2020,P20,0.593306752721876,FALSE,TRUE,2017
+Sub-Saharan Africa,Regional,Aggregates,2020,P20,0.574271933339512,FALSE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2020,Extreme poverty,0.377040360875699,TRUE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2020,P20,0.595677336054528,TRUE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2021,Extreme poverty,0.349547485974516,FALSE,TRUE,2017
-Sub-Saharan Africa,Regional,Aggregates,2021,P20,0.597189905723134,FALSE,TRUE,2017
+Sub-Saharan Africa,Regional,Aggregates,2021,P20,0.580272862656433,FALSE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2021,Extreme poverty,0.371849469019403,TRUE,TRUE,2017
 Sub-Saharan Africa,Regional,Aggregates,2021,P20,0.603076213135061,TRUE,TRUE,2017
 Albania,National,ECA,2010,Extreme poverty,0.005248398,FALSE,FALSE,2017
@@ -5388,15 +5388,15 @@ Albania,National,ECA,2018,P20,0.04908068,FALSE,FALSE,2017
 Albania,National,ECA,2018,Extreme poverty,0.008799503,TRUE,FALSE,2017
 Albania,National,ECA,2018,P20,0.04908068,TRUE,FALSE,2017
 Albania,National,ECA,2019,Extreme poverty,0.00798872,FALSE,TRUE,2017
-Albania,National,ECA,2019,P20,0.04677417,FALSE,TRUE,2017
+Albania,National,ECA,2019,P20,0.04601792,FALSE,TRUE,2017
 Albania,National,ECA,2019,Extreme poverty,0.008420182,TRUE,TRUE,2017
 Albania,National,ECA,2019,P20,0.04830772,TRUE,TRUE,2017
 Albania,National,ECA,2020,Extreme poverty,0.007169419,FALSE,TRUE,2017
-Albania,National,ECA,2020,P20,0.04338428,FALSE,TRUE,2017
+Albania,National,ECA,2020,P20,0.03729748,FALSE,TRUE,2017
 Albania,National,ECA,2020,Extreme poverty,0.01111379,TRUE,TRUE,2017
 Albania,National,ECA,2020,P20,0.05316919,TRUE,TRUE,2017
 Albania,National,ECA,2021,Extreme poverty,0.005618034,FALSE,TRUE,2017
-Albania,National,ECA,2021,P20,0.04062115,FALSE,TRUE,2017
+Albania,National,ECA,2021,P20,0.03665393,FALSE,TRUE,2017
 Albania,National,ECA,2021,Extreme poverty,0.007288988,TRUE,TRUE,2017
 Albania,National,ECA,2021,P20,0.04511319,TRUE,TRUE,2017
 Algeria,National,MNA,2010,Extreme poverty,0.00694031,FALSE,FALSE,2017
@@ -5415,19 +5415,19 @@ Algeria,National,MNA,2015,Extreme poverty,0.003670053,FALSE,FALSE,2017
 Algeria,National,MNA,2015,Extreme poverty,0.003670053,FALSE,FALSE,2017
 Algeria,National,MNA,2015,P20,0.01126206,FALSE,FALSE,2017
 Algeria,National,MNA,2018,Extreme poverty,0.003493851,FALSE,FALSE,2017
-Algeria,National,MNA,2018,P20,0.01681051,FALSE,FALSE,2017
+Algeria,National,MNA,2018,P20,0.01681661,FALSE,FALSE,2017
 Algeria,National,MNA,2018,Extreme poverty,0.003493851,TRUE,FALSE,2017
 Algeria,National,MNA,2018,P20,0.01681661,TRUE,FALSE,2017
 Algeria,National,MNA,2019,Extreme poverty,0.003443017,FALSE,TRUE,2017
-Algeria,National,MNA,2019,P20,0.01784493,FALSE,TRUE,2017
+Algeria,National,MNA,2019,P20,0.01751264,FALSE,TRUE,2017
 Algeria,National,MNA,2019,Extreme poverty,0.003604363,TRUE,TRUE,2017
 Algeria,National,MNA,2019,P20,0.01879673,TRUE,TRUE,2017
 Algeria,National,MNA,2020,Extreme poverty,0.00339896,FALSE,TRUE,2017
-Algeria,National,MNA,2020,P20,0.01920956,FALSE,TRUE,2017
+Algeria,National,MNA,2020,P20,0.01619617,FALSE,TRUE,2017
 Algeria,National,MNA,2020,Extreme poverty,0.004351216,TRUE,TRUE,2017
 Algeria,National,MNA,2020,P20,0.02345146,TRUE,TRUE,2017
 Algeria,National,MNA,2021,Extreme poverty,0.003402926,FALSE,TRUE,2017
-Algeria,National,MNA,2021,P20,0.0212822,FALSE,TRUE,2017
+Algeria,National,MNA,2021,P20,0.01815224,FALSE,TRUE,2017
 Algeria,National,MNA,2021,Extreme poverty,0.003881008,TRUE,TRUE,2017
 Algeria,National,MNA,2021,P20,0.02221755,TRUE,TRUE,2017
 Angola,National,SSA,2010,Extreme poverty,0.2974412,FALSE,FALSE,2017
@@ -5446,19 +5446,19 @@ Angola,National,SSA,2015,Extreme poverty,0.349023,FALSE,FALSE,2017
 Angola,National,SSA,2015,Extreme poverty,0.349023,FALSE,FALSE,2017
 Angola,National,SSA,2015,P20,0.4892046,FALSE,FALSE,2017
 Angola,National,SSA,2018,Extreme poverty,0.4472281,FALSE,FALSE,2017
-Angola,National,SSA,2018,P20,0.6349965,FALSE,FALSE,2017
+Angola,National,SSA,2018,P20,0.6350441,FALSE,FALSE,2017
 Angola,National,SSA,2018,Extreme poverty,0.4472281,TRUE,FALSE,2017
 Angola,National,SSA,2018,P20,0.6350441,TRUE,FALSE,2017
 Angola,National,SSA,2019,Extreme poverty,0.4601653,FALSE,TRUE,2017
-Angola,National,SSA,2019,P20,0.6533508,FALSE,TRUE,2017
+Angola,National,SSA,2019,P20,0.65123,FALSE,TRUE,2017
 Angola,National,SSA,2019,Extreme poverty,0.4640898,TRUE,TRUE,2017
 Angola,National,SSA,2019,P20,0.6563516,TRUE,TRUE,2017
 Angola,National,SSA,2020,Extreme poverty,0.4678503,FALSE,TRUE,2017
-Angola,National,SSA,2020,P20,0.6721936,FALSE,TRUE,2017
+Angola,National,SSA,2020,P20,0.6522589,FALSE,TRUE,2017
 Angola,National,SSA,2020,Extreme poverty,0.4816377,TRUE,TRUE,2017
 Angola,National,SSA,2020,P20,0.6686313,TRUE,TRUE,2017
 Angola,National,SSA,2021,Extreme poverty,0.4687414,FALSE,TRUE,2017
-Angola,National,SSA,2021,P20,0.6801742,FALSE,TRUE,2017
+Angola,National,SSA,2021,P20,0.6667115,FALSE,TRUE,2017
 Angola,National,SSA,2021,Extreme poverty,0.4828369,TRUE,TRUE,2017
 Angola,National,SSA,2021,P20,0.6798699,TRUE,TRUE,2017
 Argentina,National,LAC,2010,Extreme poverty,0.1299202,FALSE,FALSE,2017
@@ -5477,19 +5477,19 @@ Argentina,National,LAC,2015,Extreme poverty,0.08625142,FALSE,FALSE,2017
 Argentina,National,LAC,2015,Extreme poverty,0.08625142,FALSE,FALSE,2017
 Argentina,National,LAC,2015,P20,0.1649723,FALSE,FALSE,2017
 Argentina,National,LAC,2018,Extreme poverty,0.09811694,FALSE,FALSE,2017
-Argentina,National,LAC,2018,P20,0.2122674,FALSE,FALSE,2017
+Argentina,National,LAC,2018,P20,0.2122999,FALSE,FALSE,2017
 Argentina,National,LAC,2018,Extreme poverty,0.09811694,TRUE,FALSE,2017
 Argentina,National,LAC,2018,P20,0.2122999,TRUE,FALSE,2017
 Argentina,National,LAC,2019,Extreme poverty,0.1057241,FALSE,TRUE,2017
-Argentina,National,LAC,2019,P20,0.2335042,FALSE,TRUE,2017
+Argentina,National,LAC,2019,P20,0.2311205,FALSE,TRUE,2017
 Argentina,National,LAC,2019,Extreme poverty,0.1031066,TRUE,TRUE,2017
 Argentina,National,LAC,2019,P20,0.2282535,TRUE,TRUE,2017
 Argentina,National,LAC,2020,Extreme poverty,0.1090732,FALSE,TRUE,2017
-Argentina,National,LAC,2020,P20,0.2493852,FALSE,TRUE,2017
+Argentina,National,LAC,2020,P20,0.234096,FALSE,TRUE,2017
 Argentina,National,LAC,2020,Extreme poverty,0.1155438,TRUE,TRUE,2017
 Argentina,National,LAC,2020,P20,0.2453736,TRUE,TRUE,2017
 Argentina,National,LAC,2021,Extreme poverty,0.1084354,FALSE,TRUE,2017
-Argentina,National,LAC,2021,P20,0.257947,FALSE,TRUE,2017
+Argentina,National,LAC,2021,P20,0.2419151,FALSE,TRUE,2017
 Argentina,National,LAC,2021,Extreme poverty,0.10913,TRUE,TRUE,2017
 Argentina,National,LAC,2021,P20,0.2435639,TRUE,TRUE,2017
 Armenia,National,ECA,2010,Extreme poverty,0.01078477,FALSE,FALSE,2017
@@ -5512,15 +5512,15 @@ Armenia,National,ECA,2018,P20,0.07193885,FALSE,FALSE,2017
 Armenia,National,ECA,2018,Extreme poverty,0.01452873,TRUE,FALSE,2017
 Armenia,National,ECA,2018,P20,0.07193885,TRUE,FALSE,2017
 Armenia,National,ECA,2019,Extreme poverty,0.01172245,FALSE,TRUE,2017
-Armenia,National,ECA,2019,P20,0.06581763,FALSE,TRUE,2017
+Armenia,National,ECA,2019,P20,0.06568913,FALSE,TRUE,2017
 Armenia,National,ECA,2019,Extreme poverty,0.01172245,TRUE,TRUE,2017
 Armenia,National,ECA,2019,P20,0.06380188,TRUE,TRUE,2017
 Armenia,National,ECA,2020,Extreme poverty,0.01042322,FALSE,TRUE,2017
-Armenia,National,ECA,2020,P20,0.06363859,FALSE,TRUE,2017
+Armenia,National,ECA,2020,P20,0.05511704,FALSE,TRUE,2017
 Armenia,National,ECA,2020,Extreme poverty,0.01172245,TRUE,TRUE,2017
 Armenia,National,ECA,2020,P20,0.06380188,TRUE,TRUE,2017
 Armenia,National,ECA,2021,Extreme poverty,0.009118039,FALSE,TRUE,2017
-Armenia,National,ECA,2021,P20,0.06100688,FALSE,TRUE,2017
+Armenia,National,ECA,2021,P20,0.05183778,FALSE,TRUE,2017
 Armenia,National,ECA,2021,Extreme poverty,0.01042322,TRUE,TRUE,2017
 Armenia,National,ECA,2021,P20,0.06140307,TRUE,TRUE,2017
 Australia,National,OHI,2010,Extreme poverty,0.003491684,FALSE,FALSE,2017
@@ -5547,11 +5547,11 @@ Australia,National,OHI,2019,P20,0.004984838,FALSE,TRUE,2017
 Australia,National,OHI,2019,Extreme poverty,0.004984838,TRUE,TRUE,2017
 Australia,National,OHI,2019,P20,0.004984838,TRUE,TRUE,2017
 Australia,National,OHI,2020,Extreme poverty,0.004984838,FALSE,TRUE,2017
-Australia,National,OHI,2020,P20,0.007444149,FALSE,TRUE,2017
+Australia,National,OHI,2020,P20,0.004984838,FALSE,TRUE,2017
 Australia,National,OHI,2020,Extreme poverty,0.004984838,TRUE,TRUE,2017
 Australia,National,OHI,2020,P20,0.007444149,TRUE,TRUE,2017
 Australia,National,OHI,2021,Extreme poverty,0.004984838,FALSE,TRUE,2017
-Australia,National,OHI,2021,P20,0.007444149,FALSE,TRUE,2017
+Australia,National,OHI,2021,P20,0.004984838,FALSE,TRUE,2017
 Australia,National,OHI,2021,Extreme poverty,0.004984838,TRUE,TRUE,2017
 Australia,National,OHI,2021,P20,0.007444149,TRUE,TRUE,2017
 Austria,National,OHI,2010,Extreme poverty,0.004907025,FALSE,FALSE,2017
@@ -5632,19 +5632,19 @@ Bangladesh,National,SAS,2015,Extreme poverty,0.1231741,FALSE,FALSE,2017
 Bangladesh,National,SAS,2015,Extreme poverty,0.1231741,FALSE,FALSE,2017
 Bangladesh,National,SAS,2015,P20,0.3316301,FALSE,FALSE,2017
 Bangladesh,National,SAS,2018,Extreme poverty,0.06145714,FALSE,FALSE,2017
-Bangladesh,National,SAS,2018,P20,0.2917267,FALSE,FALSE,2017
+Bangladesh,National,SAS,2018,P20,0.2917948,FALSE,FALSE,2017
 Bangladesh,National,SAS,2018,Extreme poverty,0.06145714,TRUE,FALSE,2017
 Bangladesh,National,SAS,2018,P20,0.2917948,TRUE,FALSE,2017
 Bangladesh,National,SAS,2019,Extreme poverty,0.04672859,FALSE,TRUE,2017
-Bangladesh,National,SAS,2019,P20,0.2637096,FALSE,TRUE,2017
+Bangladesh,National,SAS,2019,P20,0.2609163,FALSE,TRUE,2017
 Bangladesh,National,SAS,2019,Extreme poverty,0.04642725,TRUE,TRUE,2017
 Bangladesh,National,SAS,2019,P20,0.2605153,TRUE,TRUE,2017
 Bangladesh,National,SAS,2020,Extreme poverty,0.03610154,FALSE,TRUE,2017
-Bangladesh,National,SAS,2020,P20,0.2394955,FALSE,TRUE,2017
+Bangladesh,National,SAS,2020,P20,0.214933,FALSE,TRUE,2017
 Bangladesh,National,SAS,2020,Extreme poverty,0.04498566,TRUE,TRUE,2017
 Bangladesh,National,SAS,2020,P20,0.2440118,TRUE,TRUE,2017
 Bangladesh,National,SAS,2021,Extreme poverty,0.0277094,FALSE,TRUE,2017
-Bangladesh,National,SAS,2021,P20,0.2199962,FALSE,TRUE,2017
+Bangladesh,National,SAS,2021,P20,0.1970801,FALSE,TRUE,2017
 Bangladesh,National,SAS,2021,Extreme poverty,0.03120429,TRUE,TRUE,2017
 Bangladesh,National,SAS,2021,P20,0.2142994,TRUE,TRUE,2017
 Belarus,National,ECA,2010,Extreme poverty,0.0003394272,FALSE,FALSE,2017
@@ -5702,7 +5702,7 @@ Belgium,National,OHI,2019,P20,0.002020924,FALSE,TRUE,2017
 Belgium,National,OHI,2019,Extreme poverty,0.001314533,TRUE,TRUE,2017
 Belgium,National,OHI,2019,P20,0.002020924,TRUE,TRUE,2017
 Belgium,National,OHI,2020,Extreme poverty,0.001314533,FALSE,TRUE,2017
-Belgium,National,OHI,2020,P20,0.002020924,FALSE,TRUE,2017
+Belgium,National,OHI,2020,P20,0.001969349,FALSE,TRUE,2017
 Belgium,National,OHI,2020,Extreme poverty,0.001517584,TRUE,TRUE,2017
 Belgium,National,OHI,2020,P20,0.002020924,TRUE,TRUE,2017
 Belgium,National,OHI,2021,Extreme poverty,0.001314533,FALSE,TRUE,2017
@@ -5729,15 +5729,15 @@ Belize,National,LAC,2018,P20,0.3910634,FALSE,FALSE,2017
 Belize,National,LAC,2018,Extreme poverty,0.2079034,TRUE,FALSE,2017
 Belize,National,LAC,2018,P20,0.3910634,TRUE,FALSE,2017
 Belize,National,LAC,2019,Extreme poverty,0.2079034,FALSE,TRUE,2017
-Belize,National,LAC,2019,P20,0.3945757,FALSE,TRUE,2017
+Belize,National,LAC,2019,P20,0.3941657,FALSE,TRUE,2017
 Belize,National,LAC,2019,Extreme poverty,0.2239207,TRUE,TRUE,2017
 Belize,National,LAC,2019,P20,0.4021744,TRUE,TRUE,2017
 Belize,National,LAC,2020,Extreme poverty,0.2079034,FALSE,TRUE,2017
-Belize,National,LAC,2020,P20,0.4039715,FALSE,TRUE,2017
+Belize,National,LAC,2020,P20,0.3914734,FALSE,TRUE,2017
 Belize,National,LAC,2020,Extreme poverty,0.2711115,TRUE,TRUE,2017
 Belize,National,LAC,2020,P20,0.4589523,TRUE,TRUE,2017
 Belize,National,LAC,2021,Extreme poverty,0.2110399,FALSE,TRUE,2017
-Belize,National,LAC,2021,P20,0.4300816,FALSE,TRUE,2017
+Belize,National,LAC,2021,P20,0.4021744,FALSE,TRUE,2017
 Belize,National,LAC,2021,Extreme poverty,0.2450834,TRUE,TRUE,2017
 Belize,National,LAC,2021,P20,0.453062,TRUE,TRUE,2017
 Benin,National,SSA,2010,Extreme poverty,0.5477394,FALSE,FALSE,2017
@@ -5756,19 +5756,19 @@ Benin,National,SSA,2015,Extreme poverty,0.5198613,FALSE,FALSE,2017
 Benin,National,SSA,2015,Extreme poverty,0.5198613,FALSE,FALSE,2017
 Benin,National,SSA,2015,P20,0.6832687,FALSE,FALSE,2017
 Benin,National,SSA,2018,Extreme poverty,0.4798664,FALSE,FALSE,2017
-Benin,National,SSA,2018,P20,0.6999914,FALSE,FALSE,2017
+Benin,National,SSA,2018,P20,0.7000197,FALSE,FALSE,2017
 Benin,National,SSA,2018,Extreme poverty,0.4798664,TRUE,FALSE,2017
 Benin,National,SSA,2018,P20,0.7000197,TRUE,FALSE,2017
 Benin,National,SSA,2019,Extreme poverty,0.4627739,FALSE,TRUE,2017
-Benin,National,SSA,2019,P20,0.6953669,FALSE,TRUE,2017
+Benin,National,SSA,2019,P20,0.6935702,FALSE,TRUE,2017
 Benin,National,SSA,2019,Extreme poverty,0.4633549,TRUE,TRUE,2017
 Benin,National,SSA,2019,P20,0.6938954,TRUE,TRUE,2017
 Benin,National,SSA,2020,Extreme poverty,0.4441432,FALSE,TRUE,2017
-Benin,National,SSA,2020,P20,0.6904741,FALSE,TRUE,2017
+Benin,National,SSA,2020,P20,0.6730426,FALSE,TRUE,2017
 Benin,National,SSA,2020,Extreme poverty,0.4557831,TRUE,TRUE,2017
 Benin,National,SSA,2020,P20,0.6820241,TRUE,TRUE,2017
 Benin,National,SSA,2021,Extreme poverty,0.425893,FALSE,TRUE,2017
-Benin,National,SSA,2021,P20,0.685795,FALSE,TRUE,2017
+Benin,National,SSA,2021,P20,0.6693936,FALSE,TRUE,2017
 Benin,National,SSA,2021,Extreme poverty,0.4405547,TRUE,TRUE,2017
 Benin,National,SSA,2021,P20,0.6811472,TRUE,TRUE,2017
 Bhutan,National,SAS,2010,Extreme poverty,0.02356152,FALSE,FALSE,2017
@@ -5791,15 +5791,15 @@ Bhutan,National,SAS,2018,P20,0.04852119,FALSE,FALSE,2017
 Bhutan,National,SAS,2018,Extreme poverty,0.006576405,TRUE,FALSE,2017
 Bhutan,National,SAS,2018,P20,0.04852119,TRUE,FALSE,2017
 Bhutan,National,SAS,2019,Extreme poverty,0.005584995,FALSE,TRUE,2017
-Bhutan,National,SAS,2019,P20,0.04654065,FALSE,TRUE,2017
+Bhutan,National,SAS,2019,P20,0.04554588,FALSE,TRUE,2017
 Bhutan,National,SAS,2019,Extreme poverty,0.005355491,TRUE,TRUE,2017
 Bhutan,National,SAS,2019,P20,0.0452567,TRUE,TRUE,2017
 Bhutan,National,SAS,2020,Extreme poverty,0.003742245,FALSE,TRUE,2017
-Bhutan,National,SAS,2020,P20,0.04242011,FALSE,TRUE,2017
+Bhutan,National,SAS,2020,P20,0.03537784,FALSE,TRUE,2017
 Bhutan,National,SAS,2020,Extreme poverty,0.005288874,TRUE,TRUE,2017
 Bhutan,National,SAS,2020,P20,0.04188626,TRUE,TRUE,2017
 Bhutan,National,SAS,2021,Extreme poverty,0.003264254,FALSE,TRUE,2017
-Bhutan,National,SAS,2021,P20,0.03941444,FALSE,TRUE,2017
+Bhutan,National,SAS,2021,P20,0.03269533,FALSE,TRUE,2017
 Bhutan,National,SAS,2021,Extreme poverty,0.004417635,TRUE,TRUE,2017
 Bhutan,National,SAS,2021,P20,0.04341454,TRUE,TRUE,2017
 Bolivia,National,LAC,2010,Extreme poverty,0.07110462,FALSE,FALSE,2017
@@ -5822,15 +5822,15 @@ Bolivia,National,LAC,2018,P20,0.06514886,FALSE,FALSE,2017
 Bolivia,National,LAC,2018,Extreme poverty,0.03104482,TRUE,FALSE,2017
 Bolivia,National,LAC,2018,P20,0.06514886,TRUE,FALSE,2017
 Bolivia,National,LAC,2019,Extreme poverty,0.02887825,FALSE,TRUE,2017
-Bolivia,National,LAC,2019,P20,0.06459774,FALSE,TRUE,2017
+Bolivia,National,LAC,2019,P20,0.0645146,FALSE,TRUE,2017
 Bolivia,National,LAC,2019,Extreme poverty,0.02997195,TRUE,TRUE,2017
 Bolivia,National,LAC,2019,P20,0.0656992,TRUE,TRUE,2017
 Bolivia,National,LAC,2020,Extreme poverty,0.02717403,FALSE,TRUE,2017
-Bolivia,National,LAC,2020,P20,0.06507932,FALSE,TRUE,2017
+Bolivia,National,LAC,2020,P20,0.06237751,FALSE,TRUE,2017
 Bolivia,National,LAC,2020,Extreme poverty,0.0323016,TRUE,TRUE,2017
 Bolivia,National,LAC,2020,P20,0.06899856,TRUE,TRUE,2017
 Bolivia,National,LAC,2021,Extreme poverty,0.02705331,FALSE,TRUE,2017
-Bolivia,National,LAC,2021,P20,0.0656992,FALSE,TRUE,2017
+Bolivia,National,LAC,2021,P20,0.06258667,FALSE,TRUE,2017
 Bolivia,National,LAC,2021,Extreme poverty,0.03210463,TRUE,TRUE,2017
 Bolivia,National,LAC,2021,P20,0.07062732,TRUE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2010,Extreme poverty,0.0008818089,FALSE,FALSE,2017
@@ -5857,11 +5857,11 @@ Bosnia and Herzegovina,National,ECA,2019,P20,0.002351145,FALSE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2019,Extreme poverty,0.0005898651,TRUE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2019,P20,0.002351145,TRUE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2020,Extreme poverty,0.0005898651,FALSE,TRUE,2017
-Bosnia and Herzegovina,National,ECA,2020,P20,0.002351145,FALSE,TRUE,2017
+Bosnia and Herzegovina,National,ECA,2020,P20,0.001989795,FALSE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2020,Extreme poverty,0.0005898651,TRUE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2020,P20,0.002420837,TRUE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2021,Extreme poverty,0.0005898651,FALSE,TRUE,2017
-Bosnia and Herzegovina,National,ECA,2021,P20,0.002351145,FALSE,TRUE,2017
+Bosnia and Herzegovina,National,ECA,2021,P20,0.001989795,FALSE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2021,Extreme poverty,0.0005898651,TRUE,TRUE,2017
 Bosnia and Herzegovina,National,ECA,2021,P20,0.002420837,TRUE,TRUE,2017
 Botswana,National,SSA,2010,Extreme poverty,0.1783639,FALSE,FALSE,2017
@@ -5880,19 +5880,19 @@ Botswana,National,SSA,2015,Extreme poverty,0.1613303,FALSE,FALSE,2017
 Botswana,National,SSA,2015,Extreme poverty,0.1613303,FALSE,FALSE,2017
 Botswana,National,SSA,2015,P20,0.2892782,FALSE,FALSE,2017
 Botswana,National,SSA,2018,Extreme poverty,0.1487975,FALSE,FALSE,2017
-Botswana,National,SSA,2018,P20,0.3244266,FALSE,FALSE,2017
+Botswana,National,SSA,2018,P20,0.3248614,FALSE,FALSE,2017
 Botswana,National,SSA,2018,Extreme poverty,0.1487975,TRUE,FALSE,2017
 Botswana,National,SSA,2018,P20,0.3248614,TRUE,FALSE,2017
 Botswana,National,SSA,2019,Extreme poverty,0.1438431,FALSE,TRUE,2017
-Botswana,National,SSA,2019,P20,0.325478,FALSE,TRUE,2017
+Botswana,National,SSA,2019,P20,0.3248614,FALSE,TRUE,2017
 Botswana,National,SSA,2019,Extreme poverty,0.1449206,TRUE,TRUE,2017
 Botswana,National,SSA,2019,P20,0.325478,TRUE,TRUE,2017
 Botswana,National,SSA,2020,Extreme poverty,0.1356645,FALSE,TRUE,2017
-Botswana,National,SSA,2020,P20,0.325478,FALSE,TRUE,2017
+Botswana,National,SSA,2020,P20,0.3105434,FALSE,TRUE,2017
 Botswana,National,SSA,2020,Extreme poverty,0.1676294,TRUE,TRUE,2017
 Botswana,National,SSA,2020,P20,0.3486452,TRUE,TRUE,2017
 Botswana,National,SSA,2021,Extreme poverty,0.1251162,FALSE,TRUE,2017
-Botswana,National,SSA,2021,P20,0.3201325,FALSE,TRUE,2017
+Botswana,National,SSA,2021,P20,0.308053,FALSE,TRUE,2017
 Botswana,National,SSA,2021,Extreme poverty,0.154364,TRUE,TRUE,2017
 Botswana,National,SSA,2021,P20,0.341437,TRUE,TRUE,2017
 Brazil,National,LAC,2010,Extreme poverty,0.05840592,FALSE,FALSE,2017
@@ -5911,19 +5911,19 @@ Brazil,National,LAC,2015,Extreme poverty,0.037966,FALSE,FALSE,2017
 Brazil,National,LAC,2015,Extreme poverty,0.037966,FALSE,FALSE,2017
 Brazil,National,LAC,2015,P20,0.06470212,FALSE,FALSE,2017
 Brazil,National,LAC,2018,Extreme poverty,0.0516733,FALSE,FALSE,2017
-Brazil,National,LAC,2018,P20,0.09328348,FALSE,FALSE,2017
+Brazil,National,LAC,2018,P20,0.09330065,FALSE,FALSE,2017
 Brazil,National,LAC,2018,Extreme poverty,0.0516733,TRUE,FALSE,2017
 Brazil,National,LAC,2018,P20,0.09330065,TRUE,FALSE,2017
 Brazil,National,LAC,2019,Extreme poverty,0.051574,FALSE,TRUE,2017
-Brazil,National,LAC,2019,P20,0.09559292,FALSE,TRUE,2017
+Brazil,National,LAC,2019,P20,0.09508127,FALSE,TRUE,2017
 Brazil,National,LAC,2019,Extreme poverty,0.05144156,TRUE,TRUE,2017
 Brazil,National,LAC,2019,P20,0.09498292,TRUE,TRUE,2017
 Brazil,National,LAC,2020,Extreme poverty,0.05088233,FALSE,TRUE,2017
-Brazil,National,LAC,2020,P20,0.09684803,FALSE,TRUE,2017
+Brazil,National,LAC,2020,P20,0.09176,FALSE,TRUE,2017
 Brazil,National,LAC,2020,Extreme poverty,0.05527938,TRUE,TRUE,2017
 Brazil,National,LAC,2020,P20,0.1001143,TRUE,TRUE,2017
 Brazil,National,LAC,2021,Extreme poverty,0.04950717,FALSE,TRUE,2017
-Brazil,National,LAC,2021,P20,0.09783619,FALSE,TRUE,2017
+Brazil,National,LAC,2021,P20,0.09312927,FALSE,TRUE,2017
 Brazil,National,LAC,2021,Extreme poverty,0.05386589,TRUE,TRUE,2017
 Brazil,National,LAC,2021,P20,0.1010362,TRUE,TRUE,2017
 Bulgaria,National,ECA,2010,Extreme poverty,0.02076547,FALSE,FALSE,2017
@@ -5946,15 +5946,15 @@ Bulgaria,National,ECA,2018,P20,0.02903497,FALSE,FALSE,2017
 Bulgaria,National,ECA,2018,Extreme poverty,0.01371766,TRUE,FALSE,2017
 Bulgaria,National,ECA,2018,P20,0.02903497,TRUE,FALSE,2017
 Bulgaria,National,ECA,2019,Extreme poverty,0.01371766,FALSE,TRUE,2017
-Bulgaria,National,ECA,2019,P20,0.02783527,FALSE,TRUE,2017
+Bulgaria,National,ECA,2019,P20,0.0270155,FALSE,TRUE,2017
 Bulgaria,National,ECA,2019,Extreme poverty,0.01371766,TRUE,TRUE,2017
 Bulgaria,National,ECA,2019,P20,0.02783527,TRUE,TRUE,2017
 Bulgaria,National,ECA,2020,Extreme poverty,0.01328792,FALSE,TRUE,2017
-Bulgaria,National,ECA,2020,P20,0.02689475,FALSE,TRUE,2017
+Bulgaria,National,ECA,2020,P20,0.02304629,FALSE,TRUE,2017
 Bulgaria,National,ECA,2020,Extreme poverty,0.01371766,TRUE,TRUE,2017
 Bulgaria,National,ECA,2020,P20,0.02874742,TRUE,TRUE,2017
 Bulgaria,National,ECA,2021,Extreme poverty,0.01328792,FALSE,TRUE,2017
-Bulgaria,National,ECA,2021,P20,0.02646166,FALSE,TRUE,2017
+Bulgaria,National,ECA,2021,P20,0.0223166,FALSE,TRUE,2017
 Bulgaria,National,ECA,2021,Extreme poverty,0.01328792,TRUE,TRUE,2017
 Bulgaria,National,ECA,2021,P20,0.02646166,TRUE,TRUE,2017
 Burkina Faso,National,SSA,2010,Extreme poverty,0.5205263,FALSE,FALSE,2017
@@ -5977,15 +5977,15 @@ Burkina Faso,National,SSA,2018,P20,0.6449074,FALSE,FALSE,2017
 Burkina Faso,National,SSA,2018,Extreme poverty,0.3219561,TRUE,FALSE,2017
 Burkina Faso,National,SSA,2018,P20,0.6449074,TRUE,FALSE,2017
 Burkina Faso,National,SSA,2019,Extreme poverty,0.3017803,FALSE,TRUE,2017
-Burkina Faso,National,SSA,2019,P20,0.6405547,FALSE,TRUE,2017
+Burkina Faso,National,SSA,2019,P20,0.6386607,FALSE,TRUE,2017
 Burkina Faso,National,SSA,2019,Extreme poverty,0.3032688,TRUE,TRUE,2017
 Burkina Faso,National,SSA,2019,P20,0.6392321,TRUE,TRUE,2017
 Burkina Faso,National,SSA,2020,Extreme poverty,0.2812638,FALSE,TRUE,2017
-Burkina Faso,National,SSA,2020,P20,0.6384092,FALSE,TRUE,2017
+Burkina Faso,National,SSA,2020,P20,0.6161972,FALSE,TRUE,2017
 Burkina Faso,National,SSA,2020,Extreme poverty,0.3100938,TRUE,TRUE,2017
 Burkina Faso,National,SSA,2020,P20,0.6362526,TRUE,TRUE,2017
 Burkina Faso,National,SSA,2021,Extreme poverty,0.261838,FALSE,TRUE,2017
-Burkina Faso,National,SSA,2021,P20,0.6358591,FALSE,TRUE,2017
+Burkina Faso,National,SSA,2021,P20,0.6158506,FALSE,TRUE,2017
 Burkina Faso,National,SSA,2021,Extreme poverty,0.2879143,TRUE,TRUE,2017
 Burkina Faso,National,SSA,2021,P20,0.6375661,TRUE,TRUE,2017
 Burundi,National,SSA,2010,Extreme poverty,0.6971226,FALSE,FALSE,2017
@@ -6004,19 +6004,19 @@ Burundi,National,SSA,2015,Extreme poverty,0.6973937,FALSE,FALSE,2017
 Burundi,National,SSA,2015,Extreme poverty,0.6973937,FALSE,FALSE,2017
 Burundi,National,SSA,2015,P20,0.8286059,FALSE,FALSE,2017
 Burundi,National,SSA,2018,Extreme poverty,0.7389542,FALSE,FALSE,2017
-Burundi,National,SSA,2018,P20,0.8813964,FALSE,FALSE,2017
+Burundi,National,SSA,2018,P20,0.8814223,FALSE,FALSE,2017
 Burundi,National,SSA,2018,Extreme poverty,0.7389542,TRUE,FALSE,2017
 Burundi,National,SSA,2018,P20,0.8814223,TRUE,FALSE,2017
 Burundi,National,SSA,2019,Extreme poverty,0.7483729,FALSE,TRUE,2017
-Burundi,National,SSA,2019,P20,0.8911293,FALSE,TRUE,2017
+Burundi,National,SSA,2019,P20,0.8895692,FALSE,TRUE,2017
 Burundi,National,SSA,2019,Extreme poverty,0.7442598,TRUE,TRUE,2017
 Burundi,National,SSA,2019,P20,0.8872506,TRUE,TRUE,2017
 Burundi,National,SSA,2020,Extreme poverty,0.7548972,FALSE,TRUE,2017
-Burundi,National,SSA,2020,P20,0.9001452,FALSE,TRUE,2017
+Burundi,National,SSA,2020,P20,0.891766,FALSE,TRUE,2017
 Burundi,National,SSA,2020,Extreme poverty,0.7744139,TRUE,TRUE,2017
 Burundi,National,SSA,2020,P20,0.9014219,TRUE,TRUE,2017
 Burundi,National,SSA,2021,Extreme poverty,0.7647037,FALSE,TRUE,2017
-Burundi,National,SSA,2021,P20,0.9085633,FALSE,TRUE,2017
+Burundi,National,SSA,2021,P20,0.9018594,FALSE,TRUE,2017
 Burundi,National,SSA,2021,Extreme poverty,0.7699433,TRUE,TRUE,2017
 Burundi,National,SSA,2021,P20,0.9035822,TRUE,TRUE,2017
 Cabo Verde,National,SSA,2010,Extreme poverty,0.0800852,FALSE,FALSE,2017
@@ -6039,15 +6039,15 @@ Cabo Verde,National,SSA,2018,P20,0.1277403,FALSE,FALSE,2017
 Cabo Verde,National,SSA,2018,Extreme poverty,0.03411735,TRUE,FALSE,2017
 Cabo Verde,National,SSA,2018,P20,0.1277403,TRUE,FALSE,2017
 Cabo Verde,National,SSA,2019,Extreme poverty,0.03061367,FALSE,TRUE,2017
-Cabo Verde,National,SSA,2019,P20,0.1236228,FALSE,TRUE,2017
+Cabo Verde,National,SSA,2019,P20,0.1214058,FALSE,TRUE,2017
 Cabo Verde,National,SSA,2019,Extreme poverty,0.0305792,TRUE,TRUE,2017
 Cabo Verde,National,SSA,2019,P20,0.1208957,TRUE,TRUE,2017
 Cabo Verde,National,SSA,2020,Extreme poverty,0.0283176,FALSE,TRUE,2017
-Cabo Verde,National,SSA,2020,P20,0.1205173,FALSE,TRUE,2017
+Cabo Verde,National,SSA,2020,P20,0.1117125,FALSE,TRUE,2017
 Cabo Verde,National,SSA,2020,Extreme poverty,0.03576616,TRUE,TRUE,2017
 Cabo Verde,National,SSA,2020,P20,0.1318073,TRUE,TRUE,2017
 Cabo Verde,National,SSA,2021,Extreme poverty,0.02543999,FALSE,TRUE,2017
-Cabo Verde,National,SSA,2021,P20,0.1179374,FALSE,TRUE,2017
+Cabo Verde,National,SSA,2021,P20,0.1104658,FALSE,TRUE,2017
 Cabo Verde,National,SSA,2021,Extreme poverty,0.03205178,TRUE,TRUE,2017
 Cabo Verde,National,SSA,2021,P20,0.1277403,TRUE,TRUE,2017
 Cameroon,National,SSA,2010,Extreme poverty,0.3317763,FALSE,FALSE,2017
@@ -6066,19 +6066,19 @@ Cameroon,National,SSA,2015,Extreme poverty,0.2550096,FALSE,FALSE,2017
 Cameroon,National,SSA,2015,Extreme poverty,0.2550096,FALSE,FALSE,2017
 Cameroon,National,SSA,2015,P20,0.3776492,FALSE,FALSE,2017
 Cameroon,National,SSA,2018,Extreme poverty,0.2365888,FALSE,FALSE,2017
-Cameroon,National,SSA,2018,P20,0.4056014,FALSE,FALSE,2017
+Cameroon,National,SSA,2018,P20,0.4057053,FALSE,FALSE,2017
 Cameroon,National,SSA,2018,Extreme poverty,0.2365888,TRUE,FALSE,2017
 Cameroon,National,SSA,2018,P20,0.4057053,TRUE,FALSE,2017
 Cameroon,National,SSA,2019,Extreme poverty,0.2319683,FALSE,TRUE,2017
-Cameroon,National,SSA,2019,P20,0.4069401,FALSE,TRUE,2017
+Cameroon,National,SSA,2019,P20,0.4061519,FALSE,TRUE,2017
 Cameroon,National,SSA,2019,Extreme poverty,0.2326983,TRUE,TRUE,2017
 Cameroon,National,SSA,2019,P20,0.4066036,TRUE,TRUE,2017
 Cameroon,National,SSA,2020,Extreme poverty,0.2274059,FALSE,TRUE,2017
-Cameroon,National,SSA,2020,P20,0.4101661,FALSE,TRUE,2017
+Cameroon,National,SSA,2020,P20,0.3951462,FALSE,TRUE,2017
 Cameroon,National,SSA,2020,Extreme poverty,0.2476371,TRUE,TRUE,2017
 Cameroon,National,SSA,2020,P20,0.4143279,TRUE,TRUE,2017
 Cameroon,National,SSA,2021,Extreme poverty,0.2212519,FALSE,TRUE,2017
-Cameroon,National,SSA,2021,P20,0.4117966,FALSE,TRUE,2017
+Cameroon,National,SSA,2021,P20,0.397169,FALSE,TRUE,2017
 Cameroon,National,SSA,2021,Extreme poverty,0.2395742,TRUE,TRUE,2017
 Cameroon,National,SSA,2021,P20,0.4197386,TRUE,TRUE,2017
 Canada,National,OHI,2010,Extreme poverty,0.00248831,FALSE,FALSE,2017
@@ -6132,15 +6132,15 @@ Central African Republic,National,SSA,2018,P20,0.8239265,FALSE,FALSE,2017
 Central African Republic,National,SSA,2018,Extreme poverty,0.6898759,TRUE,FALSE,2017
 Central African Republic,National,SSA,2018,P20,0.8239265,TRUE,FALSE,2017
 Central African Republic,National,SSA,2019,Extreme poverty,0.6808754,FALSE,TRUE,2017
-Central African Republic,National,SSA,2019,P20,0.8237312,FALSE,TRUE,2017
+Central African Republic,National,SSA,2019,P20,0.82273,FALSE,TRUE,2017
 Central African Republic,National,SSA,2019,Extreme poverty,0.6845045,TRUE,TRUE,2017
 Central African Republic,National,SSA,2019,P20,0.8248899,TRUE,TRUE,2017
 Central African Republic,National,SSA,2020,Extreme poverty,0.6713566,FALSE,TRUE,2017
-Central African Republic,National,SSA,2020,P20,0.82273,FALSE,TRUE,2017
+Central African Republic,National,SSA,2020,P20,0.8155233,FALSE,TRUE,2017
 Central African Republic,National,SSA,2020,Extreme poverty,0.6879798,TRUE,TRUE,2017
 Central African Republic,National,SSA,2020,P20,0.8234553,TRUE,TRUE,2017
 Central African Republic,National,SSA,2021,Extreme poverty,0.6614405,FALSE,TRUE,2017
-Central African Republic,National,SSA,2021,P20,0.8219174,FALSE,TRUE,2017
+Central African Republic,National,SSA,2021,P20,0.8155233,FALSE,TRUE,2017
 Central African Republic,National,SSA,2021,Extreme poverty,0.6803059,TRUE,TRUE,2017
 Central African Republic,National,SSA,2021,P20,0.8249976,TRUE,TRUE,2017
 Chad,National,SSA,2010,Extreme poverty,0.3602056,FALSE,FALSE,2017
@@ -6163,15 +6163,15 @@ Chad,National,SSA,2018,P20,0.6387785,FALSE,FALSE,2017
 Chad,National,SSA,2018,Extreme poverty,0.4015049,TRUE,FALSE,2017
 Chad,National,SSA,2018,P20,0.6387785,TRUE,FALSE,2017
 Chad,National,SSA,2019,Extreme poverty,0.4017773,FALSE,TRUE,2017
-Chad,National,SSA,2019,P20,0.6476437,FALSE,TRUE,2017
+Chad,National,SSA,2019,P20,0.646251,FALSE,TRUE,2017
 Chad,National,SSA,2019,Extreme poverty,0.4016373,TRUE,TRUE,2017
 Chad,National,SSA,2019,P20,0.6456347,TRUE,TRUE,2017
 Chad,National,SSA,2020,Extreme poverty,0.389653,FALSE,TRUE,2017
-Chad,National,SSA,2020,P20,0.6464219,FALSE,TRUE,2017
+Chad,National,SSA,2020,P20,0.627293,FALSE,TRUE,2017
 Chad,National,SSA,2020,Extreme poverty,0.4180524,TRUE,TRUE,2017
 Chad,National,SSA,2020,P20,0.6512499,TRUE,TRUE,2017
 Chad,National,SSA,2021,Extreme poverty,0.3805509,FALSE,TRUE,2017
-Chad,National,SSA,2021,P20,0.6475501,FALSE,TRUE,2017
+Chad,National,SSA,2021,P20,0.6295828,FALSE,TRUE,2017
 Chad,National,SSA,2021,Extreme poverty,0.4017773,TRUE,TRUE,2017
 Chad,National,SSA,2021,P20,0.6506033,TRUE,TRUE,2017
 Chile,National,LAC,2010,Extreme poverty,0.0143797,FALSE,FALSE,2017
@@ -6194,15 +6194,15 @@ Chile,National,LAC,2018,P20,0.007825511,FALSE,FALSE,2017
 Chile,National,LAC,2018,Extreme poverty,0.003393736,TRUE,FALSE,2017
 Chile,National,LAC,2018,P20,0.007825511,TRUE,FALSE,2017
 Chile,National,LAC,2019,Extreme poverty,0.003393736,FALSE,TRUE,2017
-Chile,National,LAC,2019,P20,0.008050276,FALSE,TRUE,2017
+Chile,National,LAC,2019,P20,0.007973778,FALSE,TRUE,2017
 Chile,National,LAC,2019,Extreme poverty,0.00340228,TRUE,TRUE,2017
 Chile,National,LAC,2019,P20,0.008193302,TRUE,TRUE,2017
 Chile,National,LAC,2020,Extreme poverty,0.003375793,FALSE,TRUE,2017
-Chile,National,LAC,2020,P20,0.008539335,FALSE,TRUE,2017
+Chile,National,LAC,2020,P20,0.007533249,FALSE,TRUE,2017
 Chile,National,LAC,2020,Extreme poverty,0.003670505,TRUE,TRUE,2017
 Chile,National,LAC,2020,P20,0.009516997,TRUE,TRUE,2017
 Chile,National,LAC,2021,Extreme poverty,0.003337175,FALSE,TRUE,2017
-Chile,National,LAC,2021,P20,0.00867376,FALSE,TRUE,2017
+Chile,National,LAC,2021,P20,0.007628601,FALSE,TRUE,2017
 Chile,National,LAC,2021,Extreme poverty,0.003544794,TRUE,TRUE,2017
 Chile,National,LAC,2021,P20,0.009358192,TRUE,TRUE,2017
 China,National,EAP,2010,Extreme poverty,0.1507004,FALSE,FALSE,2017
@@ -6221,19 +6221,19 @@ China,National,EAP,2015,Extreme poverty,0.01420095,FALSE,FALSE,2017
 China,National,EAP,2015,Extreme poverty,0.01420095,FALSE,FALSE,2017
 China,National,EAP,2015,P20,0.05563733,FALSE,FALSE,2017
 China,National,EAP,2018,Extreme poverty,0.004873748,FALSE,FALSE,2017
-China,National,EAP,2018,P20,0.03499973,FALSE,FALSE,2017
+China,National,EAP,2018,P20,0.03501154,FALSE,FALSE,2017
 China,National,EAP,2018,Extreme poverty,0.004873748,TRUE,FALSE,2017
 China,National,EAP,2018,P20,0.03501154,TRUE,FALSE,2017
 China,National,EAP,2019,Extreme poverty,0.004062423,FALSE,TRUE,2017
-China,National,EAP,2019,P20,0.03191483,FALSE,TRUE,2017
+China,National,EAP,2019,P20,0.03135229,FALSE,TRUE,2017
 China,National,EAP,2019,Extreme poverty,0.00406483,TRUE,TRUE,2017
 China,National,EAP,2019,P20,0.03137005,TRUE,TRUE,2017
 China,National,EAP,2020,Extreme poverty,0.003433104,FALSE,TRUE,2017
-China,National,EAP,2020,P20,0.02959131,FALSE,TRUE,2017
+China,National,EAP,2020,P20,0.02505109,FALSE,TRUE,2017
 China,National,EAP,2020,Extreme poverty,0.003954621,TRUE,TRUE,2017
 China,National,EAP,2020,P20,0.02887837,TRUE,TRUE,2017
 China,National,EAP,2021,Extreme poverty,0.002906383,FALSE,TRUE,2017
-China,National,EAP,2021,P20,0.02745948,FALSE,TRUE,2017
+China,National,EAP,2021,P20,0.02351145,FALSE,TRUE,2017
 China,National,EAP,2021,Extreme poverty,0.003031173,TRUE,TRUE,2017
 China,National,EAP,2021,P20,0.02459262,TRUE,TRUE,2017
 Colombia,National,LAC,2010,Extreme poverty,0.0900854,FALSE,FALSE,2017
@@ -6252,19 +6252,19 @@ Colombia,National,LAC,2015,Extreme poverty,0.05390592,FALSE,FALSE,2017
 Colombia,National,LAC,2015,Extreme poverty,0.05390592,FALSE,FALSE,2017
 Colombia,National,LAC,2015,P20,0.09635753,FALSE,FALSE,2017
 Colombia,National,LAC,2018,Extreme poverty,0.04902446,FALSE,FALSE,2017
-Colombia,National,LAC,2018,P20,0.108147,FALSE,FALSE,2017
+Colombia,National,LAC,2018,P20,0.1081561,FALSE,FALSE,2017
 Colombia,National,LAC,2018,Extreme poverty,0.04902446,TRUE,FALSE,2017
 Colombia,National,LAC,2018,P20,0.1081561,TRUE,FALSE,2017
 Colombia,National,LAC,2019,Extreme poverty,0.04649834,FALSE,TRUE,2017
-Colombia,National,LAC,2019,P20,0.1080801,FALSE,TRUE,2017
+Colombia,National,LAC,2019,P20,0.1074541,FALSE,TRUE,2017
 Colombia,National,LAC,2019,Extreme poverty,0.04658924,TRUE,TRUE,2017
 Colombia,National,LAC,2019,P20,0.1074657,TRUE,TRUE,2017
 Colombia,National,LAC,2020,Extreme poverty,0.04482082,FALSE,TRUE,2017
-Colombia,National,LAC,2020,P20,0.1078859,FALSE,TRUE,2017
+Colombia,National,LAC,2020,P20,0.1010048,FALSE,TRUE,2017
 Colombia,National,LAC,2020,Extreme poverty,0.04998299,TRUE,TRUE,2017
 Colombia,National,LAC,2020,P20,0.1109956,TRUE,TRUE,2017
 Colombia,National,LAC,2021,Extreme poverty,0.04300034,FALSE,TRUE,2017
-Colombia,National,LAC,2021,P20,0.1076363,FALSE,TRUE,2017
+Colombia,National,LAC,2021,P20,0.1012167,FALSE,TRUE,2017
 Colombia,National,LAC,2021,Extreme poverty,0.04714504,TRUE,TRUE,2017
 Colombia,National,LAC,2021,P20,0.1113672,TRUE,TRUE,2017
 Comoros,National,SSA,2010,Extreme poverty,0.1699185,FALSE,FALSE,2017
@@ -6287,15 +6287,15 @@ Comoros,National,SSA,2018,P20,0.3355896,FALSE,FALSE,2017
 Comoros,National,SSA,2018,Extreme poverty,0.1786394,TRUE,FALSE,2017
 Comoros,National,SSA,2018,P20,0.3355896,TRUE,FALSE,2017
 Comoros,National,SSA,2019,Extreme poverty,0.1788049,FALSE,TRUE,2017
-Comoros,National,SSA,2019,P20,0.3456651,FALSE,TRUE,2017
+Comoros,National,SSA,2019,P20,0.3426006,FALSE,TRUE,2017
 Comoros,National,SSA,2019,Extreme poverty,0.1786906,TRUE,TRUE,2017
 Comoros,National,SSA,2019,P20,0.3407526,TRUE,TRUE,2017
 Comoros,National,SSA,2020,Extreme poverty,0.1786394,FALSE,TRUE,2017
-Comoros,National,SSA,2020,P20,0.3518188,FALSE,TRUE,2017
+Comoros,National,SSA,2020,P20,0.3355896,FALSE,TRUE,2017
 Comoros,National,SSA,2020,Extreme poverty,0.1845977,TRUE,TRUE,2017
 Comoros,National,SSA,2020,P20,0.3519911,TRUE,TRUE,2017
 Comoros,National,SSA,2021,Extreme poverty,0.1755229,FALSE,TRUE,2017
-Comoros,National,SSA,2021,P20,0.3572377,FALSE,TRUE,2017
+Comoros,National,SSA,2021,P20,0.3400941,FALSE,TRUE,2017
 Comoros,National,SSA,2021,Extreme poverty,0.183759,TRUE,TRUE,2017
 Comoros,National,SSA,2021,P20,0.359342,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2010,Extreme poverty,0.8337882,FALSE,FALSE,2017
@@ -6314,19 +6314,19 @@ Comoros,National,SSA,2021,P20,0.359342,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2015,Extreme poverty,0.6838831,FALSE,FALSE,2017
 "Congo, Democratic Republic of",National,SSA,2015,P20,0.810376,FALSE,FALSE,2017
 "Congo, Democratic Republic of",National,SSA,2018,Extreme poverty,0.6757667,FALSE,FALSE,2017
-"Congo, Democratic Republic of",National,SSA,2018,P20,0.8371619,FALSE,FALSE,2017
+"Congo, Democratic Republic of",National,SSA,2018,P20,0.8371833,FALSE,FALSE,2017
 "Congo, Democratic Republic of",National,SSA,2018,Extreme poverty,0.6757667,TRUE,FALSE,2017
 "Congo, Democratic Republic of",National,SSA,2018,P20,0.8371833,TRUE,FALSE,2017
 "Congo, Democratic Republic of",National,SSA,2019,Extreme poverty,0.669096,FALSE,TRUE,2017
-"Congo, Democratic Republic of",National,SSA,2019,P20,0.8396505,FALSE,TRUE,2017
+"Congo, Democratic Republic of",National,SSA,2019,P20,0.8379955,FALSE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2019,Extreme poverty,0.6689136,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2019,P20,0.837809,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2020,Extreme poverty,0.6660065,FALSE,TRUE,2017
-"Congo, Democratic Republic of",National,SSA,2020,P20,0.8440996,FALSE,TRUE,2017
+"Congo, Democratic Republic of",National,SSA,2020,P20,0.8325059,FALSE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2020,Extreme poverty,0.6907222,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2020,P20,0.8483725,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2021,Extreme poverty,0.6648586,FALSE,TRUE,2017
-"Congo, Democratic Republic of",National,SSA,2021,P20,0.8493405,FALSE,TRUE,2017
+"Congo, Democratic Republic of",National,SSA,2021,P20,0.8386521,FALSE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2021,Extreme poverty,0.6893536,TRUE,TRUE,2017
 "Congo, Democratic Republic of",National,SSA,2021,P20,0.8527577,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2010,Extreme poverty,0.354596,FALSE,FALSE,2017
@@ -6345,19 +6345,19 @@ Comoros,National,SSA,2021,P20,0.359342,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2015,Extreme poverty,0.3256632,FALSE,FALSE,2017
 "Congo, Republic of",National,SSA,2015,P20,0.4536021,FALSE,FALSE,2017
 "Congo, Republic of",National,SSA,2018,Extreme poverty,0.3701927,FALSE,FALSE,2017
-"Congo, Republic of",National,SSA,2018,P20,0.568853,FALSE,FALSE,2017
+"Congo, Republic of",National,SSA,2018,P20,0.568863,FALSE,FALSE,2017
 "Congo, Republic of",National,SSA,2018,Extreme poverty,0.3701927,TRUE,FALSE,2017
 "Congo, Republic of",National,SSA,2018,P20,0.568863,TRUE,FALSE,2017
 "Congo, Republic of",National,SSA,2019,Extreme poverty,0.3661213,FALSE,TRUE,2017
-"Congo, Republic of",National,SSA,2019,P20,0.572758,FALSE,TRUE,2017
+"Congo, Republic of",National,SSA,2019,P20,0.5703219,FALSE,TRUE,2017
 "Congo, Republic of",National,SSA,2019,Extreme poverty,0.3865193,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2019,P20,0.5877031,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2020,Extreme poverty,0.3659579,FALSE,TRUE,2017
-"Congo, Republic of",National,SSA,2020,P20,0.5793731,FALSE,TRUE,2017
+"Congo, Republic of",National,SSA,2020,P20,0.5619405,FALSE,TRUE,2017
 "Congo, Republic of",National,SSA,2020,Extreme poverty,0.4055684,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2020,P20,0.6034885,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2021,Extreme poverty,0.3667245,FALSE,TRUE,2017
-"Congo, Republic of",National,SSA,2021,P20,0.5924067,FALSE,TRUE,2017
+"Congo, Republic of",National,SSA,2021,P20,0.5761369,FALSE,TRUE,2017
 "Congo, Republic of",National,SSA,2021,Extreme poverty,0.4015365,TRUE,TRUE,2017
 "Congo, Republic of",National,SSA,2021,P20,0.6113584,TRUE,TRUE,2017
 Costa Rica,National,LAC,2010,Extreme poverty,0.01734746,FALSE,FALSE,2017
@@ -6380,15 +6380,15 @@ Costa Rica,National,LAC,2018,P20,0.03386,FALSE,FALSE,2017
 Costa Rica,National,LAC,2018,Extreme poverty,0.01609605,TRUE,FALSE,2017
 Costa Rica,National,LAC,2018,P20,0.03386,TRUE,FALSE,2017
 Costa Rica,National,LAC,2019,Extreme poverty,0.01589448,FALSE,TRUE,2017
-Costa Rica,National,LAC,2019,P20,0.03529145,FALSE,TRUE,2017
+Costa Rica,National,LAC,2019,P20,0.03437575,FALSE,TRUE,2017
 Costa Rica,National,LAC,2019,Extreme poverty,0.01589448,TRUE,TRUE,2017
 Costa Rica,National,LAC,2019,P20,0.03437575,TRUE,TRUE,2017
 Costa Rica,National,LAC,2020,Extreme poverty,0.01579429,FALSE,TRUE,2017
-Costa Rica,National,LAC,2020,P20,0.03629291,FALSE,TRUE,2017
+Costa Rica,National,LAC,2020,P20,0.03319035,FALSE,TRUE,2017
 Costa Rica,National,LAC,2020,Extreme poverty,0.01742151,TRUE,TRUE,2017
 Costa Rica,National,LAC,2020,P20,0.0365568,TRUE,TRUE,2017
 Costa Rica,National,LAC,2021,Extreme poverty,0.01505753,FALSE,TRUE,2017
-Costa Rica,National,LAC,2021,P20,0.0365568,FALSE,TRUE,2017
+Costa Rica,National,LAC,2021,P20,0.03373496,FALSE,TRUE,2017
 Costa Rica,National,LAC,2021,Extreme poverty,0.01688692,TRUE,TRUE,2017
 Costa Rica,National,LAC,2021,P20,0.0367732,TRUE,TRUE,2017
 Cote d'Ivoire,National,SSA,2010,Extreme poverty,0.3940293,FALSE,FALSE,2017
@@ -6411,15 +6411,15 @@ Cote d'Ivoire,National,SSA,2018,P20,0.509955,FALSE,FALSE,2017
 Cote d'Ivoire,National,SSA,2018,Extreme poverty,0.2707417,TRUE,FALSE,2017
 Cote d'Ivoire,National,SSA,2018,P20,0.509955,TRUE,FALSE,2017
 Cote d'Ivoire,National,SSA,2019,Extreme poverty,0.2505097,FALSE,TRUE,2017
-Cote d'Ivoire,National,SSA,2019,P20,0.4985691,FALSE,TRUE,2017
+Cote d'Ivoire,National,SSA,2019,P20,0.4961745,FALSE,TRUE,2017
 Cote d'Ivoire,National,SSA,2019,Extreme poverty,0.2529849,TRUE,TRUE,2017
 Cote d'Ivoire,National,SSA,2019,P20,0.4987288,TRUE,TRUE,2017
 Cote d'Ivoire,National,SSA,2020,Extreme poverty,0.2352153,FALSE,TRUE,2017
-Cote d'Ivoire,National,SSA,2020,P20,0.4888226,FALSE,TRUE,2017
+Cote d'Ivoire,National,SSA,2020,P20,0.46813,FALSE,TRUE,2017
 Cote d'Ivoire,National,SSA,2020,Extreme poverty,0.2525873,TRUE,TRUE,2017
 Cote d'Ivoire,National,SSA,2020,P20,0.4909518,TRUE,TRUE,2017
 Cote d'Ivoire,National,SSA,2021,Extreme poverty,0.2175423,FALSE,TRUE,2017
-Cote d'Ivoire,National,SSA,2021,P20,0.4796673,FALSE,TRUE,2017
+Cote d'Ivoire,National,SSA,2021,P20,0.4611175,FALSE,TRUE,2017
 Cote d'Ivoire,National,SSA,2021,Extreme poverty,0.231121,TRUE,TRUE,2017
 Cote d'Ivoire,National,SSA,2021,P20,0.4761225,TRUE,TRUE,2017
 Croatia,National,ECA,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -6446,11 +6446,11 @@ Croatia,National,ECA,2019,P20,0.008333855,FALSE,TRUE,2017
 Croatia,National,ECA,2019,Extreme poverty,0.005097848,TRUE,TRUE,2017
 Croatia,National,ECA,2019,P20,0.008333855,TRUE,TRUE,2017
 Croatia,National,ECA,2020,Extreme poverty,0.00502756,FALSE,TRUE,2017
-Croatia,National,ECA,2020,P20,0.008111746,FALSE,TRUE,2017
+Croatia,National,ECA,2020,P20,0.008066174,FALSE,TRUE,2017
 Croatia,National,ECA,2020,Extreme poverty,0.005297635,TRUE,TRUE,2017
 Croatia,National,ECA,2020,P20,0.00994458,TRUE,TRUE,2017
 Croatia,National,ECA,2021,Extreme poverty,0.004710718,FALSE,TRUE,2017
-Croatia,National,ECA,2021,P20,0.008111746,FALSE,TRUE,2017
+Croatia,National,ECA,2021,P20,0.007811559,FALSE,TRUE,2017
 Croatia,National,ECA,2021,Extreme poverty,0.005171488,TRUE,TRUE,2017
 Croatia,National,ECA,2021,P20,0.009192834,TRUE,TRUE,2017
 Cyprus,National,OHI,2010,Extreme poverty,0.000366701,FALSE,FALSE,2017
@@ -6508,7 +6508,7 @@ Czech Republic,National,ECA,2019,P20,0.001187588,FALSE,TRUE,2017
 Czech Republic,National,ECA,2019,Extreme poverty,0,TRUE,TRUE,2017
 Czech Republic,National,ECA,2019,P20,0.001187588,TRUE,TRUE,2017
 Czech Republic,National,ECA,2020,Extreme poverty,0,FALSE,TRUE,2017
-Czech Republic,National,ECA,2020,P20,0.001187588,FALSE,TRUE,2017
+Czech Republic,National,ECA,2020,P20,0.001019996,FALSE,TRUE,2017
 Czech Republic,National,ECA,2020,Extreme poverty,0,TRUE,TRUE,2017
 Czech Republic,National,ECA,2020,P20,0.001187588,TRUE,TRUE,2017
 Czech Republic,National,ECA,2021,Extreme poverty,0,FALSE,TRUE,2017
@@ -6539,7 +6539,7 @@ Denmark,National,OHI,2019,P20,0.001710614,FALSE,TRUE,2017
 Denmark,National,OHI,2019,Extreme poverty,0.001409052,TRUE,TRUE,2017
 Denmark,National,OHI,2019,P20,0.001710614,TRUE,TRUE,2017
 Denmark,National,OHI,2020,Extreme poverty,0.001409052,FALSE,TRUE,2017
-Denmark,National,OHI,2020,P20,0.001710614,FALSE,TRUE,2017
+Denmark,National,OHI,2020,P20,0.001425427,FALSE,TRUE,2017
 Denmark,National,OHI,2020,Extreme poverty,0.001409052,TRUE,TRUE,2017
 Denmark,National,OHI,2020,P20,0.001710614,TRUE,TRUE,2017
 Denmark,National,OHI,2021,Extreme poverty,0.001409052,FALSE,TRUE,2017
@@ -6566,15 +6566,15 @@ Djibouti,National,MNA,2018,P20,0.365543,FALSE,FALSE,2017
 Djibouti,National,MNA,2018,Extreme poverty,0.1783007,TRUE,FALSE,2017
 Djibouti,National,MNA,2018,P20,0.365543,TRUE,FALSE,2017
 Djibouti,National,MNA,2019,Extreme poverty,0.1712004,FALSE,TRUE,2017
-Djibouti,National,MNA,2019,P20,0.3617225,FALSE,TRUE,2017
+Djibouti,National,MNA,2019,P20,0.358323,FALSE,TRUE,2017
 Djibouti,National,MNA,2019,Extreme poverty,0.1694461,TRUE,TRUE,2017
 Djibouti,National,MNA,2019,P20,0.3523269,TRUE,TRUE,2017
 Djibouti,National,MNA,2020,Extreme poverty,0.1652749,FALSE,TRUE,2017
-Djibouti,National,MNA,2020,P20,0.3581432,FALSE,TRUE,2017
+Djibouti,National,MNA,2020,P20,0.3392233,FALSE,TRUE,2017
 Djibouti,National,MNA,2020,Extreme poverty,0.1713659,TRUE,TRUE,2017
 Djibouti,National,MNA,2020,P20,0.352616,TRUE,TRUE,2017
 Djibouti,National,MNA,2021,Extreme poverty,0.1562284,FALSE,TRUE,2017
-Djibouti,National,MNA,2021,P20,0.3559089,FALSE,TRUE,2017
+Djibouti,National,MNA,2021,P20,0.3384956,FALSE,TRUE,2017
 Djibouti,National,MNA,2021,Extreme poverty,0.1585053,TRUE,TRUE,2017
 Djibouti,National,MNA,2021,P20,0.3446828,TRUE,TRUE,2017
 Dominican Republic,National,LAC,2010,Extreme poverty,0.03840407,FALSE,FALSE,2017
@@ -6601,11 +6601,11 @@ Dominican Republic,National,LAC,2019,P20,0.02872152,FALSE,TRUE,2017
 Dominican Republic,National,LAC,2019,Extreme poverty,0.007901584,TRUE,TRUE,2017
 Dominican Republic,National,LAC,2019,P20,0.02872152,TRUE,TRUE,2017
 Dominican Republic,National,LAC,2020,Extreme poverty,0.005759507,FALSE,TRUE,2017
-Dominican Republic,National,LAC,2020,P20,0.02800847,FALSE,TRUE,2017
+Dominican Republic,National,LAC,2020,P20,0.02406712,FALSE,TRUE,2017
 Dominican Republic,National,LAC,2020,Extreme poverty,0.008355344,TRUE,TRUE,2017
 Dominican Republic,National,LAC,2020,P20,0.02872152,TRUE,TRUE,2017
 Dominican Republic,National,LAC,2021,Extreme poverty,0.00495983,FALSE,TRUE,2017
-Dominican Republic,National,LAC,2021,P20,0.02598212,FALSE,TRUE,2017
+Dominican Republic,National,LAC,2021,P20,0.02316719,FALSE,TRUE,2017
 Dominican Republic,National,LAC,2021,Extreme poverty,0.006958634,TRUE,TRUE,2017
 Dominican Republic,National,LAC,2021,P20,0.02872152,TRUE,TRUE,2017
 Ecuador,National,LAC,2010,Extreme poverty,0.05829254,FALSE,FALSE,2017
@@ -6628,15 +6628,15 @@ Ecuador,National,LAC,2018,P20,0.08444307,FALSE,FALSE,2017
 Ecuador,National,LAC,2018,Extreme poverty,0.03575591,TRUE,FALSE,2017
 Ecuador,National,LAC,2018,P20,0.08444307,TRUE,FALSE,2017
 Ecuador,National,LAC,2019,Extreme poverty,0.0377853,FALSE,TRUE,2017
-Ecuador,National,LAC,2019,P20,0.09020754,FALSE,TRUE,2017
+Ecuador,National,LAC,2019,P20,0.08916926,FALSE,TRUE,2017
 Ecuador,National,LAC,2019,Extreme poverty,0.03717958,TRUE,TRUE,2017
 Ecuador,National,LAC,2019,P20,0.08875367,TRUE,TRUE,2017
 Ecuador,National,LAC,2020,Extreme poverty,0.03784133,FALSE,TRUE,2017
-Ecuador,National,LAC,2020,P20,0.09577313,FALSE,TRUE,2017
+Ecuador,National,LAC,2020,P20,0.08875367,FALSE,TRUE,2017
 Ecuador,National,LAC,2020,Extreme poverty,0.04070925,TRUE,TRUE,2017
 Ecuador,National,LAC,2020,P20,0.09720677,TRUE,TRUE,2017
 Ecuador,National,LAC,2021,Extreme poverty,0.03784133,FALSE,TRUE,2017
-Ecuador,National,LAC,2021,P20,0.09773331,FALSE,TRUE,2017
+Ecuador,National,LAC,2021,P20,0.09200995,FALSE,TRUE,2017
 Ecuador,National,LAC,2021,Extreme poverty,0.04001385,TRUE,TRUE,2017
 Ecuador,National,LAC,2021,P20,0.1007698,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2010,Extreme poverty,0.001711197,FALSE,FALSE,2017
@@ -6659,15 +6659,15 @@ Ecuador,National,LAC,2021,P20,0.1007698,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2018,Extreme poverty,0.004439661,TRUE,FALSE,2017
 "Egypt, Arab Republic of",National,MNA,2018,P20,0.03876147,TRUE,FALSE,2017
 "Egypt, Arab Republic of",National,MNA,2019,Extreme poverty,0.004109013,FALSE,TRUE,2017
-"Egypt, Arab Republic of",National,MNA,2019,P20,0.03716898,FALSE,TRUE,2017
+"Egypt, Arab Republic of",National,MNA,2019,P20,0.03633377,FALSE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2019,Extreme poverty,0.004109013,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2019,P20,0.03625634,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2020,Extreme poverty,0.003258302,FALSE,TRUE,2017
-"Egypt, Arab Republic of",National,MNA,2020,P20,0.03584884,FALSE,TRUE,2017
+"Egypt, Arab Republic of",National,MNA,2020,P20,0.02979034,FALSE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2020,Extreme poverty,0.004152206,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2020,P20,0.03505448,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2021,Extreme poverty,0.002900476,FALSE,TRUE,2017
-"Egypt, Arab Republic of",National,MNA,2021,P20,0.0339835,FALSE,TRUE,2017
+"Egypt, Arab Republic of",National,MNA,2021,P20,0.02896386,FALSE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2021,Extreme poverty,0.004109013,TRUE,TRUE,2017
 "Egypt, Arab Republic of",National,MNA,2021,P20,0.03838274,TRUE,TRUE,2017
 El Salvador,National,LAC,2010,Extreme poverty,0.06690755,FALSE,FALSE,2017
@@ -6690,15 +6690,15 @@ El Salvador,National,LAC,2018,P20,0.07209459,FALSE,FALSE,2017
 El Salvador,National,LAC,2018,Extreme poverty,0.02023516,TRUE,FALSE,2017
 El Salvador,National,LAC,2018,P20,0.07209459,TRUE,FALSE,2017
 El Salvador,National,LAC,2019,Extreme poverty,0.0188298,FALSE,TRUE,2017
-El Salvador,National,LAC,2019,P20,0.07281888,FALSE,TRUE,2017
+El Salvador,National,LAC,2019,P20,0.07216282,FALSE,TRUE,2017
 El Salvador,National,LAC,2019,Extreme poverty,0.01855749,TRUE,TRUE,2017
 El Salvador,National,LAC,2019,P20,0.07198916,TRUE,TRUE,2017
 El Salvador,National,LAC,2020,Extreme poverty,0.01815355,FALSE,TRUE,2017
-El Salvador,National,LAC,2020,P20,0.07532747,FALSE,TRUE,2017
+El Salvador,National,LAC,2020,P20,0.06739399,FALSE,TRUE,2017
 El Salvador,National,LAC,2020,Extreme poverty,0.02216239,TRUE,TRUE,2017
 El Salvador,National,LAC,2020,P20,0.07994734,TRUE,TRUE,2017
 El Salvador,National,LAC,2021,Extreme poverty,0.01642648,FALSE,TRUE,2017
-El Salvador,National,LAC,2021,P20,0.07761436,FALSE,TRUE,2017
+El Salvador,National,LAC,2021,P20,0.06941475,FALSE,TRUE,2017
 El Salvador,National,LAC,2021,Extreme poverty,0.02040143,TRUE,TRUE,2017
 El Salvador,National,LAC,2021,P20,0.07838309,TRUE,TRUE,2017
 Estonia,National,ECA,2010,Extreme poverty,0.008146265,FALSE,FALSE,2017
@@ -6752,15 +6752,15 @@ Eswatini,National,SSA,2018,P20,0.5364129,FALSE,FALSE,2017
 Eswatini,National,SSA,2018,Extreme poverty,0.3607985,TRUE,FALSE,2017
 Eswatini,National,SSA,2018,P20,0.5364129,TRUE,FALSE,2017
 Eswatini,National,SSA,2019,Extreme poverty,0.3599791,FALSE,TRUE,2017
-Eswatini,National,SSA,2019,P20,0.5457793,FALSE,TRUE,2017
+Eswatini,National,SSA,2019,P20,0.5430635,FALSE,TRUE,2017
 Eswatini,National,SSA,2019,Extreme poverty,0.3605853,TRUE,TRUE,2017
 Eswatini,National,SSA,2019,P20,0.5445983,TRUE,TRUE,2017
 Eswatini,National,SSA,2020,Extreme poverty,0.3607985,FALSE,TRUE,2017
-Eswatini,National,SSA,2020,P20,0.5589652,FALSE,TRUE,2017
+Eswatini,National,SSA,2020,P20,0.5373361,FALSE,TRUE,2017
 Eswatini,National,SSA,2020,Extreme poverty,0.3672782,TRUE,TRUE,2017
 Eswatini,National,SSA,2020,P20,0.5472302,TRUE,TRUE,2017
 Eswatini,National,SSA,2021,Extreme poverty,0.3617602,FALSE,TRUE,2017
-Eswatini,National,SSA,2021,P20,0.5659162,FALSE,TRUE,2017
+Eswatini,National,SSA,2021,P20,0.5537869,FALSE,TRUE,2017
 Eswatini,National,SSA,2021,Extreme poverty,0.3639118,TRUE,TRUE,2017
 Eswatini,National,SSA,2021,P20,0.5576094,TRUE,TRUE,2017
 Ethiopia,National,SSA,2010,Extreme poverty,0.3281274,FALSE,FALSE,2017
@@ -6783,15 +6783,15 @@ Ethiopia,National,SSA,2018,P20,0.4875641,FALSE,FALSE,2017
 Ethiopia,National,SSA,2018,Extreme poverty,0.2150019,TRUE,FALSE,2017
 Ethiopia,National,SSA,2018,P20,0.4875641,TRUE,FALSE,2017
 Ethiopia,National,SSA,2019,Extreme poverty,0.1921709,FALSE,TRUE,2017
-Ethiopia,National,SSA,2019,P20,0.4673214,FALSE,TRUE,2017
+Ethiopia,National,SSA,2019,P20,0.4638815,FALSE,TRUE,2017
 Ethiopia,National,SSA,2019,Extreme poverty,0.1903368,TRUE,TRUE,2017
 Ethiopia,National,SSA,2019,P20,0.4618961,TRUE,TRUE,2017
 Ethiopia,National,SSA,2020,Extreme poverty,0.173324,FALSE,TRUE,2017
-Ethiopia,National,SSA,2020,P20,0.4510139,FALSE,TRUE,2017
+Ethiopia,National,SSA,2020,P20,0.4255402,FALSE,TRUE,2017
 Ethiopia,National,SSA,2020,Extreme poverty,0.1846423,TRUE,TRUE,2017
 Ethiopia,National,SSA,2020,P20,0.4447916,TRUE,TRUE,2017
 Ethiopia,National,SSA,2021,Extreme poverty,0.1555266,FALSE,TRUE,2017
-Ethiopia,National,SSA,2021,P20,0.4343139,FALSE,TRUE,2017
+Ethiopia,National,SSA,2021,P20,0.4126158,FALSE,TRUE,2017
 Ethiopia,National,SSA,2021,Extreme poverty,0.1759272,TRUE,TRUE,2017
 Ethiopia,National,SSA,2021,P20,0.4460896,TRUE,TRUE,2017
 Fiji,National,EAP,2010,Extreme poverty,0.01039265,FALSE,FALSE,2017
@@ -6814,15 +6814,15 @@ Fiji,National,EAP,2018,P20,0.01674024,FALSE,FALSE,2017
 Fiji,National,EAP,2018,Extreme poverty,0.001583049,TRUE,FALSE,2017
 Fiji,National,EAP,2018,P20,0.01674024,TRUE,FALSE,2017
 Fiji,National,EAP,2019,Extreme poverty,0.001583049,FALSE,TRUE,2017
-Fiji,National,EAP,2019,P20,0.01674024,FALSE,TRUE,2017
+Fiji,National,EAP,2019,P20,0.01599191,FALSE,TRUE,2017
 Fiji,National,EAP,2019,Extreme poverty,0.001903606,TRUE,TRUE,2017
 Fiji,National,EAP,2019,P20,0.01774421,TRUE,TRUE,2017
 Fiji,National,EAP,2020,Extreme poverty,0.001583049,FALSE,TRUE,2017
-Fiji,National,EAP,2020,P20,0.01674024,FALSE,TRUE,2017
+Fiji,National,EAP,2020,P20,0.01338252,FALSE,TRUE,2017
 Fiji,National,EAP,2020,Extreme poverty,0.002117448,TRUE,TRUE,2017
 Fiji,National,EAP,2020,P20,0.02293111,TRUE,TRUE,2017
 Fiji,National,EAP,2021,Extreme poverty,0.001583049,FALSE,TRUE,2017
-Fiji,National,EAP,2021,P20,0.01674024,FALSE,TRUE,2017
+Fiji,National,EAP,2021,P20,0.01368152,FALSE,TRUE,2017
 Fiji,National,EAP,2021,Extreme poverty,0.001903606,TRUE,TRUE,2017
 Fiji,National,EAP,2021,P20,0.01900536,TRUE,TRUE,2017
 Finland,National,OHI,2010,Extreme poverty,0.000538407,FALSE,FALSE,2017
@@ -6880,11 +6880,11 @@ France,National,OHI,2019,P20,0.0002576956,FALSE,TRUE,2017
 France,National,OHI,2019,Extreme poverty,0.0001848354,TRUE,TRUE,2017
 France,National,OHI,2019,P20,0.0002576956,TRUE,TRUE,2017
 France,National,OHI,2020,Extreme poverty,0.0001588822,FALSE,TRUE,2017
-France,National,OHI,2020,P20,0.0002834128,FALSE,TRUE,2017
+France,National,OHI,2020,P20,0.0002576956,FALSE,TRUE,2017
 France,National,OHI,2020,Extreme poverty,0.0001848354,TRUE,TRUE,2017
 France,National,OHI,2020,P20,0.0003175891,TRUE,TRUE,2017
 France,National,OHI,2021,Extreme poverty,0.0001588822,FALSE,TRUE,2017
-France,National,OHI,2021,P20,0.0002834128,FALSE,TRUE,2017
+France,National,OHI,2021,P20,0.0002576956,FALSE,TRUE,2017
 France,National,OHI,2021,Extreme poverty,0.0001848354,TRUE,TRUE,2017
 France,National,OHI,2021,P20,0.0003175891,TRUE,TRUE,2017
 Gabon,National,SSA,2010,Extreme poverty,0.05894803,FALSE,FALSE,2017
@@ -6907,15 +6907,15 @@ Gabon,National,SSA,2018,P20,0.07257605,FALSE,FALSE,2017
 Gabon,National,SSA,2018,Extreme poverty,0.02768946,TRUE,FALSE,2017
 Gabon,National,SSA,2018,P20,0.07257605,TRUE,FALSE,2017
 Gabon,National,SSA,2019,Extreme poverty,0.02661574,FALSE,TRUE,2017
-Gabon,National,SSA,2019,P20,0.07314546,FALSE,TRUE,2017
+Gabon,National,SSA,2019,P20,0.07257605,FALSE,TRUE,2017
 Gabon,National,SSA,2019,Extreme poverty,0.02647115,TRUE,TRUE,2017
 Gabon,National,SSA,2019,P20,0.07238105,TRUE,TRUE,2017
 Gabon,National,SSA,2020,Extreme poverty,0.02490943,FALSE,TRUE,2017
-Gabon,National,SSA,2020,P20,0.07340388,FALSE,TRUE,2017
+Gabon,National,SSA,2020,P20,0.06918049,FALSE,TRUE,2017
 Gabon,National,SSA,2020,Extreme poverty,0.02887705,TRUE,TRUE,2017
 Gabon,National,SSA,2020,P20,0.07314546,TRUE,TRUE,2017
 Gabon,National,SSA,2021,Extreme poverty,0.02443751,FALSE,TRUE,2017
-Gabon,National,SSA,2021,P20,0.07340388,FALSE,TRUE,2017
+Gabon,National,SSA,2021,P20,0.06962221,FALSE,TRUE,2017
 Gabon,National,SSA,2021,Extreme poverty,0.02661574,TRUE,TRUE,2017
 Gabon,National,SSA,2021,P20,0.07368134,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2010,Extreme poverty,0.3096859,FALSE,FALSE,2017
@@ -6934,19 +6934,19 @@ Gabon,National,SSA,2021,P20,0.07368134,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2015,Extreme poverty,0.1545397,FALSE,FALSE,2017
 "Gambia, The",National,SSA,2015,P20,0.3254195,FALSE,FALSE,2017
 "Gambia, The",National,SSA,2018,Extreme poverty,0.1255417,FALSE,FALSE,2017
-"Gambia, The",National,SSA,2018,P20,0.3597748,FALSE,FALSE,2017
+"Gambia, The",National,SSA,2018,P20,0.3598072,FALSE,FALSE,2017
 "Gambia, The",National,SSA,2018,Extreme poverty,0.1255417,TRUE,FALSE,2017
 "Gambia, The",National,SSA,2018,P20,0.3598072,TRUE,FALSE,2017
 "Gambia, The",National,SSA,2019,Extreme poverty,0.1163294,FALSE,TRUE,2017
-"Gambia, The",National,SSA,2019,P20,0.351735,FALSE,TRUE,2017
+"Gambia, The",National,SSA,2019,P20,0.3491313,FALSE,TRUE,2017
 "Gambia, The",National,SSA,2019,Extreme poverty,0.1173711,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2019,P20,0.3517857,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2020,Extreme poverty,0.1031777,FALSE,TRUE,2017
-"Gambia, The",National,SSA,2020,P20,0.3460976,FALSE,TRUE,2017
+"Gambia, The",National,SSA,2020,P20,0.3203179,FALSE,TRUE,2017
 "Gambia, The",National,SSA,2020,Extreme poverty,0.1181715,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2020,P20,0.3453947,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2021,Extreme poverty,0.09861993,FALSE,TRUE,2017
-"Gambia, The",National,SSA,2021,P20,0.3466538,FALSE,TRUE,2017
+"Gambia, The",National,SSA,2021,P20,0.3228,FALSE,TRUE,2017
 "Gambia, The",National,SSA,2021,Extreme poverty,0.1069052,TRUE,TRUE,2017
 "Gambia, The",National,SSA,2021,P20,0.3427178,TRUE,TRUE,2017
 Georgia,National,ECA,2010,Extreme poverty,0.150983,FALSE,FALSE,2017
@@ -6965,19 +6965,19 @@ Georgia,National,ECA,2015,Extreme poverty,0.05209002,FALSE,FALSE,2017
 Georgia,National,ECA,2015,Extreme poverty,0.05209002,FALSE,FALSE,2017
 Georgia,National,ECA,2015,P20,0.1290908,FALSE,FALSE,2017
 Georgia,National,ECA,2018,Extreme poverty,0.05994097,FALSE,FALSE,2017
-Georgia,National,ECA,2018,P20,0.1616204,FALSE,FALSE,2017
+Georgia,National,ECA,2018,P20,0.1616974,FALSE,FALSE,2017
 Georgia,National,ECA,2018,Extreme poverty,0.05994097,TRUE,FALSE,2017
 Georgia,National,ECA,2018,P20,0.1616974,TRUE,FALSE,2017
 Georgia,National,ECA,2019,Extreme poverty,0.05243664,FALSE,TRUE,2017
-Georgia,National,ECA,2019,P20,0.1521115,FALSE,TRUE,2017
+Georgia,National,ECA,2019,P20,0.1510733,FALSE,TRUE,2017
 Georgia,National,ECA,2019,Extreme poverty,0.05236135,TRUE,TRUE,2017
 Georgia,National,ECA,2019,P20,0.1505757,TRUE,TRUE,2017
 Georgia,National,ECA,2020,Extreme poverty,0.04640142,FALSE,TRUE,2017
-Georgia,National,ECA,2020,P20,0.1435906,FALSE,TRUE,2017
+Georgia,National,ECA,2020,P20,0.1334027,FALSE,TRUE,2017
 Georgia,National,ECA,2020,Extreme poverty,0.05746799,TRUE,TRUE,2017
 Georgia,National,ECA,2020,P20,0.1571514,TRUE,TRUE,2017
 Georgia,National,ECA,2021,Extreme poverty,0.04239064,FALSE,TRUE,2017
-Georgia,National,ECA,2021,P20,0.1387147,FALSE,TRUE,2017
+Georgia,National,ECA,2021,P20,0.1318258,FALSE,TRUE,2017
 Georgia,National,ECA,2021,Extreme poverty,0.05280847,TRUE,TRUE,2017
 Georgia,National,ECA,2021,P20,0.1571514,TRUE,TRUE,2017
 Germany,National,OHI,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -7031,15 +7031,15 @@ Ghana,National,SSA,2018,P20,0.3211745,FALSE,FALSE,2017
 Ghana,National,SSA,2018,Extreme poverty,0.1694868,TRUE,FALSE,2017
 Ghana,National,SSA,2018,P20,0.3211745,TRUE,FALSE,2017
 Ghana,National,SSA,2019,Extreme poverty,0.1578653,FALSE,TRUE,2017
-Ghana,National,SSA,2019,P20,0.3090684,FALSE,TRUE,2017
+Ghana,National,SSA,2019,P20,0.3078342,FALSE,TRUE,2017
 Ghana,National,SSA,2019,Extreme poverty,0.1611131,TRUE,TRUE,2017
 Ghana,National,SSA,2019,P20,0.3120442,TRUE,TRUE,2017
 Ghana,National,SSA,2020,Extreme poverty,0.1486743,FALSE,TRUE,2017
-Ghana,National,SSA,2020,P20,0.3062568,FALSE,TRUE,2017
+Ghana,National,SSA,2020,P20,0.2921402,FALSE,TRUE,2017
 Ghana,National,SSA,2020,Extreme poverty,0.1624745,TRUE,TRUE,2017
 Ghana,National,SSA,2020,P20,0.3085884,TRUE,TRUE,2017
 Ghana,National,SSA,2021,Extreme poverty,0.14286,FALSE,TRUE,2017
-Ghana,National,SSA,2021,P20,0.3065467,FALSE,TRUE,2017
+Ghana,National,SSA,2021,P20,0.2936512,FALSE,TRUE,2017
 Ghana,National,SSA,2021,Extreme poverty,0.1519681,TRUE,TRUE,2017
 Ghana,National,SSA,2021,P20,0.3054678,TRUE,TRUE,2017
 Greece,National,OHI,2010,Extreme poverty,0.009959368,FALSE,FALSE,2017
@@ -7062,15 +7062,15 @@ Greece,National,OHI,2018,P20,0.01325719,FALSE,FALSE,2017
 Greece,National,OHI,2018,Extreme poverty,0.008751357,TRUE,FALSE,2017
 Greece,National,OHI,2018,P20,0.01325719,TRUE,FALSE,2017
 Greece,National,OHI,2019,Extreme poverty,0.008727767,FALSE,TRUE,2017
-Greece,National,OHI,2019,P20,0.01318053,FALSE,TRUE,2017
+Greece,National,OHI,2019,P20,0.013152,FALSE,TRUE,2017
 Greece,National,OHI,2019,Extreme poverty,0.008727767,TRUE,TRUE,2017
 Greece,National,OHI,2019,P20,0.013152,TRUE,TRUE,2017
 Greece,National,OHI,2020,Extreme poverty,0.008224946,FALSE,TRUE,2017
-Greece,National,OHI,2020,P20,0.01318053,FALSE,TRUE,2017
+Greece,National,OHI,2020,P20,0.01279845,FALSE,TRUE,2017
 Greece,National,OHI,2020,Extreme poverty,0.009105016,TRUE,TRUE,2017
 Greece,National,OHI,2020,P20,0.01591985,TRUE,TRUE,2017
 Greece,National,OHI,2021,Extreme poverty,0.007426157,FALSE,TRUE,2017
-Greece,National,OHI,2021,P20,0.01325719,FALSE,TRUE,2017
+Greece,National,OHI,2021,P20,0.01285117,FALSE,TRUE,2017
 Greece,National,OHI,2021,Extreme poverty,0.00895515,TRUE,TRUE,2017
 Greece,National,OHI,2021,P20,0.01522667,TRUE,TRUE,2017
 Guatemala,National,LAC,2010,Extreme poverty,0.1130354,FALSE,FALSE,2017
@@ -7093,15 +7093,15 @@ Guatemala,National,LAC,2018,P20,0.1949161,FALSE,FALSE,2017
 Guatemala,National,LAC,2018,Extreme poverty,0.07749292,TRUE,FALSE,2017
 Guatemala,National,LAC,2018,P20,0.1949161,TRUE,FALSE,2017
 Guatemala,National,LAC,2019,Extreme poverty,0.0755727,FALSE,TRUE,2017
-Guatemala,National,LAC,2019,P20,0.1961306,FALSE,TRUE,2017
+Guatemala,National,LAC,2019,P20,0.1952949,FALSE,TRUE,2017
 Guatemala,National,LAC,2019,Extreme poverty,0.07504671,TRUE,TRUE,2017
 Guatemala,National,LAC,2019,P20,0.1950114,TRUE,TRUE,2017
 Guatemala,National,LAC,2020,Extreme poverty,0.07400125,FALSE,TRUE,2017
-Guatemala,National,LAC,2020,P20,0.1977987,FALSE,TRUE,2017
+Guatemala,National,LAC,2020,P20,0.1879722,FALSE,TRUE,2017
 Guatemala,National,LAC,2020,Extreme poverty,0.08118693,TRUE,TRUE,2017
 Guatemala,National,LAC,2020,P20,0.2003876,TRUE,TRUE,2017
 Guatemala,National,LAC,2021,Extreme poverty,0.07189348,FALSE,TRUE,2017
-Guatemala,National,LAC,2021,P20,0.2006503,FALSE,TRUE,2017
+Guatemala,National,LAC,2021,P20,0.1901506,FALSE,TRUE,2017
 Guatemala,National,LAC,2021,Extreme poverty,0.0761334,TRUE,TRUE,2017
 Guatemala,National,LAC,2021,P20,0.1992143,TRUE,TRUE,2017
 Guinea,National,SSA,2010,Extreme poverty,0.4026003,FALSE,FALSE,2017
@@ -7120,19 +7120,19 @@ Guinea,National,SSA,2015,Extreme poverty,0.1999939,FALSE,FALSE,2017
 Guinea,National,SSA,2015,Extreme poverty,0.1999939,FALSE,FALSE,2017
 Guinea,National,SSA,2015,P20,0.3938051,FALSE,FALSE,2017
 Guinea,National,SSA,2018,Extreme poverty,0.1239674,FALSE,FALSE,2017
-Guinea,National,SSA,2018,P20,0.344377,FALSE,FALSE,2017
+Guinea,National,SSA,2018,P20,0.3444392,FALSE,FALSE,2017
 Guinea,National,SSA,2018,Extreme poverty,0.1239674,TRUE,FALSE,2017
 Guinea,National,SSA,2018,P20,0.3444392,TRUE,FALSE,2017
 Guinea,National,SSA,2019,Extreme poverty,0.1166102,FALSE,TRUE,2017
-Guinea,National,SSA,2019,P20,0.338486,FALSE,TRUE,2017
+Guinea,National,SSA,2019,P20,0.3350409,FALSE,TRUE,2017
 Guinea,National,SSA,2019,Extreme poverty,0.1170136,TRUE,TRUE,2017
 Guinea,National,SSA,2019,P20,0.3367924,TRUE,TRUE,2017
 Guinea,National,SSA,2020,Extreme poverty,0.1056946,FALSE,TRUE,2017
-Guinea,National,SSA,2020,P20,0.3331209,FALSE,TRUE,2017
+Guinea,National,SSA,2020,P20,0.3098565,FALSE,TRUE,2017
 Guinea,National,SSA,2020,Extreme poverty,0.1154632,TRUE,TRUE,2017
 Guinea,National,SSA,2020,P20,0.3290138,TRUE,TRUE,2017
 Guinea,National,SSA,2021,Extreme poverty,0.09469047,FALSE,TRUE,2017
-Guinea,National,SSA,2021,P20,0.3298672,FALSE,TRUE,2017
+Guinea,National,SSA,2021,P20,0.3082429,FALSE,TRUE,2017
 Guinea,National,SSA,2021,Extreme poverty,0.09979711,TRUE,TRUE,2017
 Guinea,National,SSA,2021,P20,0.317258,TRUE,TRUE,2017
 Guinea-Bissau,National,SSA,2010,Extreme poverty,0.6767358,FALSE,FALSE,2017
@@ -7155,15 +7155,15 @@ Guinea-Bissau,National,SSA,2018,P20,0.799076,FALSE,FALSE,2017
 Guinea-Bissau,National,SSA,2018,Extreme poverty,0.6268136,TRUE,FALSE,2017
 Guinea-Bissau,National,SSA,2018,P20,0.7996298,TRUE,FALSE,2017
 Guinea-Bissau,National,SSA,2019,Extreme poverty,0.6163996,FALSE,TRUE,2017
-Guinea-Bissau,National,SSA,2019,P20,0.797667,FALSE,TRUE,2017
+Guinea-Bissau,National,SSA,2019,P20,0.7957983,FALSE,TRUE,2017
 Guinea-Bissau,National,SSA,2019,Extreme poverty,0.6163996,TRUE,TRUE,2017
 Guinea-Bissau,National,SSA,2019,P20,0.7961,TRUE,TRUE,2017
 Guinea-Bissau,National,SSA,2020,Extreme poverty,0.6026437,FALSE,TRUE,2017
-Guinea-Bissau,National,SSA,2020,P20,0.7964353,FALSE,TRUE,2017
+Guinea-Bissau,National,SSA,2020,P20,0.7826833,FALSE,TRUE,2017
 Guinea-Bissau,National,SSA,2020,Extreme poverty,0.6323779,TRUE,TRUE,2017
 Guinea-Bissau,National,SSA,2020,P20,0.80235,TRUE,TRUE,2017
 Guinea-Bissau,National,SSA,2021,Extreme poverty,0.5928416,FALSE,TRUE,2017
-Guinea-Bissau,National,SSA,2021,P20,0.7961,FALSE,TRUE,2017
+Guinea-Bissau,National,SSA,2021,P20,0.7835704,FALSE,TRUE,2017
 Guinea-Bissau,National,SSA,2021,Extreme poverty,0.6288234,TRUE,TRUE,2017
 Guinea-Bissau,National,SSA,2021,P20,0.8089702,TRUE,TRUE,2017
 Guyana,National,LAC,2010,Extreme poverty,0.08151463,FALSE,FALSE,2017
@@ -7182,19 +7182,19 @@ Guyana,National,LAC,2015,Extreme poverty,0.05750928,FALSE,FALSE,2017
 Guyana,National,LAC,2015,Extreme poverty,0.05750928,FALSE,FALSE,2017
 Guyana,National,LAC,2015,P20,0.09979776,FALSE,FALSE,2017
 Guyana,National,LAC,2018,Extreme poverty,0.049325,FALSE,FALSE,2017
-Guyana,National,LAC,2018,P20,0.1049856,FALSE,FALSE,2017
+Guyana,National,LAC,2018,P20,0.1049993,FALSE,FALSE,2017
 Guyana,National,LAC,2018,Extreme poverty,0.049325,TRUE,FALSE,2017
 Guyana,National,LAC,2018,P20,0.1049993,TRUE,FALSE,2017
 Guyana,National,LAC,2019,Extreme poverty,0.0459229,FALSE,TRUE,2017
-Guyana,National,LAC,2019,P20,0.1022172,FALSE,TRUE,2017
+Guyana,National,LAC,2019,P20,0.1015255,FALSE,TRUE,2017
 Guyana,National,LAC,2019,Extreme poverty,0.04574324,TRUE,TRUE,2017
 Guyana,National,LAC,2019,P20,0.1012153,TRUE,TRUE,2017
 Guyana,National,LAC,2020,Extreme poverty,0.007463466,FALSE,TRUE,2017
-Guyana,National,LAC,2020,P20,0.03822793,FALSE,TRUE,2017
+Guyana,National,LAC,2020,P20,0.03502664,FALSE,TRUE,2017
 Guyana,National,LAC,2020,Extreme poverty,0.01718482,TRUE,TRUE,2017
 Guyana,National,LAC,2020,P20,0.05108469,TRUE,TRUE,2017
 Guyana,National,LAC,2021,Extreme poverty,0.00561743,FALSE,TRUE,2017
-Guyana,National,LAC,2021,P20,0.03689639,FALSE,TRUE,2017
+Guyana,National,LAC,2021,P20,0.03400094,FALSE,TRUE,2017
 Guyana,National,LAC,2021,Extreme poverty,0.01421714,TRUE,TRUE,2017
 Guyana,National,LAC,2021,P20,0.04860451,TRUE,TRUE,2017
 Haiti,National,LAC,2010,Extreme poverty,0.6243123,FALSE,FALSE,2017
@@ -7213,19 +7213,19 @@ Haiti,National,LAC,2015,Extreme poverty,0.3045477,FALSE,FALSE,2017
 Haiti,National,LAC,2015,Extreme poverty,0.3045477,FALSE,FALSE,2017
 Haiti,National,LAC,2015,P20,0.4648517,FALSE,FALSE,2017
 Haiti,National,LAC,2018,Extreme poverty,0.3146927,FALSE,FALSE,2017
-Haiti,National,LAC,2018,P20,0.548227,FALSE,FALSE,2017
+Haiti,National,LAC,2018,P20,0.5484189,FALSE,FALSE,2017
 Haiti,National,LAC,2018,Extreme poverty,0.3146927,TRUE,FALSE,2017
 Haiti,National,LAC,2018,P20,0.5484189,TRUE,FALSE,2017
 Haiti,National,LAC,2019,Extreme poverty,0.3187904,FALSE,TRUE,2017
-Haiti,National,LAC,2019,P20,0.5666258,FALSE,TRUE,2017
+Haiti,National,LAC,2019,P20,0.5639221,FALSE,TRUE,2017
 Haiti,National,LAC,2019,Extreme poverty,0.3240259,TRUE,TRUE,2017
 Haiti,National,LAC,2019,P20,0.569962,TRUE,TRUE,2017
 Haiti,National,LAC,2020,Extreme poverty,0.3187904,FALSE,TRUE,2017
-Haiti,National,LAC,2020,P20,0.5753322,FALSE,TRUE,2017
+Haiti,National,LAC,2020,P20,0.5547073,FALSE,TRUE,2017
 Haiti,National,LAC,2020,Extreme poverty,0.3497329,TRUE,TRUE,2017
 Haiti,National,LAC,2020,P20,0.5888288,TRUE,TRUE,2017
 Haiti,National,LAC,2021,Extreme poverty,0.3177787,FALSE,TRUE,2017
-Haiti,National,LAC,2021,P20,0.5888288,FALSE,TRUE,2017
+Haiti,National,LAC,2021,P20,0.5681836,FALSE,TRUE,2017
 Haiti,National,LAC,2021,Extreme poverty,0.3494389,TRUE,TRUE,2017
 Haiti,National,LAC,2021,P20,0.5993782,TRUE,TRUE,2017
 Honduras,National,LAC,2010,Extreme poverty,0.1420238,FALSE,FALSE,2017
@@ -7248,15 +7248,15 @@ Honduras,National,LAC,2018,P20,0.2580594,FALSE,FALSE,2017
 Honduras,National,LAC,2018,Extreme poverty,0.1573841,TRUE,FALSE,2017
 Honduras,National,LAC,2018,P20,0.2580594,TRUE,FALSE,2017
 Honduras,National,LAC,2019,Extreme poverty,0.1541657,FALSE,TRUE,2017
-Honduras,National,LAC,2019,P20,0.2592234,FALSE,TRUE,2017
+Honduras,National,LAC,2019,P20,0.2580594,FALSE,TRUE,2017
 Honduras,National,LAC,2019,Extreme poverty,0.1561687,TRUE,TRUE,2017
 Honduras,National,LAC,2019,P20,0.2599551,TRUE,TRUE,2017
 Honduras,National,LAC,2020,Extreme poverty,0.1511873,FALSE,TRUE,2017
-Honduras,National,LAC,2020,P20,0.2604712,FALSE,TRUE,2017
+Honduras,National,LAC,2020,P20,0.2495886,FALSE,TRUE,2017
 Honduras,National,LAC,2020,Extreme poverty,0.1625366,TRUE,TRUE,2017
 Honduras,National,LAC,2020,P20,0.2665242,TRUE,TRUE,2017
 Honduras,National,LAC,2021,Extreme poverty,0.1486873,FALSE,TRUE,2017
-Honduras,National,LAC,2021,P20,0.2627636,FALSE,TRUE,2017
+Honduras,National,LAC,2021,P20,0.2528508,FALSE,TRUE,2017
 Honduras,National,LAC,2021,Extreme poverty,0.1577625,TRUE,TRUE,2017
 Honduras,National,LAC,2021,P20,0.2684142,TRUE,TRUE,2017
 Hungary,National,ECA,2010,Extreme poverty,0.0007179316,FALSE,FALSE,2017
@@ -7279,15 +7279,15 @@ Hungary,National,ECA,2018,P20,0.01232896,FALSE,FALSE,2017
 Hungary,National,ECA,2018,Extreme poverty,0.006037896,TRUE,FALSE,2017
 Hungary,National,ECA,2018,P20,0.01232896,TRUE,FALSE,2017
 Hungary,National,ECA,2019,Extreme poverty,0.005919386,FALSE,TRUE,2017
-Hungary,National,ECA,2019,P20,0.01177379,FALSE,TRUE,2017
+Hungary,National,ECA,2019,P20,0.01173317,FALSE,TRUE,2017
 Hungary,National,ECA,2019,Extreme poverty,0.005919386,TRUE,TRUE,2017
 Hungary,National,ECA,2019,P20,0.01173317,TRUE,TRUE,2017
 Hungary,National,ECA,2020,Extreme poverty,0.005919386,FALSE,TRUE,2017
-Hungary,National,ECA,2020,P20,0.01173317,FALSE,TRUE,2017
+Hungary,National,ECA,2020,P20,0.01129704,FALSE,TRUE,2017
 Hungary,National,ECA,2020,Extreme poverty,0.005919386,TRUE,TRUE,2017
 Hungary,National,ECA,2020,P20,0.01183627,TRUE,TRUE,2017
 Hungary,National,ECA,2021,Extreme poverty,0.005919386,FALSE,TRUE,2017
-Hungary,National,ECA,2021,P20,0.01173317,FALSE,TRUE,2017
+Hungary,National,ECA,2021,P20,0.01129704,FALSE,TRUE,2017
 Hungary,National,ECA,2021,Extreme poverty,0.005919386,TRUE,TRUE,2017
 Hungary,National,ECA,2021,P20,0.01173317,TRUE,TRUE,2017
 Iceland,National,OHI,2010,Extreme poverty,0.001493845,FALSE,FALSE,2017
@@ -7337,19 +7337,19 @@ India,National,SAS,2015,Extreme poverty,0.1466429,FALSE,FALSE,2017
 India,National,SAS,2015,Extreme poverty,0.1466429,FALSE,FALSE,2017
 India,National,SAS,2015,P20,0.3630521,FALSE,FALSE,2017
 India,National,SAS,2018,Extreme poverty,0.08774232,FALSE,TRUE,2017
-India,National,SAS,2018,P20,0.342953,FALSE,TRUE,2017
+India,National,SAS,2018,P20,0.3431569,FALSE,TRUE,2017
 India,National,SAS,2018,Extreme poverty,0.08774232,TRUE,TRUE,2017
 India,National,SAS,2018,P20,0.3431569,TRUE,TRUE,2017
 India,National,SAS,2019,Extreme poverty,0.07811076,FALSE,TRUE,2017
-India,National,SAS,2019,P20,0.3382138,FALSE,TRUE,2017
+India,National,SAS,2019,P20,0.3343555,FALSE,TRUE,2017
 India,National,SAS,2019,Extreme poverty,0.08168576,TRUE,TRUE,2017
 India,National,SAS,2019,P20,0.3427999,TRUE,TRUE,2017
 India,National,SAS,2020,Extreme poverty,0.06882163,FALSE,TRUE,2017
-India,National,SAS,2020,P20,0.3320916,FALSE,TRUE,2017
+India,National,SAS,2020,P20,0.301139,FALSE,TRUE,2017
 India,National,SAS,2020,Extreme poverty,0.08044602,TRUE,TRUE,2017
 India,National,SAS,2020,P20,0.3293488,TRUE,TRUE,2017
 India,National,SAS,2021,Extreme poverty,0.0587658,FALSE,TRUE,2017
-India,National,SAS,2021,P20,0.3248962,FALSE,TRUE,2017
+India,National,SAS,2021,P20,0.2977489,FALSE,TRUE,2017
 India,National,SAS,2021,Extreme poverty,0.07036708,TRUE,TRUE,2017
 India,National,SAS,2021,P20,0.32467,TRUE,TRUE,2017
 Indonesia,National,EAP,2010,Extreme poverty,0.1935798,FALSE,FALSE,2017
@@ -7368,19 +7368,19 @@ Indonesia,National,EAP,2015,Extreme poverty,0.0913993,FALSE,FALSE,2017
 Indonesia,National,EAP,2015,Extreme poverty,0.0913993,FALSE,FALSE,2017
 Indonesia,National,EAP,2015,P20,0.2583353,FALSE,FALSE,2017
 Indonesia,National,EAP,2018,Extreme poverty,0.05999793,FALSE,FALSE,2017
-Indonesia,National,EAP,2018,P20,0.2258352,FALSE,FALSE,2017
+Indonesia,National,EAP,2018,P20,0.2258712,FALSE,FALSE,2017
 Indonesia,National,EAP,2018,Extreme poverty,0.05999793,TRUE,FALSE,2017
 Indonesia,National,EAP,2018,P20,0.2258712,TRUE,FALSE,2017
 Indonesia,National,EAP,2019,Extreme poverty,0.05282288,FALSE,TRUE,2017
-Indonesia,National,EAP,2019,P20,0.2182358,FALSE,TRUE,2017
+Indonesia,National,EAP,2019,P20,0.2158827,FALSE,TRUE,2017
 Indonesia,National,EAP,2019,Extreme poverty,0.05278869,TRUE,TRUE,2017
 Indonesia,National,EAP,2019,P20,0.2157923,TRUE,TRUE,2017
 Indonesia,National,EAP,2020,Extreme poverty,0.04568619,FALSE,TRUE,2017
-Indonesia,National,EAP,2020,P20,0.2113952,FALSE,TRUE,2017
+Indonesia,National,EAP,2020,P20,0.1917114,FALSE,TRUE,2017
 Indonesia,National,EAP,2020,Extreme poverty,0.05365084,TRUE,TRUE,2017
 Indonesia,National,EAP,2020,P20,0.2111569,TRUE,TRUE,2017
 Indonesia,National,EAP,2021,Extreme poverty,0.0382546,FALSE,TRUE,2017
-Indonesia,National,EAP,2021,P20,0.2046504,FALSE,TRUE,2017
+Indonesia,National,EAP,2021,P20,0.1868387,FALSE,TRUE,2017
 Indonesia,National,EAP,2021,Extreme poverty,0.04084383,TRUE,TRUE,2017
 Indonesia,National,EAP,2021,P20,0.1932858,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2010,Extreme poverty,0.01132404,FALSE,FALSE,2017
@@ -7399,19 +7399,19 @@ Indonesia,National,EAP,2021,P20,0.1932858,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2015,Extreme poverty,0.007419758,FALSE,FALSE,2017
 "Iran, Islamic Republic of",National,MNA,2015,P20,0.02374832,FALSE,FALSE,2017
 "Iran, Islamic Republic of",National,MNA,2018,Extreme poverty,0.008880038,FALSE,FALSE,2017
-"Iran, Islamic Republic of",National,MNA,2018,P20,0.04003087,FALSE,FALSE,2017
+"Iran, Islamic Republic of",National,MNA,2018,P20,0.04009695,FALSE,FALSE,2017
 "Iran, Islamic Republic of",National,MNA,2018,Extreme poverty,0.008880038,TRUE,FALSE,2017
 "Iran, Islamic Republic of",National,MNA,2018,P20,0.04009695,TRUE,FALSE,2017
 "Iran, Islamic Republic of",National,MNA,2019,Extreme poverty,0.01258747,FALSE,TRUE,2017
-"Iran, Islamic Republic of",National,MNA,2019,P20,0.0552305,FALSE,TRUE,2017
+"Iran, Islamic Republic of",National,MNA,2019,P20,0.05444155,FALSE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2019,Extreme poverty,0.01190728,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2019,P20,0.05203759,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2020,Extreme poverty,0.01313721,FALSE,TRUE,2017
-"Iran, Islamic Republic of",National,MNA,2020,P20,0.0600589,FALSE,TRUE,2017
+"Iran, Islamic Republic of",National,MNA,2020,P20,0.05364274,FALSE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2020,Extreme poverty,0.01526929,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2020,P20,0.05964073,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2021,Extreme poverty,0.01319182,FALSE,TRUE,2017
-"Iran, Islamic Republic of",National,MNA,2021,P20,0.06401399,FALSE,TRUE,2017
+"Iran, Islamic Republic of",National,MNA,2021,P20,0.05794413,FALSE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2021,Extreme poverty,0.01419427,TRUE,TRUE,2017
 "Iran, Islamic Republic of",National,MNA,2021,P20,0.06096393,TRUE,TRUE,2017
 Iraq,National,MNA,2010,Extreme poverty,0.0005495786,FALSE,FALSE,2017
@@ -7434,15 +7434,15 @@ Iraq,National,MNA,2018,P20,0.01046127,FALSE,FALSE,2017
 Iraq,National,MNA,2018,Extreme poverty,0.0003620768,TRUE,FALSE,2017
 Iraq,National,MNA,2018,P20,0.01046127,TRUE,FALSE,2017
 Iraq,National,MNA,2019,Extreme poverty,0.0003468586,FALSE,TRUE,2017
-Iraq,National,MNA,2019,P20,0.01065,FALSE,TRUE,2017
+Iraq,National,MNA,2019,P20,0.01063688,FALSE,TRUE,2017
 Iraq,National,MNA,2019,Extreme poverty,0.000314449,TRUE,TRUE,2017
 Iraq,National,MNA,2019,P20,0.01050628,TRUE,TRUE,2017
 Iraq,National,MNA,2020,Extreme poverty,0.0002943302,FALSE,TRUE,2017
-Iraq,National,MNA,2020,P20,0.01086542,FALSE,TRUE,2017
+Iraq,National,MNA,2020,P20,0.009272316,FALSE,TRUE,2017
 Iraq,National,MNA,2020,Extreme poverty,0.0008134456,TRUE,TRUE,2017
 Iraq,National,MNA,2020,P20,0.01260179,TRUE,TRUE,2017
 Iraq,National,MNA,2021,Extreme poverty,0.0002387709,FALSE,TRUE,2017
-Iraq,National,MNA,2021,P20,0.01178565,FALSE,TRUE,2017
+Iraq,National,MNA,2021,P20,0.01012624,FALSE,TRUE,2017
 Iraq,National,MNA,2021,Extreme poverty,0.0005002929,TRUE,TRUE,2017
 Iraq,National,MNA,2021,P20,0.01220505,TRUE,TRUE,2017
 Ireland,National,OHI,2010,Extreme poverty,0.005479894,FALSE,FALSE,2017
@@ -7531,11 +7531,11 @@ Italy,National,OHI,2019,P20,0.01757092,FALSE,TRUE,2017
 Italy,National,OHI,2019,Extreme poverty,0.01421634,TRUE,TRUE,2017
 Italy,National,OHI,2019,P20,0.01757092,TRUE,TRUE,2017
 Italy,National,OHI,2020,Extreme poverty,0.01421634,FALSE,TRUE,2017
-Italy,National,OHI,2020,P20,0.01799699,FALSE,TRUE,2017
+Italy,National,OHI,2020,P20,0.01696903,FALSE,TRUE,2017
 Italy,National,OHI,2020,Extreme poverty,0.01439169,TRUE,TRUE,2017
 Italy,National,OHI,2020,P20,0.01827159,TRUE,TRUE,2017
 Italy,National,OHI,2021,Extreme poverty,0.01421634,FALSE,TRUE,2017
-Italy,National,OHI,2021,P20,0.01817653,FALSE,TRUE,2017
+Italy,National,OHI,2021,P20,0.01757092,FALSE,TRUE,2017
 Italy,National,OHI,2021,Extreme poverty,0.01429768,TRUE,TRUE,2017
 Italy,National,OHI,2021,P20,0.01817653,TRUE,TRUE,2017
 Jamaica,National,LAC,2010,Extreme poverty,0.01549983,FALSE,FALSE,2017
@@ -7558,15 +7558,15 @@ Jamaica,National,LAC,2018,P20,0.05669179,FALSE,FALSE,2017
 Jamaica,National,LAC,2018,Extreme poverty,0.01269927,TRUE,FALSE,2017
 Jamaica,National,LAC,2018,P20,0.05669179,TRUE,FALSE,2017
 Jamaica,National,LAC,2019,Extreme poverty,0.01269927,FALSE,TRUE,2017
-Jamaica,National,LAC,2019,P20,0.06097189,FALSE,TRUE,2017
+Jamaica,National,LAC,2019,P20,0.05923239,FALSE,TRUE,2017
 Jamaica,National,LAC,2019,Extreme poverty,0.01269927,TRUE,TRUE,2017
 Jamaica,National,LAC,2019,P20,0.05799359,TRUE,TRUE,2017
 Jamaica,National,LAC,2020,Extreme poverty,0.01269927,FALSE,TRUE,2017
-Jamaica,National,LAC,2020,P20,0.06407896,FALSE,TRUE,2017
+Jamaica,National,LAC,2020,P20,0.05440679,FALSE,TRUE,2017
 Jamaica,National,LAC,2020,Extreme poverty,0.01549983,TRUE,TRUE,2017
 Jamaica,National,LAC,2020,P20,0.06516078,TRUE,TRUE,2017
 Jamaica,National,LAC,2021,Extreme poverty,0.0121907,FALSE,TRUE,2017
-Jamaica,National,LAC,2021,P20,0.06556165,FALSE,TRUE,2017
+Jamaica,National,LAC,2021,P20,0.05923239,FALSE,TRUE,2017
 Jamaica,National,LAC,2021,Extreme poverty,0.01434513,TRUE,TRUE,2017
 Jamaica,National,LAC,2021,P20,0.06516078,TRUE,TRUE,2017
 Japan,National,OHI,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -7620,15 +7620,15 @@ Jordan,National,MNA,2018,P20,0.004130492,FALSE,FALSE,2017
 Jordan,National,MNA,2018,Extreme poverty,0.0005150115,TRUE,FALSE,2017
 Jordan,National,MNA,2018,P20,0.004130492,TRUE,FALSE,2017
 Jordan,National,MNA,2019,Extreme poverty,0.0005150115,FALSE,TRUE,2017
-Jordan,National,MNA,2019,P20,0.004671302,FALSE,TRUE,2017
+Jordan,National,MNA,2019,P20,0.004522493,FALSE,TRUE,2017
 Jordan,National,MNA,2019,Extreme poverty,0.0005150115,TRUE,TRUE,2017
 Jordan,National,MNA,2019,P20,0.004609321,TRUE,TRUE,2017
 Jordan,National,MNA,2020,Extreme poverty,0.0005150115,FALSE,TRUE,2017
-Jordan,National,MNA,2020,P20,0.005271265,FALSE,TRUE,2017
+Jordan,National,MNA,2020,P20,0.003806785,FALSE,TRUE,2017
 Jordan,National,MNA,2020,Extreme poverty,0.0005150115,TRUE,TRUE,2017
 Jordan,National,MNA,2020,P20,0.005863349,TRUE,TRUE,2017
 Jordan,National,MNA,2021,Extreme poverty,0.0005150115,FALSE,TRUE,2017
-Jordan,National,MNA,2021,P20,0.005630639,FALSE,TRUE,2017
+Jordan,National,MNA,2021,P20,0.004130492,FALSE,TRUE,2017
 Jordan,National,MNA,2021,Extreme poverty,0.0005150115,TRUE,TRUE,2017
 Jordan,National,MNA,2021,P20,0.005863349,TRUE,TRUE,2017
 Kazakhstan,National,ECA,2010,Extreme poverty,0.002295139,FALSE,FALSE,2017
@@ -7651,15 +7651,15 @@ Kazakhstan,National,ECA,2018,P20,0.003897829,FALSE,FALSE,2017
 Kazakhstan,National,ECA,2018,Extreme poverty,0.0003739295,TRUE,FALSE,2017
 Kazakhstan,National,ECA,2018,P20,0.003897829,TRUE,FALSE,2017
 Kazakhstan,National,ECA,2019,Extreme poverty,0.0003377506,FALSE,TRUE,2017
-Kazakhstan,National,ECA,2019,P20,0.003868024,FALSE,TRUE,2017
+Kazakhstan,National,ECA,2019,P20,0.003820583,FALSE,TRUE,2017
 Kazakhstan,National,ECA,2019,Extreme poverty,0.0003377506,TRUE,TRUE,2017
 Kazakhstan,National,ECA,2019,P20,0.003773395,TRUE,TRUE,2017
 Kazakhstan,National,ECA,2020,Extreme poverty,0.0002839632,FALSE,TRUE,2017
-Kazakhstan,National,ECA,2020,P20,0.003868024,FALSE,TRUE,2017
+Kazakhstan,National,ECA,2020,P20,0.003173305,FALSE,TRUE,2017
 Kazakhstan,National,ECA,2020,Extreme poverty,0.0003739295,TRUE,TRUE,2017
 Kazakhstan,National,ECA,2020,P20,0.004035035,TRUE,TRUE,2017
 Kazakhstan,National,ECA,2021,Extreme poverty,0.0002467219,FALSE,TRUE,2017
-Kazakhstan,National,ECA,2021,P20,0.003883902,FALSE,TRUE,2017
+Kazakhstan,National,ECA,2021,P20,0.003325943,FALSE,TRUE,2017
 Kazakhstan,National,ECA,2021,Extreme poverty,0.0003377506,TRUE,TRUE,2017
 Kazakhstan,National,ECA,2021,P20,0.004055151,TRUE,TRUE,2017
 Kenya,National,SSA,2010,Extreme poverty,0.3469149,FALSE,FALSE,2017
@@ -7682,15 +7682,15 @@ Kenya,National,SSA,2018,P20,0.5058904,FALSE,FALSE,2017
 Kenya,National,SSA,2018,Extreme poverty,0.2647604,TRUE,FALSE,2017
 Kenya,National,SSA,2018,P20,0.5058904,TRUE,FALSE,2017
 Kenya,National,SSA,2019,Extreme poverty,0.2537901,FALSE,TRUE,2017
-Kenya,National,SSA,2019,P20,0.5031738,FALSE,TRUE,2017
+Kenya,National,SSA,2019,P20,0.5014257,FALSE,TRUE,2017
 Kenya,National,SSA,2019,Extreme poverty,0.2535551,TRUE,TRUE,2017
 Kenya,National,SSA,2019,P20,0.5012284,TRUE,TRUE,2017
 Kenya,National,SSA,2020,Extreme poverty,0.2395941,FALSE,TRUE,2017
-Kenya,National,SSA,2020,P20,0.4998405,FALSE,TRUE,2017
+Kenya,National,SSA,2020,P20,0.4804834,FALSE,TRUE,2017
 Kenya,National,SSA,2020,Extreme poverty,0.260454,TRUE,TRUE,2017
 Kenya,National,SSA,2020,P20,0.5018874,TRUE,TRUE,2017
 Kenya,National,SSA,2021,Extreme poverty,0.2250989,FALSE,TRUE,2017
-Kenya,National,SSA,2021,P20,0.4983996,FALSE,TRUE,2017
+Kenya,National,SSA,2021,P20,0.4803041,FALSE,TRUE,2017
 Kenya,National,SSA,2021,Extreme poverty,0.2455838,TRUE,TRUE,2017
 Kenya,National,SSA,2021,P20,0.5001074,TRUE,TRUE,2017
 "Korea, Republic of",National,OHI,2010,Extreme poverty,0.004958997,FALSE,FALSE,2017
@@ -7744,15 +7744,15 @@ Kyrgyz Republic,National,ECA,2018,P20,0.09188516,FALSE,FALSE,2017
 Kyrgyz Republic,National,ECA,2018,Extreme poverty,0.007864027,TRUE,FALSE,2017
 Kyrgyz Republic,National,ECA,2018,P20,0.09188516,TRUE,FALSE,2017
 Kyrgyz Republic,National,ECA,2019,Extreme poverty,0.007769211,FALSE,TRUE,2017
-Kyrgyz Republic,National,ECA,2019,P20,0.09488019,FALSE,TRUE,2017
+Kyrgyz Republic,National,ECA,2019,P20,0.09188516,FALSE,TRUE,2017
 Kyrgyz Republic,National,ECA,2019,Extreme poverty,0.007358915,TRUE,TRUE,2017
 Kyrgyz Republic,National,ECA,2019,P20,0.08964553,TRUE,TRUE,2017
 Kyrgyz Republic,National,ECA,2020,Extreme poverty,0.007192032,FALSE,TRUE,2017
-Kyrgyz Republic,National,ECA,2020,P20,0.09813961,FALSE,TRUE,2017
+Kyrgyz Republic,National,ECA,2020,P20,0.08090179,FALSE,TRUE,2017
 Kyrgyz Republic,National,ECA,2020,Extreme poverty,0.009879157,TRUE,TRUE,2017
 Kyrgyz Republic,National,ECA,2020,P20,0.107707,TRUE,TRUE,2017
 Kyrgyz Republic,National,ECA,2021,Extreme poverty,0.006744576,FALSE,TRUE,2017
-Kyrgyz Republic,National,ECA,2021,P20,0.1013525,FALSE,TRUE,2017
+Kyrgyz Republic,National,ECA,2021,P20,0.08665608,FALSE,TRUE,2017
 Kyrgyz Republic,National,ECA,2021,Extreme poverty,0.007742287,TRUE,TRUE,2017
 Kyrgyz Republic,National,ECA,2021,P20,0.09721338,TRUE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2010,Extreme poverty,0.1827079,FALSE,FALSE,2017
@@ -7775,15 +7775,15 @@ Lao People's Democratic Republic,National,EAP,2018,P20,0.2391915,FALSE,FALSE,201
 Lao People's Democratic Republic,National,EAP,2018,Extreme poverty,0.06171749,TRUE,FALSE,2017
 Lao People's Democratic Republic,National,EAP,2018,P20,0.2391915,TRUE,FALSE,2017
 Lao People's Democratic Republic,National,EAP,2019,Extreme poverty,0.05273524,FALSE,TRUE,2017
-Lao People's Democratic Republic,National,EAP,2019,P20,0.2280005,FALSE,TRUE,2017
+Lao People's Democratic Republic,National,EAP,2019,P20,0.2268451,FALSE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2019,Extreme poverty,0.05584375,TRUE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2019,P20,0.2319408,TRUE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2020,Extreme poverty,0.04288327,FALSE,TRUE,2017
-Lao People's Democratic Republic,National,EAP,2020,P20,0.2144747,FALSE,TRUE,2017
+Lao People's Democratic Republic,National,EAP,2020,P20,0.192231,FALSE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2020,Extreme poverty,0.05790271,TRUE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2020,P20,0.2288936,TRUE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2021,Extreme poverty,0.03433809,FALSE,TRUE,2017
-Lao People's Democratic Republic,National,EAP,2021,P20,0.2027701,FALSE,TRUE,2017
+Lao People's Democratic Republic,National,EAP,2021,P20,0.1825454,FALSE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2021,Extreme poverty,0.04944064,TRUE,TRUE,2017
 Lao People's Democratic Republic,National,EAP,2021,P20,0.2246834,TRUE,TRUE,2017
 Latvia,National,ECA,2010,Extreme poverty,0.01833137,FALSE,FALSE,2017
@@ -7806,15 +7806,15 @@ Latvia,National,ECA,2018,P20,0.01362078,FALSE,FALSE,2017
 Latvia,National,ECA,2018,Extreme poverty,0.007972179,TRUE,FALSE,2017
 Latvia,National,ECA,2018,P20,0.01362078,TRUE,FALSE,2017
 Latvia,National,ECA,2019,Extreme poverty,0.007403283,FALSE,TRUE,2017
-Latvia,National,ECA,2019,P20,0.01362078,FALSE,TRUE,2017
+Latvia,National,ECA,2019,P20,0.01354502,FALSE,TRUE,2017
 Latvia,National,ECA,2019,Extreme poverty,0.007520544,TRUE,TRUE,2017
 Latvia,National,ECA,2019,P20,0.01362078,TRUE,TRUE,2017
 Latvia,National,ECA,2020,Extreme poverty,0.007266922,FALSE,TRUE,2017
-Latvia,National,ECA,2020,P20,0.01354502,FALSE,TRUE,2017
+Latvia,National,ECA,2020,P20,0.01118224,FALSE,TRUE,2017
 Latvia,National,ECA,2020,Extreme poverty,0.007972179,TRUE,TRUE,2017
 Latvia,National,ECA,2020,P20,0.01477991,TRUE,TRUE,2017
 Latvia,National,ECA,2021,Extreme poverty,0.006580277,FALSE,TRUE,2017
-Latvia,National,ECA,2021,P20,0.01354502,FALSE,TRUE,2017
+Latvia,National,ECA,2021,P20,0.01118224,FALSE,TRUE,2017
 Latvia,National,ECA,2021,Extreme poverty,0.007893366,TRUE,TRUE,2017
 Latvia,National,ECA,2021,P20,0.01378721,TRUE,TRUE,2017
 Lebanon,National,MNA,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -7862,15 +7862,15 @@ Lesotho,National,SSA,2018,P20,0.51638,FALSE,FALSE,2017
 Lesotho,National,SSA,2018,Extreme poverty,0.3385925,TRUE,FALSE,2017
 Lesotho,National,SSA,2018,P20,0.51638,TRUE,FALSE,2017
 Lesotho,National,SSA,2019,Extreme poverty,0.3301924,FALSE,TRUE,2017
-Lesotho,National,SSA,2019,P20,0.5169406,FALSE,TRUE,2017
+Lesotho,National,SSA,2019,P20,0.5150911,FALSE,TRUE,2017
 Lesotho,National,SSA,2019,Extreme poverty,0.3356222,TRUE,TRUE,2017
 Lesotho,National,SSA,2019,P20,0.5202194,TRUE,TRUE,2017
 Lesotho,National,SSA,2020,Extreme poverty,0.3326085,FALSE,TRUE,2017
-Lesotho,National,SSA,2020,P20,0.528731,FALSE,TRUE,2017
+Lesotho,National,SSA,2020,P20,0.5132028,FALSE,TRUE,2017
 Lesotho,National,SSA,2020,Extreme poverty,0.3559542,TRUE,TRUE,2017
 Lesotho,National,SSA,2020,P20,0.538137,TRUE,TRUE,2017
 Lesotho,National,SSA,2021,Extreme poverty,0.3235222,FALSE,TRUE,2017
-Lesotho,National,SSA,2021,P20,0.5289587,FALSE,TRUE,2017
+Lesotho,National,SSA,2021,P20,0.5141988,FALSE,TRUE,2017
 Lesotho,National,SSA,2021,Extreme poverty,0.3445082,TRUE,TRUE,2017
 Lesotho,National,SSA,2021,P20,0.5347726,TRUE,TRUE,2017
 Liberia,National,SSA,2010,Extreme poverty,0.1844669,FALSE,FALSE,2017
@@ -7893,15 +7893,15 @@ Liberia,National,SSA,2018,P20,0.2844868,FALSE,FALSE,2017
 Liberia,National,SSA,2018,Extreme poverty,0.0933055,TRUE,FALSE,2017
 Liberia,National,SSA,2018,P20,0.2844868,TRUE,FALSE,2017
 Liberia,National,SSA,2019,Extreme poverty,0.1008282,FALSE,TRUE,2017
-Liberia,National,SSA,2019,P20,0.3089998,FALSE,TRUE,2017
+Liberia,National,SSA,2019,P20,0.3071739,FALSE,TRUE,2017
 Liberia,National,SSA,2019,Extreme poverty,0.1088183,TRUE,TRUE,2017
 Liberia,National,SSA,2019,P20,0.3182041,TRUE,TRUE,2017
 Liberia,National,SSA,2020,Extreme poverty,0.1035851,FALSE,TRUE,2017
-Liberia,National,SSA,2020,P20,0.3234367,FALSE,TRUE,2017
+Liberia,National,SSA,2020,P20,0.304608,FALSE,TRUE,2017
 Liberia,National,SSA,2020,Extreme poverty,0.124341,TRUE,TRUE,2017
 Liberia,National,SSA,2020,P20,0.3341928,TRUE,TRUE,2017
 Liberia,National,SSA,2021,Extreme poverty,0.1060733,FALSE,TRUE,2017
-Liberia,National,SSA,2021,P20,0.3388868,FALSE,TRUE,2017
+Liberia,National,SSA,2021,P20,0.3220559,FALSE,TRUE,2017
 Liberia,National,SSA,2021,Extreme poverty,0.1181516,TRUE,TRUE,2017
 Liberia,National,SSA,2021,P20,0.3418185,TRUE,TRUE,2017
 Lithuania,National,ECA,2010,Extreme poverty,0.01585559,FALSE,FALSE,2017
@@ -7928,11 +7928,11 @@ Lithuania,National,ECA,2019,P20,0.01318458,FALSE,TRUE,2017
 Lithuania,National,ECA,2019,Extreme poverty,0.01022507,TRUE,TRUE,2017
 Lithuania,National,ECA,2019,P20,0.01318458,TRUE,TRUE,2017
 Lithuania,National,ECA,2020,Extreme poverty,0.01022507,FALSE,TRUE,2017
-Lithuania,National,ECA,2020,P20,0.01318458,FALSE,TRUE,2017
+Lithuania,National,ECA,2020,P20,0.01236673,FALSE,TRUE,2017
 Lithuania,National,ECA,2020,Extreme poverty,0.01022507,TRUE,TRUE,2017
 Lithuania,National,ECA,2020,P20,0.01334181,TRUE,TRUE,2017
 Lithuania,National,ECA,2021,Extreme poverty,0.009394995,FALSE,TRUE,2017
-Lithuania,National,ECA,2021,P20,0.01255247,FALSE,TRUE,2017
+Lithuania,National,ECA,2021,P20,0.01236673,FALSE,TRUE,2017
 Lithuania,National,ECA,2021,Extreme poverty,0.01022507,TRUE,TRUE,2017
 Lithuania,National,ECA,2021,P20,0.01318458,TRUE,TRUE,2017
 Luxembourg,National,OHI,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -7955,15 +7955,15 @@ Luxembourg,National,OHI,2018,P20,0.003870766,FALSE,FALSE,2017
 Luxembourg,National,OHI,2018,Extreme poverty,0.003132935,TRUE,FALSE,2017
 Luxembourg,National,OHI,2018,P20,0.003870766,TRUE,FALSE,2017
 Luxembourg,National,OHI,2019,Extreme poverty,0.003132935,FALSE,TRUE,2017
-Luxembourg,National,OHI,2019,P20,0.004043114,FALSE,TRUE,2017
+Luxembourg,National,OHI,2019,P20,0.003870766,FALSE,TRUE,2017
 Luxembourg,National,OHI,2019,Extreme poverty,0.003132935,TRUE,TRUE,2017
 Luxembourg,National,OHI,2019,P20,0.003870766,TRUE,TRUE,2017
 Luxembourg,National,OHI,2020,Extreme poverty,0.003132935,FALSE,TRUE,2017
-Luxembourg,National,OHI,2020,P20,0.004043114,FALSE,TRUE,2017
+Luxembourg,National,OHI,2020,P20,0.003697528,FALSE,TRUE,2017
 Luxembourg,National,OHI,2020,Extreme poverty,0.003132935,TRUE,TRUE,2017
 Luxembourg,National,OHI,2020,P20,0.004043114,TRUE,TRUE,2017
 Luxembourg,National,OHI,2021,Extreme poverty,0.003132935,FALSE,TRUE,2017
-Luxembourg,National,OHI,2021,P20,0.004043114,FALSE,TRUE,2017
+Luxembourg,National,OHI,2021,P20,0.003870766,FALSE,TRUE,2017
 Luxembourg,National,OHI,2021,Extreme poverty,0.003132935,TRUE,TRUE,2017
 Luxembourg,National,OHI,2021,P20,0.004043114,TRUE,TRUE,2017
 Madagascar,National,SSA,2010,Extreme poverty,0.8075597,FALSE,FALSE,2017
@@ -7986,15 +7986,15 @@ Madagascar,National,SSA,2018,P20,0.8979672,FALSE,FALSE,2017
 Madagascar,National,SSA,2018,Extreme poverty,0.7852275,TRUE,FALSE,2017
 Madagascar,National,SSA,2018,P20,0.8979672,TRUE,FALSE,2017
 Madagascar,National,SSA,2019,Extreme poverty,0.7777223,FALSE,TRUE,2017
-Madagascar,National,SSA,2019,P20,0.897664,FALSE,TRUE,2017
+Madagascar,National,SSA,2019,P20,0.8971797,FALSE,TRUE,2017
 Madagascar,National,SSA,2019,Extreme poverty,0.778981,TRUE,TRUE,2017
 Madagascar,National,SSA,2019,P20,0.8974953,TRUE,TRUE,2017
 Madagascar,National,SSA,2020,Extreme poverty,0.770749,FALSE,TRUE,2017
-Madagascar,National,SSA,2020,P20,0.8976087,FALSE,TRUE,2017
+Madagascar,National,SSA,2020,P20,0.8904571,FALSE,TRUE,2017
 Madagascar,National,SSA,2020,Extreme poverty,0.7853315,TRUE,TRUE,2017
 Madagascar,National,SSA,2020,P20,0.8980878,TRUE,TRUE,2017
 Madagascar,National,SSA,2021,Extreme poverty,0.7642621,FALSE,TRUE,2017
-Madagascar,National,SSA,2021,P20,0.8979532,FALSE,TRUE,2017
+Madagascar,National,SSA,2021,P20,0.8913778,FALSE,TRUE,2017
 Madagascar,National,SSA,2021,Extreme poverty,0.7777223,TRUE,TRUE,2017
 Madagascar,National,SSA,2021,P20,0.8988571,TRUE,TRUE,2017
 Malawi,National,SSA,2010,Extreme poverty,0.7727981,FALSE,FALSE,2017
@@ -8017,15 +8017,15 @@ Malawi,National,SSA,2018,P20,0.8971067,FALSE,FALSE,2017
 Malawi,National,SSA,2018,Extreme poverty,0.7573481,TRUE,FALSE,2017
 Malawi,National,SSA,2018,P20,0.8971067,TRUE,FALSE,2017
 Malawi,National,SSA,2019,Extreme poverty,0.7522416,FALSE,TRUE,2017
-Malawi,National,SSA,2019,P20,0.8977756,FALSE,TRUE,2017
+Malawi,National,SSA,2019,P20,0.8971067,FALSE,TRUE,2017
 Malawi,National,SSA,2019,Extreme poverty,0.7522416,TRUE,TRUE,2017
 Malawi,National,SSA,2019,P20,0.8971067,TRUE,TRUE,2017
 Malawi,National,SSA,2020,Extreme poverty,0.7443909,FALSE,TRUE,2017
-Malawi,National,SSA,2020,P20,0.8991264,FALSE,TRUE,2017
+Malawi,National,SSA,2020,P20,0.8907253,FALSE,TRUE,2017
 Malawi,National,SSA,2020,Extreme poverty,0.7585238,TRUE,TRUE,2017
 Malawi,National,SSA,2020,P20,0.8976917,TRUE,TRUE,2017
 Malawi,National,SSA,2021,Extreme poverty,0.7340222,FALSE,TRUE,2017
-Malawi,National,SSA,2021,P20,0.8994786,FALSE,TRUE,2017
+Malawi,National,SSA,2021,P20,0.891586,FALSE,TRUE,2017
 Malawi,National,SSA,2021,Extreme poverty,0.7594394,TRUE,TRUE,2017
 Malawi,National,SSA,2021,P20,0.9041504,TRUE,TRUE,2017
 Malaysia,National,EAP,2010,Extreme poverty,0.003531017,FALSE,FALSE,2017
@@ -8048,15 +8048,15 @@ Malaysia,National,EAP,2018,P20,0.0009765064,FALSE,FALSE,2017
 Malaysia,National,EAP,2018,Extreme poverty,6.961048e-05,TRUE,FALSE,2017
 Malaysia,National,EAP,2018,P20,0.0009765064,TRUE,FALSE,2017
 Malaysia,National,EAP,2019,Extreme poverty,6.961048e-05,FALSE,TRUE,2017
-Malaysia,National,EAP,2019,P20,0.0009582328,FALSE,TRUE,2017
+Malaysia,National,EAP,2019,P20,0.0009176445,FALSE,TRUE,2017
 Malaysia,National,EAP,2019,Extreme poverty,6.961048e-05,TRUE,TRUE,2017
 Malaysia,National,EAP,2019,P20,0.0009091631,TRUE,TRUE,2017
 Malaysia,National,EAP,2020,Extreme poverty,6.27996e-05,FALSE,TRUE,2017
-Malaysia,National,EAP,2020,P20,0.0009176445,FALSE,TRUE,2017
+Malaysia,National,EAP,2020,P20,0.0006861835,FALSE,TRUE,2017
 Malaysia,National,EAP,2020,Extreme poverty,6.961048e-05,TRUE,TRUE,2017
 Malaysia,National,EAP,2020,P20,0.0009765064,TRUE,TRUE,2017
 Malaysia,National,EAP,2021,Extreme poverty,6.27996e-05,FALSE,TRUE,2017
-Malaysia,National,EAP,2021,P20,0.0008238349,FALSE,TRUE,2017
+Malaysia,National,EAP,2021,P20,0.0006359434,FALSE,TRUE,2017
 Malaysia,National,EAP,2021,Extreme poverty,6.27996e-05,TRUE,TRUE,2017
 Malaysia,National,EAP,2021,P20,0.0007576399,TRUE,TRUE,2017
 Maldives,National,SAS,2010,Extreme poverty,0.02191416,FALSE,FALSE,2017
@@ -8110,15 +8110,15 @@ Mali,National,SSA,2018,P20,0.6975108,FALSE,FALSE,2017
 Mali,National,SSA,2018,Extreme poverty,0.4259594,TRUE,FALSE,2017
 Mali,National,SSA,2018,P20,0.6975108,TRUE,FALSE,2017
 Mali,National,SSA,2019,Extreme poverty,0.4146475,FALSE,TRUE,2017
-Mali,National,SSA,2019,P20,0.6990997,FALSE,TRUE,2017
+Mali,National,SSA,2019,P20,0.695568,FALSE,TRUE,2017
 Mali,National,SSA,2019,Extreme poverty,0.4140547,TRUE,TRUE,2017
 Mali,National,SSA,2019,P20,0.6955037,TRUE,TRUE,2017
 Mali,National,SSA,2020,Extreme poverty,0.4035811,FALSE,TRUE,2017
-Mali,National,SSA,2020,P20,0.7009245,FALSE,TRUE,2017
+Mali,National,SSA,2020,P20,0.6786665,FALSE,TRUE,2017
 Mali,National,SSA,2020,Extreme poverty,0.4214878,TRUE,TRUE,2017
 Mali,National,SSA,2020,P20,0.6950001,TRUE,TRUE,2017
 Mali,National,SSA,2021,Extreme poverty,0.3887225,FALSE,TRUE,2017
-Mali,National,SSA,2021,P20,0.7034101,FALSE,TRUE,2017
+Mali,National,SSA,2021,P20,0.6847227,FALSE,TRUE,2017
 Mali,National,SSA,2021,Extreme poverty,0.4161311,TRUE,TRUE,2017
 Mali,National,SSA,2021,P20,0.7033625,TRUE,TRUE,2017
 Malta,National,OHI,2010,Extreme poverty,0.002192739,FALSE,FALSE,2017
@@ -8168,19 +8168,19 @@ Mauritania,National,SSA,2015,Extreme poverty,0.07288084,FALSE,FALSE,2017
 Mauritania,National,SSA,2015,Extreme poverty,0.07288084,FALSE,FALSE,2017
 Mauritania,National,SSA,2015,P20,0.1797729,FALSE,FALSE,2017
 Mauritania,National,SSA,2018,Extreme poverty,0.07348343,FALSE,FALSE,2017
-Mauritania,National,SSA,2018,P20,0.2328203,FALSE,FALSE,2017
+Mauritania,National,SSA,2018,P20,0.2330013,FALSE,FALSE,2017
 Mauritania,National,SSA,2018,Extreme poverty,0.07348343,TRUE,FALSE,2017
 Mauritania,National,SSA,2018,P20,0.2330013,TRUE,FALSE,2017
 Mauritania,National,SSA,2019,Extreme poverty,0.06652159,FALSE,TRUE,2017
-Mauritania,National,SSA,2019,P20,0.2236038,FALSE,TRUE,2017
+Mauritania,National,SSA,2019,P20,0.2205329,FALSE,TRUE,2017
 Mauritania,National,SSA,2019,Extreme poverty,0.06768324,TRUE,TRUE,2017
 Mauritania,National,SSA,2019,P20,0.2241877,TRUE,TRUE,2017
 Mauritania,National,SSA,2020,Extreme poverty,0.06085598,FALSE,TRUE,2017
-Mauritania,National,SSA,2020,P20,0.2183459,FALSE,TRUE,2017
+Mauritania,National,SSA,2020,P20,0.2012242,FALSE,TRUE,2017
 Mauritania,National,SSA,2020,Extreme poverty,0.07543541,TRUE,TRUE,2017
 Mauritania,National,SSA,2020,P20,0.2361355,TRUE,TRUE,2017
 Mauritania,National,SSA,2021,Extreme poverty,0.05661537,FALSE,TRUE,2017
-Mauritania,National,SSA,2021,P20,0.2146591,FALSE,TRUE,2017
+Mauritania,National,SSA,2021,P20,0.1995584,FALSE,TRUE,2017
 Mauritania,National,SSA,2021,Extreme poverty,0.07181478,TRUE,TRUE,2017
 Mauritania,National,SSA,2021,P20,0.2401974,TRUE,TRUE,2017
 Mauritius,National,SSA,2010,Extreme poverty,0.004215014,FALSE,FALSE,2017
@@ -8203,15 +8203,15 @@ Mauritius,National,SSA,2018,P20,0.01160188,FALSE,FALSE,2017
 Mauritius,National,SSA,2018,Extreme poverty,0.001066179,TRUE,FALSE,2017
 Mauritius,National,SSA,2018,P20,0.01160188,TRUE,FALSE,2017
 Mauritius,National,SSA,2019,Extreme poverty,0.001066179,FALSE,TRUE,2017
-Mauritius,National,SSA,2019,P20,0.01115386,FALSE,TRUE,2017
+Mauritius,National,SSA,2019,P20,0.01028014,FALSE,TRUE,2017
 Mauritius,National,SSA,2019,Extreme poverty,0.001066179,TRUE,TRUE,2017
 Mauritius,National,SSA,2019,P20,0.01042458,TRUE,TRUE,2017
 Mauritius,National,SSA,2020,Extreme poverty,0.0008232322,FALSE,TRUE,2017
-Mauritius,National,SSA,2020,P20,0.01019021,FALSE,TRUE,2017
+Mauritius,National,SSA,2020,P20,0.007654141,FALSE,TRUE,2017
 Mauritius,National,SSA,2020,Extreme poverty,0.001274902,TRUE,TRUE,2017
 Mauritius,National,SSA,2020,P20,0.01306782,TRUE,TRUE,2017
 Mauritius,National,SSA,2021,Extreme poverty,0.0006072515,FALSE,TRUE,2017
-Mauritius,National,SSA,2021,P20,0.009570243,FALSE,TRUE,2017
+Mauritius,National,SSA,2021,P20,0.007064507,FALSE,TRUE,2017
 Mauritius,National,SSA,2021,Extreme poverty,0.001066179,TRUE,TRUE,2017
 Mauritius,National,SSA,2021,P20,0.01225662,TRUE,TRUE,2017
 Mexico,National,LAC,2010,Extreme poverty,0.04577505,FALSE,FALSE,2017
@@ -8234,15 +8234,15 @@ Mexico,National,LAC,2018,P20,0.05566229,FALSE,FALSE,2017
 Mexico,National,LAC,2018,Extreme poverty,0.01898805,TRUE,FALSE,2017
 Mexico,National,LAC,2018,P20,0.05566229,TRUE,FALSE,2017
 Mexico,National,LAC,2019,Extreme poverty,0.0192375,FALSE,TRUE,2017
-Mexico,National,LAC,2019,P20,0.05917239,FALSE,TRUE,2017
+Mexico,National,LAC,2019,P20,0.0586194,FALSE,TRUE,2017
 Mexico,National,LAC,2019,Extreme poverty,0.01935981,TRUE,TRUE,2017
 Mexico,National,LAC,2019,P20,0.05939092,TRUE,TRUE,2017
 Mexico,National,LAC,2020,Extreme poverty,0.0190475,FALSE,TRUE,2017
-Mexico,National,LAC,2020,P20,0.06288011,FALSE,TRUE,2017
+Mexico,National,LAC,2020,P20,0.05624882,FALSE,TRUE,2017
 Mexico,National,LAC,2020,Extreme poverty,0.02373486,TRUE,TRUE,2017
 Mexico,National,LAC,2020,P20,0.06945983,TRUE,TRUE,2017
 Mexico,National,LAC,2021,Extreme poverty,0.0186725,FALSE,TRUE,2017
-Mexico,National,LAC,2021,P20,0.06543557,FALSE,TRUE,2017
+Mexico,National,LAC,2021,P20,0.05862583,FALSE,TRUE,2017
 Mexico,National,LAC,2021,Extreme poverty,0.02248222,TRUE,TRUE,2017
 Mexico,National,LAC,2021,P20,0.07074062,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2010,Extreme poverty,0.1305077,FALSE,FALSE,2017
@@ -8265,15 +8265,15 @@ Mexico,National,LAC,2021,P20,0.07074062,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2018,Extreme poverty,0.1692714,TRUE,FALSE,2017
 "Micronesia, Federated States of",National,EAP,2018,P20,0.365734,TRUE,FALSE,2017
 "Micronesia, Federated States of",National,EAP,2019,Extreme poverty,0.1644263,FALSE,TRUE,2017
-"Micronesia, Federated States of",National,EAP,2019,P20,0.3724124,FALSE,TRUE,2017
+"Micronesia, Federated States of",National,EAP,2019,P20,0.3688262,FALSE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2019,Extreme poverty,0.1651249,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2019,P20,0.3715786,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2020,Extreme poverty,0.1639306,FALSE,TRUE,2017
-"Micronesia, Federated States of",National,EAP,2020,P20,0.3820985,FALSE,TRUE,2017
+"Micronesia, Federated States of",National,EAP,2020,P20,0.3577275,FALSE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2020,Extreme poverty,0.1671622,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2020,P20,0.364586,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2021,Extreme poverty,0.1602844,FALSE,TRUE,2017
-"Micronesia, Federated States of",National,EAP,2021,P20,0.3904579,FALSE,TRUE,2017
+"Micronesia, Federated States of",National,EAP,2021,P20,0.3688262,FALSE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2021,Extreme poverty,0.1639306,TRUE,TRUE,2017
 "Micronesia, Federated States of",National,EAP,2021,P20,0.375097,TRUE,TRUE,2017
 Moldova,National,ECA,2010,Extreme poverty,0.004210282,FALSE,FALSE,2017
@@ -8300,11 +8300,11 @@ Moldova,National,ECA,2019,P20,0.00261286,FALSE,TRUE,2017
 Moldova,National,ECA,2019,Extreme poverty,0,TRUE,TRUE,2017
 Moldova,National,ECA,2019,P20,0.002205906,TRUE,TRUE,2017
 Moldova,National,ECA,2020,Extreme poverty,0,FALSE,TRUE,2017
-Moldova,National,ECA,2020,P20,0.00261286,FALSE,TRUE,2017
+Moldova,National,ECA,2020,P20,0.001882924,FALSE,TRUE,2017
 Moldova,National,ECA,2020,Extreme poverty,0,TRUE,TRUE,2017
 Moldova,National,ECA,2020,P20,0.00261286,TRUE,TRUE,2017
 Moldova,National,ECA,2021,Extreme poverty,0,FALSE,TRUE,2017
-Moldova,National,ECA,2021,P20,0.002205906,FALSE,TRUE,2017
+Moldova,National,ECA,2021,P20,0.001882924,FALSE,TRUE,2017
 Moldova,National,ECA,2021,Extreme poverty,0,TRUE,TRUE,2017
 Moldova,National,ECA,2021,P20,0.001882924,TRUE,TRUE,2017
 Mongolia,National,EAP,2010,Extreme poverty,0.01327489,FALSE,FALSE,2017
@@ -8327,15 +8327,15 @@ Mongolia,National,EAP,2018,P20,0.05296921,FALSE,FALSE,2017
 Mongolia,National,EAP,2018,Extreme poverty,0.007855814,TRUE,FALSE,2017
 Mongolia,National,EAP,2018,P20,0.05296921,TRUE,FALSE,2017
 Mongolia,National,EAP,2019,Extreme poverty,0.006567425,FALSE,TRUE,2017
-Mongolia,National,EAP,2019,P20,0.04911405,FALSE,TRUE,2017
+Mongolia,National,EAP,2019,P20,0.04824179,FALSE,TRUE,2017
 Mongolia,National,EAP,2019,Extreme poverty,0.007235472,TRUE,TRUE,2017
 Mongolia,National,EAP,2019,P20,0.05078671,TRUE,TRUE,2017
 Mongolia,National,EAP,2020,Extreme poverty,0.005888218,FALSE,TRUE,2017
-Mongolia,National,EAP,2020,P20,0.0476082,FALSE,TRUE,2017
+Mongolia,National,EAP,2020,P20,0.0404211,FALSE,TRUE,2017
 Mongolia,National,EAP,2020,Extreme poverty,0.007855814,TRUE,TRUE,2017
 Mongolia,National,EAP,2020,P20,0.0529112,TRUE,TRUE,2017
 Mongolia,National,EAP,2021,Extreme poverty,0.005015679,FALSE,TRUE,2017
-Mongolia,National,EAP,2021,P20,0.04656363,FALSE,TRUE,2017
+Mongolia,National,EAP,2021,P20,0.04027897,FALSE,TRUE,2017
 Mongolia,National,EAP,2021,Extreme poverty,0.006003671,TRUE,TRUE,2017
 Mongolia,National,EAP,2021,P20,0.04778629,TRUE,TRUE,2017
 Montenegro,National,ECA,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -8358,15 +8358,15 @@ Montenegro,National,ECA,2018,P20,0.04697124,FALSE,FALSE,2017
 Montenegro,National,ECA,2018,Extreme poverty,0.009075765,TRUE,FALSE,2017
 Montenegro,National,ECA,2018,P20,0.04697124,TRUE,FALSE,2017
 Montenegro,National,ECA,2019,Extreme poverty,0.007380035,FALSE,TRUE,2017
-Montenegro,National,ECA,2019,P20,0.04659988,FALSE,TRUE,2017
+Montenegro,National,ECA,2019,P20,0.04649608,FALSE,TRUE,2017
 Montenegro,National,ECA,2019,Extreme poverty,0.007380035,TRUE,TRUE,2017
 Montenegro,National,ECA,2019,P20,0.04649608,TRUE,TRUE,2017
 Montenegro,National,ECA,2020,Extreme poverty,0.007109398,FALSE,TRUE,2017
-Montenegro,National,ECA,2020,P20,0.04659988,FALSE,TRUE,2017
+Montenegro,National,ECA,2020,P20,0.0415666,FALSE,TRUE,2017
 Montenegro,National,ECA,2020,Extreme poverty,0.01134626,TRUE,TRUE,2017
 Montenegro,National,ECA,2020,P20,0.05804902,TRUE,TRUE,2017
 Montenegro,National,ECA,2021,Extreme poverty,0.006079056,FALSE,TRUE,2017
-Montenegro,National,ECA,2021,P20,0.04659988,FALSE,TRUE,2017
+Montenegro,National,ECA,2021,P20,0.0415666,FALSE,TRUE,2017
 Montenegro,National,ECA,2021,Extreme poverty,0.009075765,TRUE,TRUE,2017
 Montenegro,National,ECA,2021,P20,0.05114016,TRUE,TRUE,2017
 Morocco,National,MNA,2010,Extreme poverty,0.02516985,FALSE,FALSE,2017
@@ -8389,15 +8389,15 @@ Morocco,National,MNA,2018,P20,0.05793191,FALSE,FALSE,2017
 Morocco,National,MNA,2018,Extreme poverty,0.01051038,TRUE,FALSE,2017
 Morocco,National,MNA,2018,P20,0.05793191,TRUE,FALSE,2017
 Morocco,National,MNA,2019,Extreme poverty,0.01003809,FALSE,TRUE,2017
-Morocco,National,MNA,2019,P20,0.05856272,FALSE,TRUE,2017
+Morocco,National,MNA,2019,P20,0.05818168,FALSE,TRUE,2017
 Morocco,National,MNA,2019,Extreme poverty,0.01021481,TRUE,TRUE,2017
 Morocco,National,MNA,2019,P20,0.05842698,TRUE,TRUE,2017
 Morocco,National,MNA,2020,Extreme poverty,0.009143525,FALSE,TRUE,2017
-Morocco,National,MNA,2020,P20,0.05836245,FALSE,TRUE,2017
+Morocco,National,MNA,2020,P20,0.05171373,FALSE,TRUE,2017
 Morocco,National,MNA,2020,Extreme poverty,0.01302607,TRUE,TRUE,2017
 Morocco,National,MNA,2020,P20,0.06548559,TRUE,TRUE,2017
 Morocco,National,MNA,2021,Extreme poverty,0.007719582,FALSE,TRUE,2017
-Morocco,National,MNA,2021,P20,0.05774653,FALSE,TRUE,2017
+Morocco,National,MNA,2021,P20,0.05148681,FALSE,TRUE,2017
 Morocco,National,MNA,2021,Extreme poverty,0.01051038,TRUE,TRUE,2017
 Morocco,National,MNA,2021,P20,0.06388984,TRUE,TRUE,2017
 Mozambique,National,SSA,2010,Extreme poverty,0.7022978,FALSE,FALSE,2017
@@ -8420,15 +8420,15 @@ Mozambique,National,SSA,2018,P20,0.7978148,FALSE,FALSE,2017
 Mozambique,National,SSA,2018,Extreme poverty,0.6384928,TRUE,FALSE,2017
 Mozambique,National,SSA,2018,P20,0.7978148,TRUE,FALSE,2017
 Mozambique,National,SSA,2019,Extreme poverty,0.6414965,FALSE,TRUE,2017
-Mozambique,National,SSA,2019,P20,0.805125,FALSE,TRUE,2017
+Mozambique,National,SSA,2019,P20,0.8039998,FALSE,TRUE,2017
 Mozambique,National,SSA,2019,Extreme poverty,0.6403587,TRUE,TRUE,2017
 Mozambique,National,SSA,2019,P20,0.8028142,TRUE,TRUE,2017
 Mozambique,National,SSA,2020,Extreme poverty,0.629659,FALSE,TRUE,2017
-Mozambique,National,SSA,2020,P20,0.8030784,FALSE,TRUE,2017
+Mozambique,National,SSA,2020,P20,0.7918053,FALSE,TRUE,2017
 Mozambique,National,SSA,2020,Extreme poverty,0.6418754,TRUE,TRUE,2017
 Mozambique,National,SSA,2020,P20,0.8002371,TRUE,TRUE,2017
 Mozambique,National,SSA,2021,Extreme poverty,0.6249254,FALSE,TRUE,2017
-Mozambique,National,SSA,2021,P20,0.8062561,FALSE,TRUE,2017
+Mozambique,National,SSA,2021,P20,0.7964679,FALSE,TRUE,2017
 Mozambique,National,SSA,2021,Extreme poverty,0.6340173,TRUE,TRUE,2017
 Mozambique,National,SSA,2021,P20,0.8026643,TRUE,TRUE,2017
 Myanmar,National,EAP,2010,Extreme poverty,0.1801659,FALSE,FALSE,2017
@@ -8451,15 +8451,15 @@ Myanmar,National,EAP,2018,P20,0.1265344,FALSE,FALSE,2017
 Myanmar,National,EAP,2018,Extreme poverty,0.01701784,TRUE,FALSE,2017
 Myanmar,National,EAP,2018,P20,0.1265344,TRUE,FALSE,2017
 Myanmar,National,EAP,2019,Extreme poverty,0.01329982,FALSE,TRUE,2017
-Myanmar,National,EAP,2019,P20,0.1130741,FALSE,TRUE,2017
+Myanmar,National,EAP,2019,P20,0.1118755,FALSE,TRUE,2017
 Myanmar,National,EAP,2019,Extreme poverty,0.01331472,TRUE,TRUE,2017
 Myanmar,National,EAP,2019,P20,0.1122761,TRUE,TRUE,2017
 Myanmar,National,EAP,2020,Extreme poverty,0.01045108,FALSE,TRUE,2017
-Myanmar,National,EAP,2020,P20,0.1023515,FALSE,TRUE,2017
+Myanmar,National,EAP,2020,P20,0.08555967,FALSE,TRUE,2017
 Myanmar,National,EAP,2020,Extreme poverty,0.01288457,TRUE,TRUE,2017
 Myanmar,National,EAP,2020,P20,0.1024092,TRUE,TRUE,2017
 Myanmar,National,EAP,2021,Extreme poverty,0.008139485,FALSE,TRUE,2017
-Myanmar,National,EAP,2021,P20,0.09151778,FALSE,TRUE,2017
+Myanmar,National,EAP,2021,P20,0.07985022,FALSE,TRUE,2017
 Myanmar,National,EAP,2021,Extreme poverty,0.009804991,TRUE,TRUE,2017
 Myanmar,National,EAP,2021,P20,0.08799577,TRUE,TRUE,2017
 Namibia,National,SSA,2010,Extreme poverty,0.2636884,FALSE,FALSE,2017
@@ -8478,19 +8478,19 @@ Namibia,National,SSA,2015,Extreme poverty,0.1618931,FALSE,FALSE,2017
 Namibia,National,SSA,2015,Extreme poverty,0.1618931,FALSE,FALSE,2017
 Namibia,National,SSA,2015,P20,0.2637346,FALSE,FALSE,2017
 Namibia,National,SSA,2018,Extreme poverty,0.174684,FALSE,FALSE,2017
-Namibia,National,SSA,2018,P20,0.3233862,FALSE,FALSE,2017
+Namibia,National,SSA,2018,P20,0.3234272,FALSE,FALSE,2017
 Namibia,National,SSA,2018,Extreme poverty,0.174684,TRUE,FALSE,2017
 Namibia,National,SSA,2018,P20,0.3234272,TRUE,FALSE,2017
 Namibia,National,SSA,2019,Extreme poverty,0.182587,FALSE,TRUE,2017
-Namibia,National,SSA,2019,P20,0.3372795,FALSE,TRUE,2017
+Namibia,National,SSA,2019,P20,0.336376,FALSE,TRUE,2017
 Namibia,National,SSA,2019,Extreme poverty,0.1860637,TRUE,TRUE,2017
 Namibia,National,SSA,2019,P20,0.3393644,TRUE,TRUE,2017
 Namibia,National,SSA,2020,Extreme poverty,0.1834147,FALSE,TRUE,2017
-Namibia,National,SSA,2020,P20,0.3460095,FALSE,TRUE,2017
+Namibia,National,SSA,2020,P20,0.332256,FALSE,TRUE,2017
 Namibia,National,SSA,2020,Extreme poverty,0.1988512,TRUE,TRUE,2017
 Namibia,National,SSA,2020,P20,0.3476631,TRUE,TRUE,2017
 Namibia,National,SSA,2021,Extreme poverty,0.1822733,FALSE,TRUE,2017
-Namibia,National,SSA,2021,P20,0.3509832,FALSE,TRUE,2017
+Namibia,National,SSA,2021,P20,0.3393644,FALSE,TRUE,2017
 Namibia,National,SSA,2021,Extreme poverty,0.1946385,TRUE,TRUE,2017
 Namibia,National,SSA,2021,P20,0.3519928,TRUE,TRUE,2017
 Nepal,National,SAS,2010,Extreme poverty,0.09535818,FALSE,FALSE,2017
@@ -8513,15 +8513,15 @@ Nepal,National,SAS,2018,P20,0.1752549,FALSE,FALSE,2017
 Nepal,National,SAS,2018,Extreme poverty,0.02976142,TRUE,FALSE,2017
 Nepal,National,SAS,2018,P20,0.1752549,TRUE,FALSE,2017
 Nepal,National,SAS,2019,Extreme poverty,0.02490214,FALSE,TRUE,2017
-Nepal,National,SAS,2019,P20,0.1551636,FALSE,TRUE,2017
+Nepal,National,SAS,2019,P20,0.1537092,FALSE,TRUE,2017
 Nepal,National,SAS,2019,Extreme poverty,0.02490214,TRUE,TRUE,2017
 Nepal,National,SAS,2019,P20,0.1537092,TRUE,TRUE,2017
 Nepal,National,SAS,2020,Extreme poverty,0.02197883,FALSE,TRUE,2017
-Nepal,National,SAS,2020,P20,0.144391,FALSE,TRUE,2017
+Nepal,National,SAS,2020,P20,0.1268679,FALSE,TRUE,2017
 Nepal,National,SAS,2020,Extreme poverty,0.0240806,TRUE,TRUE,2017
 Nepal,National,SAS,2020,P20,0.139548,TRUE,TRUE,2017
 Nepal,National,SAS,2021,Extreme poverty,0.01995526,FALSE,TRUE,2017
-Nepal,National,SAS,2021,P20,0.1359487,FALSE,TRUE,2017
+Nepal,National,SAS,2021,P20,0.1209709,FALSE,TRUE,2017
 Nepal,National,SAS,2021,Extreme poverty,0.02197883,TRUE,TRUE,2017
 Nepal,National,SAS,2021,P20,0.1365417,TRUE,TRUE,2017
 Netherlands,National,OHI,2010,Extreme poverty,0.0004743891,FALSE,FALSE,2017
@@ -8548,11 +8548,11 @@ Netherlands,National,OHI,2019,P20,0.002540825,FALSE,TRUE,2017
 Netherlands,National,OHI,2019,Extreme poverty,0.001887662,TRUE,TRUE,2017
 Netherlands,National,OHI,2019,P20,0.002540825,TRUE,TRUE,2017
 Netherlands,National,OHI,2020,Extreme poverty,0.001879118,FALSE,TRUE,2017
-Netherlands,National,OHI,2020,P20,0.002540825,FALSE,TRUE,2017
+Netherlands,National,OHI,2020,P20,0.002121892,FALSE,TRUE,2017
 Netherlands,National,OHI,2020,Extreme poverty,0.001887662,TRUE,TRUE,2017
 Netherlands,National,OHI,2020,P20,0.002954605,TRUE,TRUE,2017
 Netherlands,National,OHI,2021,Extreme poverty,0.001879118,FALSE,TRUE,2017
-Netherlands,National,OHI,2021,P20,0.002540825,FALSE,TRUE,2017
+Netherlands,National,OHI,2021,P20,0.002467679,FALSE,TRUE,2017
 Netherlands,National,OHI,2021,Extreme poverty,0.001887662,TRUE,TRUE,2017
 Netherlands,National,OHI,2021,P20,0.002954605,TRUE,TRUE,2017
 Nicaragua,National,LAC,2010,Extreme poverty,0.07388393,FALSE,FALSE,2017
@@ -8575,15 +8575,15 @@ Nicaragua,National,LAC,2018,P20,0.1037634,FALSE,FALSE,2017
 Nicaragua,National,LAC,2018,Extreme poverty,0.03732801,TRUE,FALSE,2017
 Nicaragua,National,LAC,2018,P20,0.1037634,TRUE,FALSE,2017
 Nicaragua,National,LAC,2019,Extreme poverty,0.04560076,FALSE,TRUE,2017
-Nicaragua,National,LAC,2019,P20,0.1312397,FALSE,TRUE,2017
+Nicaragua,National,LAC,2019,P20,0.1291611,FALSE,TRUE,2017
 Nicaragua,National,LAC,2019,Extreme poverty,0.04221291,TRUE,TRUE,2017
 Nicaragua,National,LAC,2019,P20,0.126702,TRUE,TRUE,2017
 Nicaragua,National,LAC,2020,Extreme poverty,0.04966343,FALSE,TRUE,2017
-Nicaragua,National,LAC,2020,P20,0.1432446,FALSE,TRUE,2017
+Nicaragua,National,LAC,2020,P20,0.1311326,FALSE,TRUE,2017
 Nicaragua,National,LAC,2020,Extreme poverty,0.05086521,TRUE,TRUE,2017
 Nicaragua,National,LAC,2020,P20,0.1383676,TRUE,TRUE,2017
 Nicaragua,National,LAC,2021,Extreme poverty,0.05040897,FALSE,TRUE,2017
-Nicaragua,National,LAC,2021,P20,0.1503743,FALSE,TRUE,2017
+Nicaragua,National,LAC,2021,P20,0.1420134,FALSE,TRUE,2017
 Nicaragua,National,LAC,2021,Extreme poverty,0.05170293,TRUE,TRUE,2017
 Nicaragua,National,LAC,2021,P20,0.1478581,TRUE,TRUE,2017
 Niger,National,SSA,2010,Extreme poverty,0.6546627,FALSE,FALSE,2017
@@ -8606,15 +8606,15 @@ Niger,National,SSA,2018,P20,0.7778324,FALSE,FALSE,2017
 Niger,National,SSA,2018,Extreme poverty,0.5211725,TRUE,FALSE,2017
 Niger,National,SSA,2018,P20,0.7778324,TRUE,FALSE,2017
 Niger,National,SSA,2019,Extreme poverty,0.5127335,FALSE,TRUE,2017
-Niger,National,SSA,2019,P20,0.7775118,FALSE,TRUE,2017
+Niger,National,SSA,2019,P20,0.7746681,FALSE,TRUE,2017
 Niger,National,SSA,2019,Extreme poverty,0.5144642,TRUE,TRUE,2017
 Niger,National,SSA,2019,P20,0.7775118,TRUE,TRUE,2017
 Niger,National,SSA,2020,Extreme poverty,0.5023483,FALSE,TRUE,2017
-Niger,National,SSA,2020,P20,0.7782397,FALSE,TRUE,2017
+Niger,National,SSA,2020,P20,0.7527339,FALSE,TRUE,2017
 Niger,National,SSA,2020,Extreme poverty,0.5248479,TRUE,TRUE,2017
 Niger,National,SSA,2020,P20,0.7798281,TRUE,TRUE,2017
 Niger,National,SSA,2021,Extreme poverty,0.4941979,FALSE,TRUE,2017
-Niger,National,SSA,2021,P20,0.7798281,FALSE,TRUE,2017
+Niger,National,SSA,2021,P20,0.7586735,FALSE,TRUE,2017
 Niger,National,SSA,2021,Extreme poverty,0.5078039,TRUE,TRUE,2017
 Niger,National,SSA,2021,P20,0.7776511,TRUE,TRUE,2017
 Nigeria,National,SSA,2010,Extreme poverty,0.4242127,FALSE,FALSE,2017
@@ -8633,19 +8633,19 @@ Nigeria,National,SSA,2015,Extreme poverty,0.2922138,FALSE,FALSE,2017
 Nigeria,National,SSA,2015,Extreme poverty,0.2922138,FALSE,FALSE,2017
 Nigeria,National,SSA,2015,P20,0.4679482,FALSE,FALSE,2017
 Nigeria,National,SSA,2018,Extreme poverty,0.2786083,FALSE,FALSE,2017
-Nigeria,National,SSA,2018,P20,0.5300445,FALSE,FALSE,2017
+Nigeria,National,SSA,2018,P20,0.5301608,FALSE,FALSE,2017
 Nigeria,National,SSA,2018,Extreme poverty,0.2786083,TRUE,FALSE,2017
 Nigeria,National,SSA,2018,P20,0.5301608,TRUE,FALSE,2017
 Nigeria,National,SSA,2019,Extreme poverty,0.2796914,FALSE,TRUE,2017
-Nigeria,National,SSA,2019,P20,0.5432739,FALSE,TRUE,2017
+Nigeria,National,SSA,2019,P20,0.5405606,FALSE,TRUE,2017
 Nigeria,National,SSA,2019,Extreme poverty,0.2800376,TRUE,TRUE,2017
 Nigeria,National,SSA,2019,P20,0.5414239,TRUE,TRUE,2017
 Nigeria,National,SSA,2020,Extreme poverty,0.2798085,FALSE,TRUE,2017
-Nigeria,National,SSA,2020,P20,0.5566443,FALSE,TRUE,2017
+Nigeria,National,SSA,2020,P20,0.5331251,FALSE,TRUE,2017
 Nigeria,National,SSA,2020,Extreme poverty,0.3106261,TRUE,TRUE,2017
 Nigeria,National,SSA,2020,P20,0.5654061,TRUE,TRUE,2017
 Nigeria,National,SSA,2021,Extreme poverty,0.2800396,FALSE,TRUE,2017
-Nigeria,National,SSA,2021,P20,0.5702385,FALSE,TRUE,2017
+Nigeria,National,SSA,2021,P20,0.5491275,FALSE,TRUE,2017
 Nigeria,National,SSA,2021,Extreme poverty,0.3111272,TRUE,TRUE,2017
 Nigeria,National,SSA,2021,P20,0.5816615,TRUE,TRUE,2017
 North Macedonia,National,ECA,2010,Extreme poverty,0.1080111,FALSE,FALSE,2017
@@ -8668,15 +8668,15 @@ North Macedonia,National,ECA,2018,P20,0.08298672,FALSE,FALSE,2017
 North Macedonia,National,ECA,2018,Extreme poverty,0.04562323,TRUE,FALSE,2017
 North Macedonia,National,ECA,2018,P20,0.08298672,TRUE,FALSE,2017
 North Macedonia,National,ECA,2019,Extreme poverty,0.04446334,FALSE,TRUE,2017
-North Macedonia,National,ECA,2019,P20,0.08222831,FALSE,TRUE,2017
+North Macedonia,National,ECA,2019,P20,0.0816922,FALSE,TRUE,2017
 North Macedonia,National,ECA,2019,Extreme poverty,0.04433612,TRUE,TRUE,2017
 North Macedonia,National,ECA,2019,P20,0.0816922,TRUE,TRUE,2017
 North Macedonia,National,ECA,2020,Extreme poverty,0.04264963,FALSE,TRUE,2017
-North Macedonia,National,ECA,2020,P20,0.0816922,FALSE,TRUE,2017
+North Macedonia,National,ECA,2020,P20,0.07624775,FALSE,TRUE,2017
 North Macedonia,National,ECA,2020,Extreme poverty,0.04582679,TRUE,TRUE,2017
 North Macedonia,National,ECA,2020,P20,0.08368617,TRUE,TRUE,2017
 North Macedonia,National,ECA,2021,Extreme poverty,0.03992661,FALSE,TRUE,2017
-North Macedonia,National,ECA,2021,P20,0.07900943,FALSE,TRUE,2017
+North Macedonia,National,ECA,2021,P20,0.07590377,FALSE,TRUE,2017
 North Macedonia,National,ECA,2021,Extreme poverty,0.04264963,TRUE,TRUE,2017
 North Macedonia,National,ECA,2021,P20,0.07752483,TRUE,TRUE,2017
 Norway,National,OHI,2010,Extreme poverty,0.001509881,FALSE,FALSE,2017
@@ -8730,15 +8730,15 @@ Pakistan,National,SAS,2018,P20,0.2307107,FALSE,FALSE,2017
 Pakistan,National,SAS,2018,Extreme poverty,0.028483,TRUE,FALSE,2017
 Pakistan,National,SAS,2018,P20,0.2307107,TRUE,FALSE,2017
 Pakistan,National,SAS,2019,Extreme poverty,0.02579796,FALSE,TRUE,2017
-Pakistan,National,SAS,2019,P20,0.2349866,FALSE,TRUE,2017
+Pakistan,National,SAS,2019,P20,0.2321451,FALSE,TRUE,2017
 Pakistan,National,SAS,2019,Extreme poverty,0.02579796,TRUE,TRUE,2017
 Pakistan,National,SAS,2019,P20,0.2321451,TRUE,TRUE,2017
 Pakistan,National,SAS,2020,Extreme poverty,0.02535827,FALSE,TRUE,2017
-Pakistan,National,SAS,2020,P20,0.2479059,FALSE,TRUE,2017
+Pakistan,National,SAS,2020,P20,0.2184703,FALSE,TRUE,2017
 Pakistan,National,SAS,2020,Extreme poverty,0.03224559,TRUE,TRUE,2017
 Pakistan,National,SAS,2020,P20,0.244892,TRUE,TRUE,2017
 Pakistan,National,SAS,2021,Extreme poverty,0.0235344,FALSE,TRUE,2017
-Pakistan,National,SAS,2021,P20,0.258055,FALSE,TRUE,2017
+Pakistan,National,SAS,2021,P20,0.2310281,FALSE,TRUE,2017
 Pakistan,National,SAS,2021,Extreme poverty,0.03190271,TRUE,TRUE,2017
 Pakistan,National,SAS,2021,P20,0.2632349,TRUE,TRUE,2017
 Panama,National,LAC,2010,Extreme poverty,0.03566282,FALSE,FALSE,2017
@@ -8761,15 +8761,15 @@ Panama,National,LAC,2018,P20,0.03872825,FALSE,FALSE,2017
 Panama,National,LAC,2018,Extreme poverty,0.01462091,TRUE,FALSE,2017
 Panama,National,LAC,2018,P20,0.03872825,TRUE,FALSE,2017
 Panama,National,LAC,2019,Extreme poverty,0.0138726,FALSE,TRUE,2017
-Panama,National,LAC,2019,P20,0.03831843,FALSE,TRUE,2017
+Panama,National,LAC,2019,P20,0.0380745,FALSE,TRUE,2017
 Panama,National,LAC,2019,Extreme poverty,0.0143011,TRUE,TRUE,2017
 Panama,National,LAC,2019,P20,0.03875769,TRUE,TRUE,2017
 Panama,National,LAC,2020,Extreme poverty,0.01274584,FALSE,TRUE,2017
-Panama,National,LAC,2020,P20,0.03746503,FALSE,TRUE,2017
+Panama,National,LAC,2020,P20,0.03429683,FALSE,TRUE,2017
 Panama,National,LAC,2020,Extreme poverty,0.01566605,TRUE,TRUE,2017
 Panama,National,LAC,2020,P20,0.03980139,TRUE,TRUE,2017
 Panama,National,LAC,2021,Extreme poverty,0.01201836,FALSE,TRUE,2017
-Panama,National,LAC,2021,P20,0.03665186,FALSE,TRUE,2017
+Panama,National,LAC,2021,P20,0.03400837,FALSE,TRUE,2017
 Panama,National,LAC,2021,Extreme poverty,0.01462091,TRUE,TRUE,2017
 Panama,National,LAC,2021,P20,0.0404561,TRUE,TRUE,2017
 Papua New Guinea,National,EAP,2010,Extreme poverty,0.3958609,FALSE,FALSE,2017
@@ -8792,15 +8792,15 @@ Papua New Guinea,National,EAP,2018,P20,0.5060674,FALSE,FALSE,2017
 Papua New Guinea,National,EAP,2018,Extreme poverty,0.3014244,TRUE,FALSE,2017
 Papua New Guinea,National,EAP,2018,P20,0.5060674,TRUE,FALSE,2017
 Papua New Guinea,National,EAP,2019,Extreme poverty,0.2916686,FALSE,TRUE,2017
-Papua New Guinea,National,EAP,2019,P20,0.5021783,FALSE,TRUE,2017
+Papua New Guinea,National,EAP,2019,P20,0.5000981,FALSE,TRUE,2017
 Papua New Guinea,National,EAP,2019,Extreme poverty,0.2916686,TRUE,TRUE,2017
 Papua New Guinea,National,EAP,2019,P20,0.5000981,TRUE,TRUE,2017
 Papua New Guinea,National,EAP,2020,Extreme poverty,0.2902151,FALSE,TRUE,2017
-Papua New Guinea,National,EAP,2020,P20,0.5150959,FALSE,TRUE,2017
+Papua New Guinea,National,EAP,2020,P20,0.492011,FALSE,TRUE,2017
 Papua New Guinea,National,EAP,2020,Extreme poverty,0.3024077,TRUE,TRUE,2017
 Papua New Guinea,National,EAP,2020,P20,0.5075034,TRUE,TRUE,2017
 Papua New Guinea,National,EAP,2021,Extreme poverty,0.2865492,FALSE,TRUE,2017
-Papua New Guinea,National,EAP,2021,P20,0.5255465,FALSE,TRUE,2017
+Papua New Guinea,National,EAP,2021,P20,0.5033517,FALSE,TRUE,2017
 Papua New Guinea,National,EAP,2021,Extreme poverty,0.2991433,TRUE,TRUE,2017
 Papua New Guinea,National,EAP,2021,P20,0.5217099,TRUE,TRUE,2017
 Paraguay,National,LAC,2010,Extreme poverty,0.05790197,FALSE,FALSE,2017
@@ -8823,15 +8823,15 @@ Paraguay,National,LAC,2018,P20,0.05249155,FALSE,FALSE,2017
 Paraguay,National,LAC,2018,Extreme poverty,0.01721697,TRUE,FALSE,2017
 Paraguay,National,LAC,2018,P20,0.05249155,TRUE,FALSE,2017
 Paraguay,National,LAC,2019,Extreme poverty,0.01742586,FALSE,TRUE,2017
-Paraguay,National,LAC,2019,P20,0.05527623,FALSE,TRUE,2017
+Paraguay,National,LAC,2019,P20,0.05443529,FALSE,TRUE,2017
 Paraguay,National,LAC,2019,Extreme poverty,0.01789674,TRUE,TRUE,2017
 Paraguay,National,LAC,2019,P20,0.05652452,TRUE,TRUE,2017
 Paraguay,National,LAC,2020,Extreme poverty,0.01634135,FALSE,TRUE,2017
-Paraguay,National,LAC,2020,P20,0.05527623,FALSE,TRUE,2017
+Paraguay,National,LAC,2020,P20,0.05165148,FALSE,TRUE,2017
 Paraguay,National,LAC,2020,Extreme poverty,0.01924817,TRUE,TRUE,2017
 Paraguay,National,LAC,2020,P20,0.05779297,TRUE,TRUE,2017
 Paraguay,National,LAC,2021,Extreme poverty,0.01411996,FALSE,TRUE,2017
-Paraguay,National,LAC,2021,P20,0.05443529,FALSE,TRUE,2017
+Paraguay,National,LAC,2021,P20,0.05180786,FALSE,TRUE,2017
 Paraguay,National,LAC,2021,Extreme poverty,0.01789674,TRUE,TRUE,2017
 Paraguay,National,LAC,2021,P20,0.05779297,TRUE,TRUE,2017
 Peru,National,LAC,2010,Extreme poverty,0.0718564,FALSE,FALSE,2017
@@ -8854,15 +8854,15 @@ Peru,National,LAC,2018,P20,0.09116604,FALSE,FALSE,2017
 Peru,National,LAC,2018,Extreme poverty,0.0371309,TRUE,FALSE,2017
 Peru,National,LAC,2018,P20,0.09116604,TRUE,FALSE,2017
 Peru,National,LAC,2019,Extreme poverty,0.03614978,FALSE,TRUE,2017
-Peru,National,LAC,2019,P20,0.09192497,FALSE,TRUE,2017
+Peru,National,LAC,2019,P20,0.09127303,FALSE,TRUE,2017
 Peru,National,LAC,2019,Extreme poverty,0.03794592,TRUE,TRUE,2017
 Peru,National,LAC,2019,P20,0.09602035,TRUE,TRUE,2017
 Peru,National,LAC,2020,Extreme poverty,0.03467436,FALSE,TRUE,2017
-Peru,National,LAC,2020,P20,0.09178367,FALSE,TRUE,2017
+Peru,National,LAC,2020,P20,0.0854987,FALSE,TRUE,2017
 Peru,National,LAC,2020,Extreme poverty,0.04248338,TRUE,TRUE,2017
 Peru,National,LAC,2020,P20,0.1027934,TRUE,TRUE,2017
 Peru,National,LAC,2021,Extreme poverty,0.03243958,FALSE,TRUE,2017
-Peru,National,LAC,2021,P20,0.09119419,FALSE,TRUE,2017
+Peru,National,LAC,2021,P20,0.08539426,FALSE,TRUE,2017
 Peru,National,LAC,2021,Extreme poverty,0.03888964,TRUE,TRUE,2017
 Peru,National,LAC,2021,P20,0.1006155,TRUE,TRUE,2017
 Philippines,National,EAP,2010,Extreme poverty,0.1170897,FALSE,FALSE,2017
@@ -8881,19 +8881,19 @@ Philippines,National,EAP,2015,Extreme poverty,0.0884717,FALSE,FALSE,2017
 Philippines,National,EAP,2015,Extreme poverty,0.0884717,FALSE,FALSE,2017
 Philippines,National,EAP,2015,P20,0.2290984,FALSE,FALSE,2017
 Philippines,National,EAP,2018,Extreme poverty,0.05274677,FALSE,FALSE,2017
-Philippines,National,EAP,2018,P20,0.2152521,FALSE,FALSE,2017
+Philippines,National,EAP,2018,P20,0.215297,FALSE,FALSE,2017
 Philippines,National,EAP,2018,Extreme poverty,0.05274677,TRUE,FALSE,2017
 Philippines,National,EAP,2018,P20,0.215297,TRUE,FALSE,2017
 Philippines,National,EAP,2019,Extreme poverty,0.04570269,FALSE,TRUE,2017
-Philippines,National,EAP,2019,P20,0.2072789,FALSE,TRUE,2017
+Philippines,National,EAP,2019,P20,0.2046274,FALSE,TRUE,2017
 Philippines,National,EAP,2019,Extreme poverty,0.04524389,TRUE,TRUE,2017
 Philippines,National,EAP,2019,P20,0.2034074,TRUE,TRUE,2017
 Philippines,National,EAP,2020,Extreme poverty,0.03861595,FALSE,TRUE,2017
-Philippines,National,EAP,2020,P20,0.1973377,FALSE,TRUE,2017
+Philippines,National,EAP,2020,P20,0.1766289,FALSE,TRUE,2017
 Philippines,National,EAP,2020,Extreme poverty,0.04700597,TRUE,TRUE,2017
 Philippines,National,EAP,2020,P20,0.2006369,TRUE,TRUE,2017
 Philippines,National,EAP,2021,Extreme poverty,0.03193318,FALSE,TRUE,2017
-Philippines,National,EAP,2021,P20,0.187859,FALSE,TRUE,2017
+Philippines,National,EAP,2021,P20,0.169899,FALSE,TRUE,2017
 Philippines,National,EAP,2021,Extreme poverty,0.03784151,TRUE,TRUE,2017
 Philippines,National,EAP,2021,P20,0.1874872,TRUE,TRUE,2017
 Poland,National,ECA,2010,Extreme poverty,0.0001076697,FALSE,FALSE,2017
@@ -8916,15 +8916,15 @@ Poland,National,ECA,2018,P20,0.005241408,FALSE,FALSE,2017
 Poland,National,ECA,2018,Extreme poverty,0.00348525,TRUE,FALSE,2017
 Poland,National,ECA,2018,P20,0.005241408,TRUE,FALSE,2017
 Poland,National,ECA,2019,Extreme poverty,0.00337784,FALSE,TRUE,2017
-Poland,National,ECA,2019,P20,0.005213081,FALSE,TRUE,2017
+Poland,National,ECA,2019,P20,0.005185284,FALSE,TRUE,2017
 Poland,National,ECA,2019,Extreme poverty,0.00337784,TRUE,TRUE,2017
 Poland,National,ECA,2019,P20,0.005185284,TRUE,TRUE,2017
 Poland,National,ECA,2020,Extreme poverty,0.003244305,FALSE,TRUE,2017
-Poland,National,ECA,2020,P20,0.005185284,FALSE,TRUE,2017
+Poland,National,ECA,2020,P20,0.005078903,FALSE,TRUE,2017
 Poland,National,ECA,2020,Extreme poverty,0.00348525,TRUE,TRUE,2017
 Poland,National,ECA,2020,P20,0.00528777,TRUE,TRUE,2017
 Poland,National,ECA,2021,Extreme poverty,0.003179413,FALSE,TRUE,2017
-Poland,National,ECA,2021,P20,0.005185284,FALSE,TRUE,2017
+Poland,National,ECA,2021,P20,0.005078903,FALSE,TRUE,2017
 Poland,National,ECA,2021,Extreme poverty,0.00337784,TRUE,TRUE,2017
 Poland,National,ECA,2021,P20,0.005241408,TRUE,TRUE,2017
 Portugal,National,OHI,2010,Extreme poverty,0.001718317,FALSE,FALSE,2017
@@ -8947,15 +8947,15 @@ Portugal,National,OHI,2018,P20,0.005267617,FALSE,FALSE,2017
 Portugal,National,OHI,2018,Extreme poverty,0.00410496,TRUE,FALSE,2017
 Portugal,National,OHI,2018,P20,0.005267617,TRUE,FALSE,2017
 Portugal,National,OHI,2019,Extreme poverty,0.00410496,FALSE,TRUE,2017
-Portugal,National,OHI,2019,P20,0.005267617,FALSE,TRUE,2017
+Portugal,National,OHI,2019,P20,0.005129729,FALSE,TRUE,2017
 Portugal,National,OHI,2019,Extreme poverty,0.00410496,TRUE,TRUE,2017
 Portugal,National,OHI,2019,P20,0.005129729,TRUE,TRUE,2017
 Portugal,National,OHI,2020,Extreme poverty,0.004049973,FALSE,TRUE,2017
-Portugal,National,OHI,2020,P20,0.005267617,FALSE,TRUE,2017
+Portugal,National,OHI,2020,P20,0.004884762,FALSE,TRUE,2017
 Portugal,National,OHI,2020,Extreme poverty,0.004115205,TRUE,TRUE,2017
 Portugal,National,OHI,2020,P20,0.006374772,TRUE,TRUE,2017
 Portugal,National,OHI,2021,Extreme poverty,0.003878561,FALSE,TRUE,2017
-Portugal,National,OHI,2021,P20,0.005267617,FALSE,TRUE,2017
+Portugal,National,OHI,2021,P20,0.00502457,FALSE,TRUE,2017
 Portugal,National,OHI,2021,Extreme poverty,0.00410496,TRUE,TRUE,2017
 Portugal,National,OHI,2021,P20,0.005492211,TRUE,TRUE,2017
 Romania,National,ECA,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -8974,19 +8974,19 @@ Romania,National,ECA,2015,Extreme poverty,0.05611295,FALSE,FALSE,2017
 Romania,National,ECA,2015,Extreme poverty,0.05611295,FALSE,FALSE,2017
 Romania,National,ECA,2015,P20,0.09635756,FALSE,FALSE,2017
 Romania,National,ECA,2018,Extreme poverty,0.03238385,FALSE,FALSE,2017
-Romania,National,ECA,2018,P20,0.05888151,FALSE,FALSE,2017
+Romania,National,ECA,2018,P20,0.05903829,FALSE,FALSE,2017
 Romania,National,ECA,2018,Extreme poverty,0.03238385,TRUE,FALSE,2017
 Romania,National,ECA,2018,P20,0.05903829,TRUE,FALSE,2017
 Romania,National,ECA,2019,Extreme poverty,0.03061508,FALSE,TRUE,2017
-Romania,National,ECA,2019,P20,0.05864351,FALSE,TRUE,2017
+Romania,National,ECA,2019,P20,0.05847025,FALSE,TRUE,2017
 Romania,National,ECA,2019,Extreme poverty,0.02996918,TRUE,TRUE,2017
 Romania,National,ECA,2019,P20,0.05802087,TRUE,TRUE,2017
 Romania,National,ECA,2020,Extreme poverty,0.02873203,FALSE,TRUE,2017
-Romania,National,ECA,2020,P20,0.05802087,FALSE,TRUE,2017
+Romania,National,ECA,2020,P20,0.05609214,FALSE,TRUE,2017
 Romania,National,ECA,2020,Extreme poverty,0.03238385,TRUE,TRUE,2017
 Romania,National,ECA,2020,P20,0.05908105,TRUE,TRUE,2017
 Romania,National,ECA,2021,Extreme poverty,0.02793075,FALSE,TRUE,2017
-Romania,National,ECA,2021,P20,0.05802087,FALSE,TRUE,2017
+Romania,National,ECA,2021,P20,0.05609214,FALSE,TRUE,2017
 Romania,National,ECA,2021,Extreme poverty,0.03072256,TRUE,TRUE,2017
 Romania,National,ECA,2021,P20,0.05888151,TRUE,TRUE,2017
 Russian Federation,National,ECA,2010,Extreme poverty,0.0009697963,FALSE,FALSE,2017
@@ -9009,15 +9009,15 @@ Russian Federation,National,ECA,2018,P20,0.00282664,FALSE,FALSE,2017
 Russian Federation,National,ECA,2018,Extreme poverty,0.0003686982,TRUE,FALSE,2017
 Russian Federation,National,ECA,2018,P20,0.00282664,TRUE,FALSE,2017
 Russian Federation,National,ECA,2019,Extreme poverty,0.0003686982,FALSE,TRUE,2017
-Russian Federation,National,ECA,2019,P20,0.002939848,FALSE,TRUE,2017
+Russian Federation,National,ECA,2019,P20,0.002884421,FALSE,TRUE,2017
 Russian Federation,National,ECA,2019,Extreme poverty,0.0003686982,TRUE,TRUE,2017
 Russian Federation,National,ECA,2019,P20,0.002849503,TRUE,TRUE,2017
 Russian Federation,National,ECA,2020,Extreme poverty,0.0003121883,FALSE,TRUE,2017
-Russian Federation,National,ECA,2020,P20,0.002988262,FALSE,TRUE,2017
+Russian Federation,National,ECA,2020,P20,0.002596376,FALSE,TRUE,2017
 Russian Federation,National,ECA,2020,Extreme poverty,0.0005129754,TRUE,TRUE,2017
 Russian Federation,National,ECA,2020,P20,0.003212932,TRUE,TRUE,2017
 Russian Federation,National,ECA,2021,Extreme poverty,0.0002919221,FALSE,TRUE,2017
-Russian Federation,National,ECA,2021,P20,0.003032934,FALSE,TRUE,2017
+Russian Federation,National,ECA,2021,P20,0.002639782,FALSE,TRUE,2017
 Russian Federation,National,ECA,2021,Extreme poverty,0.0003686982,TRUE,TRUE,2017
 Russian Federation,National,ECA,2021,P20,0.003143005,TRUE,TRUE,2017
 Rwanda,National,SSA,2010,Extreme poverty,0.6159724,FALSE,FALSE,2017
@@ -9036,19 +9036,19 @@ Rwanda,National,SSA,2015,Extreme poverty,0.5301803,FALSE,FALSE,2017
 Rwanda,National,SSA,2015,Extreme poverty,0.5301803,FALSE,FALSE,2017
 Rwanda,National,SSA,2015,P20,0.7038657,FALSE,FALSE,2017
 Rwanda,National,SSA,2018,Extreme poverty,0.49606,FALSE,FALSE,2017
-Rwanda,National,SSA,2018,P20,0.723769,FALSE,FALSE,2017
+Rwanda,National,SSA,2018,P20,0.7238026,FALSE,FALSE,2017
 Rwanda,National,SSA,2018,Extreme poverty,0.49606,TRUE,FALSE,2017
 Rwanda,National,SSA,2018,P20,0.7238026,TRUE,FALSE,2017
 Rwanda,National,SSA,2019,Extreme poverty,0.4646663,FALSE,TRUE,2017
-Rwanda,National,SSA,2019,P20,0.7119622,FALSE,TRUE,2017
+Rwanda,National,SSA,2019,P20,0.709848,FALSE,TRUE,2017
 Rwanda,National,SSA,2019,Extreme poverty,0.4529095,TRUE,TRUE,2017
 Rwanda,National,SSA,2019,P20,0.7020455,TRUE,TRUE,2017
 Rwanda,National,SSA,2020,Extreme poverty,0.434031,FALSE,TRUE,2017
-Rwanda,National,SSA,2020,P20,0.6995286,FALSE,TRUE,2017
+Rwanda,National,SSA,2020,P20,0.6799201,FALSE,TRUE,2017
 Rwanda,National,SSA,2020,Extreme poverty,0.4469576,TRUE,TRUE,2017
 Rwanda,National,SSA,2020,P20,0.6916392,TRUE,TRUE,2017
 Rwanda,National,SSA,2021,Extreme poverty,0.4026349,FALSE,TRUE,2017
-Rwanda,National,SSA,2021,P20,0.6863494,FALSE,TRUE,2017
+Rwanda,National,SSA,2021,P20,0.6698429,FALSE,TRUE,2017
 Rwanda,National,SSA,2021,Extreme poverty,0.4245135,TRUE,TRUE,2017
 Rwanda,National,SSA,2021,P20,0.684297,TRUE,TRUE,2017
 Samoa,National,EAP,2010,Extreme poverty,0.01162402,FALSE,FALSE,2017
@@ -9071,15 +9071,15 @@ Samoa,National,EAP,2018,P20,0.06550446,FALSE,FALSE,2017
 Samoa,National,EAP,2018,Extreme poverty,0.01002675,TRUE,FALSE,2017
 Samoa,National,EAP,2018,P20,0.06550446,TRUE,FALSE,2017
 Samoa,National,EAP,2019,Extreme poverty,0.009118336,FALSE,TRUE,2017
-Samoa,National,EAP,2019,P20,0.06435403,FALSE,TRUE,2017
+Samoa,National,EAP,2019,P20,0.06081809,FALSE,TRUE,2017
 Samoa,National,EAP,2019,Extreme poverty,0.009118336,TRUE,TRUE,2017
 Samoa,National,EAP,2019,P20,0.06081809,TRUE,TRUE,2017
 Samoa,National,EAP,2020,Extreme poverty,0.007911152,FALSE,TRUE,2017
-Samoa,National,EAP,2020,P20,0.05909295,FALSE,TRUE,2017
+Samoa,National,EAP,2020,P20,0.05158249,FALSE,TRUE,2017
 Samoa,National,EAP,2020,Extreme poverty,0.0103766,TRUE,TRUE,2017
 Samoa,National,EAP,2020,P20,0.07052452,TRUE,TRUE,2017
 Samoa,National,EAP,2021,Extreme poverty,0.006039618,FALSE,TRUE,2017
-Samoa,National,EAP,2021,P20,0.06550446,FALSE,TRUE,2017
+Samoa,National,EAP,2021,P20,0.05271504,FALSE,TRUE,2017
 Samoa,National,EAP,2021,Extreme poverty,0.01139948,TRUE,TRUE,2017
 Samoa,National,EAP,2021,P20,0.07819373,TRUE,TRUE,2017
 Sao Tome and Principe,National,SSA,2010,Extreme poverty,0.2020722,FALSE,FALSE,2017
@@ -9102,15 +9102,15 @@ Sao Tome and Principe,National,SSA,2018,P20,0.4567293,FALSE,FALSE,2017
 Sao Tome and Principe,National,SSA,2018,Extreme poverty,0.2373018,TRUE,FALSE,2017
 Sao Tome and Principe,National,SSA,2018,P20,0.4567293,TRUE,FALSE,2017
 Sao Tome and Principe,National,SSA,2019,Extreme poverty,0.2354566,FALSE,TRUE,2017
-Sao Tome and Principe,National,SSA,2019,P20,0.4667747,FALSE,TRUE,2017
+Sao Tome and Principe,National,SSA,2019,P20,0.4633682,FALSE,TRUE,2017
 Sao Tome and Principe,National,SSA,2019,Extreme poverty,0.23939,TRUE,TRUE,2017
 Sao Tome and Principe,National,SSA,2019,P20,0.4694928,TRUE,TRUE,2017
 Sao Tome and Principe,National,SSA,2020,Extreme poverty,0.2293591,FALSE,TRUE,2017
-Sao Tome and Principe,National,SSA,2020,P20,0.471622,FALSE,TRUE,2017
+Sao Tome and Principe,National,SSA,2020,P20,0.4520881,FALSE,TRUE,2017
 Sao Tome and Principe,National,SSA,2020,Extreme poverty,0.274987,TRUE,TRUE,2017
 Sao Tome and Principe,National,SSA,2020,P20,0.5008149,TRUE,TRUE,2017
 Sao Tome and Principe,National,SSA,2021,Extreme poverty,0.2224541,FALSE,TRUE,2017
-Sao Tome and Principe,National,SSA,2021,P20,0.4745633,FALSE,TRUE,2017
+Sao Tome and Principe,National,SSA,2021,P20,0.4564668,FALSE,TRUE,2017
 Sao Tome and Principe,National,SSA,2021,Extreme poverty,0.2628325,TRUE,TRUE,2017
 Sao Tome and Principe,National,SSA,2021,P20,0.5006331,TRUE,TRUE,2017
 Senegal,National,SSA,2010,Extreme poverty,0.4139293,FALSE,FALSE,2017
@@ -9133,15 +9133,15 @@ Senegal,National,SSA,2018,P20,0.5563232,FALSE,FALSE,2017
 Senegal,National,SSA,2018,Extreme poverty,0.3214531,TRUE,FALSE,2017
 Senegal,National,SSA,2018,P20,0.5563232,TRUE,FALSE,2017
 Senegal,National,SSA,2019,Extreme poverty,0.3087985,FALSE,TRUE,2017
-Senegal,National,SSA,2019,P20,0.5505087,FALSE,TRUE,2017
+Senegal,National,SSA,2019,P20,0.5468485,FALSE,TRUE,2017
 Senegal,National,SSA,2019,Extreme poverty,0.3130341,TRUE,TRUE,2017
 Senegal,National,SSA,2019,P20,0.5535004,TRUE,TRUE,2017
 Senegal,National,SSA,2020,Extreme poverty,0.2948184,FALSE,TRUE,2017
-Senegal,National,SSA,2020,P20,0.5441914,FALSE,TRUE,2017
+Senegal,National,SSA,2020,P20,0.5263981,FALSE,TRUE,2017
 Senegal,National,SSA,2020,Extreme poverty,0.3129724,TRUE,TRUE,2017
 Senegal,National,SSA,2020,P20,0.544153,TRUE,TRUE,2017
 Senegal,National,SSA,2021,Extreme poverty,0.2741554,FALSE,TRUE,2017
-Senegal,National,SSA,2021,P20,0.5383445,FALSE,TRUE,2017
+Senegal,National,SSA,2021,P20,0.5220369,FALSE,TRUE,2017
 Senegal,National,SSA,2021,Extreme poverty,0.2998435,TRUE,TRUE,2017
 Senegal,National,SSA,2021,P20,0.5450807,TRUE,TRUE,2017
 Serbia,National,ECA,2010,Extreme poverty,0.001995338,FALSE,FALSE,2017
@@ -9168,11 +9168,11 @@ Serbia,National,ECA,2019,P20,0.004397263,FALSE,TRUE,2017
 Serbia,National,ECA,2019,Extreme poverty,0.0003704303,TRUE,TRUE,2017
 Serbia,National,ECA,2019,P20,0.004131544,TRUE,TRUE,2017
 Serbia,National,ECA,2020,Extreme poverty,0.0003704303,FALSE,TRUE,2017
-Serbia,National,ECA,2020,P20,0.004131544,FALSE,TRUE,2017
+Serbia,National,ECA,2020,P20,0.003540414,FALSE,TRUE,2017
 Serbia,National,ECA,2020,Extreme poverty,0.0006781503,TRUE,TRUE,2017
 Serbia,National,ECA,2020,P20,0.004397263,TRUE,TRUE,2017
 Serbia,National,ECA,2021,Extreme poverty,0.0003704303,FALSE,TRUE,2017
-Serbia,National,ECA,2021,P20,0.004131544,FALSE,TRUE,2017
+Serbia,National,ECA,2021,P20,0.003540414,FALSE,TRUE,2017
 Serbia,National,ECA,2021,Extreme poverty,0.0003704303,TRUE,TRUE,2017
 Serbia,National,ECA,2021,P20,0.004131544,TRUE,TRUE,2017
 Seychelles,National,SSA,2010,Extreme poverty,0.01432247,FALSE,FALSE,2017
@@ -9199,11 +9199,11 @@ Seychelles,National,SSA,2019,P20,0.01836665,FALSE,TRUE,2017
 Seychelles,National,SSA,2019,Extreme poverty,0.009146428,TRUE,TRUE,2017
 Seychelles,National,SSA,2019,P20,0.01836665,TRUE,TRUE,2017
 Seychelles,National,SSA,2020,Extreme poverty,0.009146428,FALSE,TRUE,2017
-Seychelles,National,SSA,2020,P20,0.01836665,FALSE,TRUE,2017
+Seychelles,National,SSA,2020,P20,0.0157646,FALSE,TRUE,2017
 Seychelles,National,SSA,2020,Extreme poverty,0.0115261,TRUE,TRUE,2017
 Seychelles,National,SSA,2020,P20,0.02317371,TRUE,TRUE,2017
 Seychelles,National,SSA,2021,Extreme poverty,0.008424272,FALSE,TRUE,2017
-Seychelles,National,SSA,2021,P20,0.01836665,FALSE,TRUE,2017
+Seychelles,National,SSA,2021,P20,0.0157646,FALSE,TRUE,2017
 Seychelles,National,SSA,2021,Extreme poverty,0.01006673,TRUE,TRUE,2017
 Seychelles,National,SSA,2021,P20,0.02071096,TRUE,TRUE,2017
 Sierra Leone,National,SSA,2010,Extreme poverty,0.4500429,FALSE,FALSE,2017
@@ -9226,15 +9226,15 @@ Sierra Leone,National,SSA,2018,P20,0.5937207,FALSE,FALSE,2017
 Sierra Leone,National,SSA,2018,Extreme poverty,0.2759706,TRUE,FALSE,2017
 Sierra Leone,National,SSA,2018,P20,0.5937207,TRUE,FALSE,2017
 Sierra Leone,National,SSA,2019,Extreme poverty,0.2601743,FALSE,TRUE,2017
-Sierra Leone,National,SSA,2019,P20,0.5903311,FALSE,TRUE,2017
+Sierra Leone,National,SSA,2019,P20,0.5856929,FALSE,TRUE,2017
 Sierra Leone,National,SSA,2019,Extreme poverty,0.2595698,TRUE,TRUE,2017
 Sierra Leone,National,SSA,2019,P20,0.5852775,TRUE,TRUE,2017
 Sierra Leone,National,SSA,2020,Extreme poverty,0.2485266,FALSE,TRUE,2017
-Sierra Leone,National,SSA,2020,P20,0.5905093,FALSE,TRUE,2017
+Sierra Leone,National,SSA,2020,P20,0.5664224,FALSE,TRUE,2017
 Sierra Leone,National,SSA,2020,Extreme poverty,0.2835876,TRUE,TRUE,2017
 Sierra Leone,National,SSA,2020,P20,0.6032201,TRUE,TRUE,2017
 Sierra Leone,National,SSA,2021,Extreme poverty,0.2362413,FALSE,TRUE,2017
-Sierra Leone,National,SSA,2021,P20,0.5909564,FALSE,TRUE,2017
+Sierra Leone,National,SSA,2021,P20,0.5676421,FALSE,TRUE,2017
 Sierra Leone,National,SSA,2021,Extreme poverty,0.2733404,TRUE,TRUE,2017
 Sierra Leone,National,SSA,2021,P20,0.6091398,TRUE,TRUE,2017
 Slovak Republic,National,ECA,2010,Extreme poverty,0.004951079,FALSE,FALSE,2017
@@ -9261,11 +9261,11 @@ Slovak Republic,National,ECA,2019,P20,0.01757945,FALSE,TRUE,2017
 Slovak Republic,National,ECA,2019,Extreme poverty,0.01380701,TRUE,TRUE,2017
 Slovak Republic,National,ECA,2019,P20,0.01757945,TRUE,TRUE,2017
 Slovak Republic,National,ECA,2020,Extreme poverty,0.01378284,FALSE,TRUE,2017
-Slovak Republic,National,ECA,2020,P20,0.01757945,FALSE,TRUE,2017
+Slovak Republic,National,ECA,2020,P20,0.01718487,FALSE,TRUE,2017
 Slovak Republic,National,ECA,2020,Extreme poverty,0.01380701,TRUE,TRUE,2017
 Slovak Republic,National,ECA,2020,P20,0.01803931,TRUE,TRUE,2017
 Slovak Republic,National,ECA,2021,Extreme poverty,0.01331123,FALSE,TRUE,2017
-Slovak Republic,National,ECA,2021,P20,0.01757945,FALSE,TRUE,2017
+Slovak Republic,National,ECA,2021,P20,0.01718487,FALSE,TRUE,2017
 Slovak Republic,National,ECA,2021,Extreme poverty,0.01380701,TRUE,TRUE,2017
 Slovak Republic,National,ECA,2021,P20,0.01773137,TRUE,TRUE,2017
 Slovenia,National,ECA,2010,Extreme poverty,9.157745e-05,FALSE,FALSE,2017
@@ -9319,15 +9319,15 @@ Solomon Islands,National,EAP,2018,P20,0.5553002,FALSE,FALSE,2017
 Solomon Islands,National,EAP,2018,Extreme poverty,0.2705059,TRUE,FALSE,2017
 Solomon Islands,National,EAP,2018,P20,0.5553002,TRUE,FALSE,2017
 Solomon Islands,National,EAP,2019,Extreme poverty,0.268636,FALSE,TRUE,2017
-Solomon Islands,National,EAP,2019,P20,0.5633961,FALSE,TRUE,2017
+Solomon Islands,National,EAP,2019,P20,0.5607957,FALSE,TRUE,2017
 Solomon Islands,National,EAP,2019,Extreme poverty,0.2739952,TRUE,TRUE,2017
 Solomon Islands,National,EAP,2019,P20,0.5666257,TRUE,TRUE,2017
 Solomon Islands,National,EAP,2020,Extreme poverty,0.26667,FALSE,TRUE,2017
-Solomon Islands,National,EAP,2020,P20,0.5707428,FALSE,TRUE,2017
+Solomon Islands,National,EAP,2020,P20,0.544818,FALSE,TRUE,2017
 Solomon Islands,National,EAP,2020,Extreme poverty,0.2945312,TRUE,TRUE,2017
 Solomon Islands,National,EAP,2020,P20,0.5837658,TRUE,TRUE,2017
 Solomon Islands,National,EAP,2021,Extreme poverty,0.264351,FALSE,TRUE,2017
-Solomon Islands,National,EAP,2021,P20,0.5839709,FALSE,TRUE,2017
+Solomon Islands,National,EAP,2021,P20,0.5621736,FALSE,TRUE,2017
 Solomon Islands,National,EAP,2021,Extreme poverty,0.2895268,TRUE,TRUE,2017
 Solomon Islands,National,EAP,2021,P20,0.5897543,TRUE,TRUE,2017
 South Africa,National,SSA,2010,Extreme poverty,0.1870073,FALSE,FALSE,2017
@@ -9350,15 +9350,15 @@ South Africa,National,SSA,2018,P20,0.3749684,FALSE,FALSE,2017
 South Africa,National,SSA,2018,Extreme poverty,0.2158474,TRUE,FALSE,2017
 South Africa,National,SSA,2018,P20,0.3749684,TRUE,FALSE,2017
 South Africa,National,SSA,2019,Extreme poverty,0.2184783,FALSE,TRUE,2017
-South Africa,National,SSA,2019,P20,0.3848978,FALSE,TRUE,2017
+South Africa,National,SSA,2019,P20,0.3836257,FALSE,TRUE,2017
 South Africa,National,SSA,2019,Extreme poverty,0.2201934,TRUE,TRUE,2017
 South Africa,National,SSA,2019,P20,0.3846444,TRUE,TRUE,2017
 South Africa,National,SSA,2020,Extreme poverty,0.2201934,FALSE,TRUE,2017
-South Africa,National,SSA,2020,P20,0.3947894,FALSE,TRUE,2017
+South Africa,National,SSA,2020,P20,0.3795763,FALSE,TRUE,2017
 South Africa,National,SSA,2020,Extreme poverty,0.2398387,TRUE,TRUE,2017
 South Africa,National,SSA,2020,P20,0.4036107,TRUE,TRUE,2017
 South Africa,National,SSA,2021,Extreme poverty,0.2203565,FALSE,TRUE,2017
-South Africa,National,SSA,2021,P20,0.4026155,FALSE,TRUE,2017
+South Africa,National,SSA,2021,P20,0.3907477,FALSE,TRUE,2017
 South Africa,National,SSA,2021,Extreme poverty,0.2322842,TRUE,TRUE,2017
 South Africa,National,SSA,2021,P20,0.4056395,TRUE,TRUE,2017
 Spain,National,OHI,2010,Extreme poverty,0.006816525,FALSE,FALSE,2017
@@ -9381,15 +9381,15 @@ Spain,National,OHI,2018,P20,0.009901792,FALSE,FALSE,2017
 Spain,National,OHI,2018,Extreme poverty,0.006877568,TRUE,FALSE,2017
 Spain,National,OHI,2018,P20,0.009901792,TRUE,FALSE,2017
 Spain,National,OHI,2019,Extreme poverty,0.006780911,FALSE,TRUE,2017
-Spain,National,OHI,2019,P20,0.01027275,FALSE,TRUE,2017
+Spain,National,OHI,2019,P20,0.009901792,FALSE,TRUE,2017
 Spain,National,OHI,2019,Extreme poverty,0.006780911,TRUE,TRUE,2017
 Spain,National,OHI,2019,P20,0.009901792,TRUE,TRUE,2017
 Spain,National,OHI,2020,Extreme poverty,0.006780911,FALSE,TRUE,2017
-Spain,National,OHI,2020,P20,0.01041065,FALSE,TRUE,2017
+Spain,National,OHI,2020,P20,0.009779272,FALSE,TRUE,2017
 Spain,National,OHI,2020,Extreme poverty,0.00720325,TRUE,TRUE,2017
 Spain,National,OHI,2020,P20,0.01056406,TRUE,TRUE,2017
 Spain,National,OHI,2021,Extreme poverty,0.006780911,FALSE,TRUE,2017
-Spain,National,OHI,2021,P20,0.01043855,FALSE,TRUE,2017
+Spain,National,OHI,2021,P20,0.009779272,FALSE,TRUE,2017
 Spain,National,OHI,2021,Extreme poverty,0.006877568,TRUE,TRUE,2017
 Spain,National,OHI,2021,P20,0.01056406,TRUE,TRUE,2017
 Sri Lanka,National,SAS,2010,Extreme poverty,0.03539326,FALSE,FALSE,2017
@@ -9408,19 +9408,19 @@ Sri Lanka,National,SAS,2015,Extreme poverty,0.01875325,FALSE,FALSE,2017
 Sri Lanka,National,SAS,2015,Extreme poverty,0.01875325,FALSE,FALSE,2017
 Sri Lanka,National,SAS,2015,P20,0.08307568,FALSE,FALSE,2017
 Sri Lanka,National,SAS,2018,Extreme poverty,0.01233829,FALSE,FALSE,2017
-Sri Lanka,National,SAS,2018,P20,0.09407143,FALSE,FALSE,2017
+Sri Lanka,National,SAS,2018,P20,0.09418885,FALSE,FALSE,2017
 Sri Lanka,National,SAS,2018,Extreme poverty,0.01233829,TRUE,FALSE,2017
 Sri Lanka,National,SAS,2018,P20,0.09418885,TRUE,FALSE,2017
 Sri Lanka,National,SAS,2019,Extreme poverty,0.01162054,FALSE,TRUE,2017
-Sri Lanka,National,SAS,2019,P20,0.09556421,FALSE,TRUE,2017
+Sri Lanka,National,SAS,2019,P20,0.09433114,FALSE,TRUE,2017
 Sri Lanka,National,SAS,2019,Extreme poverty,0.01158823,TRUE,TRUE,2017
 Sri Lanka,National,SAS,2019,P20,0.09398144,TRUE,TRUE,2017
 Sri Lanka,National,SAS,2020,Extreme poverty,0.01035537,FALSE,TRUE,2017
-Sri Lanka,National,SAS,2020,P20,0.09586096,FALSE,TRUE,2017
+Sri Lanka,National,SAS,2020,P20,0.0848501,FALSE,TRUE,2017
 Sri Lanka,National,SAS,2020,Extreme poverty,0.01209059,TRUE,TRUE,2017
 Sri Lanka,National,SAS,2020,P20,0.09241706,TRUE,TRUE,2017
 Sri Lanka,National,SAS,2021,Extreme poverty,0.008962825,FALSE,TRUE,2017
-Sri Lanka,National,SAS,2021,P20,0.09442449,FALSE,TRUE,2017
+Sri Lanka,National,SAS,2021,P20,0.0848501,FALSE,TRUE,2017
 Sri Lanka,National,SAS,2021,Extreme poverty,0.01035537,TRUE,TRUE,2017
 Sri Lanka,National,SAS,2021,P20,0.0910528,TRUE,TRUE,2017
 St. Lucia,National,LAC,2010,Extreme poverty,0.05956508,FALSE,FALSE,2017
@@ -9443,15 +9443,15 @@ St. Lucia,National,LAC,2018,P20,0.09813897,FALSE,FALSE,2017
 St. Lucia,National,LAC,2018,Extreme poverty,0.05122805,TRUE,FALSE,2017
 St. Lucia,National,LAC,2018,P20,0.09813897,TRUE,FALSE,2017
 St. Lucia,National,LAC,2019,Extreme poverty,0.04980456,FALSE,TRUE,2017
-St. Lucia,National,LAC,2019,P20,0.1008809,FALSE,TRUE,2017
+St. Lucia,National,LAC,2019,P20,0.09994166,FALSE,TRUE,2017
 St. Lucia,National,LAC,2019,Extreme poverty,0.04980456,TRUE,TRUE,2017
 St. Lucia,National,LAC,2019,P20,0.09994166,TRUE,TRUE,2017
 St. Lucia,National,LAC,2020,Extreme poverty,0.04746514,FALSE,TRUE,2017
-St. Lucia,National,LAC,2020,P20,0.1008809,FALSE,TRUE,2017
+St. Lucia,National,LAC,2020,P20,0.09365848,FALSE,TRUE,2017
 St. Lucia,National,LAC,2020,Extreme poverty,0.0636719,TRUE,TRUE,2017
 St. Lucia,National,LAC,2020,P20,0.1147774,TRUE,TRUE,2017
 St. Lucia,National,LAC,2021,Extreme poverty,0.04746514,FALSE,TRUE,2017
-St. Lucia,National,LAC,2021,P20,0.1008809,FALSE,TRUE,2017
+St. Lucia,National,LAC,2021,P20,0.09365848,FALSE,TRUE,2017
 St. Lucia,National,LAC,2021,Extreme poverty,0.05369582,TRUE,TRUE,2017
 St. Lucia,National,LAC,2021,P20,0.1060732,TRUE,TRUE,2017
 Sudan,National,SSA,2010,Extreme poverty,0.1321201,FALSE,FALSE,2017
@@ -9470,19 +9470,19 @@ Sudan,National,SSA,2015,Extreme poverty,0.08902514,FALSE,FALSE,2017
 Sudan,National,SSA,2015,Extreme poverty,0.08902514,FALSE,FALSE,2017
 Sudan,National,SSA,2015,P20,0.2231368,FALSE,FALSE,2017
 Sudan,National,SSA,2018,Extreme poverty,0.09145158,FALSE,FALSE,2017
-Sudan,National,SSA,2018,P20,0.3012923,FALSE,FALSE,2017
+Sudan,National,SSA,2018,P20,0.3014645,FALSE,FALSE,2017
 Sudan,National,SSA,2018,Extreme poverty,0.09145158,TRUE,FALSE,2017
 Sudan,National,SSA,2018,P20,0.3014645,TRUE,FALSE,2017
 Sudan,National,SSA,2019,Extreme poverty,0.1053665,FALSE,TRUE,2017
-Sudan,National,SSA,2019,P20,0.3516953,FALSE,TRUE,2017
+Sudan,National,SSA,2019,P20,0.3487501,FALSE,TRUE,2017
 Sudan,National,SSA,2019,Extreme poverty,0.105291,TRUE,TRUE,2017
 Sudan,National,SSA,2019,P20,0.3472819,TRUE,TRUE,2017
 Sudan,National,SSA,2020,Extreme poverty,0.1148779,FALSE,TRUE,2017
-Sudan,National,SSA,2020,P20,0.3897676,FALSE,TRUE,2017
+Sudan,National,SSA,2020,P20,0.3641691,FALSE,TRUE,2017
 Sudan,National,SSA,2020,Extreme poverty,0.1360733,TRUE,TRUE,2017
 Sudan,National,SSA,2020,P20,0.3990216,TRUE,TRUE,2017
 Sudan,National,SSA,2021,Extreme poverty,0.1269471,FALSE,TRUE,2017
-Sudan,National,SSA,2021,P20,0.4273666,FALSE,TRUE,2017
+Sudan,National,SSA,2021,P20,0.4034145,FALSE,TRUE,2017
 Sudan,National,SSA,2021,Extreme poverty,0.1544929,TRUE,TRUE,2017
 Sudan,National,SSA,2021,P20,0.4507644,TRUE,TRUE,2017
 Suriname,National,LAC,2010,Extreme poverty,0.1695302,FALSE,FALSE,2017
@@ -9598,15 +9598,15 @@ Tajikistan,National,ECA,2018,P20,0.1510269,FALSE,FALSE,2017
 Tajikistan,National,ECA,2018,Extreme poverty,0.04538644,TRUE,FALSE,2017
 Tajikistan,National,ECA,2018,P20,0.1510269,TRUE,FALSE,2017
 Tajikistan,National,ECA,2019,Extreme poverty,0.0418408,FALSE,TRUE,2017
-Tajikistan,National,ECA,2019,P20,0.1483309,FALSE,TRUE,2017
+Tajikistan,National,ECA,2019,P20,0.1473564,FALSE,TRUE,2017
 Tajikistan,National,ECA,2019,Extreme poverty,0.03992462,TRUE,TRUE,2017
 Tajikistan,National,ECA,2019,P20,0.1407693,TRUE,TRUE,2017
 Tajikistan,National,ECA,2020,Extreme poverty,0.03992462,FALSE,TRUE,2017
-Tajikistan,National,ECA,2020,P20,0.1483309,FALSE,TRUE,2017
+Tajikistan,National,ECA,2020,P20,0.1333025,FALSE,TRUE,2017
 Tajikistan,National,ECA,2020,Extreme poverty,0.04099435,TRUE,TRUE,2017
 Tajikistan,National,ECA,2020,P20,0.1362538,TRUE,TRUE,2017
 Tajikistan,National,ECA,2021,Extreme poverty,0.03467988,FALSE,TRUE,2017
-Tajikistan,National,ECA,2021,P20,0.1483309,FALSE,TRUE,2017
+Tajikistan,National,ECA,2021,P20,0.1354824,FALSE,TRUE,2017
 Tajikistan,National,ECA,2021,Extreme poverty,0.03467988,TRUE,TRUE,2017
 Tajikistan,National,ECA,2021,P20,0.1354824,TRUE,TRUE,2017
 Tanzania,National,SSA,2010,Extreme poverty,0.5117207,FALSE,FALSE,2017
@@ -9625,19 +9625,19 @@ Tanzania,National,SSA,2015,Extreme poverty,0.4631374,FALSE,FALSE,2017
 Tanzania,National,SSA,2015,Extreme poverty,0.4631374,FALSE,FALSE,2017
 Tanzania,National,SSA,2015,P20,0.6610581,FALSE,FALSE,2017
 Tanzania,National,SSA,2018,Extreme poverty,0.4645722,FALSE,FALSE,2017
-Tanzania,National,SSA,2018,P20,0.7090598,FALSE,FALSE,2017
+Tanzania,National,SSA,2018,P20,0.7091515,FALSE,FALSE,2017
 Tanzania,National,SSA,2018,Extreme poverty,0.4645722,TRUE,FALSE,2017
 Tanzania,National,SSA,2018,P20,0.7091515,TRUE,FALSE,2017
 Tanzania,National,SSA,2019,Extreme poverty,0.4498339,FALSE,TRUE,2017
-Tanzania,National,SSA,2019,P20,0.7092161,FALSE,TRUE,2017
+Tanzania,National,SSA,2019,P20,0.7072972,FALSE,TRUE,2017
 Tanzania,National,SSA,2019,Extreme poverty,0.4445839,TRUE,TRUE,2017
 Tanzania,National,SSA,2019,P20,0.7021619,TRUE,TRUE,2017
 Tanzania,National,SSA,2020,Extreme poverty,0.4346223,FALSE,TRUE,2017
-Tanzania,National,SSA,2020,P20,0.7079529,FALSE,TRUE,2017
+Tanzania,National,SSA,2020,P20,0.6885438,FALSE,TRUE,2017
 Tanzania,National,SSA,2020,Extreme poverty,0.4494932,TRUE,TRUE,2017
 Tanzania,National,SSA,2020,P20,0.6995416,TRUE,TRUE,2017
 Tanzania,National,SSA,2021,Extreme poverty,0.4180076,FALSE,TRUE,2017
-Tanzania,National,SSA,2021,P20,0.7062876,FALSE,TRUE,2017
+Tanzania,National,SSA,2021,P20,0.6885438,FALSE,TRUE,2017
 Tanzania,National,SSA,2021,Extreme poverty,0.4413441,TRUE,TRUE,2017
 Tanzania,National,SSA,2021,P20,0.7060701,TRUE,TRUE,2017
 Thailand,National,EAP,2010,Extreme poverty,0.002829078,FALSE,FALSE,2017
@@ -9660,15 +9660,15 @@ Thailand,National,EAP,2018,P20,0.00578718,FALSE,FALSE,2017
 Thailand,National,EAP,2018,Extreme poverty,0.0004541128,TRUE,FALSE,2017
 Thailand,National,EAP,2018,P20,0.00578718,TRUE,FALSE,2017
 Thailand,National,EAP,2019,Extreme poverty,0.0003213396,FALSE,TRUE,2017
-Thailand,National,EAP,2019,P20,0.00558746,FALSE,TRUE,2017
+Thailand,National,EAP,2019,P20,0.005458129,FALSE,TRUE,2017
 Thailand,National,EAP,2019,Extreme poverty,0.0003213396,TRUE,TRUE,2017
 Thailand,National,EAP,2019,P20,0.00558746,TRUE,TRUE,2017
 Thailand,National,EAP,2020,Extreme poverty,0.0002717228,FALSE,TRUE,2017
-Thailand,National,EAP,2020,P20,0.005458129,FALSE,TRUE,2017
+Thailand,National,EAP,2020,P20,0.004391632,FALSE,TRUE,2017
 Thailand,National,EAP,2020,Extreme poverty,0.0006043182,TRUE,TRUE,2017
 Thailand,National,EAP,2020,P20,0.007352623,TRUE,TRUE,2017
 Thailand,National,EAP,2021,Extreme poverty,0.000260845,FALSE,TRUE,2017
-Thailand,National,EAP,2021,P20,0.005408206,FALSE,TRUE,2017
+Thailand,National,EAP,2021,P20,0.004293979,FALSE,TRUE,2017
 Thailand,National,EAP,2021,Extreme poverty,0.000438053,TRUE,TRUE,2017
 Thailand,National,EAP,2021,P20,0.006169456,TRUE,TRUE,2017
 Timor-Leste,National,EAP,2010,Extreme poverty,0.1428133,FALSE,FALSE,2017
@@ -9687,19 +9687,19 @@ Timor-Leste,National,EAP,2015,Extreme poverty,0.100524,FALSE,FALSE,2017
 Timor-Leste,National,EAP,2015,Extreme poverty,0.100524,FALSE,FALSE,2017
 Timor-Leste,National,EAP,2015,P20,0.2957675,FALSE,FALSE,2017
 Timor-Leste,National,EAP,2018,Extreme poverty,0.07881875,FALSE,FALSE,2017
-Timor-Leste,National,EAP,2018,P20,0.3435496,FALSE,FALSE,2017
+Timor-Leste,National,EAP,2018,P20,0.3436373,FALSE,FALSE,2017
 Timor-Leste,National,EAP,2018,Extreme poverty,0.07881875,TRUE,FALSE,2017
 Timor-Leste,National,EAP,2018,P20,0.3436373,TRUE,FALSE,2017
 Timor-Leste,National,EAP,2019,Extreme poverty,0.07009942,FALSE,TRUE,2017
-Timor-Leste,National,EAP,2019,P20,0.3312697,FALSE,TRUE,2017
+Timor-Leste,National,EAP,2019,P20,0.328655,FALSE,TRUE,2017
 Timor-Leste,National,EAP,2019,Extreme poverty,0.07646316,TRUE,TRUE,2017
 Timor-Leste,National,EAP,2019,P20,0.350803,TRUE,TRUE,2017
 Timor-Leste,National,EAP,2020,Extreme poverty,0.07109525,FALSE,TRUE,2017
-Timor-Leste,National,EAP,2020,P20,0.3550508,FALSE,TRUE,2017
+Timor-Leste,National,EAP,2020,P20,0.3242172,FALSE,TRUE,2017
 Timor-Leste,National,EAP,2020,Extreme poverty,0.02929476,TRUE,TRUE,2017
 Timor-Leste,National,EAP,2020,P20,0.1921705,TRUE,TRUE,2017
 Timor-Leste,National,EAP,2021,Extreme poverty,0.1175919,FALSE,TRUE,2017
-Timor-Leste,National,EAP,2021,P20,0.4814666,FALSE,TRUE,2017
+Timor-Leste,National,EAP,2021,P20,0.447783,FALSE,TRUE,2017
 Timor-Leste,National,EAP,2021,Extreme poverty,0.06810922,TRUE,TRUE,2017
 Timor-Leste,National,EAP,2021,P20,0.3313734,TRUE,TRUE,2017
 Togo,National,SSA,2010,Extreme poverty,0.6088338,FALSE,FALSE,2017
@@ -9722,15 +9722,15 @@ Togo,National,SSA,2018,P20,0.720661,FALSE,FALSE,2017
 Togo,National,SSA,2018,Extreme poverty,0.5251933,TRUE,FALSE,2017
 Togo,National,SSA,2018,P20,0.720661,TRUE,FALSE,2017
 Togo,National,SSA,2019,Extreme poverty,0.517474,FALSE,TRUE,2017
-Togo,National,SSA,2019,P20,0.7200429,FALSE,TRUE,2017
+Togo,National,SSA,2019,P20,0.7197924,FALSE,TRUE,2017
 Togo,National,SSA,2019,Extreme poverty,0.5173503,TRUE,TRUE,2017
 Togo,National,SSA,2019,P20,0.7197924,TRUE,TRUE,2017
 Togo,National,SSA,2020,Extreme poverty,0.5080115,FALSE,TRUE,2017
-Togo,National,SSA,2020,P20,0.7200429,FALSE,TRUE,2017
+Togo,National,SSA,2020,P20,0.697839,FALSE,TRUE,2017
 Togo,National,SSA,2020,Extreme poverty,0.5213477,TRUE,TRUE,2017
 Togo,National,SSA,2020,P20,0.7188951,TRUE,TRUE,2017
 Togo,National,SSA,2021,Extreme poverty,0.4913192,FALSE,TRUE,2017
-Togo,National,SSA,2021,P20,0.7197924,FALSE,TRUE,2017
+Togo,National,SSA,2021,P20,0.6987033,FALSE,TRUE,2017
 Togo,National,SSA,2021,Extreme poverty,0.5173503,TRUE,TRUE,2017
 Togo,National,SSA,2021,P20,0.7226953,TRUE,TRUE,2017
 Tonga,National,EAP,2010,Extreme poverty,0.01322721,FALSE,FALSE,2017
@@ -9753,15 +9753,15 @@ Tonga,National,EAP,2018,P20,0.05943722,FALSE,FALSE,2017
 Tonga,National,EAP,2018,Extreme poverty,0.01069736,TRUE,FALSE,2017
 Tonga,National,EAP,2018,P20,0.05943722,TRUE,FALSE,2017
 Tonga,National,EAP,2019,Extreme poverty,0.009143897,FALSE,TRUE,2017
-Tonga,National,EAP,2019,P20,0.05386766,FALSE,TRUE,2017
+Tonga,National,EAP,2019,P20,0.0534984,FALSE,TRUE,2017
 Tonga,National,EAP,2019,Extreme poverty,0.01069736,TRUE,TRUE,2017
 Tonga,National,EAP,2019,P20,0.06399292,TRUE,TRUE,2017
 Tonga,National,EAP,2020,Extreme poverty,0.006729592,FALSE,TRUE,2017
-Tonga,National,EAP,2020,P20,0.05272837,FALSE,TRUE,2017
+Tonga,National,EAP,2020,P20,0.03874957,FALSE,TRUE,2017
 Tonga,National,EAP,2020,Extreme poverty,0.01069736,TRUE,TRUE,2017
 Tonga,National,EAP,2020,P20,0.06183996,TRUE,TRUE,2017
 Tonga,National,EAP,2021,Extreme poverty,0.005839861,FALSE,TRUE,2017
-Tonga,National,EAP,2021,P20,0.05009907,FALSE,TRUE,2017
+Tonga,National,EAP,2021,P20,0.03874957,FALSE,TRUE,2017
 Tonga,National,EAP,2021,Extreme poverty,0.01069736,TRUE,TRUE,2017
 Tonga,National,EAP,2021,P20,0.06463486,TRUE,TRUE,2017
 Trinidad and Tobago,National,LAC,2010,Extreme poverty,0.001557364,FALSE,FALSE,2017
@@ -9780,19 +9780,19 @@ Trinidad and Tobago,National,LAC,2015,Extreme poverty,0.001531913,FALSE,FALSE,20
 Trinidad and Tobago,National,LAC,2015,Extreme poverty,0.001531913,FALSE,FALSE,2017
 Trinidad and Tobago,National,LAC,2015,P20,0.002793911,FALSE,FALSE,2017
 Trinidad and Tobago,National,LAC,2018,Extreme poverty,0.001832822,FALSE,FALSE,2017
-Trinidad and Tobago,National,LAC,2018,P20,0.004692412,FALSE,FALSE,2017
+Trinidad and Tobago,National,LAC,2018,P20,0.004693423,FALSE,FALSE,2017
 Trinidad and Tobago,National,LAC,2018,Extreme poverty,0.001832822,TRUE,FALSE,2017
 Trinidad and Tobago,National,LAC,2018,P20,0.004693423,TRUE,FALSE,2017
 Trinidad and Tobago,National,LAC,2019,Extreme poverty,0.001845361,FALSE,TRUE,2017
-Trinidad and Tobago,National,LAC,2019,P20,0.004978804,FALSE,TRUE,2017
+Trinidad and Tobago,National,LAC,2019,P20,0.004922983,FALSE,TRUE,2017
 Trinidad and Tobago,National,LAC,2019,Extreme poverty,0.001843405,TRUE,TRUE,2017
 Trinidad and Tobago,National,LAC,2019,P20,0.004915216,TRUE,TRUE,2017
 Trinidad and Tobago,National,LAC,2020,Extreme poverty,0.00181586,FALSE,TRUE,2017
-Trinidad and Tobago,National,LAC,2020,P20,0.005140579,FALSE,TRUE,2017
+Trinidad and Tobago,National,LAC,2020,P20,0.00464208,FALSE,TRUE,2017
 Trinidad and Tobago,National,LAC,2020,Extreme poverty,0.00200146,TRUE,TRUE,2017
 Trinidad and Tobago,National,LAC,2020,P20,0.005355116,TRUE,TRUE,2017
 Trinidad and Tobago,National,LAC,2021,Extreme poverty,0.00176506,FALSE,TRUE,2017
-Trinidad and Tobago,National,LAC,2021,P20,0.005229372,FALSE,TRUE,2017
+Trinidad and Tobago,National,LAC,2021,P20,0.004758337,FALSE,TRUE,2017
 Trinidad and Tobago,National,LAC,2021,Extreme poverty,0.001937197,TRUE,TRUE,2017
 Trinidad and Tobago,National,LAC,2021,P20,0.005469218,TRUE,TRUE,2017
 Tunisia,National,MNA,2010,Extreme poverty,0.01789548,FALSE,FALSE,2017
@@ -9815,15 +9815,15 @@ Tunisia,National,MNA,2018,P20,0.01487124,FALSE,FALSE,2017
 Tunisia,National,MNA,2018,Extreme poverty,0.001400615,TRUE,FALSE,2017
 Tunisia,National,MNA,2018,P20,0.01487124,TRUE,FALSE,2017
 Tunisia,National,MNA,2019,Extreme poverty,0.001308194,FALSE,TRUE,2017
-Tunisia,National,MNA,2019,P20,0.0157308,FALSE,TRUE,2017
+Tunisia,National,MNA,2019,P20,0.01552396,FALSE,TRUE,2017
 Tunisia,National,MNA,2019,Extreme poverty,0.001450191,TRUE,TRUE,2017
 Tunisia,National,MNA,2019,P20,0.0157308,TRUE,TRUE,2017
 Tunisia,National,MNA,2020,Extreme poverty,0.001206592,FALSE,TRUE,2017
-Tunisia,National,MNA,2020,P20,0.01639025,FALSE,TRUE,2017
+Tunisia,National,MNA,2020,P20,0.01418453,FALSE,TRUE,2017
 Tunisia,National,MNA,2020,Extreme poverty,0.001965484,TRUE,TRUE,2017
 Tunisia,National,MNA,2020,P20,0.01783848,TRUE,TRUE,2017
 Tunisia,National,MNA,2021,Extreme poverty,0.001046108,FALSE,TRUE,2017
-Tunisia,National,MNA,2021,P20,0.0168108,FALSE,TRUE,2017
+Tunisia,National,MNA,2021,P20,0.01450606,FALSE,TRUE,2017
 Tunisia,National,MNA,2021,Extreme poverty,0.001704972,TRUE,TRUE,2017
 Tunisia,National,MNA,2021,P20,0.01780367,TRUE,TRUE,2017
 Turkey,National,ECA,2010,Extreme poverty,0.009125225,FALSE,FALSE,2017
@@ -9846,15 +9846,15 @@ Turkey,National,ECA,2018,P20,0.0115862,FALSE,FALSE,2017
 Turkey,National,ECA,2018,Extreme poverty,0.001257314,TRUE,FALSE,2017
 Turkey,National,ECA,2018,P20,0.0115862,TRUE,FALSE,2017
 Turkey,National,ECA,2019,Extreme poverty,0.001257314,FALSE,TRUE,2017
-Turkey,National,ECA,2019,P20,0.01311863,FALSE,TRUE,2017
+Turkey,National,ECA,2019,P20,0.01282803,FALSE,TRUE,2017
 Turkey,National,ECA,2019,Extreme poverty,0.001257314,TRUE,TRUE,2017
 Turkey,National,ECA,2019,P20,0.01238729,TRUE,TRUE,2017
 Turkey,National,ECA,2020,Extreme poverty,0.001082395,FALSE,TRUE,2017
-Turkey,National,ECA,2020,P20,0.01367667,FALSE,TRUE,2017
+Turkey,National,ECA,2020,P20,0.0108209,FALSE,TRUE,2017
 Turkey,National,ECA,2020,Extreme poverty,0.002570553,TRUE,TRUE,2017
 Turkey,National,ECA,2020,P20,0.01435778,TRUE,TRUE,2017
 Turkey,National,ECA,2021,Extreme poverty,0.0009945959,FALSE,TRUE,2017
-Turkey,National,ECA,2021,P20,0.01420958,FALSE,TRUE,2017
+Turkey,National,ECA,2021,P20,0.01169058,FALSE,TRUE,2017
 Turkey,National,ECA,2021,Extreme poverty,0.00173793,TRUE,TRUE,2017
 Turkey,National,ECA,2021,P20,0.01431086,TRUE,TRUE,2017
 Turkmenistan,National,ECA,2010,Extreme poverty,0.08645732,FALSE,FALSE,2017
@@ -9873,19 +9873,19 @@ Turkmenistan,National,ECA,2015,Extreme poverty,0.01365831,FALSE,FALSE,2017
 Turkmenistan,National,ECA,2015,Extreme poverty,0.01365831,FALSE,FALSE,2017
 Turkmenistan,National,ECA,2015,P20,0.06267904,FALSE,FALSE,2017
 Turkmenistan,National,ECA,2018,Extreme poverty,0.006205859,FALSE,FALSE,2017
-Turkmenistan,National,ECA,2018,P20,0.05751737,FALSE,FALSE,2017
+Turkmenistan,National,ECA,2018,P20,0.05753565,FALSE,FALSE,2017
 Turkmenistan,National,ECA,2018,Extreme poverty,0.006205859,TRUE,FALSE,2017
 Turkmenistan,National,ECA,2018,P20,0.05753565,TRUE,FALSE,2017
 Turkmenistan,National,ECA,2019,Extreme poverty,0.005391405,FALSE,TRUE,2017
-Turkmenistan,National,ECA,2019,P20,0.05640241,FALSE,TRUE,2017
+Turkmenistan,National,ECA,2019,P20,0.0554755,FALSE,TRUE,2017
 Turkmenistan,National,ECA,2019,Extreme poverty,0.004869422,TRUE,TRUE,2017
 Turkmenistan,National,ECA,2019,P20,0.05181076,TRUE,TRUE,2017
 Turkmenistan,National,ECA,2020,Extreme poverty,0.004192173,FALSE,TRUE,2017
-Turkmenistan,National,ECA,2020,P20,0.05176495,FALSE,TRUE,2017
+Turkmenistan,National,ECA,2020,P20,0.04409953,FALSE,TRUE,2017
 Turkmenistan,National,ECA,2020,Extreme poverty,0.00478289,TRUE,TRUE,2017
 Turkmenistan,National,ECA,2020,P20,0.04847709,TRUE,TRUE,2017
 Turkmenistan,National,ECA,2021,Extreme poverty,0.003305109,FALSE,TRUE,2017
-Turkmenistan,National,ECA,2021,P20,0.04794979,FALSE,TRUE,2017
+Turkmenistan,National,ECA,2021,P20,0.04120798,FALSE,TRUE,2017
 Turkmenistan,National,ECA,2021,Extreme poverty,0.003666739,TRUE,TRUE,2017
 Turkmenistan,National,ECA,2021,P20,0.04455762,TRUE,TRUE,2017
 Uganda,National,SSA,2010,Extreme poverty,0.4573588,FALSE,FALSE,2017
@@ -9908,15 +9908,15 @@ Uganda,National,SSA,2018,P20,0.6681054,FALSE,FALSE,2017
 Uganda,National,SSA,2018,Extreme poverty,0.4279734,TRUE,FALSE,2017
 Uganda,National,SSA,2018,P20,0.6681054,TRUE,FALSE,2017
 Uganda,National,SSA,2019,Extreme poverty,0.4089129,FALSE,TRUE,2017
-Uganda,National,SSA,2019,P20,0.6619862,FALSE,TRUE,2017
+Uganda,National,SSA,2019,P20,0.6604483,FALSE,TRUE,2017
 Uganda,National,SSA,2019,Extreme poverty,0.4161202,TRUE,TRUE,2017
 Uganda,National,SSA,2019,P20,0.6661673,TRUE,TRUE,2017
 Uganda,National,SSA,2020,Extreme poverty,0.3948175,FALSE,TRUE,2017
-Uganda,National,SSA,2020,P20,0.6614729,FALSE,TRUE,2017
+Uganda,National,SSA,2020,P20,0.6417881,FALSE,TRUE,2017
 Uganda,National,SSA,2020,Extreme poverty,0.4161202,TRUE,TRUE,2017
 Uganda,National,SSA,2020,P20,0.658916,TRUE,TRUE,2017
 Uganda,National,SSA,2021,Extreme poverty,0.3791464,FALSE,TRUE,2017
-Uganda,National,SSA,2021,P20,0.6601355,FALSE,TRUE,2017
+Uganda,National,SSA,2021,P20,0.6416072,FALSE,TRUE,2017
 Uganda,National,SSA,2021,Extreme poverty,0.4087002,TRUE,TRUE,2017
 Uganda,National,SSA,2021,P20,0.6670737,TRUE,TRUE,2017
 Ukraine,National,ECA,2010,Extreme poverty,0.000125368,FALSE,FALSE,2017
@@ -9939,15 +9939,15 @@ Ukraine,National,ECA,2018,P20,0.003962468,FALSE,FALSE,2017
 Ukraine,National,ECA,2018,Extreme poverty,0.001805357,TRUE,FALSE,2017
 Ukraine,National,ECA,2018,P20,0.003962468,TRUE,FALSE,2017
 Ukraine,National,ECA,2019,Extreme poverty,9.935224e-05,FALSE,TRUE,2017
-Ukraine,National,ECA,2019,P20,0.003772091,FALSE,TRUE,2017
+Ukraine,National,ECA,2019,P20,0.003735359,FALSE,TRUE,2017
 Ukraine,National,ECA,2019,Extreme poverty,9.935224e-05,TRUE,TRUE,2017
 Ukraine,National,ECA,2019,P20,0.003735359,TRUE,TRUE,2017
 Ukraine,National,ECA,2020,Extreme poverty,9.935224e-05,FALSE,TRUE,2017
-Ukraine,National,ECA,2020,P20,0.003735359,FALSE,TRUE,2017
+Ukraine,National,ECA,2020,P20,0.003577173,FALSE,TRUE,2017
 Ukraine,National,ECA,2020,Extreme poverty,0.001805357,TRUE,TRUE,2017
 Ukraine,National,ECA,2020,P20,0.004201173,TRUE,TRUE,2017
 Ukraine,National,ECA,2021,Extreme poverty,9.935224e-05,FALSE,TRUE,2017
-Ukraine,National,ECA,2021,P20,0.003735359,FALSE,TRUE,2017
+Ukraine,National,ECA,2021,P20,0.003577173,FALSE,TRUE,2017
 Ukraine,National,ECA,2021,Extreme poverty,0.001805357,TRUE,TRUE,2017
 Ukraine,National,ECA,2021,P20,0.003981924,TRUE,TRUE,2017
 United Arab Emirates,National,OHI,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -10009,7 +10009,7 @@ United Kingdom,National,OHI,2020,P20,0.003167623,FALSE,TRUE,2017
 United Kingdom,National,OHI,2020,Extreme poverty,0.002102617,TRUE,TRUE,2017
 United Kingdom,National,OHI,2020,P20,0.00334237,TRUE,TRUE,2017
 United Kingdom,National,OHI,2021,Extreme poverty,0.002052228,FALSE,TRUE,2017
-United Kingdom,National,OHI,2021,P20,0.00334237,FALSE,TRUE,2017
+United Kingdom,National,OHI,2021,P20,0.003167623,FALSE,TRUE,2017
 United Kingdom,National,OHI,2021,Extreme poverty,0.002102617,TRUE,TRUE,2017
 United Kingdom,National,OHI,2021,P20,0.00334237,TRUE,TRUE,2017
 United States,National,OHI,2010,Extreme poverty,0.009997268,FALSE,FALSE,2017
@@ -10067,11 +10067,11 @@ Uruguay,National,LAC,2019,P20,0.003588317,FALSE,TRUE,2017
 Uruguay,National,LAC,2019,Extreme poverty,0.0005584995,TRUE,TRUE,2017
 Uruguay,National,LAC,2019,P20,0.003588317,TRUE,TRUE,2017
 Uruguay,National,LAC,2020,Extreme poverty,0.0005584995,FALSE,TRUE,2017
-Uruguay,National,LAC,2020,P20,0.003740064,FALSE,TRUE,2017
+Uruguay,National,LAC,2020,P20,0.003204955,FALSE,TRUE,2017
 Uruguay,National,LAC,2020,Extreme poverty,0.0005995741,TRUE,TRUE,2017
 Uruguay,National,LAC,2020,P20,0.003740064,TRUE,TRUE,2017
 Uruguay,National,LAC,2021,Extreme poverty,0.0005584995,FALSE,TRUE,2017
-Uruguay,National,LAC,2021,P20,0.003740064,FALSE,TRUE,2017
+Uruguay,National,LAC,2021,P20,0.003260576,FALSE,TRUE,2017
 Uruguay,National,LAC,2021,Extreme poverty,0.0005584995,TRUE,TRUE,2017
 Uruguay,National,LAC,2021,P20,0.003588317,TRUE,TRUE,2017
 Uzbekistan,National,ECA,2010,Extreme poverty,0.6096086,FALSE,FALSE,2017
@@ -10094,15 +10094,15 @@ Uzbekistan,National,ECA,2018,P20,0.6490036,FALSE,FALSE,2017
 Uzbekistan,National,ECA,2018,Extreme poverty,0.3358475,TRUE,FALSE,2017
 Uzbekistan,National,ECA,2018,P20,0.6490036,TRUE,FALSE,2017
 Uzbekistan,National,ECA,2019,Extreme poverty,0.3091704,FALSE,TRUE,2017
-Uzbekistan,National,ECA,2019,P20,0.6380838,FALSE,TRUE,2017
+Uzbekistan,National,ECA,2019,P20,0.6355366,FALSE,TRUE,2017
 Uzbekistan,National,ECA,2019,Extreme poverty,0.3106905,TRUE,TRUE,2017
 Uzbekistan,National,ECA,2019,P20,0.637421,TRUE,TRUE,2017
 Uzbekistan,National,ECA,2020,Extreme poverty,0.2811586,FALSE,TRUE,2017
-Uzbekistan,National,ECA,2020,P20,0.6273456,FALSE,TRUE,2017
+Uzbekistan,National,ECA,2020,P20,0.599106,FALSE,TRUE,2017
 Uzbekistan,National,ECA,2020,Extreme poverty,0.3117347,TRUE,TRUE,2017
 Uzbekistan,National,ECA,2020,P20,0.6300719,TRUE,TRUE,2017
 Uzbekistan,National,ECA,2021,Extreme poverty,0.2570749,FALSE,TRUE,2017
-Uzbekistan,National,ECA,2021,P20,0.6152603,FALSE,TRUE,2017
+Uzbekistan,National,ECA,2021,P20,0.5890889,FALSE,TRUE,2017
 Uzbekistan,National,ECA,2021,Extreme poverty,0.2806996,TRUE,TRUE,2017
 Uzbekistan,National,ECA,2021,P20,0.6167939,TRUE,TRUE,2017
 Vanuatu,National,EAP,2010,Extreme poverty,0.1569554,FALSE,FALSE,2017
@@ -10125,15 +10125,15 @@ Vanuatu,National,EAP,2018,P20,0.3924888,FALSE,FALSE,2017
 Vanuatu,National,EAP,2018,Extreme poverty,0.1702995,TRUE,FALSE,2017
 Vanuatu,National,EAP,2018,P20,0.3924888,TRUE,FALSE,2017
 Vanuatu,National,EAP,2019,Extreme poverty,0.165073,FALSE,TRUE,2017
-Vanuatu,National,EAP,2019,P20,0.3971976,FALSE,TRUE,2017
+Vanuatu,National,EAP,2019,P20,0.3935042,FALSE,TRUE,2017
 Vanuatu,National,EAP,2019,Extreme poverty,0.1677757,TRUE,TRUE,2017
 Vanuatu,National,EAP,2019,P20,0.3983405,TRUE,TRUE,2017
 Vanuatu,National,EAP,2020,Extreme poverty,0.1614535,FALSE,TRUE,2017
-Vanuatu,National,EAP,2020,P20,0.4031514,FALSE,TRUE,2017
+Vanuatu,National,EAP,2020,P20,0.3789587,FALSE,TRUE,2017
 Vanuatu,National,EAP,2020,Extreme poverty,0.1873722,TRUE,TRUE,2017
 Vanuatu,National,EAP,2020,P20,0.4158874,TRUE,TRUE,2017
 Vanuatu,National,EAP,2021,Extreme poverty,0.1598321,FALSE,TRUE,2017
-Vanuatu,National,EAP,2021,P20,0.4126639,FALSE,TRUE,2017
+Vanuatu,National,EAP,2021,P20,0.3944618,FALSE,TRUE,2017
 Vanuatu,National,EAP,2021,Extreme poverty,0.1757155,TRUE,TRUE,2017
 Vanuatu,National,EAP,2021,P20,0.41995,TRUE,TRUE,2017
 Vietnam,National,EAP,2010,Extreme poverty,0.03084976,FALSE,FALSE,2017
@@ -10156,15 +10156,15 @@ Vietnam,National,EAP,2018,P20,0.04539962,FALSE,FALSE,2017
 Vietnam,National,EAP,2018,Extreme poverty,0.01349749,TRUE,FALSE,2017
 Vietnam,National,EAP,2018,P20,0.04539962,TRUE,FALSE,2017
 Vietnam,National,EAP,2019,Extreme poverty,0.01148856,FALSE,TRUE,2017
-Vietnam,National,EAP,2019,P20,0.04277417,FALSE,TRUE,2017
+Vietnam,National,EAP,2019,P20,0.0423954,FALSE,TRUE,2017
 Vietnam,National,EAP,2019,Extreme poverty,0.01127147,TRUE,TRUE,2017
 Vietnam,National,EAP,2019,P20,0.04180613,TRUE,TRUE,2017
 Vietnam,National,EAP,2020,Extreme poverty,0.008835431,FALSE,TRUE,2017
-Vietnam,National,EAP,2020,P20,0.03971514,FALSE,TRUE,2017
+Vietnam,National,EAP,2020,P20,0.03632394,FALSE,TRUE,2017
 Vietnam,National,EAP,2020,Extreme poverty,0.009902397,TRUE,TRUE,2017
 Vietnam,National,EAP,2020,P20,0.03889214,TRUE,TRUE,2017
 Vietnam,National,EAP,2021,Extreme poverty,0.007895613,FALSE,TRUE,2017
-Vietnam,National,EAP,2021,P20,0.03719252,FALSE,TRUE,2017
+Vietnam,National,EAP,2021,P20,0.03463041,FALSE,TRUE,2017
 Vietnam,National,EAP,2021,Extreme poverty,0.008506375,TRUE,TRUE,2017
 Vietnam,National,EAP,2021,P20,0.03638342,TRUE,TRUE,2017
 West Bank and Gaza,National,MNA,2010,Extreme poverty,0,FALSE,FALSE,2017
@@ -10202,19 +10202,19 @@ Zambia,National,SSA,2015,Extreme poverty,0.6188065,FALSE,FALSE,2017
 Zambia,National,SSA,2015,Extreme poverty,0.6188065,FALSE,FALSE,2017
 Zambia,National,SSA,2015,P20,0.71921,FALSE,FALSE,2017
 Zambia,National,SSA,2018,Extreme poverty,0.6138791,FALSE,FALSE,2017
-Zambia,National,SSA,2018,P20,0.7490657,FALSE,FALSE,2017
+Zambia,National,SSA,2018,P20,0.7490831,FALSE,FALSE,2017
 Zambia,National,SSA,2018,Extreme poverty,0.6138791,TRUE,FALSE,2017
 Zambia,National,SSA,2018,P20,0.7490831,TRUE,FALSE,2017
 Zambia,National,SSA,2019,Extreme poverty,0.6169026,FALSE,TRUE,2017
-Zambia,National,SSA,2019,P20,0.7571713,FALSE,TRUE,2017
+Zambia,National,SSA,2019,P20,0.7563941,FALSE,TRUE,2017
 Zambia,National,SSA,2019,Extreme poverty,0.6174246,TRUE,TRUE,2017
 Zambia,National,SSA,2019,P20,0.7571713,TRUE,TRUE,2017
 Zambia,National,SSA,2020,Extreme poverty,0.6188609,FALSE,TRUE,2017
-Zambia,National,SSA,2020,P20,0.7654784,FALSE,TRUE,2017
+Zambia,National,SSA,2020,P20,0.7557419,FALSE,TRUE,2017
 Zambia,National,SSA,2020,Extreme poverty,0.6332038,TRUE,TRUE,2017
 Zambia,National,SSA,2020,P20,0.7686094,TRUE,TRUE,2017
 Zambia,National,SSA,2021,Extreme poverty,0.6218197,FALSE,TRUE,2017
-Zambia,National,SSA,2021,P20,0.7739091,FALSE,TRUE,2017
+Zambia,National,SSA,2021,P20,0.76484,FALSE,TRUE,2017
 Zambia,National,SSA,2021,Extreme poverty,0.6352875,TRUE,TRUE,2017
 Zambia,National,SSA,2021,P20,0.7759579,TRUE,TRUE,2017
 Zimbabwe,National,SSA,2010,Extreme poverty,0.2781838,FALSE,FALSE,2017
@@ -10233,18 +10233,18 @@ Zimbabwe,National,SSA,2015,Extreme poverty,0.2996004,FALSE,FALSE,2017
 Zimbabwe,National,SSA,2015,Extreme poverty,0.2996004,FALSE,FALSE,2017
 Zimbabwe,National,SSA,2015,P20,0.4590087,FALSE,FALSE,2017
 Zimbabwe,National,SSA,2018,Extreme poverty,0.326343,FALSE,FALSE,2017
-Zimbabwe,National,SSA,2018,P20,0.5569072,FALSE,FALSE,2017
+Zimbabwe,National,SSA,2018,P20,0.5570707,FALSE,FALSE,2017
 Zimbabwe,National,SSA,2018,Extreme poverty,0.326343,TRUE,FALSE,2017
 Zimbabwe,National,SSA,2018,P20,0.5570707,TRUE,FALSE,2017
 Zimbabwe,National,SSA,2019,Extreme poverty,0.371094,FALSE,TRUE,2017
-Zimbabwe,National,SSA,2019,P20,0.6041085,FALSE,TRUE,2017
+Zimbabwe,National,SSA,2019,P20,0.6026988,FALSE,TRUE,2017
 Zimbabwe,National,SSA,2019,Extreme poverty,0.3779836,TRUE,TRUE,2017
 Zimbabwe,National,SSA,2019,P20,0.6069187,TRUE,TRUE,2017
 Zimbabwe,National,SSA,2020,Extreme poverty,0.3676949,FALSE,TRUE,2017
-Zimbabwe,National,SSA,2020,P20,0.6093642,FALSE,TRUE,2017
+Zimbabwe,National,SSA,2020,P20,0.5934873,FALSE,TRUE,2017
 Zimbabwe,National,SSA,2020,Extreme poverty,0.4229372,TRUE,TRUE,2017
 Zimbabwe,National,SSA,2020,P20,0.6391696,TRUE,TRUE,2017
 Zimbabwe,National,SSA,2021,Extreme poverty,0.364911,FALSE,TRUE,2017
-Zimbabwe,National,SSA,2021,P20,0.6185795,FALSE,TRUE,2017
+Zimbabwe,National,SSA,2021,P20,0.6031099,FALSE,TRUE,2017
 Zimbabwe,National,SSA,2021,Extreme poverty,0.4208675,TRUE,TRUE,2017
 Zimbabwe,National,SSA,2021,P20,0.6467075,TRUE,TRUE,2017
