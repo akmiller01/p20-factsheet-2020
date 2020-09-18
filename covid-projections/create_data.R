@@ -12,7 +12,6 @@ pre$PovertyType = "P20"
 pre$PovertyType[which(pre$PovertyLine==1.9)] = "Extreme poverty"
 
 post = fread("/home/alex/git/poverty_predictions/output/globalproj_long_Apr20.csv")
-country_code_mapping = unique(post[,c("CountryCode","DisplayName","region","Level")])
 post_ext = subset(post, PovertyLine==1.9)
 post_ext$PovertyType = "Extreme poverty"
 post = subset(post, !(PovertyLine %in% c(1.9, 3.2, 5.5)))
@@ -65,7 +64,7 @@ all$ppp = 2011
 
 all_2011 = all
 vars_to_remove = ls()
-vars_to_remove = vars_to_remove[which(!(vars_to_remove %in% c("all_2011", "country_code_mapping")))]
+vars_to_remove = vars_to_remove[which(vars_to_remove!="all_2011")]
 rm(list=vars_to_remove)
 
 # 2017 PPP ####
@@ -131,46 +130,6 @@ all = all[,keep,with=F]
 names(all) = c("name","level","region","year","povtype","value","covid","estimate")
 all$ppp = 2017
 
-all_2017 = all
-
-vars_to_remove = ls()
-vars_to_remove = vars_to_remove[which(!(vars_to_remove %in% c("all_2011", "all_2017", "country_code_mapping")))]
-rm(list=vars_to_remove)
-
-# National ####
-
-pre = fread("/home/alex/git/poverty_predictions/output/p20_p80_incomes_Oct19.csv")
-post = fread("/home/alex/git/poverty_predictions/output/p20_p80_incomes_Apr20.csv")
-
-pre_common = subset(pre,ProjYear<2018)
-pre_national = subset(pre,ProjYear>=2018)
-post_common = subset(post,ProjYear<2018)
-post_national = subset(post,ProjYear>=2018)
-common = merge(pre_common, post_common, all=T)
-common$covid = F
-pre_national$covid = F
-post_national$covid = T
-
-national = rbind(pre_national, post_national)
-national = merge(national,country_code_mapping,by="CountryCode")
-
-national = subset(national,ProjYear>=2010)
-national$estimate = F
-national$estimate[which(national$ProjYear>2018)] = T
-national$estimate[which(national$DisplayName=="India" & national$ProjYear>2016)] = T
-
-national = melt(national,id.vars=c("CountryCode","DisplayName","Level","region","ProjYear","covid","estimate"))
-national$PovertyType = "National P20"
-national$PovertyType[which(national$variable=="p80")] = "National P80"
-
-all = national[order(-national$Level, national$DisplayName, national$ProjYear),]
-
-keep = c("DisplayName","Level", "region", "ProjYear", "PovertyType", "value","covid","estimate")
-all = all[,keep,with=F]
-names(all) = c("name","level","region","year","povtype","value","covid","estimate")
-all$ppp = 2011
-
-
-all = rbind(all,all_2011,all_2017)
+all = rbind(all_2011, all)
 
 fwrite(all,"covid_proj.csv")
