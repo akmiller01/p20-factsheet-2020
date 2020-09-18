@@ -7,6 +7,10 @@
 
 <!-- Initialize a select button -->
 <select id="countrySelect" style="font-size:20px;"></select>
+<select id="indicatorSelect" style="font-size:20px;">
+  <option value="nominal">Nominal 2011 PPP</option>
+  <option value="percent">Percentage change</option>
+</select>
 
 <!-- Create a div where the graph will take place -->
 <div id="covid-chart"></div>
@@ -16,6 +20,8 @@
 
 
 <script>
+
+var selected_indicator = "nominal";
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 250, bottom: 30, left: 60},
@@ -61,13 +67,13 @@ d3.csv("covid_proj.csv", function(data) {
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
-    var formatPercent = d3.format("$,.2f");
+    var formatDollar = d3.format("$,.2f");
 
     // Add Y axis
     var y = d3.scaleLinear()
       .domain([0, d3.max(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; })])
       .range([ height, 0 ]);
-    var yAxis = d3.axisLeft().scale(y).tickFormat(formatPercent);
+    var yAxis = d3.axisLeft().scale(y).tickFormat(formatDollar);
     svg.append("g").attr("class","myYaxis")
       .call(yAxis);
 
@@ -79,18 +85,28 @@ d3.csv("covid_proj.csv", function(data) {
       .attr("class", "post-p20-line");
 
     // A function that update the chart
-    function update(selectedCountry) {
+    function update(selectedCountry, selectedIndicator) {
 
       svg.selectAll('path.country_line').remove();
       svg.selectAll('g.legend_item_icon').remove();
       svg.selectAll('g.legend_item_text').remove();
+      var country_dat = data.map(function(obj) {
+          return Object.assign({}, obj);
+      });
+      country_dat = country_dat.filter(function(d){return d.name==selectedCountry});
 
       for(var i = 0; i < allPovs.length; i++){
         selected_pov = allPovs[i];
+        var poverty_dat = country_dat.filter(function(d){return d.povtype==selected_pov});
+        if(selectedIndicator == "percent"){
+          var year_min = d3.min(poverty_dat,function(d){return d.year});
+          var baseline = poverty_dat.filter(function(d){return d.year==year_min})[0].value;
+          poverty_dat.forEach(function(d,i,dat){dat[i].value = d.value/baseline; });
+        };
         pre_line
           .append("path")
           .attr("class", "country_line")
-            .datum(data.filter(function(d){return d.name==selectedCountry && d.covid=="FALSE" && d.povtype==selected_pov}))
+            .datum(poverty_dat.filter(function(d){return d.covid=="FALSE"}))
             .attr("d", d3.line()
               .x(function(d) { return x(d.year) })
               .y(function(d) { return y(+d.value) })
@@ -102,7 +118,7 @@ d3.csv("covid_proj.csv", function(data) {
         pre_line
         .append("path")
         .attr("class", "country_line")
-          .datum(data.filter(function(d){return d.name==selectedCountry && d.covid=="FALSE" && d.estimate=="FALSE" && d.povtype==selected_pov}))
+          .datum(poverty_dat.filter(function(d){return d.covid=="FALSE" && d.estimate=="FALSE"}))
           .attr("d", d3.line()
             .x(function(d) { return x(d.year) })
             .y(function(d) { return y(+d.value) })
@@ -114,7 +130,7 @@ d3.csv("covid_proj.csv", function(data) {
         post_line
           .append("path")
           .attr("class", "country_line")
-            .datum(data.filter(function(d){return d.name==selectedCountry && d.covid=="TRUE" && d.povtype==selected_pov}))
+            .datum(poverty_dat.filter(function(d){return d.covid=="TRUE"}))
             .attr("d", d3.line()
               .x(function(d) { return x(d.year) })
               .y(function(d) { return y(+d.value) })
@@ -126,7 +142,7 @@ d3.csv("covid_proj.csv", function(data) {
         post_line
           .append("path")
           .attr("class", "country_line")
-            .datum(data.filter(function(d){return d.name==selectedCountry && d.covid=="TRUE" && d.estimate=="FALSE" && d.povtype==selected_pov}))
+            .datum(poverty_dat.filter(function(d){return d.covid=="TRUE" && d.estimate=="FALSE"}))
             .attr("d", d3.line()
               .x(function(d) { return x(d.year) })
               .y(function(d) { return y(+d.value) })
@@ -137,13 +153,26 @@ d3.csv("covid_proj.csv", function(data) {
       };
 
       // Adjust X axis
-      x.domain(d3.extent(data, function(d) { return d.year; }));
+      x.domain(d3.extent(country_dat, function(d) { return d.year; }));
       svg.selectAll(".myXaxis")
       .transition()
       .duration(1000)
       .call(xAxis);
       // Adjust y axis
-      y.domain([0, d3.max(data.filter(function(d){return d.name==selectedCountry}), function(d) { return +d.value; })]);
+      if(selectedIndicator == "percent"){
+        var ymax = d3.max(country_dat, function(d) { return +d.value; });
+        if(ymax < 0.01){
+          formatPercent = d3.format(".2%");
+        }else if(ymax < 0.1){
+          formatPercent = d3.format(".1%");
+        }else{
+          formatPercent = d3.format(".0%");
+        };
+        yAxis.tickFormat(formatPercent);
+      }else{
+        yAxis.tickFormat(formatDollar);
+      }
+      y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]);
       svg.selectAll(".myYaxis")
       .transition()
       .duration(1000)
@@ -163,7 +192,14 @@ d3.csv("covid_proj.csv", function(data) {
         // recover the option that has been chosen
         var selectedOption = d3.select(this).property("value");
         // run the updateChart function with this selected option
-        update(selectedOption);
+        update(selectedOption, selected_indicator);
+    });
+    d3.select("#indicatorSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select("#countrySelect").property("value");
+        selected_indicator = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(selectedOption, selected_indicator);
     });
 
     var legend = svg
@@ -223,7 +259,7 @@ d3.csv("covid_proj.csv", function(data) {
       .style("alignment-baseline", "middle")
       .style("font-size", "10px");
 
-    update("Albania");
+    update("Albania", selected_indicator);
 
 })
 
