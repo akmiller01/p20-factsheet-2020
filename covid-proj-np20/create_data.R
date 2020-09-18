@@ -40,5 +40,6 @@ names(all) = c("name","level","region","year","povtype","value","covid","estimat
 all$ppp = 2011
 
 all = subset(all,!endsWith(name,"-Rural") & !endsWith(name,"-Urban"))
+all = subset(all,value<=99.98 | name=="United Arab Emirates")
 
 fwrite(all,"covid_proj.csv")
