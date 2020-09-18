@@ -1,0 +1,355 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Initialize a select button -->
+<select id="countrySelect" style="font-size:20px;"></select>
+<select id="indicatorSelect" style="font-size:20px;"></select>
+<select id="pppSelect" style="font-size:20px;"></select>
+
+<!-- Create a div where the graph will take place -->
+<div id="covid-chart"></div>
+
+<!-- Color Scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+<script>
+
+var currentSelection = [];
+var currentIndicator = "Extreme poverty";
+var currentPPP = "2011";
+
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 250, bottom: 30, left: 60},
+    width = 800 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#covid-chart")
+  .append("svg")
+    .attr('preserveAspectRatio', 'xMinYMin meet')
+    .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+
+//Read the data
+d3.csv("covid_proj.csv", function(original_data) {
+
+    var allCountries = d3.map(original_data, function(d){return(d.name)}).keys();
+    var allIndicator = d3.map(original_data, function(d){return(d.povtype)}).keys();
+    var allPPP = d3.map(original_data, function(d){return(d.ppp)}).keys();
+
+    data = original_data.filter(function(d){return d.povtype == currentIndicator && d.ppp == currentPPP});
+
+    // add the options to the button
+    d3.select("#countrySelect")
+      .selectAll('myOptions')
+     	.data(allCountries)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }) // corresponding value returned by the buttons
+
+    d3.select("#indicatorSelect")
+      .selectAll('myOptions')
+     	.data(allIndicator)
+      .enter()
+    	.append('option')
+      .text(function (d) { return "Indicator: "+d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }) // corresponding value returned by the buttons
+    d3.select("#pppSelect")
+      .selectAll('myOptions')
+     	.data(allPPP)
+      .enter()
+    	.append('option')
+      .text(function (d) { return "PPP year: "+d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }) // corresponding value returned by the buttons
+
+    // A color scale: one color for each group
+    var myColor = d3.scaleOrdinal()
+      .range(["#e84439", "#eb642b", "#f49b21", "#c2135b", "#893f90", "#0089cc", "#109e68"]);
+
+    // Add X axis
+    var x = d3.scaleLinear()
+      .domain(d3.extent(data, function(d) { return d.year; }))
+      .range([ 0, width ]);
+    var xAxis = d3.axisBottom(x).ticks(7).tickFormat(d3.format("d"));
+    svg.append("g").attr("class","myXaxis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+    var formatPercent = d3.format(".0%");
+
+    // Add Y axis
+    var y = d3.scaleLinear()
+      .domain([0, d3.max(data.filter(function(d){return d.name=="World"}), function(d) { return +d.value; })])
+      .range([ height, 0 ]);
+    var yAxis = d3.axisLeft().scale(y).tickFormat(formatPercent);
+    svg.append("g").attr("class","myYaxis")
+      .call(yAxis);
+
+    var pre_line = svg
+      .append('g')
+      .attr("class", "pre-line");
+    var post_line = svg
+      .append('g')
+      .attr("class", "post-line");
+
+    // A function that update the chart
+    function update(selectedCountry, selectedIndicator, selectedPPP) {
+
+      if(selectedIndicator !== null){
+        currentIndicator = selectedIndicator;
+      };
+      if(selectedPPP !== null){
+        currentPPP = selectedPPP;
+      }
+      data = original_data.filter(function(d){return d.povtype == currentIndicator && d.ppp == currentPPP});
+
+      if(!currentSelection.includes(selectedCountry) && selectedCountry !== null){
+        currentSelection.push(selectedCountry);
+      };
+
+      if(currentSelection.length > 7){
+        currentSelection.shift()
+      }
+
+      // Update color axis
+      myColor.domain(currentSelection)
+
+      // Create new data with the selection
+      var dataFilter = data.filter(function(d){return currentSelection.includes(d.name)})
+      var dataFilter_pre = data.filter(function(d){return currentSelection.includes(d.name) && d.covid=="FALSE"})
+      var dataFilter_post = data.filter(function(d){return currentSelection.includes(d.name) && d.covid=="TRUE"})
+
+      svg.selectAll('path.country_line').remove();
+      svg.selectAll('g.legend_item_icon').remove();
+      svg.selectAll('g.legend_item_text').remove();
+      legend
+        .selectAll('g.legend_item_icon')
+        .data(currentSelection)
+        .enter()
+        .append("g")
+        .attr("class", "legend_item_icon")
+        .on("click", function(d) {
+          if(currentSelection.length > 1){
+            var selectedIndex = currentSelection.indexOf(d);
+            if(selectedIndex > -1){
+              currentSelection.splice(selectedIndex, 1);
+            };
+            update(null, null, null);
+          };
+
+        })
+        .append("rect")
+        .attr("x", width + 10)
+        .attr("y", function(d,i){ return 90 + i*15 - (10/2) })
+        .attr("width", 10)
+        .attr("height", 10)
+        .style("fill", function(d){ return myColor(d)})
+        .style("cursor", "pointer");
+      legend
+        .selectAll('g.legend_item_text')
+        .data(currentSelection)
+        .enter()
+        .append("g")
+        .attr("class", "legend_item_text")
+        .on("click", function(d) {
+          if(currentSelection.length > 1){
+            var selectedIndex = currentSelection.indexOf(d);
+            if(selectedIndex > -1){
+              currentSelection.splice(selectedIndex, 1);
+            };
+            update(null, null, null);
+          };
+
+        })
+        .append("text")
+        .attr("x", width + 22)
+        .attr("y", function(d,i){ return 90 + i*15})
+        .style("fill", function(d){ return myColor(d)})
+        .style("cursor", "pointer")
+        .text(function(d){ return d })
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle")
+        .style("font-size", "10px");
+
+
+      for(var i = 0; i < currentSelection.length; i++){
+        selected_country = currentSelection[i];
+        pre_line
+          .append("path")
+          .attr("class", "country_line")
+            .datum(data.filter(function(d){return d.name==selected_country && d.covid=="FALSE"}))
+            .attr("d", d3.line()
+              .x(function(d) { return x(d.year) })
+              .y(function(d) { return y(+d.value) })
+            )
+            .attr("stroke", function(d){ return myColor(selected_country) })
+            .style("stroke-width", 2)
+            .style("fill", "none")
+            .style("stroke-dasharray", "3, 3");
+        pre_line
+        .append("path")
+        .attr("class", "country_line")
+          .datum(data.filter(function(d){return d.name==selected_country && d.covid=="FALSE" && d.estimate=="FALSE"}))
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y(+d.value) })
+          )
+          .attr("stroke", function(d){ return myColor(selected_country) })
+          .style("stroke-width", 2)
+          .style("fill", "none");
+
+        post_line
+          .append("path")
+          .attr("class", "country_line")
+            .datum(data.filter(function(d){return d.name==selected_country && d.covid=="TRUE"}))
+            .attr("d", d3.line()
+              .x(function(d) { return x(d.year) })
+              .y(function(d) { return y(+d.value) })
+            )
+            .attr("stroke", function(d){ return d3.rgb(myColor(selected_country)).darker() })
+            .style("stroke-width", 2)
+            .style("fill", "none")
+            .style("stroke-dasharray", "3, 3");
+        post_line
+          .append("path")
+          .attr("class", "country_line")
+            .datum(data.filter(function(d){return d.name==selected_country && d.covid=="TRUE" && d.estimate=="FALSE"}))
+            .attr("d", d3.line()
+              .x(function(d) { return x(d.year) })
+              .y(function(d) { return y(+d.value) })
+            )
+            .attr("stroke", function(d){ return d3.rgb(myColor(selected_country)).darker() })
+            .style("stroke-width", 2)
+            .style("fill", "none");
+      };
+
+      // Adjust X axis
+      x.domain(d3.extent(data, function(d) { return d.year; }));
+      svg.selectAll(".myXaxis")
+      .transition()
+      .duration(1000)
+      .call(xAxis);
+      // Adjust y axis
+      var ymax = d3.max(data.filter(function(d){return currentSelection.includes(d.name)}), function(d) { return +d.value; });
+      if(ymax < 0.01){
+        formatPercent = d3.format(".2%");
+      }else if(ymax < 0.1){
+        formatPercent = d3.format(".1%");
+      }else{
+        formatPercent = d3.format(".0%");
+      };
+      yAxis.tickFormat(formatPercent);
+      y.domain([0, d3.max(data.filter(function(d){return currentSelection.includes(d.name)}), function(d) { return +d.value; })]);
+      svg.selectAll(".myYaxis")
+      .transition()
+      .duration(1000)
+      .call(yAxis);
+
+      svg.selectAll('path.country_line')
+      .transition()
+      .duration(1000)
+      .attr("d", d3.line()
+        .x(function(d) { return x(d.year) })
+        .y(function(d) { return y(+d.value) })
+      )
+    }
+
+    // When the button is changed, run the updateChart function
+    d3.select("#countrySelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(selectedOption, null, null);
+    });
+    d3.select("#indicatorSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(null, selectedOption, null);
+    });
+    d3.select("#pppSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(null, null, selectedOption);
+    });
+
+
+
+    var legend = svg
+      .append("g");
+
+    legend
+      .append("rect")
+      .attr("x", width)
+      .attr("y", 0)
+      .attr("width", margin.right)
+      .attr("height", height + margin.bottom - 30)
+      .attr("fill", "white")
+
+    legend
+      .append("text")
+      .attr("x", width)
+      .attr("y", 0)
+      .style("fill", "black")
+      .style("font-weight", "bold")
+      .style("font-size", "12px")
+      .text("Legend")
+
+    var static_legend_items = [
+      {"name": "Measured poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
+      {"name": "Poverty % estimate before COVID-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
+      {"name": "Poverty % estimate after COVID-19", "color": d3.rgb("#e84439").darker(), "dasharray": "3, 3"},
+    ]
+
+    legend
+      .selectAll('g.static_legend_lines')
+      .data(static_legend_items)
+      .enter()
+      .append("g")
+      .attr("class", "static_legend_lines")
+      .append("path")
+      .attr("d", function(d, i){return "m " + width + " " + (20 + i*15) + " H " + (width + 20) })
+      .attr("stroke", function(d){ return d.color })
+      .style("stroke-width", 2)
+      .style("fill", "none")
+      .style("stroke-dasharray", function(d){ return d.dasharray });
+
+    legend
+      .selectAll('g.static_legend_text')
+      .data(static_legend_items)
+      .enter()
+      .append("g")
+      .attr("class", "static_legend_text")
+      .append("text")
+      .attr("x", width + 22)
+      .attr("y", function(d,i){ return 20 + i*15})
+      .style("fill", function(d){ return d.color})
+      .text(function(d){ return d.name })
+      .attr("text-anchor", "left")
+      .style("alignment-baseline", "middle")
+      .style("font-size", "10px");
+
+    legend
+      .append("text")
+      .attr("x", width)
+      .attr("y", 75)
+      .style("fill", "black")
+      .style("font-size", "10px")
+      .text("Selected regions/countries (up to 7, click to remove)")
+
+    update("World", "Extreme poverty", "2011");
+
+})
+
+
+</script>
