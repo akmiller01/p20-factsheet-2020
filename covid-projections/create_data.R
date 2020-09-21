@@ -130,6 +130,7 @@ all = all[,keep,with=F]
 names(all) = c("name","level","region","year","povtype","value","covid","estimate")
 all$ppp = 2017
 
-all = rbind(all_2011, all)
+# all = rbind(all_2011, all)
+all = all_2011
 
 fwrite(all,"covid_proj.csv")
