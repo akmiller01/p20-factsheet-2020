@@ -1,0 +1,237 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Initialize a select button -->
+<select id="countrySelect" style="font-size:20px;"></select>
+<select id="indicatorSelect" style="font-size:20px;"></select>
+<select id="demographicSelect" style="font-size:20px;"></select>
+
+<!-- Create a div where the graph will take place -->
+<div id="survey-chart"></div>
+
+<!-- Color Scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+<script>
+
+var selected_country = "";
+var selected_indicator = "";
+var selected_demographic_category = "";
+
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 250, bottom: 30, left: 60},
+    width = 800 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#survey-chart")
+  .append("svg")
+    .attr('preserveAspectRatio', 'xMinYMin meet')
+    .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+var legend = svg
+  .append("g");
+
+legend
+  .append("rect")
+  .attr("x", width)
+  .attr("y", 0)
+  .attr("width", margin.right)
+  .attr("height", height + margin.bottom - 30)
+  .attr("fill", "white")
+
+legend
+  .append("text")
+  .attr("x", width)
+  .attr("y", 0)
+  .style("fill", "black")
+  .style("font-weight", "bold")
+  .style("font-size", "12px")
+  .text("Legend")
+
+
+//Read the data
+d3.csv("all_survey.csv", function(data) {
+
+    var allCountries = d3.map(data, function(d){return(d.name)}).keys();
+    var allIndicators = d3.map(data, function(d){return(d.indicator)}).keys();
+    var allDemographicCategories = d3.map(data, function(d){return(d.demographic_category)}).keys();
+
+    d3.select("#countrySelect")
+      .selectAll('myOptions')
+     	.data(allCountries)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; })
+      .attr("value", function (d) { return d; });
+    d3.select("#indicatorSelect")
+      .selectAll('myOptions')
+     	.data(allIndicators)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; })
+      .attr("value", function (d) { return d; });
+    d3.select("#demographicSelect")
+      .selectAll('myOptions')
+     	.data(allDemographicCategories)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; })
+      .attr("value", function (d) { return d; });
+
+    // A color scale: one color for each group
+    var myColor = d3.scaleOrdinal()
+      .range(["#e84439", "#f49b21", "#893f90", "#109e68"]);
+
+    // Add X axis
+    var x = d3.scaleLinear()
+      .domain(d3.extent(data, function(d) { return d.year; }))
+      .range([ 0, width ]);
+    var xAxis = d3.axisBottom(x).ticks(7).tickFormat(d3.format("d"));
+    svg.append("g").attr("class","myXaxis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+    var formatPercent = d3.format(".0%");
+
+    // Add Y axis
+    var y = d3.scaleLinear()
+      .domain([0, d3.max(data.filter(function(d){return allCountries[0]}), function(d) { return +d.value; })])
+      .range([ height, 0 ]);
+    var yAxis = d3.axisLeft().scale(y).tickFormat(formatPercent);
+    svg.append("g").attr("class","myYaxis")
+      .call(yAxis);
+
+    var lines = svg
+      .append('g')
+      .attr("class", "lines");
+
+    // A function that update the chart
+    function update(selectedCountry, selectedIndicator, selectedDemographicCategory) {
+      if(selectedCountry !== null){
+        selected_country = selectedCountry;
+      }
+      if(selectedIndicator !== null){
+        selected_indicator = selectedIndicator;
+      }
+      if(selectedDemographicCategory !== null){
+        selected_demographic_category = selectedDemographicCategory;
+      }
+
+      svg.selectAll('path.country_line').remove();
+      svg.selectAll('g.legend_lines').remove();
+      svg.selectAll('g.legend_text').remove();
+      
+      var country_dat = data.filter(function(d){return d.name==selected_country && d.indicator==selected_indicator &&  d.demographic_category==selected_demographic_category});
+      var allDemographics = d3.map(country_dat, function(d){return(d.demographic)}).keys();
+
+      myColor.domain(allDemographics);
+
+      legend
+        .selectAll('g.static_legend_lines')
+        .data(allDemographics)
+        .enter()
+        .append("g")
+        .attr("class", "legend_lines")
+        .append("path")
+        .attr("d", function(d, i){return "m " + width + " " + (20 + i*15) + " H " + (width + 20) })
+        .attr("stroke", function(d){ return myColor(d) })
+        .style("stroke-width", 2)
+        .style("fill", "none");
+
+      legend
+        .selectAll('g.static_legend_text')
+        .data(allDemographics)
+        .enter()
+        .append("g")
+        .attr("class", "legend_text")
+        .append("text")
+        .attr("x", width + 22)
+        .attr("y", function(d,i){ return 20 + i*15})
+        .style("fill", function(d){ return myColor(d)})
+        .text(function(d){ return d })
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle")
+        .style("font-size", "10px");
+
+      for(var i = 0; i < allDemographics.length; i++){
+        var demographic = allDemographics[i];
+        var demographic_dat = country_dat.filter(function(d){return d.demographic==demographic});
+        lines
+          .append("path")
+          .attr("class", "country_line")
+            .datum(demographic_dat)
+            .attr("d", d3.line()
+              .x(function(d) { return x(d.year) })
+              .y(function(d) { return y(+d.value) })
+            )
+            .attr("stroke", function(d){ return myColor(demographic) })
+            .style("stroke-width", 2)
+            .style("fill", "none");
+      };
+
+      // Adjust X axis
+      x.domain(d3.extent(country_dat, function(d) { return d.year; }));
+      svg.selectAll(".myXaxis")
+      .transition()
+      .duration(1000)
+      .call(xAxis);
+      // Adjust y axis
+      var ymax = d3.max(country_dat, function(d) { return +d.value; });
+      if(ymax < 0.01){
+        formatPercent = d3.format(".2%");
+      }else if(ymax < 0.1){
+        formatPercent = d3.format(".1%");
+      }else{
+        formatPercent = d3.format(".0%");
+      };
+      yAxis.tickFormat(formatPercent);
+      y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]);
+      svg.selectAll(".myYaxis")
+      .transition()
+      .duration(1000)
+      .call(yAxis);
+
+      svg.selectAll('path.country_line')
+      .transition()
+      .duration(1000)
+      .attr("d", d3.line()
+        .x(function(d) { return x(d.year) })
+        .y(function(d) { return y(+d.value) })
+      )
+    }
+
+    // When the button is changed, run the updateChart function
+    d3.select("#countrySelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(selectedOption, selected_indicator, selected_demographic_category);
+    });
+    d3.select("#indicatorSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(selected_country, selectedOption, selected_demographic_category);
+    });
+    d3.select("#demographicSelect").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        update(selected_country, selected_indicator, selectedOption);
+    });
+
+    update(allCountries[0], allIndicators[0], allDemographicCategories[0]);
+
+})
+
+
+</script>
