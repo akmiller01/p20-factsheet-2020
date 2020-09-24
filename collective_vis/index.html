@@ -416,6 +416,7 @@ Share section</a>
     // Start chart 1
     var currentSelection1 = [];
     var currentIndicator1 = "Extreme poverty";
+    var current_data1 = [];
 
     // set the dimensions and margins of the graph
     var margin1 = {top: 10, right: 330, bottom: 30, left: 60},
@@ -473,6 +474,7 @@ Share section</a>
           .call(xAxis);
 
         var formatPercent = d3.format(".0%");
+        var formatPercentAccurate = d3.format(".2%");
 
         // Add Y axis
         var y = d3.scaleLinear()
@@ -511,12 +513,14 @@ Share section</a>
 
           // Create new data with the selection
           var dataFilter = data.filter(function(d){return currentSelection1.includes(d.name)})
+          current_data1 = dataFilter;
           var dataFilter_pre = data.filter(function(d){return currentSelection1.includes(d.name) && d.covid=="FALSE"})
           var dataFilter_post = data.filter(function(d){return currentSelection1.includes(d.name) && d.covid=="TRUE"})
 
           svg1.selectAll('path.country_line1').remove();
           svg1.selectAll('g.legend_item_icon1').remove();
           svg1.selectAll('g.legend_item_text1').remove();
+          svg1.selectAll('circle.highlight1').attr("style","opacity:0;");
           legend
             .selectAll('g.legend_item_icon1')
             .data(currentSelection1)
@@ -729,9 +733,15 @@ Share section</a>
 
         update("World", "Extreme poverty", "2011");
 
-        d3.select("#covid-chart1").append("div")
+        var tooltip1 = d3.select("#covid-chart1").append("div")
           .attr("class", "tooltip1")
           .attr("style", "position: absolute; display: none;")
+
+        var highlight1 = svg1
+          .append("circle")
+          .attr("class", "highlight1")
+          .attr("r", 2.5)
+          .attr("style","opacity:0;");
 
         svg1.append("rect")
           .attr("class", "overlay1")
@@ -742,22 +752,36 @@ Share section</a>
             var mouse_position = d3.mouse(this);
             var x_pos = x.invert(mouse_position[0]);
             var y_pos = y.invert(mouse_position[1]);
-            var x_label = Math.round(x_pos);
-            var y_label = formatPercent(y_pos);
             var matrix = this.getScreenCTM();
-            d3.select(".tooltip1")
+            var closest_year_distance = d3.min(current_data1, function(d){ return Math.abs(x_pos - d.year)});
+            var closest_year = current_data1.filter(function(d){return Math.abs(x_pos - d.year) == closest_year_distance})[0].year;
+            var current_data_by_year = current_data1.filter(function(d){ return d.year == closest_year });
+            var closest_value_distance = d3.min(current_data_by_year, function(d){ return Math.abs(y_pos - d.value)});
+            var closest_value = current_data_by_year.filter(function(d){return Math.abs(y_pos - d.value) == closest_value_distance})[0].value;
+            var highlight_data = current_data_by_year.filter(function(d){ return d.value == closest_value});
+            tooltip1
               .attr("style",
-              "position: absolute;display: block;" +
+              "position: absolute;display: block;background-color:rgba(255,255,255,0.8);" +
               "top:" + (d3.event.clientY - matrix.f + margin1.top + height1*0.08) + "px;" +
               "left:" + (d3.event.clientX - matrix.e + margin1.left) + "px;"
             ).html(
-              "<p><b>Year:</b> " + x_label + "</p>" +
-              "<p><b>Value:</b> " + y_label + "</p>"
+              "<p><b>Name:</b> " + highlight_data[0].name + "</p>" +
+              "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
+              "<p><b>Post-covid:</b> " + highlight_data[0].covid + "</p>" +
+              "<p><b>Value:</b> " + formatPercentAccurate(highlight_data[0].value) + "</p>"
             )
+            highlight1
+              .data(highlight_data)
+              .attr("cx", function(d){return x(d.year)})
+              .attr("cy", function(d){return y(d.value)})
+              .attr("fill", function(d){return myColor(d.name)})
+              .attr("style","opacity:1;");
           })
           .on('mouseout', function(){
-            d3.select(".tooltip1")
+            tooltip1
               .attr("style", "position: absolute; display: none;")
+            highlight1
+              .attr("style","opacity:0;");
           });
 
     })
@@ -766,6 +790,7 @@ Share section</a>
     // start chart 2
 
     var selected_indicator2 = "nominal";
+    var current_data2 = [];
 
     // set the dimensions and margins of the graph
     var margin2 = {top: 10, right: 320, bottom: 30, left: 60},
@@ -812,13 +837,14 @@ Share section</a>
           .attr("transform", "translate(0," + height2 + ")")
           .call(xAxis);
 
-        var formatDollar = d3.format("$,.2f");
+        var valueFormat = d3.format("$,.2f");
+        var valueFormatAccurate = d3.format("$,.2f");
 
         // Add Y axis
         var y = d3.scaleLinear()
           .domain([0, d3.max(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; })])
           .range([ height2, 0 ]);
-        var yAxis = d3.axisLeft().scale(y).tickFormat(formatDollar);
+        var yAxis = d3.axisLeft().scale(y).tickFormat(valueFormat);
         svg2.append("g").attr("class","myYaxis2")
           .call(yAxis);
 
@@ -835,10 +861,12 @@ Share section</a>
           svg2.selectAll('path.country_line2').remove();
           svg2.selectAll('g.legend_item_icon2').remove();
           svg2.selectAll('g.legend_item_text2').remove();
+          svg2.selectAll('circle.highlight2').attr("style","opacity:0;");
           var country_dat = data.map(function(obj) {
               return Object.assign({}, obj);
           });
           country_dat = country_dat.filter(function(d){return d.name==selectedCountry});
+          current_data2 = country_dat;
 
           for(var i = 0; i < allPovs.length; i++){
             selected_pov = allPovs[i];
@@ -907,16 +935,18 @@ Share section</a>
           if(selectedIndicator == "percent"){
             var ymax = d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 0.01){
-              formatPercent = d3.format(".2%");
+              valueFormat = d3.format(".2%");
             }else if(ymax < 0.1){
-              formatPercent = d3.format(".1%");
+              valueFormat = d3.format(".1%");
             }else{
-              formatPercent = d3.format(".0%");
+              valueFormat = d3.format(".0%");
             };
-            yAxis.tickFormat(formatPercent);
+            valueFormatAccurate = d3.format(".2%");
           }else{
-            yAxis.tickFormat(formatDollar);
+            valueFormat = d3.format("$,.2f");
+            valueFormatAccurate = d3.format("$,.2f");
           }
+          yAxis.tickFormat(valueFormat);
           y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]);
           svg2.selectAll(".myYaxis2")
           .transition()
@@ -1006,6 +1036,57 @@ Share section</a>
 
         update("Albania", selected_indicator2);
 
+        var tooltip2 = d3.select("#covid-chart2").append("div")
+          .attr("class", "tooltip2")
+          .attr("style", "position: absolute; display: none;")
+
+        var highlight2 = svg2
+          .append("circle")
+          .attr("class", "highlight2")
+          .attr("r", 2.5)
+          .attr("style","opacity:0;");
+
+        svg2.append("rect")
+          .attr("class", "overlay2")
+          .attr("style","opacity:0;")
+          .attr("width", width2)
+          .attr("height", height2)
+          .on("mousemove", function(){
+            var mouse_position = d3.mouse(this);
+            var x_pos = x.invert(mouse_position[0]);
+            var y_pos = y.invert(mouse_position[1]);
+            var matrix = this.getScreenCTM();
+            var closest_year_distance = d3.min(current_data2, function(d){ return Math.abs(x_pos - d.year)});
+            var closest_year = current_data2.filter(function(d){return Math.abs(x_pos - d.year) == closest_year_distance})[0].year;
+            var current_data_by_year = current_data2.filter(function(d){ return d.year == closest_year });
+            var closest_value_distance = d3.min(current_data_by_year, function(d){ return Math.abs(y_pos - d.value)});
+            var closest_value = current_data_by_year.filter(function(d){return Math.abs(y_pos - d.value) == closest_value_distance})[0].value;
+            var highlight_data = current_data_by_year.filter(function(d){ return d.value == closest_value});
+            tooltip2
+              .attr("style",
+              "position: absolute;display: block;background-color:rgba(255,255,255,0.8);" +
+              "top:" + (d3.event.clientY - matrix.f + margin1.top + height1*0.08) + "px;" +
+              "left:" + (d3.event.clientX - matrix.e + margin1.left) + "px;"
+            ).html(
+              "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
+              "<p><b>Post-covid:</b> " + highlight_data[0].covid + "</p>" +
+              "<p><b>Poverty type:</b> " + highlight_data[0].povtype + "</p>" +
+              "<p><b>Value:</b> " + valueFormatAccurate(highlight_data[0].value) + "</p>"
+            )
+            highlight2
+              .data(highlight_data)
+              .attr("cx", function(d){return x(d.year)})
+              .attr("cy", function(d){return y(d.value)})
+              .attr("fill", function(d){return myColor(d.povtype)})
+              .attr("style","opacity:1;");
+          })
+          .on('mouseout', function(){
+            tooltip2
+              .attr("style", "position: absolute; display: none;")
+            highlight2
+              .attr("style","opacity:0;");
+          });
+
     })
     // end chart 2
     // start chart 3
@@ -1013,6 +1094,7 @@ Share section</a>
     var selected_country3 = "";
     var selected_indicator3 = "";
     var selected_demographic_category3 = "";
+    var current_data3 = [];
 
     // set the dimensions and margins of the graph
     var margin3 = {top: 10, right: 150, bottom: 30, left: 60},
@@ -1093,6 +1175,7 @@ Share section</a>
           .call(xAxis);
 
         var formatPercent = d3.format(".0%");
+        var formatPercentAccurate = d3.format(".2%");
 
         // Add Y axis
         var y = d3.scaleLinear()
@@ -1121,8 +1204,10 @@ Share section</a>
           svg3.selectAll('path.country_line3').remove();
           svg3.selectAll('g.legend_lines3').remove();
           svg3.selectAll('g.legend_text3').remove();
+          svg3.selectAll('circle.highlight3').attr("style","opacity:0;");
 
           var country_dat = data.filter(function(d){return d.name==selected_country3 && d.indicator==selected_indicator3 &&  d.demographic_category==selected_demographic_category3});
+          current_data3 = country_dat;
           var allDemographics = d3.map(country_dat, function(d){return(d.demographic)}).keys();
 
           myColor.domain(allDemographics);
@@ -1222,6 +1307,56 @@ Share section</a>
         });
 
         update(allCountries[0], allIndicators[0], allDemographicCategories[0]);
+
+        var tooltip3 = d3.select("#covid-chart3").append("div")
+          .attr("class", "tooltip3")
+          .attr("style", "position: absolute; display: none;")
+
+        var highlight3 = svg3
+          .append("circle")
+          .attr("class", "highlight3")
+          .attr("r", 2.5)
+          .attr("style","opacity:0;");
+
+        svg3.append("rect")
+          .attr("class", "overlay3")
+          .attr("style","opacity:0;")
+          .attr("width", width3)
+          .attr("height", height3)
+          .on("mousemove", function(){
+            var mouse_position = d3.mouse(this);
+            var x_pos = x.invert(mouse_position[0]);
+            var y_pos = y.invert(mouse_position[1]);
+            var matrix = this.getScreenCTM();
+            var closest_year_distance = d3.min(current_data3, function(d){ return Math.abs(x_pos - d.year)});
+            var closest_year = current_data3.filter(function(d){return Math.abs(x_pos - d.year) == closest_year_distance})[0].year;
+            var current_data_by_year = current_data3.filter(function(d){ return d.year == closest_year });
+            var closest_value_distance = d3.min(current_data_by_year, function(d){ return Math.abs(y_pos - d.value)});
+            var closest_value = current_data_by_year.filter(function(d){return Math.abs(y_pos - d.value) == closest_value_distance})[0].value;
+            var highlight_data = current_data_by_year.filter(function(d){ return d.value == closest_value});
+            tooltip3
+              .attr("style",
+              "position: absolute;display: block;background-color:rgba(255,255,255,0.8);" +
+              "top:" + (d3.event.clientY - matrix.f + margin1.top + height1*0.08) + "px;" +
+              "left:" + (d3.event.clientX - matrix.e + margin1.left) + "px;"
+            ).html(
+              "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
+              "<p><b>Demographic:</b> " + highlight_data[0].demographic + "</p>" +
+              "<p><b>Value:</b> " + formatPercentAccurate(highlight_data[0].value) + "</p>"
+            )
+            highlight3
+              .data(highlight_data)
+              .attr("cx", function(d){return x(d.year)})
+              .attr("cy", function(d){return y(d.value)})
+              .attr("fill", function(d){return myColor(d.demographic)})
+              .attr("style","opacity:1;");
+          })
+          .on('mouseout', function(){
+            tooltip3
+              .attr("style", "position: absolute; display: none;")
+            highlight3
+              .attr("style","opacity:0;");
+          });
 
     })
 
