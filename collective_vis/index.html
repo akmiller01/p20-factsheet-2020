@@ -729,6 +729,37 @@ Share section</a>
 
         update("World", "Extreme poverty", "2011");
 
+        d3.select("#covid-chart1").append("div")
+          .attr("class", "tooltip1")
+          .attr("style", "position: absolute; display: none;")
+
+        svg1.append("rect")
+          .attr("class", "overlay1")
+          .attr("style","opacity:0;")
+          .attr("width", width1)
+          .attr("height", height1)
+          .on("mousemove", function(){
+            var mouse_position = d3.mouse(this);
+            var x_pos = x.invert(mouse_position[0]);
+            var y_pos = y.invert(mouse_position[1]);
+            var x_label = Math.round(x_pos);
+            var y_label = formatPercent(y_pos);
+            var matrix = this.getScreenCTM();
+            d3.select(".tooltip1")
+              .attr("style",
+              "position: absolute;display: block;" +
+              "top:" + (d3.event.clientY - matrix.f + margin1.top + height1*0.08) + "px;" +
+              "left:" + (d3.event.clientX - matrix.e + margin1.left) + "px;"
+            ).html(
+              "<p><b>Year:</b> " + x_label + "</p>" +
+              "<p><b>Value:</b> " + y_label + "</p>"
+            )
+          })
+          .on('mouseout', function(){
+            d3.select(".tooltip1")
+              .attr("style", "position: absolute; display: none;")
+          });
+
     })
 
     // end chart 1
