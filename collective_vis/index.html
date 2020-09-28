@@ -613,13 +613,11 @@ Share section</a>
             })
             .append("text")
             .attr("x", width1 + 22)
-            .attr("y", function(d,i){ return 90 + i*15})
+            .attr("y", function(d,i){ return 90 + i*15 + 4})
             .style("fill", function(d){ return myColor(d)})
             .style("cursor", "pointer")
             .text(function(d){ return d })
             .attr("text-anchor", "left")
-            .style("alignment-baseline", "middle")
-            .style("dominant-baseline", "middle")
             .style("font-size", "10px");
 
 
@@ -764,12 +762,10 @@ Share section</a>
           .attr("class", "static_legend_text1")
           .append("text")
           .attr("x", width1 + 22)
-          .attr("y", function(d,i){ return 20 + i*15})
+          .attr("y", function(d,i){ return 20 + i*15 + 4})
           .style("fill", function(d){ return d.color})
           .text(function(d){ return d.name })
           .attr("text-anchor", "left")
-          .style("alignment-baseline", "middle")
-          .style("dominant-baseline", "middle")
           .style("font-size", "10px");
 
         legend
@@ -1096,12 +1092,10 @@ Share section</a>
           .attr("class", "static_legend_text2")
           .append("text")
           .attr("x", width2 + 22)
-          .attr("y", function(d,i){ return 20 + i*15})
+          .attr("y", function(d,i){ return 20 + i*15 + 4})
           .style("fill", function(d){ return d.color})
           .text(function(d){ return d.name })
           .attr("text-anchor", "left")
-          .style("alignment-baseline", "middle")
-          .style("dominant-baseline", "middle")
           .style("font-size", "10px");
 
         update("Albania", selected_indicator2);
@@ -1322,12 +1316,10 @@ Share section</a>
             .attr("class", "legend_text3")
             .append("text")
             .attr("x", width3 + 22)
-            .attr("y", function(d,i){ return 20 + i*15})
+            .attr("y", function(d,i){ return 20 + i*15 + 4})
             .style("fill", function(d){ return myColor(d)})
             .text(function(d){ return d })
             .attr("text-anchor", "left")
-            .style("alignment-baseline", "middle")
-            .style("dominant-baseline", "middle")
             .style("font-size", "10px");
 
           for(var i = 0; i < allDemographics.length; i++){
