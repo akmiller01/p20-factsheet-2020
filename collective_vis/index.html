@@ -488,7 +488,7 @@ Share section</a>
 
         // A color scale: one color for each group
         var myColor = d3.scaleOrdinal()
-          .range(["#0089cc", "#88bae5", "#0c457b"]);
+          .range(["#e84439", "#109e68", "#893f90"]);
 
         // Add X axis
         var x = d3.scaleLinear()
@@ -512,7 +512,8 @@ Share section</a>
         // Add Y axis
         var y = d3.scaleLinear()
           .domain([0, d3.max(data.filter(function(d){return d.name=="World"}), function(d) { return +d.value; })])
-          .range([ height1, 0 ]);
+          .range([ height1, 0 ])
+          .nice();
         var yAxis = d3.axisLeft().scale(y).ticks(7).tickSizeOuter(0).tickFormat(formatPercent);
         svg1.append("g").attr("class","myYaxis1")
           .call(yAxis);
@@ -529,7 +530,7 @@ Share section</a>
             .attr("transform", "rotate(-90)")
             .attr("y", -margin1.left+20)
             .attr("x", -(height1 / 2))
-            .text("Percentage in poverty (%)")
+            .text("Percentage of population living in poverty")
 
         var pre_line = svg1
           .append('g')
@@ -656,7 +657,7 @@ Share section</a>
                 .attr("stroke", function(d){ return d3.rgb(myColor(selected_country)).darker() })
                 .style("stroke-width", 2)
                 .style("fill", "none")
-                .style("stroke-dasharray", "3, 3");
+                .style("stroke-dasharray", "5, 5");
             post_line
               .append("path")
               .attr("class", "country_line1")
@@ -686,7 +687,7 @@ Share section</a>
             formatPercent = d3.format(".0%");
           };
           yAxis.tickFormat(formatPercent);
-          y.domain([0, d3.max(data.filter(function(d){return currentSelection1.includes(d.name)}), function(d) { return +d.value; })]);
+          y.domain([0, d3.max(data.filter(function(d){return currentSelection1.includes(d.name)}), function(d) { return +d.value; })]).nice();
           svg1.selectAll(".myYaxis1")
           .transition()
           .duration(1000)
@@ -734,9 +735,9 @@ Share section</a>
           .attr("fill", "#f8f7f8")
 
         var static_legend_items = [
-          {"name": "Measured poverty %", "color": d3.rgb("#0089cc"), "dasharray": "0"},
-          {"name": "Poverty % estimate before Covid-19", "color": d3.rgb("#0089cc"), "dasharray": "3, 3"},
-          {"name": "Poverty % estimate after Covid-19", "color": d3.rgb("#0089cc").darker(), "dasharray": "3, 3"},
+          {"name": "Measured poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
+          {"name": "Poverty % estimate before Covid-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
+          {"name": "Poverty % estimate after Covid-19", "color": d3.rgb("#e84439").darker(), "dasharray": "5, 5"},
         ]
 
         legend
@@ -812,7 +813,7 @@ Share section</a>
             ).html(
               "<p><b>Name:</b> " + highlight_data[0].name + "</p>" +
               "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
-              "<p><b>After Covid-19:</b> " + highlight_data[0].covid + "</p>" +
+              (highlight_data[0].estimate == "TRUE" ? ("<p><b>Type:</b> " + (highlight_data[0].covid == "TRUE" ? "post-Covid estimate": "pre-Covid estimate") + "</p>") : "") +
               "<p><b>Value:</b> " + formatPercentAccurate(highlight_data[0].value) + "</p>"
             )
             highlight1
@@ -871,7 +872,7 @@ Share section</a>
         // A color scale: one color for each group
         var myColor = d3.scaleOrdinal()
           .domain(["National P20", "National P80"])
-          .range(["#0089cc", "#e84439"]);
+          .range(["#0089cc", "#f49b21"]);
 
         // Add X axis
         var x = d3.scaleLinear()
@@ -889,13 +890,14 @@ Share section</a>
             .attr("y", height2 + margin2.top + 25)
             .text("Year");
 
-        var valueFormat = d3.format("$,.2f");
+        var valueFormat = d3.format("$,.0f");
         var valueFormatAccurate = d3.format("$,.2f");
 
         // Add Y axis
         var y = d3.scaleLinear()
           .domain([0, d3.max(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; })])
-          .range([ height2, 0 ]);
+          .range([ height2, 0 ])
+          .nice();
         var yAxis = d3.axisLeft().scale(y).ticks(7).tickSizeOuter(0).tickFormat(valueFormat);
         svg2.append("g").attr("class","myYaxis2")
           .call(yAxis);
@@ -977,7 +979,7 @@ Share section</a>
                 .attr("stroke", function(d){ return d3.rgb(myColor(selected_pov)).darker() })
                 .style("stroke-width", 2)
                 .style("fill", "none")
-                .style("stroke-dasharray", "3, 3");
+                .style("stroke-dasharray", "5, 5");
             post_line
               .append("path")
               .attr("class", "country_line2")
@@ -1011,11 +1013,11 @@ Share section</a>
             valueFormatAccurate = d3.format(".2%");
           }else{
             d3.select("#y-axis-title2").text("Daily per capita income (2011 PPP$)")
-            valueFormat = d3.format("$,.2f");
+            valueFormat = d3.format("$,.0f");
             valueFormatAccurate = d3.format("$,.2f");
           }
           yAxis.tickFormat(valueFormat);
-          y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]);
+          y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]).nice();
           svg2.selectAll(".myYaxis2")
           .transition()
           .duration(1000)
@@ -1064,10 +1066,10 @@ Share section</a>
         var static_legend_items = [
           {"name": "National P80 measured", "color": myColor("National P80"), "dasharray": "0"},
           {"name": "National P80 estimate before Covid-19", "color": myColor("National P80"), "dasharray": "3, 3"},
-          {"name": "National P80 estimate after Covid-19", "color": d3.rgb(myColor("National P80")).darker().darker(), "dasharray": "3, 3"},
+          {"name": "National P80 estimate after Covid-19", "color": d3.rgb(myColor("National P80")).darker().darker(), "dasharray": "5, 5"},
           {"name": "National P20 measured", "color": myColor("National P20"), "dasharray": "0"},
           {"name": "National P20 estimate before Covid-19", "color": myColor("National P20"), "dasharray": "3, 3"},
-          {"name": "National P20 estimate after Covid-19", "color": d3.rgb(myColor("National P20")).darker().darker(), "dasharray": "3, 3"},
+          {"name": "National P20 estimate after Covid-19", "color": d3.rgb(myColor("National P20")).darker().darker(), "dasharray": "5, 5"},
         ]
 
         legend
@@ -1134,7 +1136,7 @@ Share section</a>
               "left:" + (d3.event.clientX - matrix.e + margin2.left) + "px;"
             ).html(
               "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
-              "<p><b>After Covid-19:</b> " + highlight_data[0].covid + "</p>" +
+              (highlight_data[0].estimate == "TRUE" ? ("<p><b>Type:</b> " + (highlight_data[0].covid == "TRUE" ? "post-Covid estimate": "pre-Covid estimate") + "</p>") : "") +
               "<p><b>Poverty type:</b> " + highlight_data[0].povtype + "</p>" +
               "<p><b>Value:</b> " + valueFormatAccurate(highlight_data[0].value) + "</p>"
             )
@@ -1220,7 +1222,7 @@ Share section</a>
 
         // A color scale: one color for each group
         var myColor = d3.scaleOrdinal()
-          .range(["#0089cc", "#88bae5", "#5da3d9", "#0071b1"]);
+          .range(["#0089cc", "#0c457b", "#f49b21", "#a85d00"]);
 
         // Add X axis
         var x = d3.scaleLinear()
@@ -1244,7 +1246,8 @@ Share section</a>
         // Add Y axis
         var y = d3.scaleLinear()
           .domain([0, d3.max(data.filter(function(d){return allCountries[0]}), function(d) { return +d.value; })])
-          .range([ height3, 0 ]);
+          .range([ height3, 0 ])
+          .nice();
         var yAxis = d3.axisLeft().scale(y).ticks(7).tickSizeOuter(0).tickFormat(formatPercent);
         svg3.append("g").attr("class","myYaxis3")
           .call(yAxis);
@@ -1288,7 +1291,13 @@ Share section</a>
           current_data3 = country_dat;
           var allDemographics = d3.map(country_dat, function(d){return(d.demographic)}).keys();
 
-          myColor.domain(allDemographics);
+          if(allDemographics.length == 2){
+            myColor.range(["#0089cc", "#f49b21"]);
+          }else{
+            myColor.range(["#0089cc", "#0c457b", "#f49b21", "#a85d00"]);
+          };
+
+          myColor.domain(allDemographics.sort().reverse());
 
           legend
             .selectAll('g.legend_lines3')
@@ -1350,7 +1359,7 @@ Share section</a>
             formatPercent = d3.format(".0%");
           };
           yAxis.tickFormat(formatPercent);
-          y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]);
+          y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]).nice();
           svg3.selectAll(".myYaxis3")
           .transition()
           .duration(1000)
