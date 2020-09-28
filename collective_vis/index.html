@@ -1232,6 +1232,7 @@ Share section</a>
         // Add X axis label:
         svg3.append("text")
             .attr("class","axis-title")
+            .attr("id", "x-axis-title3")
             .attr("text-anchor", "middle")
             .attr("x", width3 / 2)
             .attr("y", height3 + margin3.top + 25)
@@ -1287,6 +1288,22 @@ Share section</a>
           var country_dat = data.filter(function(d){return d.name==selected_country3 && d.indicator==selected_indicator3 &&  d.demographic_category==selected_demographic_category3});
           current_data3 = country_dat;
           var allDemographics = d3.map(country_dat, function(d){return(d.demographic)}).keys();
+
+          if(country_dat.length == 0){
+            d3.select("#x-axis-title3")
+              .attr("x", width3 / 2)
+              .attr("y", (height3 + margin3.top)/2)
+              .text("No data available");
+            d3.select("#y-axis-title3")
+              .attr("style", "opacity:0");
+          }else{
+            d3.select("#x-axis-title3")
+              .attr("x", width3 / 2)
+              .attr("y", height3 + margin3.top + 25)
+              .text("Year");
+            d3.select("#y-axis-title3")
+              .attr("style", "opacity:1");
+          }
 
           if(allDemographics.length == 2){
             myColor.range(["#0089cc", "#f49b21"]);
