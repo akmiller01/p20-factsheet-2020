@@ -682,7 +682,7 @@ Share section</a>
           var ymax = d3.max(data.filter(function(d){return currentSelection1.includes(d.name)}), function(d) { return +d.value; });
           if(ymax < 0.01){
             formatPercent = d3.format(".2%");
-          }else if(ymax < 0.1){
+          }else if(ymax < 0.05){
             formatPercent = d3.format(".1%");
           }else{
             formatPercent = d3.format(".0%");
@@ -1004,7 +1004,7 @@ Share section</a>
             var ymax = d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 0.01){
               valueFormat = d3.format(".2%");
-            }else if(ymax < 0.1){
+            }else if(ymax < 0.05){
               valueFormat = d3.format(".1%");
             }else{
               valueFormat = d3.format(".0%");
@@ -1012,7 +1012,12 @@ Share section</a>
             valueFormatAccurate = d3.format(".2%");
           }else{
             d3.select("#y-axis-title2").text("Daily per capita income (2011 PPP$)")
-            valueFormat = d3.format("$,.0f");
+            var ymax = d3.max(country_dat, function(d) { return +d.value; });
+            if(ymax < 5){
+              valueFormat = d3.format("$,.2f");
+            }else{
+              valueFormat = d3.format("$,.0f");
+            };
             valueFormatAccurate = d3.format("$,.2f");
           }
           yAxis.tickFormat(valueFormat);
@@ -1365,7 +1370,7 @@ Share section</a>
           var ymax = d3.max(country_dat, function(d) { return +d.value; });
           if(ymax < 0.01){
             formatPercent = d3.format(".2%");
-          }else if(ymax < 0.1){
+          }else if(ymax < 0.05){
             formatPercent = d3.format(".1%");
           }else{
             formatPercent = d3.format(".0%");
