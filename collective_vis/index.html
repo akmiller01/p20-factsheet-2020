@@ -854,7 +854,7 @@ Share section</a>
 
 
     //Read the data
-    d3.csv("../covid-proj-np20/covid_proj.csv", function(data) {
+    d3.csv("../covid-proj-np20/covid_proj2.csv", function(data) {
 
         var allCountries = d3.map(data, function(d){return(d.name)}).keys();
         var allPovs = d3.map(data, function(d){return(d.povtype)}).keys();
@@ -870,7 +870,7 @@ Share section</a>
 
         // A color scale: one color for each group
         var myColor = d3.scaleOrdinal()
-          .domain(["National P20", "National P80"])
+          .domain(["Poorest 20%", "Rest of population"])
           .range(["#0089cc", "#f49b21"]);
 
         // Add X axis
@@ -1068,12 +1068,12 @@ Share section</a>
           .attr("fill", "#f8f7f8")
 
         var static_legend_items = [
-          {"name": "National P80 measured", "color": myColor("National P80"), "dasharray": "0"},
-          {"name": "National P80 estimate before Covid-19", "color": myColor("National P80"), "dasharray": "3, 3"},
-          {"name": "National P80 estimate after Covid-19", "color": d3.rgb(myColor("National P80")).darker().darker(), "dasharray": "5, 5"},
-          {"name": "National P20 measured", "color": myColor("National P20"), "dasharray": "0"},
-          {"name": "National P20 estimate before Covid-19", "color": myColor("National P20"), "dasharray": "3, 3"},
-          {"name": "National P20 estimate after Covid-19", "color": d3.rgb(myColor("National P20")).darker().darker(), "dasharray": "5, 5"},
+          {"name": "Rest of population measured", "color": myColor("Rest of population"), "dasharray": "0"},
+          {"name": "Rest of population estimate before Covid-19", "color": myColor("Rest of population"), "dasharray": "3, 3"},
+          {"name": "Rest of population estimate after Covid-19", "color": d3.rgb(myColor("Rest of population")).darker().darker(), "dasharray": "5, 5"},
+          {"name": "Poorest 20% measured", "color": myColor("Poorest 20%"), "dasharray": "0"},
+          {"name": "Poorest 20% estimate before Covid-19", "color": myColor("Poorest 20%"), "dasharray": "3, 3"},
+          {"name": "Poorest 20% estimate after Covid-19", "color": d3.rgb(myColor("Poorest 20%")).darker().darker(), "dasharray": "5, 5"},
         ]
 
         legend
