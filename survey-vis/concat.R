@@ -11,7 +11,7 @@ wash.tab3 = fread("p20_sex_handwashing.csv")
 setnames(wash.tab1, "handwashing", "indicator")
 setnames(wash.tab2, "handwashing", "indicator")
 setnames(wash.tab3, "handwashing", "indicator")
-wash.tab1$demographic_category = "Poorest/richest 20% of population"
+wash.tab1$demographic_category = "Poorest 20% and rest of population"
 wash.tab2$demographic_category = "Poverty status and location"
 wash.tab3$demographic_category = "Poverty status and sex"
 sleeping.tab1 = fread("p20_crowding.csv")
@@ -20,7 +20,7 @@ sleeping.tab3 = fread("p20_sex_crowding.csv")
 setnames(sleeping.tab1, "sleeping.category", "indicator")
 setnames(sleeping.tab2, "sleeping.category", "indicator")
 setnames(sleeping.tab3, "sleeping.category", "indicator")
-sleeping.tab1$demographic_category = "Poorest/richest 20% of population"
+sleeping.tab1$demographic_category = "Poorest 20% and rest of population"
 sleeping.tab2$demographic_category = "Poverty status and location"
 sleeping.tab3$demographic_category = "Poverty status and sex"
 educ.tab1 = fread("p20_educ.csv")
@@ -29,7 +29,7 @@ educ.tab3 = fread("p20_sex_educ.csv")
 setnames(educ.tab1, "educ.category", "indicator")
 setnames(educ.tab2, "educ.category", "indicator")
 setnames(educ.tab3, "educ.category", "indicator")
-educ.tab1$demographic_category = "Poorest/richest 20% of population"
+educ.tab1$demographic_category = "Poorest 20% and rest of population"
 educ.tab2$demographic_category = "Poverty status and location"
 educ.tab3$demographic_category = "Poverty status and sex"
 birth.reg.tab1 = fread("p20_birth.reg.csv")
@@ -38,7 +38,7 @@ birth.reg.tab3 = fread("p20_sex_birth.reg.csv")
 setnames(birth.reg.tab1, "birth.reg", "indicator")
 setnames(birth.reg.tab2, "birth.reg", "indicator")
 setnames(birth.reg.tab3, "birth.reg", "indicator")
-birth.reg.tab1$demographic_category = "Poorest/richest 20% of population"
+birth.reg.tab1$demographic_category = "Poorest 20% and rest of population"
 birth.reg.tab2$demographic_category = "Poverty status and location"
 birth.reg.tab3$demographic_category = "Poverty status and sex"
 
