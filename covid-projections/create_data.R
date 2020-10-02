@@ -133,16 +133,6 @@ all$ppp = 2017
 # all = rbind(all_2011, all)
 all = all_2011
 
-all_wide = dcast(all,name+level+region+year+povtype+ppp~povtype+covid+estimate)
-setnames(all_wide,"Extreme poverty_FALSE_FALSE","Pre-Covid measured extreme poverty")
-setnames(all_wide,"Extreme poverty_FALSE_TRUE","Pre-Covid estimated extreme poverty")
-setnames(all_wide,"Extreme poverty_TRUE_FALSE","Post-Covid measured extreme poverty")
-setnames(all_wide,"Extreme poverty_TRUE_TRUE","Post-Covid estimated extreme poverty")
-
-setnames(all_wide,"P20_FALSE_FALSE","Pre-Covid measured P20 poverty")
-setnames(all_wide,"P20_FALSE_TRUE","Pre-Covid estimated P20 poverty")
-setnames(all_wide,"P20_TRUE_FALSE","Post-Covid measured P20 poverty")
-setnames(all_wide,"P20_TRUE_TRUE","Post-Covid estimated P20 poverty")
+all$povtype[which(all$povtype=="P20")] = "Poorest 20%"
 
 fwrite(all,"covid_proj.csv")
-fwrite(all_wide,"covid_proj_wide.csv")

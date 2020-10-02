@@ -85,4 +85,15 @@ dat$indicator[which(dat$indicator=="Registered")] = "Birth registered"
 setnames(dat,"povcal_year","year")
 setnames(dat,"percentage","value")
 
+dat$demographic[which(dat$demographic=="Not P20")] = "Rest of population"
+dat$demographic[which(dat$demographic=="P20")] = "Poorest 20%"
+dat$demographic[which(dat$demographic=="Not P20 Urban")] = "Rest of population Urban"
+dat$demographic[which(dat$demographic=="P20 Rural")] = "Poorest 20% Rural"
+dat$demographic[which(dat$demographic=="P20 Urban")] = "Poorest 20% Urban"
+dat$demographic[which(dat$demographic=="Not P20 Rural")] = "Rest of population Rural"
+dat$demographic[which(dat$demographic=="Not P20 Male")] = "Rest of population Male"
+dat$demographic[which(dat$demographic=="P20 Male")] = "Poorest 20% Male"
+dat$demographic[which(dat$demographic=="Not P20 Female")] = "Rest of population Female"
+dat$demographic[which(dat$demographic=="P20 Female")] = "Poorest 20% Female"
+
 fwrite(dat,"all_survey.csv")
