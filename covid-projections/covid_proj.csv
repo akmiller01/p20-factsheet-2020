@@ -144,35 +144,35 @@ Middle East & North Africa,Regional,Aggregates,2021,Poorest 20%,0.17935210432752
 Middle East & North Africa,Regional,Aggregates,2022,Extreme poverty,0.0662483527184584,FALSE,TRUE,2011
 Middle East & North Africa,Regional,Aggregates,2023,Extreme poverty,0.0643831430055093,FALSE,TRUE,2011
 Middle East & North Africa,Regional,Aggregates,2024,Extreme poverty,0.0641507436304429,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2010,Extreme poverty,0.0050391326877866,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2010,Poorest 20%,0.00599731535695378,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2011,Extreme poverty,0.00565947834102275,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2011,Poorest 20%,0.00649242190783905,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2012,Extreme poverty,0.00582223538256323,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2012,Poorest 20%,0.00707924975352582,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2013,Extreme poverty,0.00636269000905845,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2013,Poorest 20%,0.00799994486323391,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2015,Extreme poverty,0.00706239252139987,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2015,Poorest 20%,0.008429102874842,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2018,Extreme poverty,0.00672625445180836,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2018,Poorest 20%,0.00785378792773639,FALSE,FALSE,2011
-Other High Income,Regional,Aggregates,2018,Extreme poverty,0.00673589840683935,TRUE,FALSE,2011
-Other High Income,Regional,Aggregates,2018,Poorest 20%,0.00788363499895173,TRUE,FALSE,2011
-Other High Income,Regional,Aggregates,2019,Extreme poverty,0.00671760598436569,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2019,Poorest 20%,0.00787683484953937,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2019,Extreme poverty,0.00672781685152251,TRUE,TRUE,2011
-Other High Income,Regional,Aggregates,2019,Poorest 20%,0.00788148220467898,TRUE,TRUE,2011
-Other High Income,Regional,Aggregates,2020,Extreme poverty,0.00670709992190738,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2020,Poorest 20%,0.00782243553395037,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2020,Extreme poverty,0.00687084420428029,TRUE,TRUE,2011
-Other High Income,Regional,Aggregates,2020,Poorest 20%,0.00804488487545624,TRUE,TRUE,2011
-Other High Income,Regional,Aggregates,2021,Extreme poverty,0.00669764854355979,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2021,Poorest 20%,0.00786812192936572,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2021,Extreme poverty,0.00675255388954895,TRUE,TRUE,2011
-Other High Income,Regional,Aggregates,2021,Poorest 20%,0.00800514756705286,TRUE,TRUE,2011
-Other High Income,Regional,Aggregates,2022,Extreme poverty,0.00668834079212078,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2023,Extreme poverty,0.00669074886884056,FALSE,TRUE,2011
-Other High Income,Regional,Aggregates,2024,Extreme poverty,0.00666218981131839,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2010,Extreme poverty,0.0050391326877866,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2010,Poorest 20%,0.00599731535695378,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2011,Extreme poverty,0.00565947834102275,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2011,Poorest 20%,0.00649242190783905,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2012,Extreme poverty,0.00582223538256323,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2012,Poorest 20%,0.00707924975352582,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2013,Extreme poverty,0.00636269000905845,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2013,Poorest 20%,0.00799994486323391,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2015,Extreme poverty,0.00706239252139987,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2015,Poorest 20%,0.008429102874842,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2018,Extreme poverty,0.00672625445180836,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2018,Poorest 20%,0.00785378792773639,FALSE,FALSE,2011
+High-income countries,Regional,Aggregates,2018,Extreme poverty,0.00673589840683935,TRUE,FALSE,2011
+High-income countries,Regional,Aggregates,2018,Poorest 20%,0.00788363499895173,TRUE,FALSE,2011
+High-income countries,Regional,Aggregates,2019,Extreme poverty,0.00671760598436569,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2019,Poorest 20%,0.00787683484953937,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2019,Extreme poverty,0.00672781685152251,TRUE,TRUE,2011
+High-income countries,Regional,Aggregates,2019,Poorest 20%,0.00788148220467898,TRUE,TRUE,2011
+High-income countries,Regional,Aggregates,2020,Extreme poverty,0.00670709992190738,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2020,Poorest 20%,0.00782243553395037,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2020,Extreme poverty,0.00687084420428029,TRUE,TRUE,2011
+High-income countries,Regional,Aggregates,2020,Poorest 20%,0.00804488487545624,TRUE,TRUE,2011
+High-income countries,Regional,Aggregates,2021,Extreme poverty,0.00669764854355979,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2021,Poorest 20%,0.00786812192936572,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2021,Extreme poverty,0.00675255388954895,TRUE,TRUE,2011
+High-income countries,Regional,Aggregates,2021,Poorest 20%,0.00800514756705286,TRUE,TRUE,2011
+High-income countries,Regional,Aggregates,2022,Extreme poverty,0.00668834079212078,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2023,Extreme poverty,0.00669074886884056,FALSE,TRUE,2011
+High-income countries,Regional,Aggregates,2024,Extreme poverty,0.00666218981131839,FALSE,TRUE,2011
 South Asia,Regional,Aggregates,2010,Extreme poverty,0.252442100159222,FALSE,FALSE,2011
 South Asia,Regional,Aggregates,2010,Poorest 20%,0.342879113476361,FALSE,FALSE,2011
 South Asia,Regional,Aggregates,2011,Extreme poverty,0.205880989594116,FALSE,FALSE,2011

@@ -134,5 +134,6 @@ all$ppp = 2017
 all = all_2011
 
 all$povtype[which(all$povtype=="P20")] = "Poorest 20%"
+all$name[which(all$name=="Other High Income")] = "High-income countries"
 
 fwrite(all,"covid_proj.csv")

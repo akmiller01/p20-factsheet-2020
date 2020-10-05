@@ -69,6 +69,9 @@
   .yGrid3 .tick:first-of-type {opacity: 0;}
   .tick text {fill: #a9a6aa;}
   .axis-title {fill: #443e42;}
+  .tooltip1 {font-size: 14px;}
+  .tooltip2 {font-size: 14px;}
+  .tooltip3 {font-size: 14px;}
   .plot-container.plotly text {
     font-size: 12px !important;
 }
@@ -736,9 +739,9 @@ Share section</a>
           .attr("fill", "#f8f7f8")
 
         var static_legend_items = [
-          {"name": "Measured poverty %", "color": d3.rgb("#e84439"), "dasharray": "0"},
-          {"name": "Poverty % estimate before Covid-19", "color": d3.rgb("#e84439"), "dasharray": "3, 3"},
-          {"name": "Poverty % estimate after Covid-19", "color": d3.rgb("#e84439").darker(), "dasharray": "5, 5"},
+          {"name": "Measured poverty %", "color": d3.rgb("#a9a6aa"), "dasharray": "0"},
+          {"name": "Before Covid-19: Estimated poverty %", "color": d3.rgb("#a9a6aa"), "dasharray": "3, 3"},
+          {"name": "After Covid-19: Estimated poverty %", "color": d3.rgb("#a9a6aa").darker(), "dasharray": "5, 5"},
         ]
 
         legend
@@ -812,14 +815,14 @@ Share section</a>
             ).html(
               "<p><b>Name:</b> " + highlight_data[0].name + "</p>" +
               "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
-              (highlight_data[0].estimate == "TRUE" ? ("<p><b>Type:</b> " + (highlight_data[0].covid == "TRUE" ? "post-Covid estimate": "pre-Covid estimate") + "</p>") : "") +
+              (highlight_data[0].estimate == "TRUE" ? ("<p><b>Estimate:</b> " + (highlight_data[0].covid == "TRUE" ? "After Covid-19": "Before Covid-19") + "</p>") : "") +
               "<p><b>Value:</b> " + formatPercentAccurate(highlight_data[0].value) + "</p>"
             )
             highlight1
               .data(highlight_data)
               .attr("cx", function(d){return x(d.year)})
               .attr("cy", function(d){return y(d.value)})
-              .attr("fill", function(d){return myColor(d.name)})
+              .attr("fill", function(d){return d.covid == "TRUE" ? d3.rgb(myColor(d.name)).darker() : myColor(d.name) })
               .attr("style","opacity:1;");
           })
           .on('mouseout', function(){
@@ -1138,7 +1141,7 @@ Share section</a>
               "left:" + (d3.event.clientX - matrix.e + margin2.left) + "px;"
             ).html(
               "<p><b>Year:</b> " + highlight_data[0].year + "</p>" +
-              (highlight_data[0].estimate == "TRUE" ? ("<p><b>Type:</b> " + (highlight_data[0].covid == "TRUE" ? "post-Covid estimate": "pre-Covid estimate") + "</p>") : "") +
+              (highlight_data[0].estimate == "TRUE" ? ("<p><b>Estimate:</b> " + (highlight_data[0].covid == "TRUE" ? "After Covid-19": "Before Covid-19") + "</p>") : "") +
               "<p><b>Poverty type:</b> " + highlight_data[0].povtype + "</p>" +
               "<p><b>Value:</b> " + valueFormatAccurate(highlight_data[0].value) + "</p>"
             )
@@ -1146,7 +1149,7 @@ Share section</a>
               .data(highlight_data)
               .attr("cx", function(d){return x(d.year)})
               .attr("cy", function(d){return y(d.value)})
-              .attr("fill", function(d){return myColor(d.povtype)})
+              .attr("fill", function(d){return d.covid == "TRUE" ? d3.rgb(myColor(d.povtype)).darker() : myColor(d.povtype) })
               .attr("style","opacity:1;");
           })
           .on('mouseout', function(){
