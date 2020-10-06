@@ -25,4 +25,14 @@ all_pov_melt = melt(all_pov,id.vars=c("name","year","covid","estimate"))
 setnames(all_pov_melt,"variable","povtype")
 
 all_pov_melt = all_pov_melt[order(all_pov_melt$name, all_pov_melt$year),]
+
+new_names = fread("../name_mapping.csv")
+new_names$order = 1:nrow(new_names)
+all_pov_melt = merge(all_pov_melt,new_names,by='name',all.x=T)
+sum(is.na(all_pov_melt$new_name))
+all_pov_melt$name = NULL
+setnames(all_pov_melt,"new_name","name")
+all_pov_melt = all_pov_melt[order(all_pov_melt$order,all_pov_melt$year),]
+all_pov_melt = all_pov_melt[,c("name","year","povtype","covid","estimate","value")]
+
 fwrite(all_pov_melt, "covid_proj2.csv")

@@ -134,9 +134,17 @@ all$ppp = 2017
 all = all_2011
 
 all$povtype[which(all$povtype=="P20")] = "Poorest 20%"
-all$name[which(all$name=="Other High Income")] = "High-income countries"
 
 all = subset(all,!(name=="World" & covid==F & estimate==T & povtype=="Poorest 20%"))
 all$value[which(all$name=="World" & all$povtype=="Poorest 20%")] = 0.2
+
+new_names = fread("../name_mapping.csv")
+new_names$order = 1:nrow(new_names)
+all = merge(all,new_names,by='name',all.x=T)
+sum(is.na(all$new_name))
+all$name = NULL
+setnames(all,"new_name","name")
+all = all[order(all$order,all$year),]
+all = all[,c("name","year","povtype","covid","estimate","value")]
 
 fwrite(all,"covid_proj.csv")

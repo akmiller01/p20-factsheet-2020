@@ -96,4 +96,13 @@ dat$demographic[which(dat$demographic=="P20 Male")] = "Poorest 20% Male"
 dat$demographic[which(dat$demographic=="Not P20 Female")] = "Rest of population Female"
 dat$demographic[which(dat$demographic=="P20 Female")] = "Poorest 20% Female"
 
+new_names = fread("../name_mapping.csv")
+new_names$order = 1:nrow(new_names)
+dat = merge(dat,new_names,by='name',all.x=T)
+sum(is.na(dat$new_name))
+dat$name = NULL
+setnames(dat,"new_name","name")
+dat = dat[order(dat$order,dat$year),]
+dat = dat[,c("name","year","indicator","demographic_category","demographic","value")]
+
 fwrite(dat,"all_survey.csv")
