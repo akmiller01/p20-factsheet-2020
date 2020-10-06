@@ -136,4 +136,7 @@ all = all_2011
 all$povtype[which(all$povtype=="P20")] = "Poorest 20%"
 all$name[which(all$name=="Other High Income")] = "High-income countries"
 
+all = subset(all,!(name=="World" & covid==F & estimate==T & povtype=="Poorest 20%"))
+all$value[which(all$name=="World" & all$povtype=="Poorest 20%")] = 0.2
+
 fwrite(all,"covid_proj.csv")
