@@ -538,7 +538,7 @@ Share section</a>
             .attr("transform", "rotate(-90)")
             .attr("y", -margin1.left+20)
             .attr("x", 0)
-            .text("Percentage of population living in poverty")
+            .text("Percentage of population in extreme poverty")
 
         var pre_line = svg1
           .append('g')
@@ -596,7 +596,7 @@ Share section</a>
             })
             .append("rect")
             .attr("x", width1)
-            .attr("y", function(d,i){ return 90 + i*15 - (10/2) })
+            .attr("y", function(d,i){ return 140 + i*15 - (10/2) })
             .attr("width", 10)
             .attr("height", 10)
             .style("fill", function(d){ return myColor(d)})
@@ -619,7 +619,7 @@ Share section</a>
             })
             .append("text")
             .attr("x", width1 + 25)
-            .attr("y", function(d,i){ return 90 + i*15 + 4})
+            .attr("y", function(d,i){ return 140 + i*15 + 4})
             .style("fill", "#443e42")
             .style("cursor", "pointer")
             .text(function(d){ return d })
@@ -685,6 +685,11 @@ Share section</a>
           .duration(1000)
           .call(xAxis);
           // Adjust y axis
+          if(currentIndicator1 == "Extreme poverty line"){
+            d3.select("#y-axis-title1").text("Percentage of population in extreme poverty")
+          }else{
+            d3.select("#y-axis-title1").text("Percentage of population who are among the world’s poorest quintile")
+          }
           var ymax = d3.max(data.filter(function(d){return currentSelection1.includes(d.name)}), function(d) { return +d.value; });
           if(ymax < 0.01){
             formatPercent = d3.format(".2%");
@@ -742,9 +747,9 @@ Share section</a>
           .attr("fill", "#f8f7f8")
 
         var static_legend_items = [
-          {"name": "Measured poverty %", "color": d3.rgb("#a9a6aa"), "dasharray": "0"},
-          {"name": "Before Covid-19: Estimated poverty %", "color": d3.rgb("#a9a6aa"), "dasharray": "3, 3"},
-          {"name": "After Covid-19: Estimated poverty %", "color": d3.rgb("#6a6569"), "dasharray": "5, 5"},
+          {"name": "Measured poverty (%)", "color": d3.rgb("#a9a6aa"), "dasharray": "0", "spacing": 0},
+          {"name": "Without the impact of Covid-19 (%)", "color": d3.rgb("#a9a6aa"), "dasharray": "3, 3", "spacing": 3},
+          {"name": "With the impact of Covid-19 (%)", "color": d3.rgb("#6a6569"), "dasharray": "5, 5", "spacing": 4},
         ]
 
         legend
@@ -754,7 +759,7 @@ Share section</a>
           .append("g")
           .attr("class", "static_legend_lines1")
           .append("path")
-          .attr("d", function(d, i){return "m " + width1 + " " + (20 + i*15) + " H " + (width1 + 20) })
+          .attr("d", function(d){return "m " + width1 + " " + (20 + d.spacing*15) + " H " + (width1 + 20) })
           .attr("stroke", function(d){ return d.color })
           .style("stroke-width", 2)
           .style("fill", "none")
@@ -768,7 +773,7 @@ Share section</a>
           .attr("class", "static_legend_text1")
           .append("text")
           .attr("x", width1 + 25)
-          .attr("y", function(d,i){ return 20 + i*15 + 4})
+          .attr("y", function(d,i){ return 20 + d.spacing*15 + 4})
           .style("fill", "#443e42")
           .text(function(d){ return d.name })
           .attr("text-anchor", "left")
@@ -777,10 +782,26 @@ Share section</a>
         legend
           .append("text")
           .attr("x", width1)
-          .attr("y", 75)
+          .attr("y", 50)
           .style("fill", "#443e42")
           .style("font-size", "10px")
-          .text("Selected regions/countries (click to remove)")
+          .text("Estimated proportion of people living in poverty:")
+
+        legend
+          .append("text")
+          .attr("x", width1)
+          .attr("y", 110)
+          .style("fill", "#443e42")
+          .style("font-size", "10px")
+          .style("font-weight", "bold")
+          .text("Selected regions/countries:")
+        legend
+          .append("text")
+          .attr("x", width1)
+          .attr("y", 125)
+          .style("fill", "#443e42")
+          .style("font-size", "10px")
+          .text("(click to remove)")
 
         update("World", "Extreme poverty line");
 
