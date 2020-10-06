@@ -19,7 +19,7 @@ all_pov$rest = (((all_pov$Mean/(365.25/12))*all_pov$ReqYearPopulation)-(all_pov$
 keep = c("CountryName","ProjYear","covid","estimate","p20","rest")
 all_pov = all_pov[,keep,with=F]
 
-names(all_pov) = c("name","year","covid","estimate","Poorest 20%","Rest of population")
+names(all_pov) = c("name","year","covid","estimate","Poorest 20% of population","Rest of population")
 
 all_pov_melt = melt(all_pov,id.vars=c("name","year","covid","estimate"))
 setnames(all_pov_melt,"variable","povtype")

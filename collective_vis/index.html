@@ -375,8 +375,8 @@ Share section</a>
             <div class="chart-container chart-container--full js-plotly-chart-wrapper">
               <select class="data-selector js-plotly-chart-data-selector data-selector--active" id="countrySelectCovid2" style="position:relative;float:left;"></select>
               <select class="data-selector js-plotly-chart-data-selector data-selector--active" id="indicatorSelectCovid2" style="position:relative;float:left;">
-                <option value="percent">Percentage change</option>
-                <option value="nominal">Absolute income gap</option>
+                <option value="percent">Percentage change in income</option>
+                <option value="nominal">Income gap</option>
               </select>
               <div class="charts__chart js-plotly-chart js-plotly-plot" style="min-height:0px; padding-top: 8%;">
                 <div class="plot-container plotly">
@@ -451,7 +451,7 @@ Share section</a>
     var current_data1 = [];
 
     // set the dimensions and margins of the graph
-    var margin1 = {top: 10, right: 330, bottom: 50, left: 80},
+    var margin1 = {top: 10, right: 310, bottom: 50, left: 80},
         width1 = 800 - margin1.left - margin1.right,
         height1 = 300 - margin1.top - margin1.bottom;
 
@@ -688,7 +688,7 @@ Share section</a>
           if(currentIndicator1 == "Extreme poverty line"){
             d3.select("#y-axis-title1").text("Percentage of population in extreme poverty")
           }else{
-            d3.select("#y-axis-title1").text("Percentage of population who are among the world’s poorest quintile")
+            d3.select("#y-axis-title1").text("% of population who are among the world’s poorest quintile")
           }
           var ymax = d3.max(data.filter(function(d){return currentSelection1.includes(d.name)}), function(d) { return +d.value; });
           if(ymax < 0.01){
@@ -747,9 +747,12 @@ Share section</a>
           .attr("fill", "#f8f7f8")
 
         var static_legend_items = [
-          {"name": "Measured poverty (%)", "color": d3.rgb("#a9a6aa"), "dasharray": "0", "spacing": 0},
-          {"name": "Without the impact of Covid-19 (%)", "color": d3.rgb("#a9a6aa"), "dasharray": "3, 3", "spacing": 3},
-          {"name": "With the impact of Covid-19 (%)", "color": d3.rgb("#6a6569"), "dasharray": "5, 5", "spacing": 4},
+          {"name": "Measured poverty (%)", "color": d3.rgb("#a9a6aa"), "dasharray": "0", "fontweight": "regular", "spacing": 0, "indent": 25},
+          {"name": "Estimated proportion of people living in poverty:", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "regular", "spacing": 2, "indent": 0},
+          {"name": "Without the impact of Covid-19 (%)", "color": d3.rgb("#a9a6aa"), "dasharray": "3, 3", "fontweight": "regular", "spacing": 3, "indent": 25},
+          {"name": "With the impact of Covid-19 (%)", "color": d3.rgb("#6a6569"), "dasharray": "5, 5", "fontweight": "regular", "spacing": 4, "indent": 25},
+          {"name": "Selected regions/countries:", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 5.5, "indent": 0},
+          {"name": "(click to remove)", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "regular", "spacing": 6.5, "indent": 0},
         ]
 
         legend
@@ -772,36 +775,13 @@ Share section</a>
           .append("g")
           .attr("class", "static_legend_text1")
           .append("text")
-          .attr("x", width1 + 25)
+          .attr("x", function(d){return width1 + d.indent})
           .attr("y", function(d,i){ return 20 + d.spacing*15 + 4})
           .style("fill", "#443e42")
+          .style("font-weight", function(d){return d.fontweight})
           .text(function(d){ return d.name })
           .attr("text-anchor", "left")
           .style("font-size", "10px");
-
-        legend
-          .append("text")
-          .attr("x", width1)
-          .attr("y", 50)
-          .style("fill", "#443e42")
-          .style("font-size", "10px")
-          .text("Estimated proportion of people living in poverty:")
-
-        legend
-          .append("text")
-          .attr("x", width1)
-          .attr("y", 110)
-          .style("fill", "#443e42")
-          .style("font-size", "10px")
-          .style("font-weight", "bold")
-          .text("Selected regions/countries:")
-        legend
-          .append("text")
-          .attr("x", width1)
-          .attr("y", 125)
-          .style("fill", "#443e42")
-          .style("font-size", "10px")
-          .text("(click to remove)")
 
         update("World", "Extreme poverty line");
 
@@ -865,7 +845,7 @@ Share section</a>
     var current_data2 = [];
 
     // set the dimensions and margins of the graph
-    var margin2 = {top: 10, right: 320, bottom: 50, left: 80},
+    var margin2 = {top: 10, right: 280, bottom: 50, left: 80},
         width2 = 800 - margin2.left - margin2.right,
         height2 = 300 - margin2.top - margin2.bottom;
 
@@ -900,7 +880,7 @@ Share section</a>
           .domain(["Poorest 20%", "Rest of population"])
           .range(["#88bae5", "#fccc8e"]);
         var myColorDarker = d3.scaleOrdinal()
-            .domain(["Poorest 20%", "Rest of population"])
+            .domain(["Poorest 20% of population", "Rest of population"])
             .range(["#0089cc", "#f49b21"]);
 
         // Add X axis
@@ -943,7 +923,7 @@ Share section</a>
             .attr("transform", "rotate(-90)")
             .attr("y", -margin2.left+20)
             .attr("x", 0)
-            .text("Daily per capita income (2011 PPP$)")
+            .text("Percentage change in daily income, per person")
 
         var pre_line = svg2
           .append('g')
@@ -1030,7 +1010,7 @@ Share section</a>
           .call(xAxis);
           // Adjust y axis
           if(selectedIndicator == "percent"){
-            d3.select("#y-axis-title2").text("Change in daily per capita income (%)")
+            d3.select("#y-axis-title2").text("Percentage change in daily income, per person")
             var ymax = d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 0.01){
               valueFormat = d3.format(".2%");
@@ -1041,7 +1021,7 @@ Share section</a>
             };
             valueFormatAccurate = d3.format(".2%");
           }else{
-            d3.select("#y-axis-title2").text("Daily per capita income (2011 PPP$)")
+            d3.select("#y-axis-title2").text("Daily income, per person (2011 PPP)")
             var ymax = d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 5){
               valueFormat = d3.format("$,.2f");
@@ -1098,12 +1078,16 @@ Share section</a>
           .attr("fill", "#f8f7f8")
 
         var static_legend_items = [
-          {"name": "Rest of population measured", "color": myColor("Rest of population"), "dasharray": "0"},
-          {"name": "Rest of population estimate before Covid-19", "color": myColor("Rest of population"), "dasharray": "3, 3"},
-          {"name": "Rest of population estimate after Covid-19", "color": myColorDarker("Rest of population"), "dasharray": "5, 5"},
-          {"name": "Poorest 20% measured", "color": myColor("Poorest 20%"), "dasharray": "0"},
-          {"name": "Poorest 20% estimate before Covid-19", "color": myColor("Poorest 20%"), "dasharray": "3, 3"},
-          {"name": "Poorest 20% estimate after Covid-19", "color": myColorDarker("Poorest 20%"), "dasharray": "5, 5"},
+          {"name": "Poorest 20% of population", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 0, "indent": 0},
+          {"name": "Measured income data", "color": myColor("Poorest 20% of population"), "dasharray": "0", "fontweight": "regular", "spacing": 1.5, "indent": 25},
+          {"name": "Estimated income data:", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "regular", "spacing": 3, "indent": 0},
+          {"name": "Without the impact of Covid-19 (%)", "color": myColor("Poorest 20% of population"), "dasharray": "3, 3", "fontweight": "regular", "spacing": 4, "indent": 25},
+          {"name": "With the impact of Covid-19 (%)", "color": myColorDarker("Poorest 20% of population"), "dasharray": "5, 5", "fontweight": "regular", "spacing": 5, "indent": 25},
+          {"name": "Rest of population", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 7, "indent": 0},
+          {"name": "Measured income data", "color": myColor("Rest of population"), "dasharray": "0", "fontweight": "regular", "spacing": 8.5, "indent": 25},
+          {"name": "Estimated income data:", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "regular", "spacing": 10, "indent": 0},
+          {"name": "Without the impact of Covid-19 (%)", "color": myColor("Rest of population"), "dasharray": "3, 3", "fontweight": "regular", "spacing": 11, "indent": 25},
+          {"name": "With the impact of Covid-19 (%)", "color": myColorDarker("Rest of population"), "dasharray": "5, 5", "fontweight": "regular", "spacing": 12, "indent": 25},
         ]
 
         legend
@@ -1113,7 +1097,7 @@ Share section</a>
           .append("g")
           .attr("class", "static_legend_lines2")
           .append("path")
-          .attr("d", function(d, i){return "m " + width2 + " " + (20 + i*15) + " H " + (width2 + 20) })
+          .attr("d", function(d){return "m " + width2 + " " + (20 + d.spacing*15) + " H " + (width2 + 20) })
           .attr("stroke", function(d){ return d.color })
           .style("stroke-width", 2)
           .style("fill", "none")
@@ -1126,9 +1110,10 @@ Share section</a>
           .append("g")
           .attr("class", "static_legend_text2")
           .append("text")
-          .attr("x", width2 + 25)
-          .attr("y", function(d,i){ return 20 + i*15 + 4})
+          .attr("x", function(d){return width2 + d.indent})
+          .attr("y", function(d,i){ return 20 + d.spacing*15 + 4})
           .style("fill", "#443e42")
+          .style("font-weight", function(d){return d.fontweight})
           .text(function(d){ return d.name })
           .attr("text-anchor", "left")
           .style("font-size", "10px");
@@ -1196,7 +1181,7 @@ Share section</a>
     var current_data3 = [];
 
     // set the dimensions and margins of the graph
-    var margin3 = {top: 10, right: 220, bottom: 50, left: 80},
+    var margin3 = {top: 10, right: 230, bottom: 50, left: 80},
         width3 = 800 - margin3.left - margin3.right,
         height3 = 300 - margin3.top - margin3.bottom;
 
@@ -1297,7 +1282,7 @@ Share section</a>
             .attr("transform", "rotate(-90)")
             .attr("y", -margin3.left+20)
             .attr("x", 0)
-            .text("Percentage of population")
+            .text("Percentage of people without access to soap and water")
 
         var lines = svg3
           .append('g')
@@ -1340,37 +1325,65 @@ Share section</a>
               .attr("style", "opacity:1");
           }
 
-          if(allDemographics.length == 2){
+          if(selected_demographic_category3 == "Poorest 20% of population"){
             myColor.range(["#88bae5","#fccc8e"]);
-          }else{
-            myColor.range(["#0089cc","#88bae5","#f49b21","#fccc8e"]);
-          };
+            myColor.domain(["Poorest 20% of population","Rest of population"]);
+            var static_legend_items = [
+              {"name": "Poorest 20% of population", "color": myColor("Poorest 20% of population"), "dasharray": "0", "fontweight": "regular", "spacing": 1, "indent": 25},
+              {"name": "Rest of population", "color": myColor("Rest of population"), "dasharray": "0", "fontweight": "regular", "spacing": 2, "indent": 25},
+            ]
 
-          myColor.domain(allDemographics.sort());
+          }else if(selected_demographic_category3 == "Poorest 20% of population, by location (rural or urban)"){
+            myColor.range(["#0089cc","#88bae5","#f49b21","#fccc8e"]);
+            myColor.domain(["Poorest 20% of population, Urban","Poorest 20% of population, Rural","Rest of population, Urban","Rest of population, Rural"]);
+            var static_legend_items = [
+              {"name": "Poorest 20% of population", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 0, "indent": 0},
+              {"name": "Living in urban settings", "color": myColor("Poorest 20% of population, Urban"), "dasharray": "0", "fontweight": "regular", "spacing": 1.5, "indent": 25},
+              {"name": "Living in rural settings", "color": myColor("Poorest 20% of population, Rural"), "dasharray": "0", "fontweight": "regular", "spacing": 2.5, "indent": 25},
+              {"name": "Rest of population", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 4, "indent": 0},
+              {"name": "Living in urban settings", "color": myColor("Rest of population, Urban"), "dasharray": "0", "fontweight": "regular", "spacing": 5.5, "indent": 25},
+              {"name": "Living in rural settings", "color": myColor("Rest of population, Rural"), "dasharray": "0", "fontweight": "regular", "spacing": 6.5, "indent": 25},
+            ]
+
+          }else if(selected_demographic_category3 == "Poorest 20% of population, by sex"){
+            myColor.range(["#0089cc","#88bae5","#f49b21","#fccc8e"]);
+            myColor.domain(["Poorest 20% of population, Male","Poorest 20% of population, Female","Rest of population, Male","Rest of population, Female"]);
+            var static_legend_items = [
+              {"name": "Poorest 20% of population", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 0, "indent": 0},
+              {"name": "Male", "color": myColor("Poorest 20% of population, Male"), "dasharray": "0", "fontweight": "regular", "spacing": 1.5, "indent": 25},
+              {"name": "Female", "color": myColor("Poorest 20% of population, Female"), "dasharray": "0", "fontweight": "regular", "spacing": 2.5, "indent": 25},
+              {"name": "Rest of population", "color": "rgba(0,0,0,0)", "dasharray": "0", "fontweight": "bold", "spacing": 4, "indent": 0},
+              {"name": "Male", "color": myColor("Rest of population, Male"), "dasharray": "0", "fontweight": "regular", "spacing": 5.5, "indent": 25},
+              {"name": "Female", "color": myColor("Rest of population, Female"), "dasharray": "0", "fontweight": "regular", "spacing": 6.5, "indent": 25},
+            ]
+
+          }
 
           legend
             .selectAll('g.legend_lines3')
-            .data(allDemographics)
+            .data(static_legend_items)
             .enter()
             .append("g")
             .attr("class", "legend_lines3")
             .append("path")
-            .attr("d", function(d, i){return "m " + width3 + " " + (20 + i*15) + " H " + (width3 + 20) })
-            .attr("stroke", function(d){ return myColor(d) })
+            .attr("d", function(d){return "m " + width3 + " " + (20 + d.spacing*15) + " H " + (width3 + 20) })
+            .attr("stroke", function(d){ return d.color })
             .style("stroke-width", 2)
-            .style("fill", "none");
+            .style("fill", "none")
+            .style("stroke-dasharray", function(d){ return d.dasharray });
 
           legend
             .selectAll('g.legend_text3')
-            .data(allDemographics)
+            .data(static_legend_items)
             .enter()
             .append("g")
             .attr("class", "legend_text3")
             .append("text")
-            .attr("x", width3 + 25)
-            .attr("y", function(d,i){ return 20 + i*15 + 4})
+            .attr("x", function(d){return width3 + d.indent})
+            .attr("y", function(d,i){ return 20 + d.spacing*15 + 4})
             .style("fill", "#443e42")
-            .text(function(d){ return d })
+            .style("font-weight", function(d){return d.fontweight})
+            .text(function(d){ return d.name })
             .attr("text-anchor", "left")
             .style("font-size", "10px");
 
@@ -1407,6 +1420,15 @@ Share section</a>
           .duration(1000)
           .call(xAxis);
           // Adjust y axis
+          if(selected_indicator3 == "People without access to soap and water"){
+            d3.select("#y-axis-title3").text("% of people without access to soap and water")
+          }else if(selected_indicator3 == "People living in crowded conditions"){
+            d3.select("#y-axis-title3").text("Percentage of people living in crowded conditions")
+          }else if(selected_indicator3 == "Adults who have completed secondary education"){
+            d3.select("#y-axis-title3").text("% of adults who have completed secondary education")
+          }else if(selected_indicator3 == "Children whose birth is registered"){
+            d3.select("#y-axis-title3").text("Percentage of children whose birth is registered")
+          }
           var ymax = d3.max(country_dat, function(d) { return +d.value; });
           if(ymax < 0.01){
             formatPercent = d3.format(".2%");
