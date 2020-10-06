@@ -133,10 +133,11 @@ all$ppp = 2017
 # all = rbind(all_2011, all)
 all = all_2011
 
-all$povtype[which(all$povtype=="P20")] = "Poorest 20%"
+all = subset(all,!(name=="World" & covid==F & estimate==T & povtype=="P20"))
+all$value[which(all$name=="World" & all$povtype=="P20")] = 0.2
 
-all = subset(all,!(name=="World" & covid==F & estimate==T & povtype=="Poorest 20%"))
-all$value[which(all$name=="World" & all$povtype=="Poorest 20%")] = 0.2
+all$povtype[which(all$povtype=="P20")] = "Poorest 20% of people globally"
+all$povtype[which(all$povtype=="Extreme poverty")] = "Extreme poverty line"
 
 new_names = fread("../name_mapping.csv")
 new_names$order = 1:nrow(new_names)

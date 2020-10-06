@@ -447,7 +447,7 @@ Share section</a>
     <script>
     // Start chart 1
     var currentSelection1 = [];
-    var currentIndicator1 = "Extreme poverty";
+    var currentIndicator1 = "Extreme poverty line";
     var current_data1 = [];
 
     // set the dimensions and margins of the graph
@@ -548,7 +548,7 @@ Share section</a>
           .attr("class", "post-line1");
 
         // A function that update the chart
-        function update(selectedCountry, selectedIndicator, selectedPPP) {
+        function update(selectedCountry, selectedIndicator) {
 
           if(selectedIndicator !== null){
             currentIndicator1 = selectedIndicator;
@@ -590,7 +590,7 @@ Share section</a>
                 if(selectedIndex > -1){
                   currentSelection1.splice(selectedIndex, 1);
                 };
-                update(null, null, null);
+                update(null, null);
               };
 
             })
@@ -613,7 +613,7 @@ Share section</a>
                 if(selectedIndex > -1){
                   currentSelection1.splice(selectedIndex, 1);
                 };
-                update(null, null, null);
+                update(null, null);
               };
 
             })
@@ -718,13 +718,13 @@ Share section</a>
             // recover the option that has been chosen
             var selectedOption = d3.select(this).property("value");
             // run the updateChart function with this selected option
-            update(selectedOption, null, null);
+            update(selectedOption, null);
         });
         d3.select("#indicatorSelectCovid1").on("change", function(d) {
             // recover the option that has been chosen
             var selectedOption = d3.select(this).property("value");
             // run the updateChart function with this selected option
-            update(null, selectedOption, null);
+            update(null, selectedOption);
         });
 
 
@@ -782,7 +782,7 @@ Share section</a>
           .style("font-size", "10px")
           .text("Selected regions/countries (click to remove)")
 
-        update("World", "Extreme poverty", "2011");
+        update("World", "Extreme poverty line");
 
         var tooltip1 = d3.select("#covid-chart1").append("div")
           .attr("class", "tooltip1")
@@ -1356,17 +1356,27 @@ Share section</a>
           for(var i = 0; i < allDemographics.length; i++){
             var demographic = allDemographics[i];
             var demographic_dat = country_dat.filter(function(d){return d.demographic==demographic});
-            lines
-              .append("path")
-              .attr("class", "country_line3")
-                .datum(demographic_dat)
-                .attr("d", d3.line()
-                  .x(function(d) { return x(d.year) })
-                  .y(function(d) { return y(+d.value) })
-                )
-                .attr("stroke", function(d){ return myColor(demographic) })
-                .style("stroke-width", 2)
-                .style("fill", "none");
+            if(Number.isNaN(x.domain()[0])){
+              lines
+                .append("path")
+                .attr("class", "country_line3")
+                  .datum(demographic_dat)
+                  .attr("stroke", function(d){ return myColor(demographic) })
+                  .style("stroke-width", 2)
+                  .style("fill", "none");
+            }else{
+              lines
+                .append("path")
+                .attr("class", "country_line3")
+                  .datum(demographic_dat)
+                  .attr("d", d3.line()
+                    .x(function(d) { return x(d.year) })
+                    .y(function(d) { return y(+d.value) })
+                  )
+                  .attr("stroke", function(d){ return myColor(demographic) })
+                  .style("stroke-width", 2)
+                  .style("fill", "none");
+            }
           };
 
           // Adjust X axis
@@ -1447,6 +1457,9 @@ Share section</a>
             var y_pos = y.invert(mouse_position[1]);
             var matrix = this.getScreenCTM();
             var closest_year_distance = d3.min(current_data3, function(d){ return Math.abs(x_pos - d.year)});
+            if(closest_year_distance===undefined){
+              return false;
+            }
             var closest_year = current_data3.filter(function(d){return Math.abs(x_pos - d.year) == closest_year_distance})[0].year;
             var current_data_by_year = current_data3.filter(function(d){ return d.year == closest_year });
             var closest_value_distance = d3.min(current_data_by_year, function(d){ return Math.abs(y_pos - d.value)});
