@@ -1541,38 +1541,38 @@ Gabon,2021,Poorest 20% of population,FALSE,TRUE,3.05328090054628
 Gabon,2021,Poorest 20% of population,TRUE,TRUE,2.9449638052558
 Gabon,2021,Rest of population,FALSE,TRUE,11.4493911843757
 Gabon,2021,Rest of population,TRUE,TRUE,11.2850072336767
-Gambia,2010,Poorest 20% of population,FALSE,FALSE,1.21941663512413
-Gambia,2010,Rest of population,FALSE,FALSE,5.04124209429611
-Gambia,2011,Poorest 20% of population,FALSE,FALSE,1.15634268872271
-Gambia,2011,Rest of population,FALSE,FALSE,4.72929063702415
-Gambia,2012,Poorest 20% of population,FALSE,FALSE,1.28222684625451
-Gambia,2012,Rest of population,FALSE,FALSE,5.08976140467902
-Gambia,2013,Poorest 20% of population,FALSE,FALSE,1.4095308217714
-Gambia,2013,Rest of population,FALSE,FALSE,5.33365218297596
-Gambia,2014,Poorest 20% of population,FALSE,FALSE,1.51066968651636
-Gambia,2014,Rest of population,FALSE,FALSE,5.33416788165209
-Gambia,2015,Poorest 20% of population,FALSE,FALSE,1.73664270028478
-Gambia,2015,Rest of population,FALSE,FALSE,5.60922470012568
-Gambia,2016,Poorest 20% of population,FALSE,FALSE,1.79349364171266
-Gambia,2016,Rest of population,FALSE,FALSE,5.61497308281869
-Gambia,2017,Poorest 20% of population,FALSE,FALSE,1.82499863857809
-Gambia,2017,Rest of population,FALSE,FALSE,5.71360619846279
-Gambia,2018,Poorest 20% of population,FALSE,TRUE,1.88801905284187
-Gambia,2018,Poorest 20% of population,TRUE,TRUE,1.88801905284187
-Gambia,2018,Rest of population,FALSE,TRUE,5.91090678271952
-Gambia,2018,Rest of population,TRUE,TRUE,5.91090678271952
-Gambia,2019,Poorest 20% of population,FALSE,TRUE,1.94023786511061
-Gambia,2019,Poorest 20% of population,TRUE,TRUE,1.93136974918951
-Gambia,2019,Rest of population,FALSE,TRUE,5.98529029594
-Gambia,2019,Rest of population,TRUE,TRUE,5.97226819646008
-Gambia,2020,Poorest 20% of population,FALSE,TRUE,1.99689266111967
-Gambia,2020,Poorest 20% of population,TRUE,TRUE,1.92741673685865
-Gambia,2020,Rest of population,FALSE,TRUE,6.07271294268364
-Gambia,2020,Rest of population,TRUE,TRUE,5.96650171359641
-Gambia,2021,Poorest 20% of population,FALSE,TRUE,2.03771404044738
-Gambia,2021,Poorest 20% of population,TRUE,TRUE,1.97810832038168
-Gambia,2021,Rest of population,FALSE,TRUE,6.13992160161956
-Gambia,2021,Rest of population,TRUE,TRUE,6.04287933269142
+"Gambia, The",2010,Poorest 20% of population,FALSE,FALSE,1.21941663512413
+"Gambia, The",2010,Rest of population,FALSE,FALSE,5.04124209429611
+"Gambia, The",2011,Poorest 20% of population,FALSE,FALSE,1.15634268872271
+"Gambia, The",2011,Rest of population,FALSE,FALSE,4.72929063702415
+"Gambia, The",2012,Poorest 20% of population,FALSE,FALSE,1.28222684625451
+"Gambia, The",2012,Rest of population,FALSE,FALSE,5.08976140467902
+"Gambia, The",2013,Poorest 20% of population,FALSE,FALSE,1.4095308217714
+"Gambia, The",2013,Rest of population,FALSE,FALSE,5.33365218297596
+"Gambia, The",2014,Poorest 20% of population,FALSE,FALSE,1.51066968651636
+"Gambia, The",2014,Rest of population,FALSE,FALSE,5.33416788165209
+"Gambia, The",2015,Poorest 20% of population,FALSE,FALSE,1.73664270028478
+"Gambia, The",2015,Rest of population,FALSE,FALSE,5.60922470012568
+"Gambia, The",2016,Poorest 20% of population,FALSE,FALSE,1.79349364171266
+"Gambia, The",2016,Rest of population,FALSE,FALSE,5.61497308281869
+"Gambia, The",2017,Poorest 20% of population,FALSE,FALSE,1.82499863857809
+"Gambia, The",2017,Rest of population,FALSE,FALSE,5.71360619846279
+"Gambia, The",2018,Poorest 20% of population,FALSE,TRUE,1.88801905284187
+"Gambia, The",2018,Poorest 20% of population,TRUE,TRUE,1.88801905284187
+"Gambia, The",2018,Rest of population,FALSE,TRUE,5.91090678271952
+"Gambia, The",2018,Rest of population,TRUE,TRUE,5.91090678271952
+"Gambia, The",2019,Poorest 20% of population,FALSE,TRUE,1.94023786511061
+"Gambia, The",2019,Poorest 20% of population,TRUE,TRUE,1.93136974918951
+"Gambia, The",2019,Rest of population,FALSE,TRUE,5.98529029594
+"Gambia, The",2019,Rest of population,TRUE,TRUE,5.97226819646008
+"Gambia, The",2020,Poorest 20% of population,FALSE,TRUE,1.99689266111967
+"Gambia, The",2020,Poorest 20% of population,TRUE,TRUE,1.92741673685865
+"Gambia, The",2020,Rest of population,FALSE,TRUE,6.07271294268364
+"Gambia, The",2020,Rest of population,TRUE,TRUE,5.96650171359641
+"Gambia, The",2021,Poorest 20% of population,FALSE,TRUE,2.03771404044738
+"Gambia, The",2021,Poorest 20% of population,TRUE,TRUE,1.97810832038168
+"Gambia, The",2021,Rest of population,FALSE,TRUE,6.13992160161956
+"Gambia, The",2021,Rest of population,TRUE,TRUE,6.04287933269142
 Georgia,2010,Poorest 20% of population,FALSE,FALSE,1.6758854826182
 Georgia,2010,Rest of population,FALSE,FALSE,6.93164990437788
 Georgia,2011,Poorest 20% of population,FALSE,FALSE,1.71640041985771
@@ -2889,38 +2889,38 @@ Mexico,2021,Poorest 20% of population,FALSE,TRUE,3.64050603205383
 Mexico,2021,Poorest 20% of population,TRUE,TRUE,3.43046840918438
 Mexico,2021,Rest of population,FALSE,TRUE,16.0097083013351
 Mexico,2021,Rest of population,TRUE,TRUE,15.6561490776359
-Micronesia,2010,Poorest 20% of population,FALSE,FALSE,1.68094680929983
-Micronesia,2010,Rest of population,FALSE,FALSE,7.27459530203564
-Micronesia,2011,Poorest 20% of population,FALSE,FALSE,1.65448256956847
-Micronesia,2011,Rest of population,FALSE,FALSE,7.14600472516215
-Micronesia,2012,Poorest 20% of population,FALSE,FALSE,1.55375317009978
-Micronesia,2012,Rest of population,FALSE,FALSE,6.64567543480687
-Micronesia,2013,Poorest 20% of population,FALSE,FALSE,1.40954817951937
-Micronesia,2013,Rest of population,FALSE,FALSE,6.00832175256834
-Micronesia,2014,Poorest 20% of population,FALSE,FALSE,1.35756674779617
-Micronesia,2014,Rest of population,FALSE,FALSE,5.78674650666107
-Micronesia,2015,Poorest 20% of population,FALSE,FALSE,1.40574289363618
-Micronesia,2015,Rest of population,FALSE,FALSE,5.97898310560206
-Micronesia,2017,Poorest 20% of population,FALSE,FALSE,1.41855435274621
-Micronesia,2017,Poorest 20% of population,FALSE,FALSE,1.42459504536824
-Micronesia,2017,Rest of population,FALSE,FALSE,6.04670972646197
-Micronesia,2017,Rest of population,FALSE,FALSE,6.05415345705606
-Micronesia,2018,Poorest 20% of population,FALSE,TRUE,1.41264197878416
-Micronesia,2018,Poorest 20% of population,TRUE,TRUE,1.41264197878416
-Micronesia,2018,Rest of population,FALSE,TRUE,6.00335704379508
-Micronesia,2018,Rest of population,TRUE,TRUE,6.00335704379508
-Micronesia,2019,Poorest 20% of population,FALSE,TRUE,1.41264170423288
-Micronesia,2019,Poorest 20% of population,TRUE,TRUE,1.41264197047568
-Micronesia,2019,Rest of population,FALSE,TRUE,6.00335711318088
-Micronesia,2019,Rest of population,TRUE,TRUE,6.00335704589484
-Micronesia,2020,Poorest 20% of population,FALSE,TRUE,1.43659226318471
-Micronesia,2020,Poorest 20% of population,TRUE,TRUE,1.41099841734138
-Micronesia,2020,Rest of population,FALSE,TRUE,6.03288683320321
-Micronesia,2020,Rest of population,TRUE,TRUE,6.00133595561079
-Micronesia,2021,Poorest 20% of population,FALSE,TRUE,1.44902633498525
-Micronesia,2021,Poorest 20% of population,TRUE,TRUE,1.43007608872106
-Micronesia,2021,Rest of population,FALSE,TRUE,6.04879654903584
-Micronesia,2021,Rest of population,TRUE,TRUE,6.02469552460746
+"Micronesia, Federated States of",2010,Poorest 20% of population,FALSE,FALSE,1.68094680929983
+"Micronesia, Federated States of",2010,Rest of population,FALSE,FALSE,7.27459530203564
+"Micronesia, Federated States of",2011,Poorest 20% of population,FALSE,FALSE,1.65448256956847
+"Micronesia, Federated States of",2011,Rest of population,FALSE,FALSE,7.14600472516215
+"Micronesia, Federated States of",2012,Poorest 20% of population,FALSE,FALSE,1.55375317009978
+"Micronesia, Federated States of",2012,Rest of population,FALSE,FALSE,6.64567543480687
+"Micronesia, Federated States of",2013,Poorest 20% of population,FALSE,FALSE,1.40954817951937
+"Micronesia, Federated States of",2013,Rest of population,FALSE,FALSE,6.00832175256834
+"Micronesia, Federated States of",2014,Poorest 20% of population,FALSE,FALSE,1.35756674779617
+"Micronesia, Federated States of",2014,Rest of population,FALSE,FALSE,5.78674650666107
+"Micronesia, Federated States of",2015,Poorest 20% of population,FALSE,FALSE,1.40574289363618
+"Micronesia, Federated States of",2015,Rest of population,FALSE,FALSE,5.97898310560206
+"Micronesia, Federated States of",2017,Poorest 20% of population,FALSE,FALSE,1.41855435274621
+"Micronesia, Federated States of",2017,Poorest 20% of population,FALSE,FALSE,1.42459504536824
+"Micronesia, Federated States of",2017,Rest of population,FALSE,FALSE,6.04670972646197
+"Micronesia, Federated States of",2017,Rest of population,FALSE,FALSE,6.05415345705606
+"Micronesia, Federated States of",2018,Poorest 20% of population,FALSE,TRUE,1.41264197878416
+"Micronesia, Federated States of",2018,Poorest 20% of population,TRUE,TRUE,1.41264197878416
+"Micronesia, Federated States of",2018,Rest of population,FALSE,TRUE,6.00335704379508
+"Micronesia, Federated States of",2018,Rest of population,TRUE,TRUE,6.00335704379508
+"Micronesia, Federated States of",2019,Poorest 20% of population,FALSE,TRUE,1.41264170423288
+"Micronesia, Federated States of",2019,Poorest 20% of population,TRUE,TRUE,1.41264197047568
+"Micronesia, Federated States of",2019,Rest of population,FALSE,TRUE,6.00335711318088
+"Micronesia, Federated States of",2019,Rest of population,TRUE,TRUE,6.00335704589484
+"Micronesia, Federated States of",2020,Poorest 20% of population,FALSE,TRUE,1.43659226318471
+"Micronesia, Federated States of",2020,Poorest 20% of population,TRUE,TRUE,1.41099841734138
+"Micronesia, Federated States of",2020,Rest of population,FALSE,TRUE,6.03288683320321
+"Micronesia, Federated States of",2020,Rest of population,TRUE,TRUE,6.00133595561079
+"Micronesia, Federated States of",2021,Poorest 20% of population,FALSE,TRUE,1.44902633498525
+"Micronesia, Federated States of",2021,Poorest 20% of population,TRUE,TRUE,1.43007608872106
+"Micronesia, Federated States of",2021,Rest of population,FALSE,TRUE,6.04879654903584
+"Micronesia, Federated States of",2021,Rest of population,TRUE,TRUE,6.02469552460746
 Moldova,2010,Poorest 20% of population,FALSE,FALSE,3.65788139332405
 Moldova,2010,Rest of population,FALSE,FALSE,10.3555715249881
 Moldova,2011,Poorest 20% of population,FALSE,FALSE,3.93203827219169
