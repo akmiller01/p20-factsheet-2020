@@ -1425,9 +1425,9 @@ Share section</a>
           }else if(selected_indicator3 == "People living in crowded conditions"){
             d3.select("#y-axis-title3").text("Percentage of people living in crowded conditions")
           }else if(selected_indicator3 == "Adults who have completed secondary education"){
-            d3.select("#y-axis-title3").text("% of adults who have completed secondary education")
+            d3.select("#y-axis-title3").text("% of adults over 25 who have completed secondary education")
           }else if(selected_indicator3 == "Children whose birth is registered"){
-            d3.select("#y-axis-title3").text("Percentage of children whose birth is registered")
+            d3.select("#y-axis-title3").text("% of children aged 5 and under whose birth is registered")
           }
           var ymax = d3.max(country_dat, function(d) { return +d.value; });
           if(ymax < 0.01){
