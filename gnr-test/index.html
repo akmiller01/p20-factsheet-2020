@@ -71,6 +71,7 @@
 
         function draw_line_chart(filteredData){
           var allDisaggValues = d3.map(filteredData, function(d){return d.disagg_value}).keys().sort();
+          filteredData = filteredData.filter(function(d){ return d.value != ""})
           var colorScale = d3.scaleOrdinal()
             .domain(allDisaggValues)
             .range(d3.schemeSet2);
@@ -90,7 +91,7 @@
             .call(yAxis);
           for(var i = 0; i < allDisaggValues.length; i++){
             svg.append("path")
-              .datum(filteredData.filter(function(d){return d.disagg_value == allDisaggValues[i] && d.value != ""}))
+              .datum(filteredData.filter(function(d){return d.disagg_value == allDisaggValues[i]}))
               .attr("d", d3.line()
                 .x(function(d) { return x(d.year) })
                 .y(function(d) { return y(+d.value) })
