@@ -962,7 +962,7 @@ Share section</a>
             if(selectedIndicator == "percent"){
               var year_min = window.d3.min(poverty_dat,function(d){return d.year});
               var baseline = poverty_dat.filter(function(d){return d.year==year_min})[0].value;
-              poverty_dat.forEach(function(d,i,dat){dat[i].value = d.value/baseline; });
+              poverty_dat.forEach(function(d,i,dat){dat[i].value = (d.value/baseline) - 1; });
             };
             pre_line
               .append("path")
