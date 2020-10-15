@@ -904,7 +904,7 @@ Share section</a>
 
         // Add Y axis
         var y = d3.scaleLinear()
-          .domain([0, d3.max(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; })])
+          .domain(d3.extent(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; }))
           .range([ height2, 0 ])
           .nice();
         var yAxis = d3.axisLeft().scale(y).ticks(7).tickSizeOuter(0).tickFormat(valueFormat);
@@ -951,7 +951,7 @@ Share section</a>
             if(selectedIndicator == "percent"){
               var year_min = d3.min(poverty_dat,function(d){return d.year});
               var baseline = poverty_dat.filter(function(d){return d.year==year_min})[0].value;
-              poverty_dat.forEach(function(d,i,dat){dat[i].value = d.value/baseline; });
+              poverty_dat.forEach(function(d,i,dat){dat[i].value = (d.value/baseline) - 1; });
             };
             pre_line
               .append("path")
@@ -1010,6 +1010,7 @@ Share section</a>
           .call(xAxis);
           // Adjust y axis
           if(selectedIndicator == "percent"){
+            var ydomain = d3.extent(country_dat, function(d) { return +d.value; });
             d3.select("#y-axis-title2").text("Percentage change in daily income, per person")
             var ymax = d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 0.01){
@@ -1021,6 +1022,7 @@ Share section</a>
             };
             valueFormatAccurate = d3.format(".2%");
           }else{
+            var ydomain = [0, d3.max(country_dat, function(d) { return +d.value; })];
             d3.select("#y-axis-title2").text("Daily income, per person (2011 PPP)")
             var ymax = d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 5){
@@ -1031,7 +1033,7 @@ Share section</a>
             valueFormatAccurate = d3.format("$,.2f");
           }
           yAxis.tickFormat(valueFormat);
-          y.domain([0, d3.max(country_dat, function(d) { return +d.value; })]).nice();
+          y.domain(ydomain).nice();
           svg2.selectAll(".myYaxis2")
           .transition()
           .duration(1000)

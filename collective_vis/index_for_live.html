@@ -915,7 +915,7 @@ Share section</a>
 
         // Add Y axis
         var y = window.d3.scaleLinear()
-          .domain([0, window.d3.max(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; })])
+          .domain(window.d3.extent(data.filter(function(d){return d.name=="Albania"}), function(d) { return +d.value; }))
           .range([ height2, 0 ])
           .nice();
         var yAxis = window.d3.axisLeft().scale(y).ticks(7).tickSizeOuter(0).tickFormat(valueFormat);
@@ -1021,6 +1021,7 @@ Share section</a>
           .call(xAxis);
           // Adjust y axis
           if(selectedIndicator == "percent"){
+            var ydomain = window.d3.extent(country_dat, function(d) { return +d.value; });
             window.d3.select("#y-axis-title2").text("Percentage change in daily income, per person")
             var ymax = window.d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 0.01){
@@ -1032,6 +1033,7 @@ Share section</a>
             };
             valueFormatAccurate = window.d3.format(".2%");
           }else{
+            var ydomain = [0, window.d3.max(country_dat, function(d) { return +d.value; })];
             window.d3.select("#y-axis-title2").text("Daily income, per person (2011 PPP)")
             var ymax = window.d3.max(country_dat, function(d) { return +d.value; });
             if(ymax < 5){
@@ -1042,7 +1044,7 @@ Share section</a>
             valueFormatAccurate = window.d3.format("$,.2f");
           }
           yAxis.tickFormat(valueFormat);
-          y.domain([0, window.d3.max(country_dat, function(d) { return +d.value; })]).nice();
+          y.domain(ydomain).nice();
           svg2.selectAll(".myYaxis2")
           .transition()
           .duration(1000)
